@@ -18,7 +18,6 @@ Expected format:
 `semantic_analysis_results.json`
 `semantic_analysis_summary.csv`
 `textbook_sentences.json`
-Expected format: `concordance_*textbook_english_corpus*.csv`
 
 ### `textbook_sentences.json`
 **Private data - not included in this repository.**
