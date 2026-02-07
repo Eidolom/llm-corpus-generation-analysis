@@ -220,9 +220,10 @@ Common outputs in `outputs/` (tracked with Git LFS):
 
 Private/corpus data in `data/` (not committed, access on request):
 
-- `semantic_analysis_results.json`
-- `semantic_analysis_summary.csv`
-- `concordance_user_profhippo2_textbook_english_corpus__elen_le_foll_20251206131048.csv`
+- `textbook_sentences.json` (converted TEC corpus data)
+- `semantic_analysis_results.json` (analyzed TEC data)
+- `semantic_analysis_summary.csv` (TEC data summaries)
+- `concordance_user_profhippo2_textbook_english_corpus__elen_le_foll_20251206131048.csv` (raw TEC concordance export)
 
 See [outputs/README.md](outputs/README.md) for details.
 
