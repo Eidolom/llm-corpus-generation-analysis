@@ -40,3 +40,4 @@ Thumbs.db
 
 # Private TEC corpus (do not publish)
 concordance_*textbook_english_corpus*.csv
+textbook_sentences.json
