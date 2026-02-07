@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Caches and test artifacts
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.pyre/
+.coverage
+htmlcov/
+.cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# Private TEC corpus (do not publish)
+concordance_*textbook_english_corpus*.csv
