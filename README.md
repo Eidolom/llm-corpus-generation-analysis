@@ -8,9 +8,7 @@ This study uses a quantitative corpus-based approach to compare two datasets: a 
 
 The workflow implements an ETL (Extract, Transform, Load) pipeline with strict POS-based filtering and LLM-as-judge semantic classification to ensure reproducibility and analytical rigor.
 
-## Methodology
-
-### 3.1 Corpus Compilation
+### Corpus Compilation
 
 #### Natural Reference Corpus (NRC)
 The NRC is compiled from the **Textbook English Corpus (TEC)**, a specialized corpus of EFL textbook materials (Le Foll 2021a, 2021b). The TEC contains materials from 33 ESL/EFL textbooks published between 2006–2018 by major publishers (Oxford, Cambridge, Klett, Cornelsen, Nathan, Bordas, Richmond), representing both European markets and international coursebooks.
@@ -28,9 +26,9 @@ Generated using `scalable_context_generator.py`, which prompts Gemini Flash 2.5 
 
 Each sentence includes metadata (lemma, register, mood) for register-based comparison.
 
-### 3.2 Computational Workflow
+### Computational Workflow
 
-#### 3.2.1 POS-Tagging and Verb Filter
+#### POS-Tagging and Verb Filter
 **Problem:** Many target items are functionally ambiguous (e.g., "run" as noun vs. verb). String-based searches would include irrelevant tokens like "a morning run."
 
 **Solution:** `pos_tagger.py` implements a strict gatekeeper:
@@ -42,7 +40,7 @@ Each sentence includes metadata (lemma, register, mood) for register-based compa
 
 This ensures inflected forms (runs, ran, running) are correctly identified and non-verb uses are excluded.
 
-#### 3.2.2 Quantifying Idiomaticity: LLM as a Judge
+#### Quantifying Idiomaticity: LLM as a Judge
 `semantic_analyzer.py` (and the chunked variant `semantic_analyzer_V2.py`) implements **LLM-as-judge** classification (Zheng et al. 2023) to tag each sentence as:
 - **LITERAL:** Physical/core meaning
 - **IDIOMATIC:** De-lexicalized, metaphorical, or fixed phrase usage
@@ -53,7 +51,7 @@ This ensures inflected forms (runs, ran, running) are correctly identified and n
 - **Dependent variable:** Usage_Category (LITERAL vs. IDIOMATIC)
 - **Grouping variable:** Register (HIGH / NEUTRAL / LOW)
 
-### 3.3 Statistical Analysis
+### Statistical Analysis
 The primary statistical test is a **Chi-Square test of independence (χ²)** to assess whether Register and Usage_Category are independent (α = 0.05). For cells with low expected frequencies, **Fisher's Exact Test** is additionally applied.
 
 `visualizer.py` produces:
@@ -252,10 +250,10 @@ The TEC corpus files are private and not published in this repository. Access is
 
 ## Limitations
 
-### 4.1 Model Bias (Technical)
+### Model Bias (Technical)
 This study uses Gemini 2.5 Flash for both data generation and semantic evaluation for API cost efficiency. While the model excels at high-volume processing, "Flash" models are optimized for latency rather than deep reasoning. The model may show a **"simplicity bias,"** potentially under-reporting complex idiomatic usage compared to larger reasoning models (e.g., Claude Opus 4.5 or GPT-5.2). Future iterations could use a multi-LLM design to cross-validate results across different models.
 
-### 4.2 Proxy Measures (Methodological)
+### Proxy Measures (Methodological)
 
 #### Contraction Counting
 The operationalization of linguistic variables relies on proxy measures. While "structural reduction" (Section 2.1.3) includes contractions and ellipsis, the current workflow quantifies it via a simple apostrophe-based contraction count (`pos_tagger.py`). This count does not distinguish between:
@@ -273,31 +271,18 @@ The study couples register with grammatical mood:
 
 This means observed differences in idiomaticity cannot be cleanly attributed to register (formal vs. casual) because they may instead be caused by mood-specific syntax. For example, interrogatives often introduce auxiliaries (could, will) in subject-auxiliary inversion. A more robust design would decouple register and mood by crossing conditions (e.g., HIGH-Q workplace questions, HIGH-S workplace statements, LOW-Q casual questions, LOW-S casual statements). This would increase corpus size but allow separating register effects from mood effects.
 
-### 4.3 Model Self-Preference
+### Model Self-Preference
 A potential concern arises from the **"LLM-as-a-judge" methodology.** As the same model family (Gemini) is used to both generate the Synthetic Control Corpus and classify its semantic usage, there is a risk of **self-preference bias.** The model may be inclined to rate its own generations as contextually appropriate. Future research should employ an independent "judge" model to ensure independence during the evaluation process.
 
-### 4.4 Corpus Representativeness (NRC Scope)
-The NRC, derived from the Textbook English Corpus (TEC), represents a specific subset of textbook English: materials explicitly designed for B1/B2 learners. This has two implications:
-
-**CEFR Level Generalization:**
-Findings may not generalize to other CEFR levels. A1/A2 materials may show even higher explicitness (lower idiomaticity), while C1/C2 materials may contain more authentic registers.
-
-**Temporal Scope:**
-The TEC compilation date range (2006–2018) means the NRC reflects textbook design practices from that period. Le Foll (2021b) found that textbook English shows distinct register characteristics compared to general English corpora, particularly in its pedagogical framing and explicit grammatical structures.
-
-If current ELT materials (2020–2025) show narrower gaps between textbook and authentic language, this would support H2 (Corpus-Informed Pedagogy Hypothesis) and suggest that LLMs are converging with an already-shifting policy in learning material design. Conversely, if the 2006–2018 TEC materials already show substantial idiomaticity, this would challenge the assumption that textbooks avoid phraseological variation.
-
-Despite these challenges, the B1/B2 focus is methodologically appropriate because this proficiency band represents the majority of adult ESL learners and is the primary target for intermediate textbooks where the difference between "teachability" and "authenticity" has arguably the most impact.
-
-### 4.5 Statistical Constraints
+### Statistical Constraints
 - **Low frequency cells:** Chi-square test assumes sufficient cell counts; lemma × register × category combinations with low frequencies may not meet test assumptions (Fisher's Exact Test is used as a fallback).
 - **Lemma coverage:** Analysis limited to 10 high-frequency polysemous verbs; findings may not generalize to other verb classes or less common items.
 
-### 4.6 Data Quality
+### Data Quality
 - **POS tagger accuracy:** NLTK Averaged Perceptron Tagger has known error rates; some ambiguous cases may be misclassified.
 - **LLM semantic judgments:** LITERAL vs. IDIOMATIC classifications are made by the LLM and may not align with all human annotator judgments. No inter-rater reliability is computed.
 
-### 4.7 Practical Constraints
+### Practical Constraints
 - **API costs:** Large datasets incur API costs. The verb filter is strict to reduce unnecessary calls, but scaling to hundreds of lemmas requires budget planning.
 - **Rate limits:** Explicit sleep intervals are implemented to respect API rate limits; processing large corpora is time-intensive.
 - **LLM variability:** Model outputs are probabilistic and may vary across runs. For consistency, re-run with the same model version.
@@ -307,12 +292,4 @@ Despite these challenges, the B1/B2 focus is methodologically appropriate becaus
 - API keys are never stored in code.
 - Use environment variables or a local `.env` file (ignored by git).
 - Rotate any previously exposed keys.
-
-## References
-
-- Bird, S., Klein, E., & Loper, E. (2009). *Natural Language Processing with Python*. O'Reilly Media.
-- Le Foll, E. (2021a). The Textbook English Corpus (TEC). [Corpus dataset].
-- Le Foll, E. (2021b). Register variation in EFL textbooks: A corpus-based investigation. *Applied Linguistics*.
-- Loper, E., & Bird, S. (2002). NLTK: The Natural Language Toolkit. *Proceedings of the ACL-02 Workshop on Effective Tools and Methodologies for Teaching Natural Language Processing and Computational Linguistics*, 63–70.
-- Zheng, L., et al. (2023). Judging LLM-as-a-judge with MT-Bench and Chatbot Arena. *arXiv preprint*.
 
