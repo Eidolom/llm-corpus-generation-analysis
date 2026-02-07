@@ -1,0 +1,59 @@
+Academic Research License
+
+Copyright (c) 2025-2026 Simon [Last Name]
+
+TERMS AND CONDITIONS
+
+1. PERMITTED USE
+   This software may be used, modified, and executed solely for:
+   - Academic research purposes
+   - Educational instruction
+   - Non-commercial scholarly activities
+   
+2. RESTRICTIONS
+   You may NOT:
+   - Use this software for commercial purposes or profit
+   - Redistribute, sublicense, or share the software publicly or privately
+   - Integrate this software into commercial products or services
+   - Sell, rent, lease, or otherwise distribute access to this software
+   - Remove or alter any copyright, license, or attribution notices
+
+3. MODIFICATIONS
+   If you modify the software for your research:
+   - You must retain this license in any modified versions
+   - Modifications must remain private unless prior written permission is granted
+   - You must document all significant modifications
+   - You may not distribute modified versions without explicit written consent
+
+4. ATTRIBUTION
+   Any academic publications, presentations, or datasets using this software
+   must properly cite and acknowledge the original authors.
+
+5. DISCLAIMER
+   THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED. THE AUTHORS DO NOT ASSUME ANY LIABILITY FOR ANY DIRECT, INDIRECT,
+   INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING FROM USE
+   OF THIS SOFTWARE.
+
+6. TERMINATION
+   Your rights under this license terminate immediately if you violate any of
+   its terms. Upon termination, you must destroy all copies in your possession.
+
+7. NO LIABILITY
+   In no event shall the authors be liable for any claim, damages, or other
+   liability arising from or related to this software.
+
+---
+
+## Note on Data
+
+The TEC (Textbook English Corpus) and associated analysis results contained in
+the `data/` folder are provided under separate terms and are not covered by
+this license. Access to these files is restricted. See `docs/DATA_ACCESS.md`
+for more information on obtaining permissions.
+
+## Permission Inquiries
+
+For permission to use this software outside the scope of this license
+(including commercial use, distribution, or licensing inquiries), contact the
+original authors directly.

@@ -1,0 +1,6 @@
+google-generativeai
+pandas
+nltk
+matplotlib
+seaborn
+scipy
