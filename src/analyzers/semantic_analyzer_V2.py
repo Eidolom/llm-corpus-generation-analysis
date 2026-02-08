@@ -95,7 +95,7 @@ def main():
     # Group by Lemma
     grouped_data = {}
     for item in data:
-        lemma = item['lemma']
+        lemma = item.get('lemma') or item.get('target_lemma')
         if lemma not in grouped_data: grouped_data[lemma] = []
         grouped_data[lemma].append(item)
 
@@ -130,9 +130,9 @@ def main():
         # Merge tags back
         for record, tag in zip(records, word_tags):
             row = {
-                "Lemma": record['lemma'],
-                "Register": record['register'],
-                "Mood": record['mood'],
+                "Lemma": record.get('lemma') or record.get('target_lemma'),
+                "Register": record.get('register'),
+                "Mood": record.get('mood'),
                 "Usage_Category": tag,
                 "Full_Sentence": record['sentence']
             }
