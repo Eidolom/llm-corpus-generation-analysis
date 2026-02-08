@@ -37,7 +37,7 @@ plt.legend(title='Semantic Category', loc='upper left', bbox_to_anchor=(1, 1))
 
 # Add percentage labels on the bars
 for c in ax.containers:
-    ax.bar_label(c, fmt='%.0f%%', label_type='center', color='white', fontweight='bold')
+    ax.bar_label(c, fmt=lambda x: f'{x*100:.0f}%', label_type='center', color='white', fontweight='bold')
 
 plt.tight_layout()
 plt.savefig('outputs/results_aggregate_chart.png', dpi=300)
