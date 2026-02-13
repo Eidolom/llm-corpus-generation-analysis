@@ -251,10 +251,8 @@ The TEC corpus files are private and not published in this repository. Access is
 
 ## Limitations
 
-### Model Bias (Technical)
+### Model Bias
 This study uses Gemini 2.5 Flash for both data generation and semantic evaluation for API cost efficiency. While the model excels at high-volume processing, "Flash" models are optimized for latency rather than deep reasoning. The model may show a **"simplicity bias,"** potentially under-reporting complex idiomatic usage compared to larger reasoning models (e.g., Claude Opus 4.5 or GPT-5.2). Future iterations could use a multi-LLM design to cross-validate results across different models.
-
-### Proxy Measures (Methodological)
 
 #### Contraction Counting
 The operationalization of linguistic variables relies on proxy measures. While "structural reduction" (Section 2.1.3) includes contractions and ellipsis, the current workflow quantifies it via a simple apostrophe-based contraction count (`pos_tagger.py`). This count does not distinguish between:
@@ -263,14 +261,6 @@ The operationalization of linguistic variables relies on proxy measures. While "
 - Apostrophes in quoted material
 
 Ellipsis is not included in the present implementation.
-
-#### Register-Mood Coupling
-The study couples register with grammatical mood:
-- HIGH = Questions
-- NEUTRAL = Imperatives
-- LOW = Statements
-
-This means observed differences in idiomaticity cannot be cleanly attributed to register (formal vs. casual) because they may instead be caused by mood-specific syntax. For example, interrogatives often introduce auxiliaries (could, will) in subject-auxiliary inversion. A more robust design would decouple register and mood by crossing conditions (e.g., HIGH-Q workplace questions, HIGH-S workplace statements, LOW-Q casual questions, LOW-S casual statements). This would increase corpus size but allow separating register effects from mood effects.
 
 ### Model Self-Preference
 A potential concern arises from the "LLM-as-a-judge" methodology. As the same model family (Gemini) is used to both generate the Synthetic Control Corpus and classify its semantic usage, there is a risk of self-preference bias. The model may be inclined to rate its own generations as contextually appropriate. Future research should employ an independent "judge" model to ensure independence during the evaluation process.
