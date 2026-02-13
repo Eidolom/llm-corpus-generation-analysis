@@ -4,14 +4,14 @@ Thesis-oriented NLP pipeline for comparing authentic textbook English (Natural R
 
 ## Overview
 
-This study uses a quantitative corpus-based approach to compare two datasets: a **Natural Reference Corpus (NRC)** of authentic textbook English from the Textbook English Corpus (TEC) and a **Synthetic Control Corpus (SCC)** of LLM-generated sentences. The goal is to examine whether AI-generated examples differ systematically from authentic pedagogical materials in register and idiomaticity.
+This study uses a quantitative corpus-based approach to compare two datasets: a Natural Reference Corpus (NRC) of authentic textbook English from the Textbook English Corpus (TEC) and a Synthetic Control Corpus (SCC) of LLM-generated sentences. The goal is to examine whether AI-generated examples differ systematically from authentic pedagogical materials in register and idiomaticity.
 
 The workflow implements an ETL (Extract, Transform, Load) pipeline with strict POS-based filtering and LLM-as-judge semantic classification to ensure reproducibility and analytical rigor.
 
 ### Corpus Compilation
 
 #### Natural Reference Corpus (NRC)
-The NRC is compiled from the **Textbook English Corpus (TEC)**, a specialized corpus of EFL textbook materials (Le Foll 2021a, 2021b). The TEC contains materials from 33 ESL/EFL textbooks published between 2006–2018 by major publishers (Oxford, Cambridge, Klett, Cornelsen, Nathan, Bordas, Richmond), representing both European markets and international coursebooks.
+The NRC is compiled from the Textbook English Corpus (TEC), a specialized corpus of EFL textbook materials (Le Foll 2021a, 2021b). The TEC contains materials from 33 ESL/EFL textbooks published between 2006–2018 by major publishers (Oxford, Cambridge, Klett, Cornelsen, Nathan, Bordas, Richmond), representing both European markets and international coursebooks.
 
 **Sampling procedure:**
 - **CEFR filtering:** Subcorpus limited to B1/B2 level materials
@@ -29,30 +29,30 @@ Each sentence includes metadata (lemma, register, mood) for register-based compa
 ### Computational Workflow
 
 #### POS-Tagging and Verb Filter
-**Problem:** Many target items are functionally ambiguous (e.g., "run" as noun vs. verb). String-based searches would include irrelevant tokens like "a morning run."
+Problem: Many target items are functionally ambiguous (e.g., "run" as noun vs. verb). String-based searches would include irrelevant tokens like "a morning run."
 
 **Solution:** `pos_tagger.py` implements a strict gatekeeper:
 1. Tokenizes sentences using NLTK
 2. Applies the NLTK Averaged Perceptron Tagger
 3. Lemmatizes each token using WordNet
-4. **Lemma-based matching:** Checks if the lemmatized form matches the target lemma (case-insensitive) AND is tagged as a verb (VB, VBD, VBG, VBN, VBP, VBZ)
+4. Lemma-based matching: Checks if the lemmatized form matches the target lemma (case-insensitive) AND is tagged as a verb (VB, VBD, VBG, VBN, VBP, VBZ)
 5. Retains only sentences with verified verb usage
 
 This ensures inflected forms (runs, ran, running) are correctly identified and non-verb uses are excluded.
 
 #### Quantifying Idiomaticity: LLM as a Judge
-`semantic_analyzer.py` (and the chunked variant `semantic_analyzer_V2.py`) implements **LLM-as-judge** classification (Zheng et al. 2023) to tag each sentence as:
+`semantic_analyzer.py` (and the chunked variant `semantic_analyzer_V2.py`) implements LLM-as-judge classification (Zheng et al. 2023) to tag each sentence as:
 - **LITERAL:** Physical/core meaning
 - **IDIOMATIC:** De-lexicalized, metaphorical, or fixed phrase usage
 
-**Rationale:** Idiomaticity extends beyond particle verbs (e.g., "run a company" is metaphorical but has no particle). Rule-based approaches would miss such cases. The LLM makes constrained semantic decisions by processing filtered sentences in small chunks with strict JSON output formatting.
+Rationale: Idiomaticity extends beyond particle verbs (e.g., "run a company" is metaphorical but has no particle). Rule-based approaches would miss such cases. The LLM makes constrained semantic decisions by processing filtered sentences in small chunks with strict JSON output formatting.
 
-**Key variables:**
-- **Dependent variable:** Usage_Category (LITERAL vs. IDIOMATIC)
-- **Grouping variable:** Register (HIGH / NEUTRAL / LOW)
+Key variables:
+- Dependent variable: Usage_Category (LITERAL vs. IDIOMATIC)
+- Grouping variable: Register (HIGH / NEUTRAL / LOW)
 
 ### Statistical Analysis
-The primary statistical test is a **Chi-Square test of independence (χ²)** to assess whether Register and Usage_Category are independent (α = 0.05). For cells with low expected frequencies, **Fisher's Exact Test** is additionally applied.
+The primary statistical test is a Chi-Square test of independence (χ²) to assess whether Register and Usage_Category are independent (α = 0.05). For cells with low expected frequencies, Fisher's Exact Test is additionally applied.
 
 `visualizer.py` produces:
 - Aggregate stacked bar chart by register
@@ -266,27 +266,27 @@ Ellipsis is not included in the present implementation.
 
 #### Register-Mood Coupling
 The study couples register with grammatical mood:
-- **HIGH** = Questions
-- **NEUTRAL** = Imperatives
-- **LOW** = Statements
+- HIGH = Questions
+- NEUTRAL = Imperatives
+- LOW = Statements
 
 This means observed differences in idiomaticity cannot be cleanly attributed to register (formal vs. casual) because they may instead be caused by mood-specific syntax. For example, interrogatives often introduce auxiliaries (could, will) in subject-auxiliary inversion. A more robust design would decouple register and mood by crossing conditions (e.g., HIGH-Q workplace questions, HIGH-S workplace statements, LOW-Q casual questions, LOW-S casual statements). This would increase corpus size but allow separating register effects from mood effects.
 
 ### Model Self-Preference
-A potential concern arises from the **"LLM-as-a-judge" methodology.** As the same model family (Gemini) is used to both generate the Synthetic Control Corpus and classify its semantic usage, there is a risk of **self-preference bias.** The model may be inclined to rate its own generations as contextually appropriate. Future research should employ an independent "judge" model to ensure independence during the evaluation process.
+A potential concern arises from the "LLM-as-a-judge" methodology. As the same model family (Gemini) is used to both generate the Synthetic Control Corpus and classify its semantic usage, there is a risk of self-preference bias. The model may be inclined to rate its own generations as contextually appropriate. Future research should employ an independent "judge" model to ensure independence during the evaluation process.
 
 ### Statistical Constraints
-- **Low frequency cells:** Chi-square test assumes sufficient cell counts; lemma × register × category combinations with low frequencies may not meet test assumptions (Fisher's Exact Test is used as a fallback).
-- **Lemma coverage:** Analysis limited to 10 high-frequency polysemous verbs; findings may not generalize to other verb classes or less common items.
+- Low frequency cells: Chi-square test assumes sufficient cell counts; lemma × register × category combinations with low frequencies may not meet test assumptions (Fisher's Exact Test is used as a fallback).
+- Lemma coverage: Analysis limited to 10 high-frequency polysemous verbs; findings may not generalize to other verb classes or less common items.
 
 ### Data Quality
-- **POS tagger accuracy:** NLTK Averaged Perceptron Tagger has known error rates; some ambiguous cases may be misclassified.
-- **LLM semantic judgments:** LITERAL vs. IDIOMATIC classifications are made by the LLM and may not align with all human annotator judgments. No inter-rater reliability is computed.
+- POS tagger accuracy: NLTK Averaged Perceptron Tagger has known error rates; some ambiguous cases may be misclassified.
+- LLM semantic judgments: LITERAL vs. IDIOMATIC classifications are made by the LLM and may not align with all human annotator judgments. No inter-rater reliability is computed.
 
 ### Practical Constraints
-- **API costs:** Large datasets incur API costs. The verb filter is strict to reduce unnecessary calls, but scaling to hundreds of lemmas requires budget planning.
-- **Rate limits:** Explicit sleep intervals are implemented to respect API rate limits; processing large corpora is time-intensive.
-- **LLM variability:** Model outputs are probabilistic and may vary across runs. For consistency, re-run with the same model version.
+- API costs: Large datasets incur API costs. The verb filter is strict to reduce unnecessary calls, but scaling to hundreds of lemmas requires budget planning.
+- Rate limits: Explicit sleep intervals are implemented to respect API rate limits; processing large corpora is time-intensive.
+- LLM variability: Model outputs are probabilistic and may vary across runs. For consistency, re-run with the same model version.
 
 ## Security
 
