@@ -1,16 +1,21 @@
-import os
+import sys
+from pathlib import Path
+
+# Ensure project root is in Python path
+project_root = Path(__file__).parent.parent.parent
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
 import google.generativeai as genai
 import time
 import json
 import re
+from src.utils.api_config import load_api_key
 
 # --- CONFIGURATION ---
-API_KEY = os.getenv("GOOGLE_API_KEY")
+API_KEY = load_api_key("GOOGLE_API_KEY")
 TARGET_WORDS_FILE = "data/target_words.txt"
 OUTPUT_FILENAME = "outputs/intermediate_sentences.json"
-
-if not API_KEY:
-    raise RuntimeError("Missing GOOGLE_API_KEY environment variable.")
 
 genai.configure(api_key=API_KEY)
 # Using gemini-2.5-flash for its speed and cost-effectiveness for high-volume data generation

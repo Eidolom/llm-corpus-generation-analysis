@@ -1,9 +1,15 @@
-import os
-import google.generativeai as genai
+import sys
+from pathlib import Path
 
-API_KEY = os.getenv("GOOGLE_API_KEY")
-if not API_KEY:
-    raise RuntimeError("Missing GOOGLE_API_KEY environment variable.")
+# Ensure project root is in Python path
+project_root = Path(__file__).parent.parent.parent
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
+import google.generativeai as genai
+from src.utils.api_config import load_api_key
+
+API_KEY = load_api_key("GOOGLE_API_KEY")
 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash')
