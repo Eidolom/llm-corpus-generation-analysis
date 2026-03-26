@@ -44,3 +44,15 @@ textbook_sentences.json
 data/textbook_sentences.json
 data/semantic_analysis_results.json
 data/semantic_analysis_summary.csv
+
+# Any textbook concordance exports placed in data/
+data/concordance_*.csv
+
+# Textbook-derived processing artifacts (do not publish)
+outputs/intermediate_sentences_textbook.json
+outputs/pos_tagging_results.json
+outputs/thesis_semantic_data_final.csv
+outputs/thesis_semantic_data_final_textbook.csv
+
+# Safety: local working inputs can include textbook data
+outputs/intermediate_sentences.json
