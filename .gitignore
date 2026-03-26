@@ -38,6 +38,10 @@ Thumbs.db
 # Logs
 *.log
 
+# Private documents
+Research Proposal*.pdf
+research proposal*.pdf
+
 # Private TEC corpus (do not publish)
 concordance_*textbook_english_corpus*.csv
 textbook_sentences.json
