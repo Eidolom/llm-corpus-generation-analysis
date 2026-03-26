@@ -1,11 +1,19 @@
-import os
+import sys
+from pathlib import Path
+
+# Ensure project root is in Python path
+project_root = Path(__file__).parent.parent.parent
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
 import google.generativeai as genai
 import time
 import json
 import re
+from src.utils.api_config import load_api_key
 
 # --- CONFIGURATION ---
-API_KEY = os.getenv("GOOGLE_API_KEY")
+API_KEY = load_api_key("GOOGLE_API_KEY")
 TARGET_WORDS_FILE = "data/target_words.txt"
 OUTPUT_FILENAME = "outputs/intermediate_sentences.json"
 
@@ -13,9 +21,6 @@ OUTPUT_FILENAME = "outputs/intermediate_sentences.json"
 # 5 Batches x 10 sentences = 50 sentences per register (150 total per word)
 NUM_BATCHES = 5 
 SENTENCES_PER_REG_PER_BATCH = 10 
-
-if not API_KEY:
-    raise RuntimeError("Missing GOOGLE_API_KEY environment variable.")
 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash') # 2.5-flash is best for high-volume tasks

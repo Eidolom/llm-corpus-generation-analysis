@@ -38,4 +38,9 @@ python src/analyzers/pos_tagger.py
 python src/analyzers/semantic_analyzer.py
 ```
 
-Make sure to set the `GOOGLE_API_KEY` environment variable before running any script that uses the Gemini API.
+**API Key Setup:**
+The scripts automatically load your API key from the `.env` file in the project root. To configure it:
+
+1. Copy `.env.example` to `.env`
+2. Add your Gemini API key: `GOOGLE_API_KEY=your_key_here`
+3. Run scripts normally—the venv handles authentication

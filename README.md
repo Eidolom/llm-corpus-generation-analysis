@@ -142,19 +142,24 @@ pip install -r requirements.txt
 
 ### 2) API key (no secrets in repo)
 
-Set your API key in the environment. Do not commit real keys.
+Copy `.env.example` to `.env` and add your actual API key:
 
 ```bash
-export GOOGLE_API_KEY="your_api_key_here"
+cp .env.example .env
+# Edit .env and add: GOOGLE_API_KEY=your_actual_key_here
 ```
 
-Windows PowerShell:
+The venv will automatically load the `.env` file when you run scripts. Alternatively, set the environment variable directly:
 
+**PowerShell:**
 ```powershell
-$env:GOOGLE_API_KEY = "your_api_key_here"
+$env:GOOGLE_API_KEY = "your_actual_api_key_here"
 ```
 
-You can optionally copy `.env.example` to `.env` for local use (do not commit it).
+**Bash/Linux:**
+```bash
+export GOOGLE_API_KEY="your_actual_api_key_here"
+```
 
 ## Git LFS (Large Files)
 

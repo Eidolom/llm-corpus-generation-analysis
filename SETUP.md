@@ -25,21 +25,31 @@ pip install -r requirements.txt
 
 ### 3. Configure API key
 
-Create a `.env` file in the repository root (or set environment variables):
+Copy `.env.example` to `.env` in the project root and add your actual API key:
 
-**Unix/Linux/macOS:**
 ```bash
-export GOOGLE_API_KEY="your_api_key_here"
+cp .env.example .env
 ```
 
-**Windows PowerShell:**
+Then edit `.env` and add your Gemini API key:
+
+```
+GOOGLE_API_KEY=your_actual_api_key_here
+```
+
+**Important:**
+- Never commit your `.env` file to version control (it's already in `.gitignore`)
+- The venv automatically loads the `.env` file when scripts run
+- If you prefer not to use `.env`, set the environment variable directly:
+
+**PowerShell:**
 ```powershell
-$env:GOOGLE_API_KEY = "your_api_key_here"
+$env:GOOGLE_API_KEY = "your_actual_api_key_here"
 ```
 
-Or copy `.env.example` to `.env` and fill in your API key:
-```
-GOOGLE_API_KEY=your_api_key_here
+**Bash/Linux:**
+```bash
+export GOOGLE_API_KEY="your_actual_api_key_here"
 ```
 
 **Note:** Never commit your `.env` file to version control.

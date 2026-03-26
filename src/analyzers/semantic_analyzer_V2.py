@@ -1,22 +1,27 @@
-import os
+import sys
+from pathlib import Path
+
+# Ensure project root is in Python path
+project_root = Path(__file__).parent.parent.parent
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
 import google.generativeai as genai
 import pandas as pd
 import time
 import json
 import re
 import math
+from src.utils.api_config import load_api_key
 
 # --- CONFIGURATION ---
-API_KEY = os.getenv("GOOGLE_API_KEY")
-INPUT_FILENAME = "outputs/intermediate_sentences.json"
-OUTPUT_FILENAME = "outputs/thesis_semantic_data_final.csv"
+API_KEY = load_api_key("GOOGLE_API_KEY")
+INPUT_FILENAME = "intermediate_sentences.synthetic_backup.json"
+OUTPUT_FILENAME = "outputs/thesis_semantic_data_synthetic.csv"
 
 # BATCH SIZE FOR ANALYSIS
 # We will process 20 sentences at a time. This is the "Safe Zone" for LLM counting.
-CHUNK_SIZE = 20 
-
-if not API_KEY:
-    raise RuntimeError("Missing GOOGLE_API_KEY environment variable.")
+CHUNK_SIZE = 20
 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash')
