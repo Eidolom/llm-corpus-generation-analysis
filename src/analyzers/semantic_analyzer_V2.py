@@ -1,5 +1,6 @@
 import sys
 from pathlib import Path
+import argparse
 
 # Ensure project root is in Python path
 project_root = Path(__file__).parent.parent.parent
@@ -16,12 +17,12 @@ from src.utils.api_config import load_api_key
 
 # --- CONFIGURATION ---
 API_KEY = load_api_key("GOOGLE_API_KEY")
-INPUT_FILENAME = "intermediate_sentences.synthetic_backup.json"
-OUTPUT_FILENAME = "outputs/thesis_semantic_data_synthetic.csv"
+DEFAULT_INPUT_FILENAME = project_root / "outputs" / "intermediate_sentences.synthetic_backup.json"
+DEFAULT_OUTPUT_FILENAME = project_root / "outputs" / "thesis_semantic_data_final.csv"
 
 # BATCH SIZE FOR ANALYSIS
 # We will process 20 sentences at a time. This is the "Safe Zone" for LLM counting.
-CHUNK_SIZE = 20
+DEFAULT_CHUNK_SIZE = 20
 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash')
@@ -35,6 +36,36 @@ Classify the usage of the target word in each sentence into exactly one category
 Return a strict JSON ARRAY of strings.
 Example Output: ["LITERAL", "IDIOMATIC", "LITERAL"]
 """
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Chunked semantic analyzer for sentence datasets"
+    )
+    parser.add_argument(
+        "--input",
+        default=str(DEFAULT_INPUT_FILENAME),
+        help="Input JSON file path (default: outputs/intermediate_sentences.synthetic_backup.json)",
+    )
+    parser.add_argument(
+        "--output",
+        default=str(DEFAULT_OUTPUT_FILENAME),
+        help="Output CSV file path (default: outputs/thesis_semantic_data_final.csv)",
+    )
+    parser.add_argument(
+        "--chunk-size",
+        type=int,
+        default=DEFAULT_CHUNK_SIZE,
+        help="Number of sentences per API batch (default: 20)",
+    )
+    return parser.parse_args()
+
+
+def resolve_path(path_value):
+    path_obj = Path(path_value)
+    if not path_obj.is_absolute():
+        return project_root / path_obj
+    return path_obj
 
 def load_sentences(filename):
     try:
@@ -94,7 +125,19 @@ def get_tags_for_chunk(word, chunk_sentences, retry_count=0):
         return ["ERROR"] * len(chunk_sentences)
 
 def main():
-    data = load_sentences(INPUT_FILENAME)
+    args = parse_args()
+    input_filename = resolve_path(args.input)
+    output_filename = resolve_path(args.output)
+    chunk_size = args.chunk_size
+
+    if chunk_size < 1:
+        raise ValueError("--chunk-size must be at least 1")
+
+    print(f"Using input: {input_filename}")
+    print(f"Using output: {output_filename}")
+    print(f"Using chunk size: {chunk_size}")
+
+    data = load_sentences(input_filename)
     if not data: return
 
     # Group by Lemma
@@ -117,11 +160,11 @@ def main():
         
         # --- THE CHUNKING LOOP ---
         word_tags = []
-        num_chunks = math.ceil(total_items / CHUNK_SIZE)
+        num_chunks = math.ceil(total_items / chunk_size)
         
         for batch_idx in range(num_chunks):
-            start = batch_idx * CHUNK_SIZE
-            end = start + CHUNK_SIZE
+            start = batch_idx * chunk_size
+            end = start + chunk_size
             chunk_records = records[start:end]
             chunk_sentences = [r['sentence'] for r in chunk_records]
             
@@ -145,10 +188,10 @@ def main():
 
     # Save
     df = pd.DataFrame(final_rows)
-    df.to_csv(OUTPUT_FILENAME, index=False)
+    df.to_csv(output_filename, index=False)
     
     print("\n" + "="*40)
-    print(f" DONE. Saved to {OUTPUT_FILENAME}")
+    print(f" DONE. Saved to {output_filename}")
     print("Summary of Results:")
     print(df['Usage_Category'].value_counts())
     print("="*40)
