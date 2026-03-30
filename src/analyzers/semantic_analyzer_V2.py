@@ -17,8 +17,8 @@ from src.utils.api_config import load_api_key
 
 # --- CONFIGURATION ---
 API_KEY = load_api_key("GOOGLE_API_KEY")
-DEFAULT_INPUT_FILENAME = project_root / "outputs" / "intermediate_sentences.synthetic_backup.json"
-DEFAULT_OUTPUT_FILENAME = project_root / "outputs" / "thesis_semantic_data_final.csv"
+DEFAULT_INPUT_FILENAME = project_root / "outputs" / "thesis_pragmatic_data_filtered_synthetic.csv"
+DEFAULT_OUTPUT_FILENAME = project_root / "outputs" / "thesis_semantic_data_final_2.csv"
 
 # BATCH SIZE FOR ANALYSIS
 # We will process 20 sentences at a time. This is the "Safe Zone" for LLM counting.
@@ -45,12 +45,12 @@ def parse_args():
     parser.add_argument(
         "--input",
         default=str(DEFAULT_INPUT_FILENAME),
-        help="Input JSON file path (default: outputs/intermediate_sentences.synthetic_backup.json)",
+        help="Input file path - JSON or CSV (default: outputs/thesis_pragmatic_data_filtered_synthetic.csv)",
     )
     parser.add_argument(
         "--output",
         default=str(DEFAULT_OUTPUT_FILENAME),
-        help="Output CSV file path (default: outputs/thesis_semantic_data_final.csv)",
+        help="Output CSV file path (default: outputs/thesis_semantic_data_final_2.csv)",
     )
     parser.add_argument(
         "--chunk-size",
@@ -68,7 +68,46 @@ def resolve_path(path_value):
     return path_obj
 
 def load_sentences(filename):
+    """Load sentences from JSON or CSV file."""
     try:
+        filename_str = str(filename).lower()
+        
+        # Try CSV first
+        if filename_str.endswith('.csv'):
+            df = pd.read_csv(filename, encoding='utf-8')
+            columns_lower = {c.lower(): c for c in df.columns}
+
+            def col(name):
+                return columns_lower.get(name.lower())
+
+            lemma_col = col('lemma') or col('target_lemma')
+            sentence_col = col('full_sentence') or col('sentence')
+            register_col = col('register')
+            mood_col = col('mood')
+
+            if not lemma_col or not sentence_col:
+                raise ValueError(
+                    "CSV must include lemma/target_lemma and sentence/full_sentence columns"
+                )
+
+            # Convert CSV rows to sentence objects
+            data = []
+            for _, row in df.iterrows():
+                lemma = row.get(lemma_col)
+                sentence = row.get(sentence_col)
+                if pd.isna(lemma) or pd.isna(sentence):
+                    continue
+
+                item = {
+                    'lemma': str(lemma).strip(),
+                    'sentence': str(sentence).strip(),
+                    'register': row.get(register_col) if register_col else None,
+                    'mood': row.get(mood_col) if mood_col else None,
+                }
+                data.append(item)
+            return data
+        
+        # Fall back to JSON
         with open(filename, 'r', encoding='utf-8') as f:
             return json.load(f)
     except Exception as e:
