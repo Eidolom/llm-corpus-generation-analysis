@@ -58,6 +58,13 @@ outputs/pos_tagging_results.json
 outputs/thesis_semantic_data_final.csv
 outputs/thesis_semantic_data_final_textbook.csv
 outputs/thesis_semantic_data_*.csv
+outputs/thesis_textbook_data_filtered.csv
+outputs/*textbook*.csv
+
+# IRR annotation assets (local-only)
+outputs/irr_annotation_sheet.csv
+outputs/irr_master_key.csv
+outputs/irr_*.csv
 
 # Safety: local working inputs can include textbook data
 outputs/intermediate_sentences.json
