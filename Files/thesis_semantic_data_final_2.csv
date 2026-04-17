@@ -1,0 +1,1238 @@
+Lemma,Register,Mood,Usage_Category,Full_Sentence
+break,LOW,Statement,LITERAL,My old phone is definitely going to break soon if I drop it again.
+break,LOW,Statement,IDIOMATIC,"Don't break the news to her yet, she's had a rough day already."
+break,LOW,Statement,IDIOMATIC,"He's trying to break into the music scene, it's really tough."
+break,LOW,Statement,IDIOMATIC,"I heard they're going to break up next month, which is a bummer."
+break,NEUTRAL,Imperative,LITERAL,Break the glass in case of emergency.
+break,NEUTRAL,Imperative,IDIOMATIC,Do not break the rules of the library.
+break,NEUTRAL,Imperative,LITERAL,Break the seal on the container firmly.
+break,NEUTRAL,Imperative,LITERAL,"Always remember to break gradually, not suddenly."
+break,NEUTRAL,Imperative,LITERAL,Break the circuit by turning off the main switch.
+break,NEUTRAL,Imperative,IDIOMATIC,Do not break the flow of traffic.
+break,NEUTRAL,Imperative,IDIOMATIC,Break the code to access the hidden file.
+break,NEUTRAL,Imperative,IDIOMATIC,Stop at the next sign; do not break the speed limit.
+break,HIGH,Question,IDIOMATIC,Could you clarify if this proposal might break any established departmental guidelines?
+break,HIGH,Question,IDIOMATIC,"Is it permissible to break for lunch at an alternative time today, if required?"
+break,HIGH,Question,IDIOMATIC,Might this strategy potentially break our competitive advantage in the market?
+break,HIGH,Question,IDIOMATIC,Could you advise when it would be appropriate to break the news of the leadership change?
+break,LOW,Statement,LITERAL,"Oh no, I accidentally broke the remote control!"
+break,LOW,Statement,IDIOMATIC,They just announced that Sarah and Mark decided to break up.
+break,LOW,Statement,IDIOMATIC,"He promised he'd help, but then he totally broke his word."
+break,LOW,Statement,IDIOMATIC,My old car seems to break down every other week now.
+break,LOW,Statement,IDIOMATIC,Don't break the news to mom yet; it's a surprise.
+break,NEUTRAL,Imperative,LITERAL,Break the security seal before you open the package.
+break,NEUTRAL,Imperative,IDIOMATIC,Do not break the rules of the library under any circumstances.
+break,NEUTRAL,Imperative,LITERAL,Break the chocolate bar into squares for sharing.
+break,NEUTRAL,Imperative,IDIOMATIC,Remember to break for a 15-minute rest every two hours.
+break,NEUTRAL,Imperative,LITERAL,"In an emergency, break the glass to access the alarm."
+break,NEUTRAL,Imperative,IDIOMATIC,Please break down the long document into three main sections.
+break,NEUTRAL,Imperative,IDIOMATIC,Try to break your habit of checking your phone constantly.
+break,NEUTRAL,Imperative,IDIOMATIC,Follow the path and then break left at the main junction.
+break,NEUTRAL,Imperative,IDIOMATIC,Never break the line when waiting for your turn.
+break,HIGH,Question,IDIOMATIC,Might this decision potentially break the existing company guidelines?
+break,LOW,Statement,IDIOMATIC,They decided to break up after their big argument last week.
+break,LOW,Statement,IDIOMATIC,I'm going to break the news about the party to him later.
+break,LOW,Statement,IDIOMATIC,We should try to break the ice with the new neighbors tonight.
+break,LOW,Statement,IDIOMATIC,My old computer finally broke down completely yesterday.
+break,NEUTRAL,Imperative,IDIOMATIC,Do not break the rules of the swimming pool.
+break,NEUTRAL,Imperative,LITERAL,Break the bread into small pieces for the soup.
+break,NEUTRAL,Imperative,LITERAL,Break the seal on the package carefully before opening.
+break,NEUTRAL,Imperative,IDIOMATIC,Always break down complex problems into simple steps.
+break,NEUTRAL,Imperative,IDIOMATIC,"If you need help, break away from the main group."
+break,NEUTRAL,Imperative,IDIOMATIC,Do not break the concentration of other students during class.
+break,NEUTRAL,Imperative,IDIOMATIC,Break the habit of checking your phone constantly.
+break,LOW,Statement,LITERAL,My old skateboard finally broke in half after that jump.
+break,LOW,Statement,IDIOMATIC,They decided to break up because they wanted different things.
+break,LOW,Statement,IDIOMATIC,"Don't worry, we'll probably just break even on our vacation budget."
+break,NEUTRAL,Imperative,LITERAL,Do not break the seal on the package until payment is made.
+break,NEUTRAL,Imperative,LITERAL,Break the chocolate bar into individual squares before serving.
+break,NEUTRAL,Imperative,IDIOMATIC,Never break the queue; always wait your turn patiently.
+break,NEUTRAL,Imperative,LITERAL,Break the glass in case of emergency to access the alarm.
+break,NEUTRAL,Imperative,IDIOMATIC,Try to break that bad habit of procrastinating on assignments.
+break,NEUTRAL,Imperative,IDIOMATIC,"To continue, break the connection with the old Wi-Fi network."
+break,NEUTRAL,Imperative,IDIOMATIC,Break away from the main group and follow the signs for exit C.
+break,NEUTRAL,Imperative,IDIOMATIC,Do not break the speed limit on this road under any circumstances.
+break,HIGH,Question,IDIOMATIC,"Regarding the project timeline, might we need to break down the next phase into smaller tasks?"
+break,HIGH,Question,IDIOMATIC,Have you identified any potential issues that could break the functionality of the new software?
+break,HIGH,Question,IDIOMATIC,Could you clarify if we are permitted to break from the standard protocol in this specific situation?
+break,HIGH,Question,IDIOMATIC,Do you anticipate that this new policy might break any existing agreements?
+break,HIGH,Question,IDIOMATIC,Are there any regulations we must be careful not to break when implementing this change?
+break,HIGH,Question,IDIOMATIC,Will the upcoming holiday break impact the delivery schedule significantly?
+break,HIGH,Question,IDIOMATIC,"To ensure clarity, should we break the report into several distinct sections?"
+break,LOW,Statement,IDIOMATIC,Did you hear that Mark and Sarah had to break up? It's a shame.
+break,LOW,Statement,IDIOMATIC,My old car always seems to break down at the worst times.
+break,LOW,Statement,IDIOMATIC,I gotta break the news to my parents about the party later.
+break,LOW,Statement,IDIOMATIC,"He's trying to break into the music scene, it's really tough."
+break,NEUTRAL,Imperative,LITERAL,Do not break the seal on the package until instructed.
+break,NEUTRAL,Imperative,LITERAL,Break the chocolate bar into individual squares before serving.
+break,NEUTRAL,Imperative,LITERAL,Always break when approaching a pedestrian crossing.
+break,NEUTRAL,Imperative,LITERAL,Do not break line while waiting for entry.
+break,NEUTRAL,Imperative,LITERAL,Break your journey at the next service station if you are tired.
+break,NEUTRAL,Imperative,IDIOMATIC,Ensure you do not break any local parking regulations.
+break,NEUTRAL,Imperative,LITERAL,Please break down the larger cartons for recycling.
+break,NEUTRAL,Imperative,LITERAL,Remember to break your fall if you trip on the stairs.
+drop,HIGH,Question,IDIOMATIC,Could we consider dropping the less effective features from the next update?
+drop,HIGH,Question,IDIOMATIC,Would it be possible for you to drop off the revised report by end of day?
+drop,HIGH,Question,IDIOMATIC,Might we need to drop the current strategy if it proves unsustainable?
+drop,HIGH,Question,IDIOMATIC,Are there any concerns that our market share could drop further?
+drop,HIGH,Question,IDIOMATIC,Is it advisable to drop the less profitable product lines from our portfolio?
+drop,HIGH,Question,LITERAL,Can you ensure the package is handled with care so it doesn't drop?
+drop,LOW,Statement,LITERAL,"Oops, I accidentally dropped my phone again!"
+drop,LOW,Statement,IDIOMATIC,Can you drop me off at the corner store on your way?
+drop,LOW,Statement,IDIOMATIC,He just dropped a huge surprise on us at dinner last night.
+drop,LOW,Statement,IDIOMATIC,My friend said she's going to drop out of the club next year.
+drop,LOW,Statement,IDIOMATIC,"The DJ is about to drop a new track, it's gonna be awesome!"
+drop,LOW,Statement,IDIOMATIC,I really need to drop a few pounds before my vacation next month.
+drop,LOW,Statement,IDIOMATIC,I heard they're going to drop the prices on those shoes next week.
+drop,LOW,Statement,IDIOMATIC,"Don't drop any hints about the party, it's still a secret!"
+drop,NEUTRAL,Imperative,IDIOMATIC,Please drop off your keys at the reception desk upon departure.
+drop,NEUTRAL,Imperative,LITERAL,Drop your weapon and put your hands up.
+drop,NEUTRAL,Imperative,LITERAL,Drop your shoulders and breathe deeply to relax.
+drop,HIGH,Question,IDIOMATIC,Would it be possible to drop this specific item from our discussion for today?
+drop,HIGH,Question,IDIOMATIC,Should we consider dropping the less popular product line next quarter?
+drop,HIGH,Question,IDIOMATIC,Could you confirm if the presentation slides were dropped into the shared drive?
+drop,HIGH,Question,LITERAL,Do you believe we should drop the proposed budget by ten percent?
+drop,HIGH,Question,IDIOMATIC,Might we need to drop the initial project deadline if resources are constrained?
+drop,HIGH,Question,IDIOMATIC,Is it advisable to drop the current approach and explore alternative methods?
+drop,HIGH,Question,IDIOMATIC,Has the department decided to drop its involvement in the charity event?
+drop,HIGH,Question,IDIOMATIC,Are we able to drop any redundant clauses from the new policy document?
+drop,HIGH,Question,IDIOMATIC,Does the system automatically drop inactive user accounts after a specific period?
+drop,LOW,Statement,IDIOMATIC,Did you hear that band just dropped a surprise new song?
+drop,LOW,Statement,IDIOMATIC,"Dude, I totally dropped the ball on reminding him about the party."
+drop,LOW,Statement,LITERAL,"Don't drop that pizza, it's the last slice!"
+drop,LOW,Statement,IDIOMATIC,She keeps dropping hints about wanting a new phone for her birthday.
+drop,LOW,Statement,IDIOMATIC,I need to drop off my dry cleaning before the store closes.
+drop,LOW,Statement,IDIOMATIC,"Just drop me a text when you're on your way, okay?"
+drop,LOW,Statement,LITERAL,He accidentally dropped his keys right into a puddle.
+drop,LOW,Statement,LITERAL,I heard they're going to drop the prices on those shoes next week.
+drop,NEUTRAL,Imperative,LITERAL,Do not drop any personal belongings in the restricted area.
+drop,NEUTRAL,Imperative,LITERAL,Drop your completed forms at the customer service desk.
+drop,NEUTRAL,Imperative,LITERAL,Carefully drop the component into its slot.
+drop,NEUTRAL,Imperative,LITERAL,Drop the volume on the speaker before connecting.
+drop,HIGH,Question,IDIOMATIC,Might we need to drop several items from the agenda to ensure timely completion?
+drop,HIGH,Question,IDIOMATIC,Do you foresee any issues if we decide to drop the original proposal?
+drop,HIGH,Question,IDIOMATIC,Could you confirm if the courier will drop off the essential documents this afternoon?
+drop,HIGH,Question,IDIOMATIC,Is it permissible for us to drop the less critical tasks for today?
+drop,HIGH,Question,IDIOMATIC,Should we anticipate the stock prices will drop significantly by next month?
+drop,HIGH,Question,IDIOMATIC,Would it be wise to drop the current marketing strategy in favor of a new one?
+drop,HIGH,Question,IDIOMATIC,Has the manager authorized us to drop the redundant steps in the process?
+drop,HIGH,Question,IDIOMATIC,Are there any concerns about the product quality starting to drop?
+drop,HIGH,Question,IDIOMATIC,Could we arrange for you to drop the access key with reception on your way out?
+drop,HIGH,Question,IDIOMATIC,Is it necessary to drop the meeting attendance requirement for some staff?
+drop,LOW,Statement,LITERAL,"I totally dropped my sandwich on the floor just now, it was a total mess."
+drop,LOW,Statement,IDIOMATIC,She said she'd drop by your party later if she had enough time.
+drop,LOW,Statement,IDIOMATIC,He just dropped a bombshell about quitting his job and traveling the world.
+drop,LOW,Statement,IDIOMATIC,I think I'll drop that art class; it's honestly not really my thing.
+drop,LOW,Statement,IDIOMATIC,That new game studio just dropped a huge update for their app last night.
+drop,LOW,Statement,IDIOMATIC,"I'm so tired, I nearly dropped off during the movie, it was so long."
+drop,LOW,Statement,IDIOMATIC,My brother always tries to drop a hint when his birthday is coming up soon.
+drop,LOW,Statement,IDIOMATIC,Can you believe he just dropped his mic after that amazing performance?
+drop,LOW,Statement,IDIOMATIC,"I'll drop off your book sometime next week when I'm in your neighborhood, no worries."
+drop,NEUTRAL,Imperative,LITERAL,"Drop your completed forms into the box on the counter, please."
+drop,NEUTRAL,Imperative,IDIOMATIC,Please drop off the package at the main reception desk before noon.
+drop,NEUTRAL,Imperative,LITERAL,Don't drop the glass! It's very fragile and expensive.
+drop,NEUTRAL,Imperative,LITERAL,"Drop your speed as you enter the residential area, children are playing."
+drop,NEUTRAL,Imperative,LITERAL,Carefully drop the seeds into each small hole in the garden bed.
+drop,NEUTRAL,Imperative,LITERAL,Drop your shoulders and try to relax your posture.
+drop,NEUTRAL,Imperative,IDIOMATIC,Remember to drop off your library books by Friday to avoid late fees.
+drop,HIGH,Question,IDIOMATIC,Could we potentially drop the less critical agenda items to ensure timely completion?
+drop,HIGH,Question,IDIOMATIC,Would it be feasible to drop off the updated quarterly report at reception?
+drop,HIGH,Question,IDIOMATIC,Is it advisable to drop the current project if the anticipated risks are too substantial?
+drop,HIGH,Question,IDIOMATIC,Might we consider an option to drop the requirement for a physical signature in this specific process?
+drop,HIGH,Question,IDIOMATIC,Are you prepared to drop your previous proposal if compelling new data emerges?
+drop,HIGH,Question,IDIOMATIC,Could you confirm if you were able to drop the necessary documents at the client's office this morning?
+drop,HIGH,Question,IDIOMATIC,Should we perhaps drop the formality and address each other by our first names during team meetings?
+drop,HIGH,Question,IDIOMATIC,Do you anticipate the company will need to drop any product lines from its catalog this quarter?
+drop,HIGH,Question,IDIOMATIC,Is there a possibility to drop the delivery charge for our esteemed clients who place bulk orders?
+drop,HIGH,Question,IDIOMATIC,Can we respectfully drop this particular discussion point for now and revisit it at our next meeting?
+drop,LOW,Statement,IDIOMATIC,"She just had to drop that secret about the party during our game night, didn't she?"
+drop,LOW,Statement,IDIOMATIC,Did you hear that band is gonna drop a new album next month? I'm so excited!
+drop,LOW,Statement,LITERAL,"I totally saw him drop his phone, but luckily, it didn't even get a scratch."
+drop,LOW,Statement,IDIOMATIC,He decided to drop out of the coding club because he was just too swamped with work.
+drop,LOW,Statement,IDIOMATIC,I really need to drop off these library books before they start charging me late fees.
+drop,LOW,Statement,IDIOMATIC,"You should totally drop that old jacket; it's not really your style anymore, honestly."
+drop,LOW,Statement,IDIOMATIC,"They're going to drop the new episode of that show online tonight, so I'm staying in."
+drop,LOW,Statement,IDIOMATIC,"I sometimes drop hints about what I want for my birthday, but he never seems to get them."
+drop,NEUTRAL,Imperative,LITERAL,Please drop your used towels in the laundry bin provided.
+drop,NEUTRAL,Imperative,LITERAL,Do not drop litter on the pavement; use the bins.
+drop,NEUTRAL,Imperative,IDIOMATIC,Drop your speed as you approach the intersection ahead.
+drop,NEUTRAL,Imperative,LITERAL,Simply drop the completed forms into the marked collection box.
+drop,NEUTRAL,Imperative,LITERAL,"Before you leave, drop the keys on the kitchen counter."
+drop,NEUTRAL,Imperative,LITERAL,Carefully drop the fishing line into the water near the rocks.
+drop,HIGH,QUESTION,IDIOMATIC,Could we drop this agenda item to allow more time for the primary discussion?
+drop,HIGH,QUESTION,IDIOMATIC,Would it be feasible to drop the delivery at the main reception by 2 PM?
+drop,HIGH,QUESTION,IDIOMATIC,Should we consider dropping the less efficient procedures to streamline operations?
+drop,HIGH,QUESTION,IDIOMATIC,Is there a designated area where I can drop off the confidential documents?
+drop,HIGH,QUESTION,IDIOMATIC,Might we need to drop our initial sales forecasts slightly due to recent market fluctuations?
+drop,HIGH,QUESTION,IDIOMATIC,Could you confirm if the tender documents will drop off at our office tomorrow morning?
+drop,HIGH,QUESTION,IDIOMATIC,Are we prepared to drop the current software system if a superior alternative is identified?
+drop,HIGH,QUESTION,IDIOMATIC,Is it prudent to drop the less critical tasks to focus exclusively on urgent project components?
+drop,HIGH,QUESTION,IDIOMATIC,Could you drop me an email with the updated project timeline at your earliest convenience?
+drop,LOW,STATEMENT,IDIOMATIC,I need to drop by my sister's house later to grab my charger.
+drop,LOW,STATEMENT,IDIOMATIC,Did you hear they're gonna drop a new game next month? It looks awesome!
+drop,LOW,STATEMENT,LITERAL,My phone slipped and I nearly dropped it in the toilet!
+drop,LOW,STATEMENT,IDIOMATIC,"Yeah, I think I'm going to drop out of the cooking class, it's too early."
+drop,LOW,STATEMENT,IDIOMATIC,He keeps trying to drop hints about getting a new guitar for his birthday.
+drop,LOW,STATEMENT,IDIOMATIC,Can you just drop me off at the next bus stop? I'm fine from there.
+drop,LOW,STATEMENT,IDIOMATIC,I heard that popular clothing brand is going to drop prices for Black Friday.
+drop,LOW,STATEMENT,IDIOMATIC,"Don't drop the ball on this group project, okay? We really need this."
+drop,LOW,STATEMENT,IDIOMATIC,"Let's just drop the subject, it's making everyone uncomfortable."
+drop,LOW,STATEMENT,LITERAL,"I'm so exhausted, I could literally drop right now and sleep for hours."
+drop,NEUTRAL,IMPERATIVE,LITERAL,Please drop your completed forms in the box on the counter.
+drop,NEUTRAL,IMPERATIVE,LITERAL,Do not drop any foreign objects into the drain.
+drop,NEUTRAL,IMPERATIVE,LITERAL,Drop your shoulders and relax your neck muscles.
+hold,HIGH,Question,IDIOMATIC,Could we hold our next quarterly review session on Tuesday morning?
+hold,HIGH,Question,IDIOMATIC,Do you anticipate the current project timeline will hold as scheduled?
+hold,HIGH,Question,LITERAL,Will the main auditorium hold the expected number of delegates comfortably?
+hold,HIGH,Question,IDIOMATIC,Are you able to hold that specific appointment slot open for me until tomorrow?
+hold,HIGH,Question,IDIOMATIC,Might we hold a brief consultation regarding the proposed policy changes?
+hold,HIGH,Question,IDIOMATIC,Could you please confirm if the supplier can hold the quoted price until month-end?
+hold,HIGH,Question,LITERAL,Does the current operational guideline hold any provisions for unforeseen circumstances?
+hold,HIGH,Question,IDIOMATIC,Is it feasible to hold back the official announcement until all necessary approvals are secured?
+hold,HIGH,Question,IDIOMATIC,Would you be available to hold a debriefing session after the client presentation?
+hold,HIGH,Question,LITERAL,Can the existing server infrastructure hold the peak traffic anticipated next week?
+hold,LOW,Statement,LITERAL,I can definitely hold your coffee if you need both hands for something else.
+hold,LOW,Statement,IDIOMATIC,"I totally hold the view that pineapple actually belongs on pizza, don't you?"
+hold,LOW,Statement,LITERAL,"This little backpack won't hold all my travel essentials, I think I need a bigger one."
+hold,LOW,Statement,IDIOMATIC,I had to hold back my laughter during the really awkward speech last night.
+hold,LOW,Statement,IDIOMATIC,"Yeah, I'll hold onto these concert tickets for you until the show."
+hold,LOW,Statement,IDIOMATIC,"I don't really hold a grudge against him anymore, it was ages ago."
+hold,LOW,Statement,LITERAL,My old phone just can't hold a decent charge for more than a few hours.
+hold,LOW,Statement,IDIOMATIC,"She really knows how to hold her own in a debate, even with much older students."
+hold,LOW,Statement,IDIOMATIC,I always try to hold onto the good memories from my childhood holidays.
+hold,LOW,Statement,IDIOMATIC,"I need to hold off on buying that new video game for now, I'm trying to save up."
+hold,NEUTRAL,Imperative,LITERAL,Hold the handrail firmly when using the escalator.
+hold,NEUTRAL,Imperative,LITERAL,Please hold the door for the person behind you.
+hold,NEUTRAL,Imperative,LITERAL,Hold your passport open to the photo page for inspection.
+hold,NEUTRAL,Imperative,LITERAL,Hold the 'Shift' key while clicking the icon to open a new window.
+hold,NEUTRAL,Imperative,LITERAL,Hold your place in the queue until the attendant calls you forward.
+hold,NEUTRAL,Imperative,LITERAL,Hold the rope tightly and do not let go under any circumstances.
+hold,NEUTRAL,Imperative,LITERAL,"Hold all personal items close to you, especially in crowded areas."
+hold,NEUTRAL,Imperative,LITERAL,Hold this position for ten seconds to complete the exercise.
+hold,NEUTRAL,Imperative,LITERAL,Hold the remote steady when pointing it at the screen for accurate input.
+hold,HIGH,Question,IDIOMATIC,Could we hold a brief discussion regarding the project timeline?
+hold,HIGH,Question,IDIOMATIC,Do you anticipate the system will hold up under increased traffic next month?
+hold,HIGH,Question,IDIOMATIC,Might we hold this important meeting in the conference room on Tuesday?
+hold,HIGH,Question,IDIOMATIC,Could you please confirm if this report holds all the necessary data?
+hold,HIGH,Question,IDIOMATIC,Does the company still hold its annual charity event in December?
+hold,HIGH,Question,IDIOMATIC,Will the board hold a vote on the proposed budget next week?
+hold,HIGH,Question,IDIOMATIC,Do you believe this specific strategy will hold true for the long term?
+hold,HIGH,Question,IDIOMATIC,Might we hold off on a final decision until we acquire more information?
+hold,HIGH,Question,LITERAL,Is it possible for us to hold these sensitive documents for internal review only?
+hold,LOW,Statement,LITERAL,I can totally hold your spot in line if you need to grab something.
+hold,LOW,Statement,IDIOMATIC,She didn't hold back when she told him exactly what she thought.
+hold,LOW,Statement,IDIOMATIC,"Let's hold a small get-together at my place next weekend, it'll be fun."
+hold,LOW,Statement,IDIOMATIC,"He always holds onto old concert tickets, even from years ago, it's weird."
+hold,LOW,Statement,IDIOMATIC,"I think my phone won't hold a charge for much longer, it's dying fast."
+hold,LOW,Statement,IDIOMATIC,"You really have to hold it together when things get tough, don't you?"
+hold,LOW,Statement,IDIOMATIC,"I can't believe they could hold a secret like that for so long, wow."
+hold,LOW,Statement,IDIOMATIC,"My car engine sometimes won't hold a steady speed on hills, it's annoying."
+hold,LOW,Statement,IDIOMATIC,"We decided to hold off on buying new furniture for now, saving some cash."
+hold,LOW,Statement,LITERAL,"Don't worry, I'll hold your beer while you tie your shoelace, no problem."
+hold,NEUTRAL,Imperative,LITERAL,Hold the railing firmly when using the stairs.
+hold,NEUTRAL,Imperative,LITERAL,Please hold your tickets ready for inspection at the gate.
+hold,NEUTRAL,Imperative,LITERAL,Hold this end of the rope while I secure the other.
+hold,NEUTRAL,Imperative,LITERAL,Hold your breath underwater for as long as you can.
+hold,NEUTRAL,Imperative,IDIOMATIC,Hold the line; someone will be with you shortly.
+hold,NEUTRAL,Imperative,LITERAL,Hold the power button down for five seconds to reset the device.
+hold,NEUTRAL,Imperative,LITERAL,Hold your position until you receive further instructions.
+hold,NEUTRAL,Imperative,LITERAL,Hold the door open for the people coming behind you.
+hold,NEUTRAL,Imperative,IDIOMATIC,Hold off on starting the test until everyone is ready.
+hold,NEUTRAL,Imperative,IDIOMATIC,Hold your applause until the very end of the performance.
+hold,HIGH,Question,LITERAL,"Regarding the upcoming conference, will the venue hold sufficient capacity for all attendees?"
+hold,HIGH,Question,IDIOMATIC,Do you believe the current budget can hold until the end of the fiscal year?
+hold,HIGH,Question,IDIOMATIC,Could we hold a brief review session before submitting the final proposal?
+hold,HIGH,Question,IDIOMATIC,Does this agreement hold validity across all our international branches?
+hold,HIGH,Question,IDIOMATIC,What measures will we hold our team members accountable to for project completion?
+hold,HIGH,Question,IDIOMATIC,Would you prefer to hold the discussion on this matter until the next board meeting?
+hold,HIGH,Question,LITERAL,Could you confirm if the system is designed to hold such a large volume of data?
+hold,HIGH,Question,IDIOMATIC,Does the company policy hold any specific guidelines regarding remote work arrangements?
+hold,HIGH,Question,IDIOMATIC,Will the new strategy hold its effectiveness against evolving market challenges?
+hold,HIGH,Question,IDIOMATIC,Is it possible for us to hold a video conference with our overseas partners tomorrow morning?
+hold,LOW,Statement,LITERAL,I can hold your jacket for a bit if you want to dance.
+hold,LOW,Statement,IDIOMATIC,"She's going to hold onto that old car forever, I bet."
+hold,LOW,Statement,LITERAL,"Man, I don't think I can hold all these shopping bags by myself."
+hold,LOW,Statement,IDIOMATIC,He told me to hold off on buying tickets until next week.
+hold,LOW,Statement,LITERAL,"My phone won't hold a charge like it used to, it's so annoying."
+hold,LOW,Statement,IDIOMATIC,"We just need to hold it together for a few more minutes, then we can leave."
+hold,LOW,Statement,IDIOMATIC,I heard she still holds a grudge against him after all these years.
+hold,LOW,Statement,IDIOMATIC,Could you hold my spot in line while I grab a coffee?
+hold,LOW,Statement,IDIOMATIC,It's hard to hold a secret when everyone keeps asking questions.
+hold,LOW,Statement,IDIOMATIC,"I think he's trying to hold back his laughter, but it's not working."
+hold,NEUTRAL,Imperative,LITERAL,Hold the handrail firmly as you descend the stairs.
+hold,NEUTRAL,Imperative,LITERAL,Please hold your ticket ready for inspection at the gate.
+hold,NEUTRAL,Imperative,LITERAL,Hold the door open for the person behind you.
+hold,NEUTRAL,Imperative,LITERAL,Hold this button down for five seconds to reset the device.
+hold,NEUTRAL,Imperative,LITERAL,Hold your breath underwater for as long as you safely can.
+hold,NEUTRAL,Imperative,IDIOMATIC,Hold the line; an agent will be with you shortly.
+hold,NEUTRAL,Imperative,LITERAL,Hold your dog on a leash in this park.
+hold,NEUTRAL,Imperative,LITERAL,Hold the child's hand when crossing the street.
+hold,NEUTRAL,Imperative,LITERAL,Hold the steering wheel with both hands at all times.
+hold,HIGH,Question,IDIOMATIC,"Could we hold the next team meeting in Conference Room B, please?"
+hold,HIGH,Question,IDIOMATIC,Do you anticipate the new system will hold up to increased user demand?
+hold,HIGH,Question,IDIOMATIC,Will the department hold a training session for the updated software soon?
+hold,HIGH,Question,IDIOMATIC,"Can we hold this discussion until after the presentation, if possible?"
+hold,HIGH,Question,IDIOMATIC,Are we still able to hold the client appointment for 2 PM on Friday?
+hold,HIGH,Question,IDIOMATIC,Does this policy hold validity across all our international subsidiaries?
+hold,HIGH,Question,IDIOMATIC,Would you mind holding on for a moment while I retrieve the necessary documents?
+hold,HIGH,Question,IDIOMATIC,Should we hold a brief poll to gather opinions on the proposed changes?
+hold,HIGH,Question,IDIOMATIC,Will the allocated budget allow us to hold a larger networking event next quarter?
+hold,HIGH,Question,IDIOMATIC,Does the committee still hold the view that market expansion is the primary strategy?
+hold,LOW,Statement,LITERAL,I can't believe this small box can hold all my stuff for the trip!
+hold,LOW,Statement,IDIOMATIC,"Hey, hold on a second, I think I forgot my wallet inside."
+hold,LOW,Statement,IDIOMATIC,"She really knows how to hold a grudge, even over small things."
+hold,LOW,Statement,IDIOMATIC,I hope this sunny weather will hold for our picnic tomorrow.
+hold,LOW,Statement,IDIOMATIC,"He always tries to hold back his true feelings, which is tough."
+hold,LOW,Statement,LITERAL,My old phone battery doesn't hold a charge for very long anymore.
+hold,LOW,Statement,IDIOMATIC,We used to hold game nights at her place every Friday.
+hold,LOW,Statement,IDIOMATIC,I don't think his excuse will hold up with the manager this time.
+hold,LOW,Statement,LITERAL,"This new sofa can hold at least five people, it's huge."
+hold,LOW,Statement,IDIOMATIC,"They tried to hold a surprise birthday party for him, but he found out."
+hold,NEUTRAL,Imperative,LITERAL,"Hold the door for the next person entering, please."
+hold,NEUTRAL,Imperative,LITERAL,Please hold this package carefully; it contains fragile items.
+hold,NEUTRAL,Imperative,LITERAL,"Hold your breath for ten seconds, then exhale slowly."
+hold,NEUTRAL,Imperative,LITERAL,Always hold onto the railing when using the escalator.
+hold,NEUTRAL,Imperative,IDIOMATIC,Hold your place in the book until you find a bookmark.
+hold,NEUTRAL,Imperative,IDIOMATIC,Hold the line; a customer service representative will be with you shortly.
+hold,NEUTRAL,Imperative,IDIOMATIC,Hold all questions until the end of the presentation.
+hold,NEUTRAL,Imperative,LITERAL,Hold the power button down for five seconds to turn it off.
+hold,NEUTRAL,Imperative,LITERAL,Hold the steering wheel firmly with both hands.
+hold,HIGH,Question,IDIOMATIC,Could we hold our next team meeting in Conference Room B?
+hold,HIGH,Question,IDIOMATIC,Do you believe the current budget can hold us for the entire quarter?
+hold,HIGH,Question,IDIOMATIC,Will the company hold an annual review for all employees this year?
+hold,HIGH,Question,IDIOMATIC,Could you please hold the line while I transfer your call?
+hold,HIGH,Question,IDIOMATIC,Are we required to hold this information strictly confidential?
+hold,HIGH,Question,IDIOMATIC,Would it be possible to hold a brief discussion about the new project timeline?
+hold,HIGH,Question,IDIOMATIC,Should we hold a workshop to train the new staff members effectively?
+hold,HIGH,Question,IDIOMATIC,Can you confirm if the system will hold all the new user data securely?
+hold,HIGH,Question,IDIOMATIC,Are you planning to hold the open position until a suitable candidate is found?
+hold,HIGH,Question,IDIOMATIC,Do you think this proposal will hold up under scrutiny from the board?
+hold,LOW,Statement,IDIOMATIC,I can't believe she still holds a grudge after all these years.
+hold,LOW,Statement,IDIOMATIC,"Just hold on a second, I need to find my keys before we go."
+hold,LOW,Statement,IDIOMATIC,He had to hold back his laughter during the serious presentation.
+hold,LOW,Statement,IDIOMATIC,"My old phone won't hold a charge for very long anymore, it's annoying."
+hold,LOW,Statement,IDIOMATIC,"Let's hold off on going to the party until later tonight, I'm tired now."
+hold,LOW,Statement,IDIOMATIC,She managed to hold it together even after getting the bad news about the trip.
+hold,LOW,Statement,IDIOMATIC,I always hold onto old concert tickets as souvenirs from good times.
+hold,LOW,Statement,LITERAL,Don't forget to hold the door open for Mrs. Smith when you leave.
+hold,LOW,Statement,IDIOMATIC,"This tiny umbrella won't hold up in such a strong wind, it'll break."
+hold,LOW,Statement,IDIOMATIC,I totally hold you responsible for suggesting that terrible movie last night!
+hold,NEUTRAL,Imperative,LITERAL,Hold the button down for five seconds to reset the device.
+hold,NEUTRAL,Imperative,LITERAL,Please hold the door open for the next person entering.
+hold,NEUTRAL,Imperative,LITERAL,"Hold your breath before diving into the water, please."
+hold,NEUTRAL,Imperative,LITERAL,Hold the railing firmly as you go down the stairs.
+hold,NEUTRAL,Imperative,LITERAL,Hold the camera steady to get a clear picture.
+hold,NEUTRAL,Imperative,LITERAL,Hold this box for me while I open the car trunk.
+hold,NEUTRAL,Imperative,IDIOMATIC,Hold your place in line; do not move forward yet.
+hold,NEUTRAL,Imperative,LITERAL,"For your safety, hold the child's hand when crossing the road."
+hold,NEUTRAL,Imperative,LITERAL,Hold the steering wheel with both hands at all times.
+hold,NEUTRAL,Imperative,IDIOMATIC,Hold all questions until the end of the presentation.
+keep,HIGH,Question,LITERAL,Could we keep this discussion confidential within the team?
+keep,HIGH,Question,LITERAL,How might we keep our production costs at a competitive level?
+keep,HIGH,Question,IDIOMATIC,Are there specific guidelines we must keep in mind for this project?
+keep,HIGH,Question,LITERAL,Do you believe we can keep our client satisfied with the proposed changes?
+keep,HIGH,Question,LITERAL,What measures should we implement to keep the equipment in good working order?
+keep,HIGH,Question,IDIOMATIC,Is it feasible for us to keep this deadline without additional resources?
+keep,HIGH,Question,IDIOMATIC,Will the company keep its promise regarding employee benefits this year?
+keep,HIGH,Question,LITERAL,Where do you suggest we keep the important documents for easy access?
+keep,HIGH,Question,LITERAL,To whom should I speak about keeping accurate records of expenditures?
+keep,HIGH,Question,LITERAL,Might we keep the office open a little longer for the late meeting?
+keep,LOW,Statement,LITERAL,I just want to keep things casual with him for now.
+keep,LOW,Statement,IDIOMATIC,"We totally have to keep in touch after the holidays, okay?"
+keep,LOW,Statement,IDIOMATIC,She always tries to keep up with the latest fashion trends.
+keep,LOW,Statement,LITERAL,I hope I can keep my old car running for another year or two.
+keep,LOW,Statement,IDIOMATIC,"He's really good at keeping secrets, so you can tell him anything."
+keep,LOW,Statement,IDIOMATIC,I don't mind staying late if it helps us keep going on this project.
+keep,LOW,Statement,IDIOMATIC,Let's keep an eye on the time; the movie starts soon.
+keep,LOW,Statement,LITERAL,"Honestly, sometimes it's hard to keep calm when things get crazy."
+keep,LOW,Statement,LITERAL,I decided to keep the blue shirt; it fits better than the red one.
+keep,LOW,Statement,IDIOMATIC,We should keep planning our trip for next summer.
+keep,NEUTRAL,Imperative,LITERAL,Keep your belongings with you at all times.
+keep,NEUTRAL,Imperative,LITERAL,Please keep the noise level down after 10 PM.
+keep,NEUTRAL,Imperative,IDIOMATIC,"Keep straight ahead for two blocks, then turn left."
+keep,NEUTRAL,Imperative,LITERAL,Always keep a safe distance from the car in front.
+keep,NEUTRAL,Imperative,LITERAL,Keep your receipt for proof of purchase.
+keep,NEUTRAL,Imperative,LITERAL,Keep food and drinks away from the computer equipment.
+keep,NEUTRAL,Imperative,IDIOMATIC,Keep out of restricted areas.
+keep,NEUTRAL,Imperative,LITERAL,"Keep all medication stored in a cool, dry place."
+keep,NEUTRAL,Imperative,IDIOMATIC,"To open, keep pressing the button until it clicks."
+keep,HIGH,Question,LITERAL,Could we keep this discussion confidential until the official announcement has been made?
+keep,HIGH,Question,LITERAL,Will the company keep its current policy on flexible working arrangements for the foreseeable future?
+keep,HIGH,Question,IDIOMATIC,Might we need to keep a close watch on the project budget during this critical quarter?
+keep,HIGH,Question,LITERAL,Should we endeavor to keep all relevant stakeholders regularly informed of our progress?
+keep,HIGH,Question,LITERAL,Is it feasible to keep the original project timeline despite the recent technical setback?
+keep,HIGH,Question,LITERAL,Would you advise us to keep a detailed record of all decisions made during these meetings?
+keep,HIGH,Question,LITERAL,Does the IT department plan to keep the new software system updated with the latest security patches?
+keep,HIGH,Question,LITERAL,Could you confirm if we are required to keep these financial documents in the archive for five years?
+keep,HIGH,Question,IDIOMATIC,Are we expected to keep our presentation within the allocated fifteen-minute time limit?
+keep,HIGH,Question,LITERAL,How can we effectively keep staff morale high during this period of organizational restructuring?
+keep,LOW,Statement,IDIOMATIC,"I always try to keep my promises, you know?"
+keep,LOW,Statement,LITERAL,I'm trying to keep fit by going to the gym every day.
+keep,LOW,Statement,LITERAL,"She wants to keep that old t-shirt, even though it's got holes in it."
+keep,LOW,Statement,IDIOMATIC,"He just keeps talking, I can barely get a word in sometimes!"
+keep,LOW,Statement,IDIOMATIC,"Don't worry, I can keep a secret, really."
+keep,LOW,Statement,IDIOMATIC,We decided to keep the party a total surprise for her birthday.
+keep,LOW,Statement,LITERAL,My phone battery doesn't keep a charge for very long anymore.
+keep,LOW,Statement,LITERAL,It's hard to keep calm when everything is going wrong around you.
+keep,LOW,Statement,LITERAL,I heard they're going to keep the local park open late this summer.
+keep,NEUTRAL,Imperative,LITERAL,Keep your receipt for any returns or exchanges.
+keep,NEUTRAL,Imperative,IDIOMATIC,Keep off the grass during maintenance.
+keep,NEUTRAL,Imperative,LITERAL,Always keep both hands on the steering wheel.
+keep,NEUTRAL,Imperative,LITERAL,Keep right at the junction for the city center.
+keep,NEUTRAL,Imperative,LITERAL,Please keep all personal belongings with you at all times.
+keep,NEUTRAL,Imperative,LITERAL,Keep silent during the examination period.
+keep,NEUTRAL,Imperative,IDIOMATIC,Keep food and drinks away from the museum exhibits.
+keep,NEUTRAL,Imperative,LITERAL,"To unlock the device, keep the button pressed for three seconds."
+keep,NEUTRAL,Imperative,LITERAL,Keep this area clear at all times for emergency access.
+keep,NEUTRAL,Imperative,LITERAL,Remember to keep your student ID card visible on campus.
+keep,HIGH,Question,IDIOMATIC,Could we keep this matter entirely confidential among the project leads?
+keep,HIGH,Question,IDIOMATIC,Do you anticipate we can keep to the proposed timeline for the new initiative?
+keep,HIGH,Question,LITERAL,Is it feasible to keep operational expenditures below the allocated budget this quarter?
+keep,HIGH,Question,LITERAL,What strategies can we employ to keep our competitive advantage in the market?
+keep,HIGH,Question,IDIOMATIC,Will the new system help us keep track of inventory more efficiently?
+keep,HIGH,Question,LITERAL,Should we keep all stakeholders regularly updated on policy changes?
+keep,HIGH,Question,LITERAL,Are we able to keep our service standards consistent across all branches?
+keep,HIGH,Question,IDIOMATIC,To what extent can we keep the client's original requests in mind during development?
+keep,HIGH,Question,LITERAL,Could you advise on the best practice to keep digital records properly organized?
+keep,LOW,Statement,LITERAL,I'm just going to keep wearing my old jeans; they're so comfy.
+keep,LOW,Statement,LITERAL,Let's try to keep quiet so we don't wake the baby up.
+keep,LOW,Statement,LITERAL,I think I'll keep that small souvenir from our trip as a memory.
+keep,LOW,Statement,IDIOMATIC,"He always manages to keep his cool, even when things are crazy."
+keep,LOW,Statement,IDIOMATIC,"We should definitely keep in touch more often, it's been a while."
+keep,LOW,Statement,LITERAL,I'm going to keep practicing my guitar until I get it right.
+keep,LOW,Statement,IDIOMATIC,It's tough to keep up with all the new shows on TV these days.
+keep,LOW,Statement,IDIOMATIC,"Don't worry, I'll keep an eye on your bike while you're inside."
+keep,LOW,Statement,LITERAL,She likes to keep her plans flexible for the weekend.
+keep,LOW,Statement,IDIOMATIC,I'll keep my fingers crossed for your exam results!
+keep,NEUTRAL,Imperative,LITERAL,Keep all emergency exits clear at all times.
+keep,NEUTRAL,Imperative,LITERAL,Keep your ticket visible for inspection.
+keep,NEUTRAL,Imperative,IDIOMATIC,Please keep off the grass in this area.
+keep,NEUTRAL,Imperative,LITERAL,Keep the refrigerator door closed to maintain temperature.
+keep,NEUTRAL,Imperative,LITERAL,Always keep a safe distance from the vehicle in front.
+keep,NEUTRAL,Imperative,LITERAL,Keep your password confidential and do not share it.
+keep,NEUTRAL,Imperative,LITERAL,"Keep all chemicals stored in a cool, dry place."
+keep,HIGH,Question,LITERAL,"Regarding the project timeline, how do you propose we keep it on schedule?"
+keep,HIGH,Question,LITERAL,Could you advise on the best strategy to keep our team's morale elevated?
+keep,HIGH,Question,LITERAL,What measures are in place to keep client data strictly confidential?
+keep,HIGH,Question,LITERAL,Do you have any suggestions for how we can keep our operational expenses within budget?
+keep,HIGH,Question,LITERAL,How can we effectively keep all stakeholders informed about the initiative's progress?
+keep,HIGH,Question,LITERAL,"Is it permissible to keep these archived documents for an extended period, as per policy?"
+keep,HIGH,Question,LITERAL,What steps should be taken to keep the new software system running optimally?
+keep,HIGH,Question,LITERAL,Who is accountable for ensuring we keep our official records accurately filed?
+keep,HIGH,Question,LITERAL,To what extent can we keep the current staffing levels during the upcoming transition phase?
+keep,HIGH,Question,LITERAL,What is your recommendation to keep our department compliant with the recent regulatory changes?
+keep,LOW,Statement,LITERAL,"I gotta keep my phone charged, otherwise I'll totally miss your texts."
+keep,LOW,Statement,LITERAL,She decided to just keep that old shirt; it's got sentimental value.
+keep,LOW,Statement,LITERAL,"We just want to keep things super chill tonight, no big plans, you know?"
+keep,LOW,Statement,IDIOMATIC,He always tries to keep up with all the latest memes and TikTok trends.
+keep,LOW,Statement,IDIOMATIC,I promised to keep an eye on her cat while she's outta town.
+keep,LOW,Statement,IDIOMATIC,"You gotta keep pushing even when stuff gets tough, don't give up!"
+keep,LOW,Statement,LITERAL,"I don't really keep a lot of cash on me these days, just plastic."
+keep,LOW,Statement,IDIOMATIC,"Let's keep this just between us, it's kind of a huge secret."
+keep,LOW,Statement,LITERAL,My friend likes to keep all his vintage video games organized in his room.
+keep,LOW,Statement,IDIOMATIC,I just want to keep exploring new places and trying new foods.
+keep,NEUTRAL,Imperative,LITERAL,Keep all personal items in your designated locker.
+keep,NEUTRAL,Imperative,LITERAL,Please keep the gate closed firmly after passing through.
+keep,NEUTRAL,Imperative,LITERAL,Keep your seatbelt fastened until the aircraft comes to a complete stop.
+keep,NEUTRAL,Imperative,IDIOMATIC,"To reach the reception desk, keep following the signs straight ahead."
+keep,NEUTRAL,Imperative,LITERAL,Always keep a minimum distance of one meter from the stage.
+keep,NEUTRAL,Imperative,LITERAL,Keep food and beverages strictly outside the library reading area.
+keep,NEUTRAL,Imperative,IDIOMATIC,"For safety, keep off the restricted construction site."
+keep,NEUTRAL,Imperative,LITERAL,Keep the refrigerator door sealed tightly to maintain cold temperatures.
+keep,NEUTRAL,Imperative,LITERAL,Remember to keep your original packaging for warranty claims.
+keep,HIGH,Question,IDIOMATIC,Could we keep the discussion focused on the agenda points?
+keep,HIGH,Question,IDIOMATIC,Is it feasible to keep this project within the initial budget?
+keep,HIGH,Question,IDIOMATIC,How can we ensure we keep all stakeholders adequately informed?
+keep,HIGH,Question,LITERAL,Do we need to keep detailed records of all client interactions?
+keep,HIGH,Question,IDIOMATIC,Will the team be able to keep up with the revised production schedule?
+keep,HIGH,Question,IDIOMATIC,What measures are in place to keep confidential data secure?
+keep,HIGH,Question,IDIOMATIC,Should we keep this proposal under review until next quarter?
+keep,HIGH,Question,IDIOMATIC,Are there strategies to help staff keep a positive outlook during changes?
+keep,HIGH,Question,IDIOMATIC,Whom should I contact to keep track of our department's expenses?
+keep,HIGH,Question,LITERAL,Is it advisable to keep the old software version as a backup?
+keep,LOW,Statement,IDIOMATIC,"I always try to keep my word, especially to my friends."
+keep,LOW,Statement,IDIOMATIC,"Let's keep in touch, even after you move to a different city."
+keep,LOW,Statement,IDIOMATIC,She likes to keep busy by doing various hobbies on the weekend.
+keep,LOW,Statement,IDIOMATIC,"Don't worry, I can totally keep a secret; your story is safe with me."
+keep,LOW,Statement,IDIOMATIC,He told me to keep calm when I got nervous about the exam.
+keep,LOW,Statement,LITERAL,"We should keep some pizza for later, I'm already full."
+keep,LOW,Statement,IDIOMATIC,It's hard to keep up with all the new slang these days!
+keep,LOW,Statement,IDIOMATIC,My dog loves to keep me company when I'm working from home.
+keep,LOW,Statement,IDIOMATIC,I promised to keep an eye on her plants while she's on vacation.
+keep,LOW,Statement,IDIOMATIC,"They keep asking me to go out, but I'm too tired tonight."
+keep,NEUTRAL,Imperative,IDIOMATIC,Keep all your personal items secure while traveling.
+keep,NEUTRAL,Imperative,IDIOMATIC,Keep to the designated path to avoid damaging the plants.
+keep,NEUTRAL,Imperative,IDIOMATIC,Please keep the door closed at all times to maintain the temperature.
+keep,NEUTRAL,Imperative,LITERAL,Keep your hands inside the vehicle during the ride.
+keep,NEUTRAL,Imperative,IDIOMATIC,Always keep a safe distance from the car in front of you.
+keep,NEUTRAL,Imperative,LITERAL,Keep this instruction manual for future reference.
+keep,NEUTRAL,Imperative,IDIOMATIC,Keep off the freshly painted walls.
+keep,NEUTRAL,Imperative,LITERAL,Keep walking straight until you reach the traffic lights.
+keep,NEUTRAL,Imperative,LITERAL,Keep quiet in the library; other students are studying.
+keep,NEUTRAL,Imperative,LITERAL,Keep the area around the fire exit clear.
+look,HIGH,Question,LITERAL,Could we look at the latest sales figures during our next meeting?
+look,HIGH,Question,IDIOMATIC,Would you be able to look over the proposal before it is submitted?
+look,HIGH,Question,IDIOMATIC,Have you had a chance to look into the client's recent concerns?
+look,HIGH,Question,IDIOMATIC,How do you look upon the potential challenges of this new project?
+look,HIGH,Question,IDIOMATIC,Are you currently looking for a more efficient way to manage this task?
+look,HIGH,Question,LITERAL,Did you look at the updated report from the finance department?
+look,HIGH,Question,IDIOMATIC,Might we look into allocating more resources to the marketing campaign?
+look,HIGH,Question,IDIOMATIC,When can we look forward to receiving your comprehensive feedback?
+look,HIGH,Question,IDIOMATIC,Could you look into the possibility of extending the deadline slightly?
+look,HIGH,Question,IDIOMATIC,Does this plan look acceptable to the senior management team?
+look,LOW,Statement,IDIOMATIC,"Wow, you totally look awesome in that new outfit!"
+look,LOW,Statement,IDIOMATIC,I think we should look for a new place to grab coffee tomorrow.
+look,LOW,Statement,IDIOMATIC,My friend doesn't look like he's going to make it to the party tonight.
+look,LOW,Statement,IDIOMATIC,"You always look out for me, and I really appreciate that."
+look,LOW,Statement,IDIOMATIC,"After the long trip, I definitely look forward to just relaxing."
+look,LOW,Statement,IDIOMATIC,He doesn't usually look so happy on a Monday morning.
+look,LOW,Statement,IDIOMATIC,I'm going to look up some funny memes later when I have time.
+look,NEUTRAL,Imperative,LITERAL,Always look both ways when crossing a busy street.
+look,NEUTRAL,Imperative,IDIOMATIC,Look up the word in the dictionary if you are unsure of its meaning.
+look,NEUTRAL,Imperative,IDIOMATIC,Look out! There's a step down right here.
+look,NEUTRAL,Imperative,LITERAL,Do not look directly at the sun during an eclipse.
+look,NEUTRAL,Imperative,LITERAL,Look to your left for the customer service desk.
+look,HIGH,Question,IDIOMATIC,Could you please look into the recent decline in sales figures?
+look,HIGH,Question,IDIOMATIC,Does the new marketing strategy look promising for our target demographic?
+look,HIGH,Question,IDIOMATIC,Might we look for a more efficient method to process these requests?
+look,HIGH,Question,IDIOMATIC,Could we ask you to look over the legal documentation for any inconsistencies?
+look,HIGH,Question,LITERAL,When do you anticipate we can look at the comprehensive competitor analysis?
+look,HIGH,Question,IDIOMATIC,Is it possible to look through the client feedback before our next meeting?
+look,LOW,Statement,IDIOMATIC,"Honestly, your new apartment looks super cozy and welcoming."
+look,LOW,Statement,IDIOMATIC,It looks like we're going to have a chill movie night after all.
+look,LOW,Statement,IDIOMATIC,"Dude, you don't look too happy about the test results."
+look,LOW,Statement,IDIOMATIC,"This old car still looks pretty good for its age, surprisingly."
+look,LOW,Statement,IDIOMATIC,I'm just going to look around the bookstore for a bit while you wait.
+look,LOW,Statement,IDIOMATIC,That new hairstyle really looks awesome on you; it suits your face.
+look,LOW,Statement,IDIOMATIC,We should look up that band everyone's talking about; their music sounds cool.
+look,NEUTRAL,Imperative,LITERAL,Look both ways before you step off the curb.
+look,NEUTRAL,Imperative,LITERAL,Always look carefully at the ingredients list for allergens.
+look,NEUTRAL,Imperative,LITERAL,Look straight ahead when walking on uneven terrain.
+look,NEUTRAL,Imperative,LITERAL,Do not look directly at the welding arc without proper eye protection.
+look,NEUTRAL,Imperative,LITERAL,Look closely at the diagram to understand the assembly steps.
+look,NEUTRAL,Imperative,IDIOMATIC,Look up the train schedule if you are unsure of the departure time.
+look,NEUTRAL,Imperative,IDIOMATIC,"Before starting, look for any loose parts or damaged components."
+look,HIGH,Question,IDIOMATIC,Could you please look into the matter and provide an update by end of day?
+look,HIGH,Question,IDIOMATIC,Does the proposal look satisfactory for the board's consideration?
+look,HIGH,Question,IDIOMATIC,Would you be able to look over these figures before the final submission?
+look,HIGH,Question,IDIOMATIC,Might we look at the financial projections again during our next meeting?
+look,HIGH,Question,IDIOMATIC,Could we look at alternative strategies to improve market penetration?
+look,HIGH,Question,IDIOMATIC,May I request that you look up the relevant legal precedents for this case?
+look,HIGH,Question,IDIOMATIC,Do these preliminary results look promising for future development?
+look,HIGH,Question,IDIOMATIC,Is it possible to look for a more sustainable production method?
+look,LOW,Statement,IDIOMATIC,"Hey, you look super happy today, what's up?"
+look,LOW,Statement,IDIOMATIC,That new movie looks totally awesome; we should go see it.
+look,LOW,Statement,IDIOMATIC,"Don't worry, it doesn't look like it's going to rain anymore."
+look,LOW,Statement,IDIOMATIC,"He always looks out for his friends, which is cool."
+look,LOW,Statement,IDIOMATIC,"This whole situation just looks a bit weird to me, honestly."
+look,LOW,Statement,IDIOMATIC,"I need to look for my phone, I can't find it anywhere."
+look,LOW,Statement,IDIOMATIC,"That old car still looks pretty sharp for its age, huh?"
+look,LOW,Statement,IDIOMATIC,"From here, it looks like a really fun party happening next door."
+look,LOW,Statement,IDIOMATIC,I'll look you up on social media later to see your vacation pics.
+look,NEUTRAL,Imperative,LITERAL,Look both ways before stepping into the road.
+look,NEUTRAL,Imperative,IDIOMATIC,Look up the word in a dictionary if you don't understand it.
+look,NEUTRAL,Imperative,LITERAL,Look straight ahead to maintain your balance.
+look,NEUTRAL,Imperative,IDIOMATIC,Look out for cyclists when opening your car door.
+look,NEUTRAL,Imperative,LITERAL,Look closely at the details on the map.
+look,NEUTRAL,Imperative,IDIOMATIC,Look up the train schedule before you leave.
+look,HIGH,Question,IDIOMATIC,Could you please look into the current sales figures for Q3?
+look,HIGH,Question,IDIOMATIC,Would it be possible to look at the revised project proposal by tomorrow?
+look,HIGH,Question,IDIOMATIC,Does this design look professional enough for the client presentation?
+look,HIGH,Question,IDIOMATIC,Should we look for a more efficient way to manage our workflow?
+look,HIGH,Question,IDIOMATIC,May I ask you to look over these documents before the crucial meeting?
+look,HIGH,Question,IDIOMATIC,"Could you look after the new intern this week, guiding them through their tasks?"
+look,HIGH,Question,IDIOMATIC,Do these quarterly results look promising for future market expansion?
+look,HIGH,Question,IDIOMATIC,Perhaps we should look at different vendor options for the upcoming contract?
+look,HIGH,Question,IDIOMATIC,Might we look into expanding our service offerings to new regions next year?
+look,LOW,Statement,IDIOMATIC,"That new haircut really looks great on you, seriously!"
+look,LOW,Statement,IDIOMATIC,I need to look for my phone; I think I left it somewhere in the house.
+look,LOW,Statement,IDIOMATIC,"He always looks a bit grumpy before his morning coffee, doesn't he?"
+look,LOW,Statement,IDIOMATIC,"We should look around for a cool place to eat tonight, I'm starving."
+look,LOW,Statement,IDIOMATIC,"This weather looks like it's going to clear up later, thankfully."
+look,LOW,Statement,IDIOMATIC,You look tired; maybe you should get some rest and chill out.
+look,LOW,Statement,LITERAL,"Don't look now, but I think our friend is waving at us from over there."
+look,LOW,Statement,IDIOMATIC,"That cat looks like it's planning something sneaky, watch out!"
+look,LOW,Statement,IDIOMATIC,"She always looks out for her little brother, making sure he's okay."
+look,NEUTRAL,Imperative,LITERAL,Always look carefully at the expiration date on food products.
+look,NEUTRAL,Imperative,LITERAL,Do not look directly at the welding arc without proper eye protection.
+look,NEUTRAL,Imperative,LITERAL,Look closely at the diagram to assemble the furniture correctly.
+look,NEUTRAL,Imperative,IDIOMATIC,"Before starting, look for any damaged parts in the package."
+look,NEUTRAL,Imperative,IDIOMATIC,Look out for falling rocks when hiking in this mountainous area.
+look,NEUTRAL,Imperative,IDIOMATIC,Look up the definition of the word if you are unsure of its meaning.
+look,HIGH,Question,IDIOMATIC,Could we please look into the financial implications of this proposal?
+look,HIGH,Question,LITERAL,Should we look at the revised policy document during our next session?
+look,HIGH,Question,IDIOMATIC,Are you currently looking for a suitable candidate for the vacant position?
+look,HIGH,Question,IDIOMATIC,Might we look to implement these changes by the end of the quarter?
+look,HIGH,Question,IDIOMATIC,Could you perhaps look over these figures before the official submission?
+look,HIGH,Question,IDIOMATIC,Will we be looking for external expertise to assist with the audit?
+look,HIGH,Question,IDIOMATIC,Do you anticipate looking into alternative strategies if this one proves ineffective?
+look,HIGH,Question,IDIOMATIC,From what perspective should we look at the current market challenges?
+look,HIGH,Question,IDIOMATIC,Are you looking forward to discussing the progress report at the board meeting?
+look,HIGH,Question,IDIOMATIC,Would it be possible to look up the historical data on similar projects?
+look,LOW,Statement,IDIOMATIC,"That new game looks super fun, I can't wait to try it."
+look,LOW,Statement,LITERAL,"Honestly, this coffee looks way too strong for me right now."
+look,LOW,Statement,IDIOMATIC,It looks like we're going to have fantastic weather this weekend.
+look,LOW,Statement,LITERAL,"Don't look now, but I think our friend is walking toward us."
+look,LOW,Statement,LITERAL,"You always look great in those colours, they really suit you."
+look,LOW,Statement,IDIOMATIC,We should look for a better place to hang out next time.
+look,LOW,Statement,IDIOMATIC,My old car doesn't look like it's going to last much longer.
+look,LOW,Statement,IDIOMATIC,I saw her look up directions on her phone before we left.
+look,NEUTRAL,Imperative,LITERAL,Look closely at the expiration date on all food items.
+look,NEUTRAL,Imperative,IDIOMATIC,Look up the word in the dictionary if you are unsure of its meaning.
+look,NEUTRAL,Imperative,IDIOMATIC,Look out for falling debris when walking under construction sites.
+look,NEUTRAL,Imperative,LITERAL,Look straight ahead and maintain a steady pace.
+make,HIGH,Question,IDIOMATIC,Could we make a decision regarding the project timeline by Friday?
+make,HIGH,Question,IDIOMATIC,How might we make the new proposal more appealing to stakeholders?
+make,HIGH,Question,IDIOMATIC,Would you be able to make arrangements for the upcoming client meeting?
+make,HIGH,Question,IDIOMATIC,What steps can we make to ensure product quality control?
+make,HIGH,Question,IDIOMATIC,Is it possible to make a presentation about these findings next week?
+make,HIGH,Question,IDIOMATIC,Could you make a note of the key points discussed in this session?
+make,HIGH,Question,IDIOMATIC,How can we make certain that all team members understand their roles?
+make,HIGH,Question,IDIOMATIC,Do you believe we can make significant progress on this task today?
+make,HIGH,Question,IDIOMATIC,Shall we make an effort to streamline our internal processes?
+make,HIGH,Question,IDIOMATIC,To what extent does this change make our workflow more efficient?
+make,LOW,Statement,IDIOMATIC,I just had to make a quick phone call to my mom.
+make,LOW,Statement,IDIOMATIC,That new song really makes me want to dance.
+make,LOW,Statement,IDIOMATIC,We should make plans to hang out again soon.
+make,LOW,Statement,IDIOMATIC,"He always makes a big deal out of nothing, it's annoying."
+make,LOW,Statement,IDIOMATIC,Did you make it to the party on time last night?
+make,LOW,Statement,IDIOMATIC,This funny video always makes me laugh so hard.
+make,LOW,Statement,LITERAL,I need to make some coffee before I can start working.
+make,LOW,Statement,IDIOMATIC,"Don't make a mess in the living room, please."
+make,LOW,Statement,IDIOMATIC,She's trying to make new friends in her new city.
+make,LOW,Statement,IDIOMATIC,"Seriously, that doesn't make any sense at all."
+make,NEUTRAL,Imperative,IDIOMATIC,Please make a U-turn at the next intersection.
+make,NEUTRAL,Imperative,IDIOMATIC,Make a copy of the document for your records.
+make,NEUTRAL,Imperative,IDIOMATIC,Always make eye contact when speaking to customers.
+make,NEUTRAL,Imperative,IDIOMATIC,Make a quick note of the expiry date on the label.
+make,NEUTRAL,Imperative,IDIOMATIC,"To assemble, make certain the parts click into place."
+make,NEUTRAL,Imperative,IDIOMATIC,Make your bed every morning before you go out.
+make,NEUTRAL,Imperative,IDIOMATIC,Make a reservation at the restaurant if you want a table.
+make,NEUTRAL,Imperative,IDIOMATIC,Make a list of everything you need from the store.
+make,HIGH,Question,IDIOMATIC,Could you please make a decision on the new project timeline?
+make,HIGH,Question,IDIOMATIC,How can we make certain that all team members feel included?
+make,HIGH,Question,IDIOMATIC,Will you be able to make the necessary arrangements for the meeting?
+make,HIGH,Question,IDIOMATIC,Do you have a suggestion to make about the next steps?
+make,HIGH,Question,IDIOMATIC,What steps should we make to improve client satisfaction?
+make,HIGH,Question,IDIOMATIC,Is it possible to make some adjustments to the current report?
+make,HIGH,Question,IDIOMATIC,How can we make a positive contribution to the community?
+make,HIGH,Question,IDIOMATIC,Could you make a brief note of the main points discussed?
+make,HIGH,Question,IDIOMATIC,Are there any changes we need to make to the presentation?
+make,HIGH,Question,IDIOMATIC,Have you managed to make contact with the department head?
+make,LOW,Statement,IDIOMATIC,I don't think that explanation makes much sense to me.
+make,LOW,Statement,IDIOMATIC,She always makes up the best excuses for being late.
+make,LOW,Statement,IDIOMATIC,We need to make sure we make it to the concert on time.
+make,LOW,Statement,IDIOMATIC,Don't make fun of his old car; it still works fine.
+make,LOW,Statement,IDIOMATIC,I can't believe they finally made up after their big fight.
+make,LOW,Statement,IDIOMATIC,You made my day when you brought me coffee!
+make,LOW,Statement,IDIOMATIC,Let's make a quick stop at the shop before heading home.
+make,LOW,Statement,LITERAL,That funny video always makes me laugh out loud.
+make,LOW,Statement,IDIOMATIC,I hope we can make do with these old blankets for the picnic.
+make,LOW,Statement,IDIOMATIC,He really tried to make a good impression on her parents.
+make,NEUTRAL,Imperative,IDIOMATIC,Make a right turn at the next intersection.
+make,NEUTRAL,Imperative,LITERAL,Please make a copy of your passport before travel.
+make,NEUTRAL,Imperative,LITERAL,Make a list of all the ingredients you need.
+make,NEUTRAL,Imperative,IDIOMATIC,Make a choice between the two available options.
+make,NEUTRAL,Imperative,IDIOMATIC,Always make eye contact when you are talking to someone.
+make,NEUTRAL,Imperative,LITERAL,Make a note of your flight number and gate.
+make,HIGH,Question,IDIOMATIC,Could we make a final decision regarding the project's direction by Friday?
+make,HIGH,Question,IDIOMATIC,How can the department make further progress on the client's complex request?
+make,HIGH,Question,IDIOMATIC,Will all team members make a strong effort to meet the revised budget constraints?
+make,HIGH,Question,IDIOMATIC,Might I make a brief suggestion concerning the new operational procedure?
+make,HIGH,Question,IDIOMATIC,Who is scheduled to make the comprehensive presentation at the upcoming quarterly review?
+make,HIGH,Question,IDIOMATIC,Do we need to make any significant adjustments to the proposed implementation timeline?
+make,HIGH,Question,IDIOMATIC,Is the committee prepared to make a long-term commitment to this sustainability initiative?
+make,HIGH,Question,IDIOMATIC,Could you please make a formal recommendation for a suitable software solution?
+make,HIGH,Question,IDIOMATIC,Have you been able to make all the necessary arrangements for the international delegates?
+make,HIGH,Question,IDIOMATIC,In what ways can each participant make a valuable contribution to the workshop's outcomes?
+make,LOW,Statement,LITERAL,I gotta make dinner soon; I'm starving after that long hike.
+make,LOW,Statement,IDIOMATIC,My little cousin loves to make trouble whenever the adults aren't looking.
+make,LOW,Statement,IDIOMATIC,"Honestly, what he said about the plan didn't really make sense to anyone."
+make,LOW,Statement,IDIOMATIC,"There's a cool party on Friday night, hope you can make it!"
+make,LOW,Statement,IDIOMATIC,It's not fair to make fun of someone just because they're different.
+make,LOW,Statement,IDIOMATIC,Why do you always make such a big deal out of forgetting my coffee order?
+make,LOW,Statement,IDIOMATIC,I couldn't quite make out what she was whispering from across the room.
+make,LOW,Statement,IDIOMATIC,"They had a silly argument yesterday, but I'm sure they'll make up by tomorrow."
+make,LOW,Statement,LITERAL,I'm trying to find a weekend job to make some extra money for my trip.
+make,LOW,Statement,IDIOMATIC,"We ran out of sugar for the cake, but we can probably make do with honey."
+make,NEUTRAL,Imperative,LITERAL,"At the second traffic light, make a left turn onto Elm Street."
+make,NEUTRAL,Imperative,LITERAL,Please make a copy of your identification for registration purposes.
+make,NEUTRAL,Imperative,LITERAL,Make a note of your login details in a safe place.
+make,NEUTRAL,Imperative,LITERAL,"When speaking to customers, make good eye contact."
+make,NEUTRAL,Imperative,LITERAL,"In case of a medical emergency, make an immediate call to 911."
+make,NEUTRAL,Imperative,LITERAL,Make a firm grip on the ladder before you start climbing.
+make,NEUTRAL,Imperative,IDIOMATIC,"After use, make your bed neatly and place dirty towels in the hamper."
+make,NEUTRAL,Imperative,IDIOMATIC,Please make no noise when entering the quiet study zone.
+make,NEUTRAL,Imperative,IDIOMATIC,"To avoid waiting, make a reservation for the restaurant in advance."
+make,HIGH,Question,IDIOMATIC,Could you please make a final decision regarding the project's new budget?
+make,HIGH,Question,IDIOMATIC,Has the team been able to make sufficient progress on the quarterly report?
+make,HIGH,Question,IDIOMATIC,Would it be convenient to make an appointment for next week's client briefing?
+make,HIGH,Question,IDIOMATIC,May I make a suggestion concerning the proposed adjustments to the schedule?
+make,HIGH,Question,IDIOMATIC,How can we make certain that all regulatory guidelines are fully met?
+make,HIGH,Question,IDIOMATIC,Could you make an initial assessment of the potential risks involved?
+make,HIGH,Question,IDIOMATIC,Does this strategy aim to make a significant contribution to our overall objectives?
+make,HIGH,Question,IDIOMATIC,Should we make arrangements for the delivery of the new office equipment soon?
+make,HIGH,Question,IDIOMATIC,Will the new system make a noticeable improvement to our operational efficiency?
+make,HIGH,Question,IDIOMATIC,Is it within policy to make an exception for this specific supplier request?
+make,LOW,Statement,IDIOMATIC,I really need to make time to call my old friends this weekend.
+make,LOW,Statement,IDIOMATIC,She always manages to make new friends easily wherever she goes.
+make,LOW,Statement,IDIOMATIC,We had to make do with leftover pizza for dinner last night.
+make,LOW,Statement,IDIOMATIC,"Honestly, that movie ending didn't really make much sense to me."
+make,LOW,Statement,LITERAL,I'm going to make a quick snack before we leave for the park.
+make,LOW,Statement,IDIOMATIC,He usually makes up funny stories to entertain the kids.
+make,LOW,Statement,IDIOMATIC,Don't make a big deal out of it; it was just a tiny mistake.
+make,LOW,Statement,IDIOMATIC,I'll make sure to text you when I arrive at the station.
+make,LOW,Statement,IDIOMATIC,"My brother loves to make fun of my terrible singing, but I don't care."
+make,LOW,Statement,LITERAL,We decided to make a spontaneous road trip plan for tomorrow.
+make,NEUTRAL,Imperative,LITERAL,Make a clear list of all the ingredients you need.
+make,NEUTRAL,Imperative,IDIOMATIC,"At the next intersection, make a right turn towards the city center."
+make,NEUTRAL,Imperative,IDIOMATIC,Always make eye contact when speaking to your interviewer.
+make,NEUTRAL,Imperative,IDIOMATIC,"Before leaving the room, make your bed neatly."
+make,NEUTRAL,Imperative,LITERAL,Make a note of the exact time and date of the incident.
+make,NEUTRAL,Imperative,LITERAL,Make a concise summary of the key findings from the report.
+make,HIGH,Question,LITERAL,Could we make a final decision on the project budget by tomorrow morning?
+make,HIGH,Question,LITERAL,How might we make the presentation more engaging for the key stakeholders?
+make,HIGH,Question,LITERAL,Will this new software make our workflow significantly more efficient?
+make,HIGH,Question,LITERAL,Are we prepared to make the necessary adjustments to the production schedule?
+make,HIGH,Question,IDIOMATIC,What steps can we make to ensure full compliance with the updated regulations?
+make,HIGH,Question,IDIOMATIC,Did the team make sufficient progress on the client proposal last week?
+make,HIGH,Question,IDIOMATIC,Could you make time to review the draft report before the board meeting?
+make,HIGH,Question,IDIOMATIC,Does this revised strategy make a strong case for increased departmental funding?
+make,HIGH,Question,IDIOMATIC,Who will make certain all confidential documents are securely filed?
+make,HIGH,Question,LITERAL,How can we make the onboarding process smoother for new international employees?
+make,LOW,Statement,LITERAL,"Oh man, that ridiculous video always makes me laugh so hard!"
+make,LOW,Statement,IDIOMATIC,I'm gonna try to make some extra cash this weekend for the concert tickets.
+make,LOW,Statement,IDIOMATIC,This super hot weather just makes me wanna stay inside and chill all day.
+make,LOW,Statement,IDIOMATIC,My little brother always makes a huge mess when he tries to bake anything.
+make,LOW,Statement,IDIOMATIC,We should totally make plans to grab dinner and catch a movie next week.
+make,LOW,Statement,IDIOMATIC,"Don't worry, I think I can still make it to your party before nine o'clock."
+make,LOW,Statement,IDIOMATIC,That new song by The Lumineers totally makes me wanna dance around.
+make,LOW,Statement,LITERAL,She managed to make a really cool handmade gift for his birthday last minute.
+make,LOW,Statement,IDIOMATIC,"Seriously, this early start for work just makes me so sleepy all morning."
+make,LOW,Statement,IDIOMATIC,Let's make sure we grab some popcorn and drinks before the movie actually starts.
+make,NEUTRAL,Imperative,IDIOMATIC,"Make a left turn at the third traffic light, then continue straight."
+make,NEUTRAL,Imperative,IDIOMATIC,Please make a note of your unique reference number for future inquiries.
+make,NEUTRAL,Imperative,IDIOMATIC,Always make eye contact with the interviewer during your job presentation.
+make,NEUTRAL,Imperative,LITERAL,Make a copy of this important document for your personal records.
+make,NEUTRAL,Imperative,LITERAL,"To begin, make a secure connection between the two main electrical components."
+make,NEUTRAL,Imperative,LITERAL,Make a clear path to the emergency exit and do not block the doorway.
+make,NEUTRAL,Imperative,IDIOMATIC,"Make a right at the roundabout, then take the second exit onto Elm Street."
+run,HIGH,Question,IDIOMATIC,Could you confirm if the new software will run efficiently on older systems?
+run,HIGH,Question,IDIOMATIC,Has the production line been running smoothly since the recent maintenance?
+run,HIGH,Question,IDIOMATIC,Should we run a quick diagnostic test on the network before the meeting commences?
+run,HIGH,Question,IDIOMATIC,Is the allocated budget sufficient to run this marketing campaign for another quarter?
+run,HIGH,Question,IDIOMATIC,Do you foresee any complications running the server upgrade during off-peak hours?
+run,HIGH,Question,IDIOMATIC,Will the complimentary shuttle service run directly from the airport to the conference venue?
+run,HIGH,Question,IDIOMATIC,Could we schedule a brief session to run through the project proposal once more?
+run,HIGH,Question,IDIOMATIC,Does the departmental report need to run by the legal team prior to its publication?
+run,HIGH,Question,IDIOMATIC,What measures are implemented to ensure the entire project runs strictly on schedule?
+run,LOW,Statement,LITERAL,"I totally need to run to the grocery store before it closes, I forgot milk."
+run,LOW,Statement,IDIOMATIC,My friend's band is going to run a small gig at the café next Saturday.
+run,LOW,Statement,LITERAL,"Ugh, my eyeliner started to run a bit because I was laughing so hard."
+run,LOW,Statement,LITERAL,I think my nose is starting to run; I might be getting a cold.
+run,LOW,Statement,LITERAL,We'd better run if we want to catch the last train tonight!
+run,LOW,Statement,IDIOMATIC,"He had to run a bunch of errands this morning, so he's pretty worn out."
+run,LOW,Statement,IDIOMATIC,I always seem to run into Sarah when I'm walking my dog in the park.
+run,LOW,Statement,IDIOMATIC,"My phone battery is really low, I'm just trying to run on fumes until I get home."
+run,LOW,Statement,IDIOMATIC,"Let's just run with her silly idea, it sounds like it could be fun."
+run,LOW,Statement,IDIOMATIC,Did you hear that new coffee shop is going to run a special deal on lattes this week?
+run,NEUTRAL,Imperative,LITERAL,Run the tap water for a minute until it feels cold before filling your glass.
+run,NEUTRAL,Imperative,IDIOMATIC,Always run a safety check on your bike tires before you ride it.
+run,NEUTRAL,Imperative,IDIOMATIC,Run this security scan program on your computer every week.
+run,NEUTRAL,Imperative,LITERAL,Do not run in the swimming pool area; it's very slippery.
+run,NEUTRAL,Imperative,IDIOMATIC,"Run the extension cord carefully around the corner, not across the doorway."
+run,NEUTRAL,Imperative,IDIOMATIC,Please run your hand over the surface to feel if it's smooth.
+run,NEUTRAL,Imperative,LITERAL,"If you hear the fire alarm, run to the nearest emergency exit immediately."
+run,NEUTRAL,Imperative,IDIOMATIC,Run a delicate cycle for these special silk clothes.
+run,NEUTRAL,Imperative,IDIOMATIC,Just run through the key points of the presentation one last time.
+run,HIGH,Question,IDIOMATIC,Could you confirm if this new application will run effectively on all devices?
+run,HIGH,Question,IDIOMATIC,Are we certain the project will run on schedule with the current resources?
+run,HIGH,Question,IDIOMATIC,"Does the transport service run every thirty minutes, even during peak hours?"
+run,HIGH,Question,IDIOMATIC,Will the team run a full audit of the accounts before the end of the quarter?
+run,HIGH,Question,IDIOMATIC,Is it feasible to run this marketing campaign across multiple social media platforms simultaneously?
+run,HIGH,Question,IDIOMATIC,Have you considered how we might run these operations more sustainably in the future?
+run,HIGH,Question,IDIOMATIC,Will the server capacity be sufficient to run these complex simulations without issues?
+run,HIGH,Question,IDIOMATIC,Could you elaborate on how we plan to run the training program for new employees?
+run,HIGH,Question,IDIOMATIC,Are there any reports we need to run before the upcoming board meeting?
+run,HIGH,Question,IDIOMATIC,Does the new security protocol allow us to run external software?
+run,LOW,Statement,IDIOMATIC,"I ran into Liam at the supermarket earlier, he looked tired."
+run,LOW,Statement,IDIOMATIC,"My old car doesn't run very well anymore, I need a new one soon."
+run,LOW,Statement,LITERAL,We decided to run an extra lap around the park this morning.
+run,LOW,Statement,IDIOMATIC,"The movie actually runs for almost three hours, so grab some snacks!"
+run,LOW,Statement,LITERAL,My little brother loves to run around the garden all day.
+run,LOW,Statement,IDIOMATIC,"I'm always running late for everything, it's a bad habit."
+run,LOW,Statement,IDIOMATIC,The colors in my new shirt ran when I washed it with white clothes.
+run,LOW,Statement,IDIOMATIC,We're going to run a big barbecue at my place next weekend.
+run,LOW,Statement,IDIOMATIC,Her sister decided to run her own coffee shop downtown.
+run,LOW,Statement,IDIOMATIC,"I usually run out of milk by Wednesday, so I buy more on Tuesday."
+run,NEUTRAL,Imperative,IDIOMATIC,Run a quick check on the engine before starting your journey.
+run,NEUTRAL,Imperative,LITERAL,Do not run on the wet floor; it is very slippery.
+run,NEUTRAL,Imperative,IDIOMATIC,Run this program to install the necessary updates.
+run,NEUTRAL,Imperative,IDIOMATIC,Run the water for a minute to get rid of any cold air.
+run,NEUTRAL,Imperative,IDIOMATIC,Run the cable under the carpet to keep it tidy.
+run,NEUTRAL,Imperative,IDIOMATIC,Run the numbers again to ensure there are no errors.
+run,NEUTRAL,Imperative,IDIOMATIC,Please run the vacuum cleaner across all the floors.
+run,NEUTRAL,Imperative,IDIOMATIC,Run a copy of this document for everyone in the meeting.
+run,HIGH,Question,IDIOMATIC,Could you please confirm if the new system will run efficiently by next month?
+run,HIGH,Question,IDIOMATIC,Do you anticipate any challenges in running this project concurrently with other tasks?
+run,HIGH,Question,IDIOMATIC,Is it possible to run a detailed financial analysis of the previous quarter?
+run,HIGH,Question,IDIOMATIC,Shall we run through the agenda one more time before the meeting commences?
+run,HIGH,Question,IDIOMATIC,Does the new software application run on all our current operating systems?
+run,HIGH,Question,IDIOMATIC,Are there sufficient resources available to run the entire campaign successfully?
+run,HIGH,Question,IDIOMATIC,May we expect the production line to run without interruption this week?
+run,HIGH,Question,IDIOMATIC,Could you advise on the best strategy to run our marketing efforts internationally?
+run,HIGH,Question,IDIOMATIC,Has the organization managed to run a profitable operation this fiscal year?
+run,LOW,Statement,IDIOMATIC,"I gotta run some errands later, like picking up groceries."
+run,LOW,Statement,IDIOMATIC,We're definitely going to run out of coffee if nobody buys more.
+run,LOW,Statement,IDIOMATIC,"I ran into my old neighbor at the concert last night, it was a surprise!"
+run,LOW,Statement,IDIOMATIC,My phone battery is running really low; I need to charge it soon.
+run,LOW,Statement,LITERAL,"He likes to run marathons for charity, even though it's tough."
+run,LOW,Statement,IDIOMATIC,"They're running a cool discount at the mall, so let's go check it out."
+run,LOW,Statement,IDIOMATIC,I feel like I've been running around all day and haven't gotten much done.
+run,LOW,Statement,IDIOMATIC,"Let's just run with that idea for the party, it sounds fun."
+run,LOW,Statement,IDIOMATIC,"Sorry, I'm running a bit behind schedule for our meeting."
+run,LOW,Statement,IDIOMATIC,"The kids were running wild in the playground, full of energy."
+run,NEUTRAL,Imperative,IDIOMATIC,Run the program by clicking the 'Start' button.
+run,NEUTRAL,Imperative,LITERAL,Do not run on the wet floor; it is slippery.
+run,NEUTRAL,Imperative,IDIOMATIC,Run the tap water for a few minutes before drinking it.
+run,NEUTRAL,Imperative,IDIOMATIC,Run the diagnostic test on your computer to check for errors.
+run,NEUTRAL,Imperative,IDIOMATIC,Run the vacuum cleaner over the carpet twice a week.
+run,NEUTRAL,Imperative,IDIOMATIC,Run a full scan of your antivirus software immediately.
+run,NEUTRAL,Imperative,IDIOMATIC,Run the clothes through a cold wash cycle.
+run,NEUTRAL,Imperative,IDIOMATIC,"Run this cable along the skirting board, please."
+run,NEUTRAL,Imperative,IDIOMATIC,Run the engine for five minutes to warm it up.
+run,HIGH,Question,IDIOMATIC,Could you clarify how we intend to run the upcoming public relations campaign?
+run,HIGH,Question,IDIOMATIC,Are we adequately prepared to run a comprehensive risk assessment before launch?
+run,HIGH,Question,IDIOMATIC,Will the new server infrastructure run optimally after the scheduled migration?
+run,HIGH,Question,IDIOMATIC,Who has been designated to run the quarterly budget review meeting next month?
+run,HIGH,Question,IDIOMATIC,Do we possess the necessary capacity to run multiple research initiatives concurrently?
+run,HIGH,Question,IDIOMATIC,Is there a specific protocol to follow when running a background check on new applicants?
+run,HIGH,Question,IDIOMATIC,Could you advise on the most efficient method to run this complex statistical analysis?
+run,HIGH,Question,IDIOMATIC,Are we planning to run an internal workshop focusing on project management best practices?
+run,HIGH,Question,IDIOMATIC,When do you anticipate we might run into significant operational bottlenecks?
+run,HIGH,Question,IDIOMATIC,May I inquire if the executive board will run the final approval process for this proposal?
+run,LOW,Statement,LITERAL,I've got to run to the post office before it closes.
+run,LOW,Statement,IDIOMATIC,My old phone just won't run those new apps anymore.
+run,LOW,Statement,IDIOMATIC,"She's really good at running her own small business, it's impressive."
+run,LOW,Statement,IDIOMATIC,Let's just run with that idea for now and see what happens.
+run,LOW,Statement,IDIOMATIC,"This documentary is gonna run for a couple of hours, so grab snacks."
+run,LOW,Statement,LITERAL,I saw him run out the door like he was late for something important.
+run,LOW,Statement,IDIOMATIC,He heard that rumor about the new store running all over town.
+run,LOW,Statement,IDIOMATIC,"They usually run a little late for everything, so don't worry."
+run,LOW,Statement,IDIOMATIC,"Honestly, sometimes I just want to run away from all my responsibilities."
+run,LOW,Statement,IDIOMATIC,We decided to run a quick errands trip this afternoon.
+run,NEUTRAL,Imperative,IDIOMATIC,Run the system diagnostic check after installation.
+run,NEUTRAL,Imperative,LITERAL,Do not run inside the laboratory area.
+run,NEUTRAL,Imperative,IDIOMATIC,Run the water tap for two minutes before drinking.
+run,NEUTRAL,Imperative,IDIOMATIC,Always run a full antivirus scan every week.
+run,NEUTRAL,Imperative,IDIOMATIC,Run the vacuum cleaner over the carpet twice.
+run,NEUTRAL,Imperative,LITERAL,Run your card through the reader firmly.
+run,NEUTRAL,Imperative,IDIOMATIC,Run the emergency procedure drill once a month.
+run,NEUTRAL,Imperative,IDIOMATIC,Run the program in administrator mode for best performance.
+run,HIGH,Question,IDIOMATIC,Could you run a comprehensive analysis on the latest market trends?
+run,HIGH,Question,IDIOMATIC,Should we run a quick check of the security protocols before the launch?
+run,HIGH,Question,IDIOMATIC,Will the new system run efficiently with the current server capacity?
+run,HIGH,Question,IDIOMATIC,Do you believe we should run this proposal by the legal department?
+run,HIGH,Question,IDIOMATIC,Is it possible to run parallel tests to compare the two software versions?
+run,HIGH,Question,IDIOMATIC,How long will it take to run the background checks for all new applicants?
+run,HIGH,Question,IDIOMATIC,Are we prepared to run a full-scale operation in a different time zone?
+run,HIGH,Question,IDIOMATIC,Might we run into unforeseen complications if we proceed without further review?
+run,HIGH,Question,IDIOMATIC,Can you confirm if the presentation will run for approximately thirty minutes?
+run,HIGH,Question,IDIOMATIC,Are there any concerns about running this particular advertisement during peak hours?
+run,LOW,Statement,IDIOMATIC,I always run into my cousin when I'm at the grocery store.
+run,LOW,Statement,LITERAL,We ran around the whole mall trying to find the perfect gift.
+run,LOW,Statement,IDIOMATIC,"My old car doesn't run as well as it used to, it's pretty slow now."
+run,LOW,Statement,IDIOMATIC,"I'm running a bit late for our movie, so just get the tickets."
+run,LOW,Statement,IDIOMATIC,"Oh no, we ran out of coffee beans this morning!"
+run,LOW,Statement,IDIOMATIC,He likes to run his own small online shop in the evenings.
+run,LOW,Statement,IDIOMATIC,I hope our vacation plans don't run into any bad weather.
+run,LOW,Statement,IDIOMATIC,My phone battery is running super low; I need to charge it soon.
+run,LOW,Statement,LITERAL,She used to run track in high school and was really fast.
+run,LOW,Statement,IDIOMATIC,"Let's just run with his crazy idea for the party, it sounds fun!"
+run,NEUTRAL,Imperative,LITERAL,Do not run with scissors in your hand.
+run,NEUTRAL,Imperative,IDIOMATIC,Run the dishwasher on the shortest cycle to save water.
+run,NEUTRAL,Imperative,IDIOMATIC,Run this software update immediately to fix the bug.
+run,NEUTRAL,Imperative,IDIOMATIC,Run a quick antivirus scan on your computer every week.
+run,NEUTRAL,Imperative,IDIOMATIC,Run the water for a few seconds until it gets hot.
+run,NEUTRAL,Imperative,IDIOMATIC,Please run all cables neatly along the edge of the desk.
+run,NEUTRAL,Imperative,IDIOMATIC,Run your hand across the fabric to feel its texture.
+run,NEUTRAL,Imperative,IDIOMATIC,Remember to run a full backup of your important files monthly.
+see,HIGH,Question,IDIOMATIC,"Regarding the project timeline, do you see any potential obstacles?"
+see,HIGH,Question,IDIOMATIC,Could you please elaborate on how you see this strategy benefiting the team?
+see,HIGH,Question,IDIOMATIC,"From your perspective, do you see an opportunity for market expansion?"
+see,HIGH,Question,IDIOMATIC,Do you see a viable solution to the current budget constraints?
+see,HIGH,Question,IDIOMATIC,"Based on the data, do you see a clear trend emerging?"
+see,HIGH,Question,IDIOMATIC,May I inquire if you see any areas for improvement in our proposal?
+see,HIGH,Question,IDIOMATIC,How do you see your role evolving within the department next year?
+see,HIGH,Question,IDIOMATIC,Do you see the necessity of implementing these new safety protocols?
+see,HIGH,Question,IDIOMATIC,"Considering the recent feedback, do you see a need for revision?"
+see,HIGH,Question,IDIOMATIC,To what extent do you see our current resources aligning with the project goals?
+see,LOW,Statement,IDIOMATIC,I totally see why you're upset about that.
+see,LOW,Statement,IDIOMATIC,"Yeah, I'll see you later, maybe at the cafe."
+see,LOW,Statement,IDIOMATIC,We see each other almost every day at school.
+see,LOW,Statement,IDIOMATIC,"I didn't see that coming, honestly!"
+see,LOW,Statement,IDIOMATIC,"Oh, I see now, you want the blue one."
+see,LOW,Statement,IDIOMATIC,"You see, the thing is, I'm kinda busy tonight."
+see,LOW,Statement,IDIOMATIC,"After all that, I really see your point."
+see,LOW,Statement,IDIOMATIC,I'm gonna see if I can make it to the party.
+see,LOW,Statement,IDIOMATIC,I totally see what you mean about the difficult test.
+see,LOW,Statement,LITERAL,We always see some interesting people at that spot.
+see,NEUTRAL,Imperative,IDIOMATIC,See page 25 for more information.
+see,NEUTRAL,Imperative,IDIOMATIC,See to it that the light is off when you leave.
+see,NEUTRAL,Imperative,IDIOMATIC,See the map for the fastest route.
+see,NEUTRAL,Imperative,IDIOMATIC,"If you need help, see the information desk."
+see,NEUTRAL,Imperative,IDIOMATIC,See the attached document for the full schedule.
+see,NEUTRAL,Imperative,IDIOMATIC,See that all items are accounted for before departure.
+see,NEUTRAL,Imperative,LITERAL,See the red button to start the machine.
+see,NEUTRAL,Imperative,IDIOMATIC,See if the door is fully closed before locking it.
+see,NEUTRAL,Imperative,LITERAL,"Walk straight ahead, then see the big tree on your right."
+see,NEUTRAL,Imperative,IDIOMATIC,"For any issues, see the attendant immediately."
+see,HIGH,Question,IDIOMATIC,"Regarding the proposed schedule, do you see any potential conflicts?"
+see,HIGH,Question,LITERAL,Could you please confirm if you see the updated project brief in your inbox?
+see,HIGH,Question,IDIOMATIC,Do you clearly see the rationale behind this strategic adjustment?
+see,HIGH,Question,IDIOMATIC,Would you care to see the preliminary analysis of the market research?
+see,HIGH,Question,IDIOMATIC,Are you scheduled to see the department head about the budget reallocation?
+see,HIGH,Question,IDIOMATIC,Do you see how this new policy could enhance operational efficiency?
+see,HIGH,Question,IDIOMATIC,Is it possible for me to see the final draft of the client agreement this afternoon?
+see,HIGH,Question,IDIOMATIC,Could you please see if the vendor has submitted their revised quotation?
+see,HIGH,Question,IDIOMATIC,Do you see any areas for improvement in the presentation we reviewed earlier?
+see,HIGH,Question,IDIOMATIC,May I see the projected sales figures for the upcoming fiscal quarter?
+see,LOW,Statement,IDIOMATIC,"Yeah, I totally see why you're annoyed about that, it's so frustrating."
+see,LOW,Statement,IDIOMATIC,"I'm seeing my best friend for dinner tonight, can't wait to catch up."
+see,LOW,Statement,IDIOMATIC,"We'll see if we can get tickets for the concert, they're selling fast."
+see,LOW,Statement,IDIOMATIC,"Honestly, I just don't see the point in complaining about it now."
+see,LOW,Statement,IDIOMATIC,"Oh, I see! So that's why you couldn't make it to the party."
+see,LOW,Statement,IDIOMATIC,"I'll see you later, probably at the coffee shop, if you're free."
+see,LOW,Statement,IDIOMATIC,"She's seeing someone new, I heard, but she hasn't told me details yet."
+see,LOW,Statement,LITERAL,"You really need to see that new documentary, it's absolutely mind-blowing!"
+see,NEUTRAL,Imperative,LITERAL,See the large blue sign ahead for directions to the parking area.
+see,NEUTRAL,Imperative,IDIOMATIC,Please see page three for the complete safety instructions before use.
+see,NEUTRAL,Imperative,IDIOMATIC,See that all personal belongings are removed from the locker before you leave.
+see,NEUTRAL,Imperative,IDIOMATIC,"If symptoms persist for more than 48 hours, see a doctor immediately."
+see,NEUTRAL,Imperative,IDIOMATIC,See the diagram on the next page to understand the correct installation process.
+see,NEUTRAL,Imperative,IDIOMATIC,See to it that your identification is readily available upon entry.
+see,NEUTRAL,Imperative,LITERAL,Follow the yellow line on the floor; see the gate number for your flight.
+see,NEUTRAL,Imperative,IDIOMATIC,"For a list of compatible devices, see the product specifications online."
+see,NEUTRAL,Imperative,LITERAL,See the 'Confirm' button at the bottom of the screen to submit your order.
+see,NEUTRAL,Imperative,IDIOMATIC,"Upon arrival, please see the attendant at the information desk for your tickets."
+see,HIGH,Question,IDIOMATIC,Could you please see if the client has responded to our last email?
+see,HIGH,Question,IDIOMATIC,Do you see any potential obstacles with the proposed timeline?
+see,HIGH,Question,IDIOMATIC,Have you seen the updated project brief for next quarter?
+see,HIGH,Question,IDIOMATIC,Might we see a significant increase in sales after this campaign?
+see,HIGH,Question,IDIOMATIC,Will the team be able to see the full scope of the changes today?
+see,HIGH,Question,IDIOMATIC,"Can you see a way to streamline this process further, perhaps?"
+see,HIGH,Question,IDIOMATIC,Does the preliminary report allow us to see any immediate improvements?
+see,HIGH,Question,IDIOMATIC,Is it possible for us to see the preliminary figures by end of day?
+see,HIGH,Question,IDIOMATIC,Did you see the recent announcement regarding the new company policy?
+see,HIGH,Question,IDIOMATIC,How do you see this new strategy impacting our market share next year?
+see,LOW,Statement,IDIOMATIC,"We'll see about grabbing some pizza tonight, maybe later."
+see,LOW,Statement,IDIOMATIC,"Oh, I see what you did there, very clever indeed!"
+see,LOW,Statement,IDIOMATIC,"I can't see us finishing all this work by Friday, honestly."
+see,LOW,Statement,LITERAL,You should've seen her face when she heard the good news!
+see,LOW,Statement,LITERAL,"Yeah, I often see him around the neighborhood, usually walking his dog."
+see,NEUTRAL,Imperative,IDIOMATIC,See the map for the nearest exit from this building.
+see,NEUTRAL,Imperative,IDIOMATIC,See if the power cable is properly connected to the wall.
+see,NEUTRAL,Imperative,IDIOMATIC,Please see the receptionist for your visitor's pass upon arrival.
+see,NEUTRAL,Imperative,IDIOMATIC,"To continue, see the instructions displayed on the screen."
+see,NEUTRAL,Imperative,IDIOMATIC,See a doctor immediately if you feel unwell or have symptoms.
+see,NEUTRAL,Imperative,IDIOMATIC,Always see that the door is closed securely before leaving.
+see,NEUTRAL,Imperative,IDIOMATIC,See the manager if you have any complaints or questions.
+see,NEUTRAL,Imperative,IDIOMATIC,See page five for more details about the product warranty.
+see,NEUTRAL,Imperative,IDIOMATIC,See that all windows are locked before you depart.
+see,NEUTRAL,Imperative,LITERAL,Walk straight ahead and you will see the bus stop on your right.
+see,HIGH,Question,IDIOMATIC,Could you please clarify your proposed solution so we may fully see its advantages?
+see,HIGH,Question,IDIOMATIC,Do you anticipate that we will see the quarterly financial report by Friday?
+see,HIGH,Question,IDIOMATIC,Might we see an opportunity to collaborate with the new department on this project?
+see,HIGH,Question,IDIOMATIC,Would you be able to see to it that all attendees receive the agenda prior to the meeting?
+see,HIGH,Question,LITERAL,Have you had the opportunity to see the revised policy document yet?
+see,HIGH,Question,LITERAL,Is it possible to see the updated progress charts for the marketing campaign?
+see,HIGH,Question,IDIOMATIC,Could you help me to see where the logistical challenges might arise with this plan?
+see,HIGH,Question,LITERAL,May I see the detailed proposal for the upcoming client presentation?
+see,HIGH,Question,IDIOMATIC,Will we see an increase in efficiency if we implement the new software system?
+see,LOW,Statement,IDIOMATIC,"Yeah, I totally see why you're so excited about your trip next month."
+see,LOW,Statement,LITERAL,We should definitely see that new action movie everyone's talking about.
+see,LOW,Statement,IDIOMATIC,I haven't seen Sarah in ages; maybe we should all grab dinner soon.
+see,LOW,Statement,IDIOMATIC,"He's been seeing someone new for a couple of months, and she seems really nice."
+see,LOW,Statement,LITERAL,You should've seen the look on his face when he found out about the surprise party!
+see,LOW,Statement,IDIOMATIC,I just don't see the point of waiting around when we could leave now.
+see,LOW,Statement,IDIOMATIC,"Oh, I see! So that's why you couldn't come to the party last weekend."
+see,LOW,Statement,IDIOMATIC,"We'll see you guys at the park later, probably around three o'clock."
+see,LOW,Statement,IDIOMATIC,"I can see you're pretty tired, so let's just chill out at home tonight."
+see,NEUTRAL,Imperative,IDIOMATIC,See page 12 for the complete list of prohibited items.
+see,NEUTRAL,Imperative,IDIOMATIC,See to it that all personal belongings are removed before exiting the vehicle.
+see,NEUTRAL,Imperative,IDIOMATIC,"See if the main power switch is in the ""off"" position before attempting repairs."
+see,NEUTRAL,Imperative,IDIOMATIC,See me at my desk after the presentation to collect your materials.
+see,NEUTRAL,Imperative,LITERAL,See the emergency exits clearly marked with a green sign.
+see,NEUTRAL,Imperative,IDIOMATIC,See a doctor immediately if you experience persistent nausea or dizziness.
+see,NEUTRAL,Imperative,LITERAL,See where the path forks and take the left route to reach the waterfall.
+see,NEUTRAL,Imperative,IDIOMATIC,"See that you press the ""save"" button before closing the document."
+see,NEUTRAL,Imperative,LITERAL,See the diagram below for a step-by-step guide to assembly.
+see,NEUTRAL,Imperative,LITERAL,See this warning label carefully before using the chemical product.
+see,HIGH,Question,IDIOMATIC,Could you please see if the latest budget forecast is available?
+see,HIGH,Question,IDIOMATIC,Do you see any potential challenges with this proposed strategy?
+see,HIGH,Question,IDIOMATIC,Would you like to see the preliminary report before our meeting?
+see,HIGH,Question,IDIOMATIC,Is it possible to see the updated client satisfaction data by end of day?
+see,HIGH,Question,IDIOMATIC,Might we see an improvement in productivity after the software upgrade?
+see,HIGH,Question,IDIOMATIC,Shall we see Mr. Henderson about the contract details tomorrow?
+see,HIGH,Question,IDIOMATIC,Does anyone see a more effective approach to resolve this conflict?
+see,HIGH,Question,IDIOMATIC,Could you see to it that all attendees receive the agenda promptly?
+see,HIGH,Question,IDIOMATIC,Will we see the final recommendations for the new policy next week?
+see,HIGH,Question,IDIOMATIC,Do you fully see the implications of this decision on the team?
+see,LOW,Statement,IDIOMATIC,"Yeah, I totally see what you mean about that new game."
+see,LOW,Statement,IDIOMATIC,We should totally see if that new pizza place is any good tonight.
+see,LOW,Statement,LITERAL,"Oh, I see you finally got that new phone! Sweet!"
+see,LOW,Statement,IDIOMATIC,"I'll see you at the party later, don't be late!"
+see,LOW,Statement,IDIOMATIC,"Honestly, I don't really see the point of waking up so early on a Saturday."
+see,LOW,Statement,IDIOMATIC,"You know, I can totally see myself living in a place like this someday."
+see,LOW,Statement,IDIOMATIC,"I've gotta see my sister this weekend, we haven't hung out in ages."
+see,NEUTRAL,Imperative,IDIOMATIC,See page 12 for the detailed troubleshooting guide.
+see,NEUTRAL,Imperative,IDIOMATIC,See to it that the main door is locked before you leave.
+see,NEUTRAL,Imperative,IDIOMATIC,"Before activating, see if all connections are secure."
+see,NEUTRAL,Imperative,IDIOMATIC,See the receptionist at the front desk for your visitor's badge.
+see,NEUTRAL,Imperative,LITERAL,"Walk straight ahead until you see the large blue building, then turn left."
+see,NEUTRAL,Imperative,IDIOMATIC,See a doctor if these symptoms persist for more than 48 hours.
+see,NEUTRAL,Imperative,IDIOMATIC,"To start the engine, see the instruction manual for proper procedure."
+see,NEUTRAL,Imperative,IDIOMATIC,See that all personal items are removed from the locker before checkout.
+see,NEUTRAL,Imperative,LITERAL,"First, see the bright yellow sign with the arrow, and follow it."
+see,NEUTRAL,Imperative,LITERAL,See the green light on the device to confirm it is fully charged.
+take,HIGH,Question,IDIOMATIC,Would you be able to take the lead on the new marketing campaign?
+take,HIGH,Question,IDIOMATIC,Could we take a moment to discuss the budget projections for next quarter?
+take,HIGH,Question,IDIOMATIC,May I inquire if you plan to take any annual leave this summer?
+take,HIGH,Question,IDIOMATIC,Is it possible to take advantage of the professional development courses offered?
+take,HIGH,Question,IDIOMATIC,Could you please take responsibility for coordinating the team meeting?
+take,HIGH,Question,IDIOMATIC,Are you prepared to take on additional tasks if the project requires it?
+take,HIGH,Question,IDIOMATIC,Would you consider taking a different approach to solve this particular issue?
+take,HIGH,Question,IDIOMATIC,Do you believe we should take this opportunity to expand into new markets?
+take,HIGH,Question,IDIOMATIC,Will the department be able to take on the new client's extensive requirements?
+take,HIGH,Question,IDIOMATIC,Should we take steps to mitigate the potential risks identified in the report?
+take,LOW,Statement,IDIOMATIC,"I think I'll just take a quick nap after lunch, I'm so tired."
+take,LOW,Statement,IDIOMATIC,"We should take a road trip next month, it'll be epic!"
+take,LOW,Statement,IDIOMATIC,"She always takes her time getting ready, it's so annoying."
+take,LOW,Statement,IDIOMATIC,"He's gonna take the blame for that, even though it wasn't his fault."
+take,LOW,Statement,IDIOMATIC,I can't believe it took us so long to find this awesome cafe.
+take,LOW,Statement,IDIOMATIC,"Don't worry, I'll take care of the dishes tonight."
+take,LOW,Statement,IDIOMATIC,"We gotta take a rain check on that movie, I'm swamped."
+take,LOW,Statement,IDIOMATIC,It's gonna take a lot of effort to get this project done by Friday.
+take,LOW,Statement,IDIOMATIC,"My dog loves to take long walks in the park, especially in the morning."
+take,LOW,Statement,IDIOMATIC,I seriously need to take a break from all this studying.
+take,NEUTRAL,Imperative,IDIOMATIC,Take the next left turn at the traffic lights.
+take,NEUTRAL,Imperative,LITERAL,Always take your passport when traveling internationally.
+take,NEUTRAL,Imperative,IDIOMATIC,Take a deep breath and try to relax.
+take,NEUTRAL,Imperative,IDIOMATIC,Do not take photographs inside the museum.
+take,NEUTRAL,Imperative,IDIOMATIC,Take one tablet twice a day with food.
+take,NEUTRAL,Imperative,IDIOMATIC,Please take a seat and wait for your name to be called.
+take,NEUTRAL,Imperative,LITERAL,Take your litter with you when you leave the park.
+take,NEUTRAL,Imperative,IDIOMATIC,Take the stairs instead of the elevator during a fire drill.
+take,NEUTRAL,Imperative,IDIOMATIC,"Before starting, take time to read all instructions carefully."
+take,HIGH,Question,IDIOMATIC,Would you be able to take charge of the new client presentation?
+take,HIGH,Question,IDIOMATIC,Could we take a moment to review the revised project timeline?
+take,HIGH,Question,IDIOMATIC,Should we take their recent market research findings into account?
+take,HIGH,Question,IDIOMATIC,Who will take the minutes during the upcoming departmental meeting?
+take,HIGH,Question,IDIOMATIC,Does the committee intend to take any further action on this matter?
+take,HIGH,Question,IDIOMATIC,May I take your valuable suggestion directly to the board of directors?
+take,HIGH,Question,IDIOMATIC,Is it feasible to take a different approach to the budget allocation?
+take,HIGH,Question,IDIOMATIC,Will you take responsibility for coordinating the international delegates?
+take,HIGH,Question,IDIOMATIC,Do you think we should take a brief recess before commencing the next topic?
+take,HIGH,Question,IDIOMATIC,How much time will it take to finalize the strategic proposal?
+take,LOW,Statement,IDIOMATIC,"I'm going to take a quick nap, I barely slept last night."
+take,LOW,Statement,LITERAL,Let's take a cool selfie together before the concert starts!
+take,LOW,Statement,IDIOMATIC,You should really take up jogging; it's great for clearing your head.
+take,LOW,Statement,IDIOMATIC,"He didn't take my warning seriously, and now his car won't start."
+take,LOW,Statement,IDIOMATIC,"Don't worry about it, just take it easy for a while."
+take,LOW,Statement,IDIOMATIC,We always take turns choosing the music when we're in the car.
+take,LOW,Statement,IDIOMATIC,She's really starting to take a liking to the new coffee shop around the corner.
+take,LOW,Statement,IDIOMATIC,"I'll take your word for it, that restaurant sounds amazing."
+take,LOW,Statement,IDIOMATIC,"Don't take offense, he was just messing around and didn't mean it."
+take,LOW,Statement,LITERAL,"This pizza is so good, I think I'll take a couple of slices home."
+take,NEUTRAL,Imperative,LITERAL,Take the next exit on the left to reach the city center.
+take,NEUTRAL,Imperative,LITERAL,Please take a ticket from the machine and wait for your number.
+take,NEUTRAL,Imperative,LITERAL,Always take your belongings with you when you leave the train.
+take,NEUTRAL,Imperative,LITERAL,"Take this medication twice a day, after meals."
+take,NEUTRAL,Imperative,IDIOMATIC,"Before you begin, take a few minutes to read the entire manual."
+take,NEUTRAL,Imperative,LITERAL,"When entering the restricted area, take a security badge from the dispenser."
+take,NEUTRAL,Imperative,IDIOMATIC,Take extra care when operating heavy machinery.
+take,NEUTRAL,Imperative,LITERAL,"If the fire alarm sounds, take the nearest emergency stairs."
+take,NEUTRAL,Imperative,LITERAL,Take the correct key from the hook before unlocking the storage room.
+take,NEUTRAL,Imperative,LITERAL,Remember to take a deep breath and stay calm during the test.
+take,HIGH,Question,IDIOMATIC,Would you be able to take the lead on this specific project?
+take,HIGH,Question,IDIOMATIC,Could we please take a moment to review the financial report?
+take,HIGH,Question,IDIOMATIC,May I ask if the team will take responsibility for the implementation?
+take,HIGH,Question,IDIOMATIC,Do you believe we should take a different approach to the client's feedback?
+take,HIGH,Question,IDIOMATIC,Is it possible for you to take detailed notes during the next meeting?
+take,HIGH,Question,IDIOMATIC,Will the company take any action regarding the recent market changes?
+take,HIGH,Question,IDIOMATIC,Should we take a short break before proceeding with the presentation?
+take,HIGH,Question,IDIOMATIC,Could you please take into consideration the updated budget constraints?
+take,HIGH,Question,IDIOMATIC,Are you prepared to take on additional administrative tasks next quarter?
+take,LOW,Statement,IDIOMATIC,I think I'll just take a long nap after this busy day.
+take,LOW,Statement,IDIOMATIC,We should totally take a picture together before you head home.
+take,LOW,Statement,LITERAL,He's going to take his old bike to the repair shop tomorrow.
+take,LOW,Statement,IDIOMATIC,Let's take a quick look at that funny video later tonight.
+take,LOW,Statement,IDIOMATIC,I can't believe how long it's going to take to learn this song.
+take,LOW,Statement,IDIOMATIC,"You always take my helpful advice for granted, don't you?"
+take,LOW,Statement,IDIOMATIC,She decided to take a chance and try out for the school play.
+take,LOW,Statement,IDIOMATIC,"They usually take the bus to save money, even when it's slow."
+take,LOW,Statement,IDIOMATIC,We should take turns doing the dishes this week.
+take,LOW,Statement,IDIOMATIC,I'm just going to take it easy this weekend and relax at home.
+take,NEUTRAL,Imperative,LITERAL,Take the next left turn at the traffic lights.
+take,NEUTRAL,Imperative,LITERAL,Please take one brochure from the display shelf.
+take,NEUTRAL,Imperative,IDIOMATIC,Take your shoes off before entering the gym floor.
+take,NEUTRAL,Imperative,IDIOMATIC,Take a seat anywhere available in the waiting area.
+take,NEUTRAL,Imperative,IDIOMATIC,Always take care when handling sharp objects.
+take,NEUTRAL,Imperative,IDIOMATIC,Take a deep breath and then count to ten slowly.
+take,NEUTRAL,Imperative,IDIOMATIC,Take this medicine twice a day with food.
+take,NEUTRAL,Imperative,IDIOMATIC,Do not take photographs inside the art gallery.
+take,NEUTRAL,Imperative,IDIOMATIC,Take your time to review all the instructions carefully.
+take,NEUTRAL,Imperative,LITERAL,Take the empty plate to the kitchen sink.
+take,HIGH,Question,IDIOMATIC,Would you be able to take on this additional project by next week?
+take,HIGH,Question,IDIOMATIC,Could we take a moment to discuss the proposed changes to the policy?
+take,HIGH,Question,IDIOMATIC,Do you believe the department should take a more proactive stance on sustainability?
+take,HIGH,Question,IDIOMATIC,Will you be able to take the lead in preparing the quarterly report?
+take,HIGH,Question,IDIOMATIC,Should we take into consideration the recent market trends before making a decision?
+take,HIGH,Question,IDIOMATIC,Could you inform me who will take responsibility for overseeing this new initiative?
+take,HIGH,Question,LITERAL,Is it appropriate to take these concerns directly to the management committee?
+take,HIGH,Question,IDIOMATIC,Does the company intend to take advantage of the new opportunities in the international market?
+take,HIGH,Question,LITERAL,May I take a copy of the financial projections for my review?
+take,HIGH,Question,IDIOMATIC,When would be an opportune time to take a break from the negotiations?
+take,LOW,Statement,IDIOMATIC,"I'm gonna take a long nap this afternoon, I'm wiped out."
+take,LOW,Statement,IDIOMATIC,"We should totally take a road trip next summer, it'll be epic."
+take,LOW,Statement,IDIOMATIC,"Don't take it the wrong way, but that movie was kind of boring."
+take,LOW,Statement,IDIOMATIC,"He always takes forever to get ready, it's so annoying."
+take,LOW,Statement,IDIOMATIC,"I couldn't take another bite of pizza, I was so full."
+take,LOW,Statement,IDIOMATIC,She decided to take a chance and apply for that dream job.
+take,LOW,Statement,IDIOMATIC,"Seriously, you need to take a chill pill and relax a bit."
+take,LOW,Statement,IDIOMATIC,I heard they're gonna take down that old building soon.
+take,LOW,Statement,IDIOMATIC,Let's just take it easy tonight and watch some TV.
+take,LOW,Statement,LITERAL,My little brother always tries to take my snacks when I'm not looking.
+take,NEUTRAL,Imperative,IDIOMATIC,Take the stairs to the third floor.
+take,NEUTRAL,Imperative,IDIOMATIC,Take one pill with a glass of water every morning.
+take,NEUTRAL,Imperative,IDIOMATIC,Take your shoes off before entering the gym area.
+take,NEUTRAL,Imperative,IDIOMATIC,Take a left turn at the traffic lights ahead.
+take,NEUTRAL,Imperative,IDIOMATIC,Take notes during the safety briefing.
+take,NEUTRAL,Imperative,IDIOMATIC,Take a deep breath and then blow into the device.
+take,NEUTRAL,Imperative,LITERAL,Take your valuables with you when leaving the locker room.
+take,NEUTRAL,Imperative,LITERAL,Take this package to the reception desk.
+take,NEUTRAL,Imperative,IDIOMATIC,Take a seat on the designated bench while you wait.
+take,HIGH,Question,IDIOMATIC,Could we take a moment to review the revised proposal?
+take,HIGH,Question,IDIOMATIC,Will you be able to take on the management of this new initiative?
+take,HIGH,Question,IDIOMATIC,Should we take into account the feedback from the initial trials?
+take,HIGH,Question,IDIOMATIC,Are you prepared to take the necessary steps to meet the deadline?
+take,HIGH,Question,IDIOMATIC,Might we take your expertise into consideration for the upcoming project?
+take,HIGH,Question,IDIOMATIC,Would it be possible to take an earlier appointment with the client?
+take,HIGH,Question,IDIOMATIC,How much time will it take to complete the quarterly financial summary?
+take,HIGH,Question,IDIOMATIC,Do you wish to take this opportunity to ask any further questions?
+take,HIGH,Question,IDIOMATIC,Shall we take a different route for the system integration?
+take,HIGH,Question,IDIOMATIC,What actions should we take to improve our team's productivity?
+take,LOW,Statement,IDIOMATIC,I'm gonna take a long break after this busy week.
+take,LOW,Statement,IDIOMATIC,"Honestly, you just need to take it easy sometimes."
+take,LOW,Statement,IDIOMATIC,I'll totally take your advice on that new restaurant.
+take,LOW,Statement,IDIOMATIC,Don't take what he said personally; he didn't mean it.
+take,LOW,Statement,IDIOMATIC,It's going to take ages to finish cleaning this whole apartment.
+take,LOW,Statement,IDIOMATIC,She decided to take a chance and audition for the play.
+take,LOW,Statement,IDIOMATIC,We should take some cool pictures when we visit the beach.
+take,LOW,Statement,IDIOMATIC,"I'll take the blame for forgetting the snacks, my bad."
+take,LOW,Statement,IDIOMATIC,"He always takes forever to get ready, it's so frustrating."
+take,LOW,Statement,IDIOMATIC,Just take my word for it; that new show is amazing.
+take,NEUTRAL,Imperative,IDIOMATIC,Take the third turning on the right after the traffic lights.
+take,NEUTRAL,Imperative,LITERAL,Please take a numbered ticket and wait for your turn.
+take,NEUTRAL,Imperative,IDIOMATIC,Take off your hat when entering the temple.
+take,NEUTRAL,Imperative,LITERAL,Always take your litter with you when you leave the park.
+take,NEUTRAL,Imperative,LITERAL,Take this medicine with food twice a day.
+take,NEUTRAL,Imperative,IDIOMATIC,Take a seat anywhere you like in the waiting area.
+take,NEUTRAL,Imperative,LITERAL,Take the elevator to the fifth floor for the reception.
+take,NEUTRAL,Imperative,IDIOMATIC,Take a careful look at the warning signs before proceeding.
+take,NEUTRAL,Imperative,LITERAL,Do not take any items from the display cases.
+take,NEUTRAL,Imperative,IDIOMATIC,Take your time to complete the registration form accurately.
+turn,HIGH,Question,IDIOMATIC,Do you believe the economic climate will turn in our favor this quarter?
+turn,HIGH,Question,IDIOMATIC,Could we discuss strategies to turn these initial setbacks into success?
+turn,HIGH,Question,IDIOMATIC,Should we turn our full attention to the client's feedback during the review?
+turn,HIGH,Question,IDIOMATIC,Is it feasible to turn around the production schedule by next week?
+turn,HIGH,Question,IDIOMATIC,Are we prepared to turn down their request for an extension on the deadline?
+turn,HIGH,Question,IDIOMATIC,When do you suggest we turn over the final proposal to the committee?
+turn,HIGH,Question,IDIOMATIC,How can we ensure the discussion doesn't turn into a contentious debate?
+turn,LOW,Statement,IDIOMATIC,Did you see how the argument almost turned into a real fight?
+turn,LOW,Statement,IDIOMATIC,"I'm so tired, I think I'm going to turn in right after this show."
+turn,LOW,Statement,IDIOMATIC,Could you turn the TV down a bit? It's really loud.
+turn,LOW,Statement,IDIOMATIC,"She tried to turn me down for coffee, but I persuaded her eventually."
+turn,LOW,Statement,IDIOMATIC,My dog always gets excited when I turn on his favorite squeaky toy.
+turn,LOW,Statement,LITERAL,I had to turn around and go home because I left my wallet.
+turn,LOW,Statement,IDIOMATIC,It's crazy how quickly the sky can turn dark before a storm.
+turn,LOW,Statement,IDIOMATIC,"He said he didn't want to turn up late for the concert, so he left early."
+turn,NEUTRAL,Imperative,IDIOMATIC,Turn off all electronic devices before the flight departs.
+turn,NEUTRAL,Imperative,IDIOMATIC,"Turn the volume down on your headphones, please."
+turn,NEUTRAL,Imperative,LITERAL,Turn the page to see the next set of questions.
+turn,NEUTRAL,Imperative,LITERAL,Do not turn around until you reach the designated area.
+turn,NEUTRAL,Imperative,LITERAL,Turn the key clockwise to lock the main entrance.
+turn,NEUTRAL,Imperative,IDIOMATIC,Please turn your attention to the safety demonstration.
+turn,NEUTRAL,Imperative,IDIOMATIC,Turn the heating up if you feel cold in the room.
+turn,HIGH,Question,IDIOMATIC,Could we please turn our attention to the quarterly sales figures?
+turn,HIGH,Question,IDIOMATIC,Would it be possible to turn in your project proposal by the end of the week?
+turn,HIGH,Question,IDIOMATIC,Are we able to turn the situation around before the client meeting tomorrow?
+turn,HIGH,Question,IDIOMATIC,Might we turn to Mr. Henderson for his expert opinion on this matter?
+turn,HIGH,Question,IDIOMATIC,Does the new system turn out to be more efficient than the previous one?
+turn,HIGH,Question,IDIOMATIC,Should we turn off the conference equipment once the presentation concludes?
+turn,HIGH,Question,IDIOMATIC,Is there an opportunity to turn this challenge into a valuable learning experience?
+turn,HIGH,Question,IDIOMATIC,Will the proposed changes turn into a significant improvement for the workflow?
+turn,HIGH,Question,IDIOMATIC,Do we need to turn down the request for additional funding at this stage?
+turn,LOW,Statement,IDIOMATIC,I think the party will turn out to be a lot of fun tonight.
+turn,LOW,Statement,IDIOMATIC,Let's turn up the music; this song is my absolute favorite!
+turn,LOW,Statement,IDIOMATIC,He always tries to turn every small problem into a huge drama.
+turn,LOW,Statement,IDIOMATIC,"I'm so tired, I'm going to turn in really early tonight."
+turn,LOW,Statement,IDIOMATIC,"Don't worry about it, things will eventually turn around for you."
+turn,LOW,Statement,LITERAL,"She was so mad, her face started to turn bright red."
+turn,LOW,Statement,IDIOMATIC,I can't believe he decided to turn down that amazing job offer.
+turn,LOW,Statement,LITERAL,The forecast says the weather is going to turn pretty cold next week.
+turn,LOW,Statement,IDIOMATIC,"My car wouldn't turn on this morning, so I had to take the bus."
+turn,LOW,Statement,IDIOMATIC,That movie was so boring that I had to turn it off halfway through.
+turn,NEUTRAL,Imperative,LITERAL,Turn right at the next intersection.
+turn,NEUTRAL,Imperative,IDIOMATIC,Turn off your phone before the performance starts.
+turn,NEUTRAL,Imperative,LITERAL,Turn the page to see the next question.
+turn,NEUTRAL,Imperative,IDIOMATIC,Please turn down the volume of the television.
+turn,NEUTRAL,Imperative,LITERAL,Do not turn left when the sign indicates.
+turn,NEUTRAL,Imperative,LITERAL,Turn the knob counter-clockwise to unlock the door.
+turn,HIGH,Question,IDIOMATIC,Do we anticipate the project timeline will turn out to be realistic given the new constraints?
+turn,HIGH,Question,IDIOMATIC,Is it possible to turn off the notification sounds on these devices during the presentation?
+turn,HIGH,Question,IDIOMATIC,How might we encourage this initial concept to turn into a successful solution?
+turn,HIGH,Question,IDIOMATIC,Would it be appropriate to turn our attention to the budget allocation for Q4 now?
+turn,HIGH,Question,IDIOMATIC,Could you confirm if the market conditions are expected to turn more favorable soon?
+turn,HIGH,Question,IDIOMATIC,Has the committee decided if they will turn down the proposal for additional funding?
+turn,HIGH,Question,IDIOMATIC,At what point should we expect the data analysis to turn up any significant trends?
+turn,HIGH,Question,IDIOMATIC,When should we expect the new intern to turn in their initial progress report?
+turn,HIGH,Question,IDIOMATIC,Is there a strategy in place to turn around the recent decline in customer satisfaction?
+turn,LOW,Statement,IDIOMATIC,"I heard my grandma is turning eighty next month, can you believe it?"
+turn,LOW,Statement,IDIOMATIC,I think the weather is going to turn really nasty by the afternoon.
+turn,LOW,Statement,IDIOMATIC,"Just watch, he'll probably turn up late for the party again, as usual."
+turn,LOW,Statement,IDIOMATIC,"Don't worry, I'm sure things will turn around for you pretty soon."
+turn,LOW,Statement,LITERAL,"Seriously, the whole situation could just turn awkward in a second."
+turn,LOW,Statement,IDIOMATIC,Could you turn the TV down a bit? I can barely hear myself think.
+turn,LOW,Statement,IDIOMATIC,"He promised he wouldn't turn on me, but I'm still a little worried."
+turn,LOW,Statement,IDIOMATIC,It's time to turn over a new leaf and start going to the gym.
+turn,NEUTRAL,Imperative,LITERAL,"Turn right at the roundabout, then go straight."
+turn,NEUTRAL,Imperative,IDIOMATIC,Always turn off the lights when leaving the room.
+turn,NEUTRAL,Imperative,LITERAL,Turn the volume control clockwise to increase the sound.
+turn,NEUTRAL,Imperative,LITERAL,Carefully turn the food periodically to ensure even cooking.
+turn,NEUTRAL,Imperative,LITERAL,Do not turn your vehicle around in the middle of the street.
+turn,NEUTRAL,Imperative,LITERAL,Turn your mobile phone to silent mode during the performance.
+turn,NEUTRAL,Imperative,LITERAL,"Wait for the green light, then turn left cautiously."
+turn,NEUTRAL,Imperative,LITERAL,Turn the key firmly to lock the door securely.
+turn,HIGH,Question,IDIOMATIC,Could you clarify when we expect to turn in the final report?
+turn,HIGH,Question,IDIOMATIC,Is it possible for us to turn over the presentation responsibilities to another team member this quarter?
+turn,HIGH,Question,IDIOMATIC,Would it be appropriate to turn to a different strategy if these initial results are not satisfactory?
+turn,HIGH,Question,IDIOMATIC,Do you anticipate the market will turn around by the end of the fiscal year?
+turn,HIGH,Question,IDIOMATIC,"May I inquire if we should turn down the offer from the new vendor, considering their terms?"
+turn,HIGH,Question,IDIOMATIC,Should we turn our attention to the budget review before proceeding?
+turn,HIGH,Question,LITERAL,When do you foresee the project will turn profitable?
+turn,HIGH,Question,IDIOMATIC,Is there a possibility we might need to turn to external consultants for this phase?
+turn,HIGH,Question,IDIOMATIC,Do you believe the new policy will turn out to be beneficial for employee morale?
+turn,LOW,Statement,IDIOMATIC,I think it's gonna turn out to be a great party tonight.
+turn,LOW,Statement,IDIOMATIC,My friend said he's going to turn up the music when everyone gets here.
+turn,LOW,Statement,IDIOMATIC,I had to turn down the offer for extra shifts; I'm too tired.
+turn,LOW,Statement,IDIOMATIC,I hope this weather doesn't turn bad for our picnic later.
+turn,LOW,Statement,IDIOMATIC,He always knows how to turn a simple story into something hilarious.
+turn,LOW,Statement,IDIOMATIC,I'm going to turn on the TV and just relax for a bit.
+turn,LOW,Statement,IDIOMATIC,"She said she'd turn up around seven, so we still have time."
+turn,LOW,Statement,IDIOMATIC,"This whole situation is starting to turn weird, I think."
+turn,NEUTRAL,Imperative,IDIOMATIC,Turn off all electronic devices now.
+turn,NEUTRAL,Imperative,IDIOMATIC,Please turn in your security badge upon exit.
+turn,NEUTRAL,Imperative,LITERAL,Turn the page to view the next section.
+turn,NEUTRAL,Imperative,LITERAL,Do not turn right on a red light here.
+turn,NEUTRAL,Imperative,LITERAL,Turn the knob to adjust the temperature.

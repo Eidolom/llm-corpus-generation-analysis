@@ -1,0 +1,603 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{biber1988variation}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f646ef9768ee4e31e9af07e57bf14842}{%
+           family={Biber},
+           familyi={B\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{fullhash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{fullhashraw}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{bibnamehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{authorbibnamehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{authornamehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{authorfullhash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{authorfullhashraw}{f646ef9768ee4e31e9af07e57bf14842}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{978-0-521-36543-7}
+      \field{title}{Variation across Speech and Writing}
+      \field{year}{1988}
+      \verb{doi}
+      \verb 10.1017/CBO9780511621024
+      \endverb
+    \endentry
+    \entry{biber1999longman}{book}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=f646ef9768ee4e31e9af07e57bf14842}{%
+           family={Biber},
+           familyi={B\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0f29f1c630c1ac9fe4b726b856eceb8}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={Stig},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d3776cd0d2ffaabb590987e732e2346}{%
+           family={Leech},
+           familyi={L\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=909a178e50bbb620f0fac8a748183573}{%
+           family={Conrad},
+           familyi={C\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98cb6ca60a18312729fbff5620c3c54a}{%
+           family={Finegan},
+           familyi={F\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Edinburgh}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education Ltd}%
+      }
+      \strng{namehash}{b04d40d649dfea309d7c3ce81ae5f043}
+      \strng{fullhash}{293a8090acb13196b3d2204626d7099e}
+      \strng{fullhashraw}{293a8090acb13196b3d2204626d7099e}
+      \strng{bibnamehash}{293a8090acb13196b3d2204626d7099e}
+      \strng{authorbibnamehash}{293a8090acb13196b3d2204626d7099e}
+      \strng{authornamehash}{b04d40d649dfea309d7c3ce81ae5f043}
+      \strng{authorfullhash}{293a8090acb13196b3d2204626d7099e}
+      \strng{authorfullhashraw}{293a8090acb13196b3d2204626d7099e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Longman Grammar of Spoken and Written English}
+      \field{year}{1999}
+    \endentry
+    \entry{conti2016ugly}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=727f5a8477efae618fb849387083e44e}{%
+           family={Conti},
+           familyi={C\bibinitperiod},
+           given={Gianfranco},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46e7f86b11ade65e293413c9b9884dcf}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9109a183c7a679f2738e8468a53c6353}
+      \strng{fullhash}{9109a183c7a679f2738e8468a53c6353}
+      \strng{fullhashraw}{9109a183c7a679f2738e8468a53c6353}
+      \strng{bibnamehash}{9109a183c7a679f2738e8468a53c6353}
+      \strng{authorbibnamehash}{9109a183c7a679f2738e8468a53c6353}
+      \strng{authornamehash}{9109a183c7a679f2738e8468a53c6353}
+      \strng{authorfullhash}{9109a183c7a679f2738e8468a53c6353}
+      \strng{authorfullhashraw}{9109a183c7a679f2738e8468a53c6353}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Critiques unnatural textbook approaches vs. natural language acquisition}
+      \field{title}{The ugly truth about school-based Modern Language teaching}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://gianfrancoconti.com/2016/11/26/the-ugly-truth-about-school-based-modern-language-teaching/
+      \endverb
+      \verb{url}
+      \verb https://gianfrancoconti.com/2016/11/26/the-ugly-truth-about-school-based-modern-language-teaching/
+      \endverb
+    \endentry
+    \entry{curdt-christiansenLanguageIdeologyEducation2015}{book}{}{}
+      \name{editor}{2}{}{%
+        {{un=0,uniquepart=base,hash=faa856d9af86d6b7bd0bb8da73208c41}{%
+           family={{Curdt-Christiansen}},
+           familyi={C\bibinitperiod},
+           given={Xiao\bibnamedelima Lan},
+           giveni={X\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aff942eb537818d948e83a961d164734}{%
+           family={Weninger},
+           familyi={W\bibinitperiod},
+           given={Csilla},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hoboken}%
+      }
+      \list{publisher}{1}{%
+        {Taylor and Francis}%
+      }
+      \strng{namehash}{8a90735cfa9fb9bddcaeef708ef43326}
+      \strng{fullhash}{8a90735cfa9fb9bddcaeef708ef43326}
+      \strng{fullhashraw}{8a90735cfa9fb9bddcaeef708ef43326}
+      \strng{bibnamehash}{8a90735cfa9fb9bddcaeef708ef43326}
+      \strng{editorbibnamehash}{8a90735cfa9fb9bddcaeef708ef43326}
+      \strng{editornamehash}{8a90735cfa9fb9bddcaeef708ef43326}
+      \strng{editorfullhash}{8a90735cfa9fb9bddcaeef708ef43326}
+      \strng{editorfullhashraw}{8a90735cfa9fb9bddcaeef708ef43326}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-317-80385-0 978-0-415-84038-5}
+      \field{langid}{english}
+      \field{series}{Routledge {{Research}} in {{Language Education}}}
+      \field{title}{Language, Ideology and Education: The Politics of Textbooks in Language Education}
+      \field{year}{2015}
+    \endentry
+    \entry{holmesArtificialIntelligenceEducation2019}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a90574ed2f941eaeae5fc37ec8e0f323}{%
+           family={Holmes},
+           familyi={H\bibinitperiod},
+           given={Wayne},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4200b86af725b8cc0e6ba65cb41d165}{%
+           family={Bialik},
+           familyi={B\bibinitperiod},
+           given={Maya},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a71b2dcbf3dca54a5761e6c88833f30a}{%
+           family={Fadel},
+           familyi={F\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {Center for Curriculum Redesign}%
+      }
+      \strng{namehash}{714d108c4176b80dd774c8c19370c5d3}
+      \strng{fullhash}{add8e907181f68cafe009f13ac9ae277}
+      \strng{fullhashraw}{add8e907181f68cafe009f13ac9ae277}
+      \strng{bibnamehash}{add8e907181f68cafe009f13ac9ae277}
+      \strng{authorbibnamehash}{add8e907181f68cafe009f13ac9ae277}
+      \strng{authornamehash}{714d108c4176b80dd774c8c19370c5d3}
+      \strng{authorfullhash}{add8e907181f68cafe009f13ac9ae277}
+      \strng{authorfullhashraw}{add8e907181f68cafe009f13ac9ae277}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{"A must read for educators and all stakeholders interested in how the future of education will be impacted - and more than likely transformed - by AI ... provides a critical leans on both the potential benefits and risks of AI without hyping the technology}
+      \field{isbn}{978-1-7942-9370-0}
+      \field{langid}{english}
+      \field{title}{Artificial Intelligence in Education: Promises and Implications for Teaching and Learning}
+      \field{year}{2019}
+    \endentry
+    \entry{krashenInputHypothesisIssues1985}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8c7d8e92e8726fb99a6b186ccc98cad1}{%
+           family={Krashen},
+           familyi={K\bibinitperiod},
+           given={Stephen\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London; New York}%
+      }
+      \list{publisher}{1}{%
+        {Longman}%
+      }
+      \strng{namehash}{8c7d8e92e8726fb99a6b186ccc98cad1}
+      \strng{fullhash}{8c7d8e92e8726fb99a6b186ccc98cad1}
+      \strng{fullhashraw}{8c7d8e92e8726fb99a6b186ccc98cad1}
+      \strng{bibnamehash}{8c7d8e92e8726fb99a6b186ccc98cad1}
+      \strng{authorbibnamehash}{8c7d8e92e8726fb99a6b186ccc98cad1}
+      \strng{authornamehash}{8c7d8e92e8726fb99a6b186ccc98cad1}
+      \strng{authorfullhash}{8c7d8e92e8726fb99a6b186ccc98cad1}
+      \strng{authorfullhashraw}{8c7d8e92e8726fb99a6b186ccc98cad1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-582-55381-1}
+      \field{title}{The Input Hypothesis: Issues and Implications}
+      \field{year}{1985}
+      \verb{file}
+      \verb C:\Users\simon\Zotero\storage\NCLQZ8DL\Krashen - 1985 - The input hypothesis issues and implications.pdf
+      \endverb
+      \keyw{Language and languages,Second language acquisition,Study and teaching}
+    \endentry
+    \entry{leFoll2021a}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3bcc504dbdb0c00ac3d5d85a6fb17351}{%
+           family={Le\bibnamedelima Foll},
+           familyi={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Elen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{fullhash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{fullhashraw}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{bibnamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorbibnamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authornamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorfullhash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorfullhashraw}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{Textbook English: A Multi-Dimensional Approach, v. 1.1}
+      \field{title}{Bibliographic Metadata of the Textbook English Corpus (TEC)}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.5281/zenodo.4922819
+      \endverb
+    \endentry
+    \entry{leFoll2021b}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3bcc504dbdb0c00ac3d5d85a6fb17351}{%
+           family={Le\bibnamedelima Foll},
+           familyi={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Elen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{fullhash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{fullhashraw}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{bibnamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorbibnamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authornamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorfullhash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorfullhashraw}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Register Studies}
+      \field{number}{2}
+      \field{title}{Register variation in school EFL textbooks}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{3}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{207\bibrangedash 246}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1075/rs.20009.lef
+      \endverb
+    \endentry
+    \entry{leFoll2024}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3bcc504dbdb0c00ac3d5d85a6fb17351}{%
+           family={Le\bibnamedelima Foll},
+           familyi={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Elen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam Philadelphia}%
+      }
+      \list{publisher}{1}{%
+        {John Benjamins Publishing Company}%
+      }
+      \strng{namehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{fullhash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{fullhashraw}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{bibnamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorbibnamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authornamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorfullhash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorfullhashraw}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \field{extraname}{3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-90-272-4680-6}
+      \field{langid}{english}
+      \field{number}{volume 116}
+      \field{series}{Studies in Corpus Linguistics ({{SCL}})}
+      \field{title}{Textbook {{English}}: A Multi-Dimensional Approach}
+      \field{year}{2024}
+      \verb{doi}
+      \verb gruy-9789027246806
+      \endverb
+    \endentry
+    \entry{schmaleFormulaicExpressionsForeign2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3cec4873763f11abe4c39a283013bb65}{%
+           family={Schmale},
+           familyi={S\bibinitperiod},
+           given={Günter},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{fullhash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{fullhashraw}{3cec4873763f11abe4c39a283013bb65}
+      \strng{bibnamehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{authorbibnamehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{authornamehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{authorfullhash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{authorfullhashraw}{3cec4873763f11abe4c39a283013bb65}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Foreign language teaching experts unanimously insist on the necessity of acquiring formulaic expressions in order to communicate successfully in the target language. However, many of the treatises in favour of phraseme use, including semantically non-compositional idiomatic expressions, by foreign language learners seem to be marked by an insufficient depth of reflection as to applied linguistic, methodological, and phraseodidactic1 criteria. The present contribution therefore aims at a differentiated treatment of prefabricated communicative constructions, starting out from an extended definition and classification and by discussing the pros and cons of phraseme acquisition. These considerations will lead to the delimitation of formulaic language fundamental for an operative foreign language competence (routine formulae, collocations and ``constructions'') as opposed to those types of phrasemes which are not essential or even inappropriate for non-native speakers.}
+      \field{issn}{1615-3014}
+      \field{journaltitle}{Linguistik Online}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Formulaic {{Expressions}} for {{Foreign Language Learning}} and {{Teaching}}}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{113}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{91\bibrangedash 110}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.13092/lo.113.8328
+      \endverb
+      \verb{file}
+      \verb C:\Users\simon\Zotero\storage\YPMZJ574\Schmale - 2022 - Formulaic Expressions for Foreign Language Learning and Teaching.pdf
+      \endverb
+    \endentry
+    \entry{sinclairCorpusConcordanceCollocation1991}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=61e74ef33941fa20944ffd6b562f985a}{%
+           family={Sinclair},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima McHardy},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford university press}%
+      }
+      \strng{namehash}{61e74ef33941fa20944ffd6b562f985a}
+      \strng{fullhash}{61e74ef33941fa20944ffd6b562f985a}
+      \strng{fullhashraw}{61e74ef33941fa20944ffd6b562f985a}
+      \strng{bibnamehash}{61e74ef33941fa20944ffd6b562f985a}
+      \strng{authorbibnamehash}{61e74ef33941fa20944ffd6b562f985a}
+      \strng{authornamehash}{61e74ef33941fa20944ffd6b562f985a}
+      \strng{authorfullhash}{61e74ef33941fa20944ffd6b562f985a}
+      \strng{authorfullhashraw}{61e74ef33941fa20944ffd6b562f985a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-19-437144-5}
+      \field{langid}{english}
+      \field{series}{Describing {{English}} Language}
+      \field{title}{Corpus, {{Concordance}}, {{Collocation}}}
+      \field{year}{1991}
+    \endentry
+    \entry{spiroCognitiveFlexibility1992}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=af3fe9b9e7f7066959c787db86b5c474}{%
+           family={Spiro},
+           familyi={S\bibinitperiod},
+           given={Rand},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cca1b751fea9bf48f5f66601e9ca09a}{%
+           family={Feltovich},
+           familyi={F\bibinitperiod},
+           given={Paul\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84be9f2360fc1bb8b190f846fa6b0922}{%
+           family={Jacobson},
+           familyi={J\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6043be18c67b05d26092f508fc6c02a8}{%
+           family={Coulson},
+           familyi={C\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4278cf6be3be195185190aa62399124f}
+      \strng{fullhash}{e52be2d70bf1c4b259d2620603988aa3}
+      \strng{fullhashraw}{e52be2d70bf1c4b259d2620603988aa3}
+      \strng{bibnamehash}{e52be2d70bf1c4b259d2620603988aa3}
+      \strng{authorbibnamehash}{e52be2d70bf1c4b259d2620603988aa3}
+      \strng{authornamehash}{4278cf6be3be195185190aa62399124f}
+      \strng{authorfullhash}{e52be2d70bf1c4b259d2620603988aa3}
+      \strng{authorfullhashraw}{e52be2d70bf1c4b259d2620603988aa3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Constructivism and the technology of instruction: A conversation}
+      \field{title}{Cognitive Flexibility, Constructivism, and Hypertext: Random Access Instruction for Advanced Knowledge Acquisition in Ill-Structured Domains}
+      \field{volume}{35}
+      \field{year}{1992}
+      \field{pages}{57\bibrangedash 75}
+      \range{pages}{19}
+    \endentry
+    \entry{stoeckelNGSL2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=82b3d73a16a71fd8df0f2cec71af9fcb}{%
+           family={Stoeckel},
+           familyi={S\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{82b3d73a16a71fd8df0f2cec71af9fcb}
+      \strng{fullhash}{82b3d73a16a71fd8df0f2cec71af9fcb}
+      \strng{fullhashraw}{82b3d73a16a71fd8df0f2cec71af9fcb}
+      \strng{bibnamehash}{82b3d73a16a71fd8df0f2cec71af9fcb}
+      \strng{authorbibnamehash}{82b3d73a16a71fd8df0f2cec71af9fcb}
+      \strng{authornamehash}{82b3d73a16a71fd8df0f2cec71af9fcb}
+      \strng{authorfullhash}{82b3d73a16a71fd8df0f2cec71af9fcb}
+      \strng{authorfullhashraw}{82b3d73a16a71fd8df0f2cec71af9fcb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vocabulary Learning and Instruction}
+      \field{number}{1}
+      \field{title}{An Examination of the New General Service List}
+      \field{volume}{8}
+      \field{year}{2019}
+      \field{pages}{53\bibrangedash 61}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.7820/vli.v08.1.stoeckel
+      \endverb
+    \endentry
+    \entry{swellerCognitiveLoadProblem1988a}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9612a12907a8ce45293ceed61ce5e09b}{%
+           family={Sweller},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{fullhash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{fullhashraw}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{bibnamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorbibnamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authornamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorfullhash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorfullhashraw}{9612a12907a8ce45293ceed61ce5e09b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1551-6709}
+      \field{journaltitle}{Cognitive Science}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{title}{Cognitive {{Load During Problem Solving}}: {{Effects}} on {{Learning}}}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \field{pages}{257\bibrangedash 285}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1207/s15516709cog1202_4
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\simon\\Zotero\\storage\\R38HG5IL\\Sweller - 1988 - Cognitive Load During Problem Solving Effects on Learning.pdf;C\:\\Users\\simon\\Zotero\\storage\\CP9WWRG6\\s15516709cog1202_4.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
