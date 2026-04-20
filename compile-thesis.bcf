@@ -2390,30 +2390,34 @@
     <bcf:citekey order="12" intorder="1">schmaleFormulaicExpressionsForeign2022</bcf:citekey>
     <bcf:citekey order="13" intorder="1">biberGrammarSpokenWritten2021a</bcf:citekey>
     <bcf:citekey order="14" intorder="1">leFoll2021b</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">leFoll2024</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">biber1988variation</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">leFoll2021b</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">leFoll2024</bcf:citekey>
     <bcf:citekey order="17" intorder="1">biber1988variation</bcf:citekey>
-    <bcf:citekey order="17" intorder="2">biberGrammarSpokenWritten2021a</bcf:citekey>
     <bcf:citekey order="18" intorder="1">biber1988variation</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">biberGrammarSpokenWritten2021a</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">biber1988variation</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">biberGrammarSpokenWritten2021a</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">sinclairCorpusConcordanceCollocation1991</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">biber1993using</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">quirkComprehensiveGrammar1985</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">biberUniversityLanguageCorpusbased2006</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">brownpenelopeQuestionsPolitenessStrategies1978</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">kia2018directive</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">huddlestonPullumCambridge2002</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">quirkComprehensiveGrammar1985</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">sinclairCorpusConcordanceCollocation1991</bcf:citekey>
+    <bcf:citekey order="18" intorder="2">biberGrammarSpokenWritten2021a</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">biber1988variation</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">biberUniversityLanguageCorpusbased2006</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">biber1988variation</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">biber1988variation</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">sinclairCorpusConcordanceCollocation1991</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">biber1993using</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">hallidayMatthiessenIntroductionFunctional2014</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">biberUniversityLanguageCorpusbased2006</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">brownpenelopeQuestionsPolitenessStrategies1978</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">kia2018directive</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">huddlestonPullumCambridge2002</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">hallidayMatthiessenIntroductionFunctional2014</bcf:citekey>
     <bcf:citekey order="31" intorder="1">sinclairCorpusConcordanceCollocation1991</bcf:citekey>
     <bcf:citekey order="32" intorder="1">sinclairCorpusConcordanceCollocation1991</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">benati2018grammar</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">richards2006communicative</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">sinclairCorpusConcordanceCollocation1991</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">schmaleFormulaicExpressionsForeign2022</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">savignon1987communicative</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">sinclairCorpusConcordanceCollocation1991</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">benati2018grammar</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">richards2006communicative</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">sinclairCorpusConcordanceCollocation1991</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">schmaleFormulaicExpressionsForeign2022</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">savignon1987communicative</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">schmale2004kommunikative</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">schmaleFormulaicExpressionsForeign2022</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">leFoll2024</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

@@ -1,19 +1,54 @@
-[1] Config.pm:328> INFO - This is Biber 2.21
-[7] Config.pm:331> INFO - Logfile is 'compile-thesis.blg'
-[568] biber-MSWIN64:342> INFO - === 
-[847] Biber.pm:421> INFO - Reading 'compile-thesis.bcf'
-[1360] Biber.pm:1002> INFO - Found 23 citekeys in bib section 0
-[1410] Biber.pm:4487> INFO - Processing section 0
-[1440] Biber.pm:4678> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[1722] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1913] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[2786] UCollate.pm:68> INFO - Overriding locale 'en' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2786] UCollate.pm:68> INFO - Overriding locale 'en' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2786] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en'
-[2787] Biber.pm:4313> INFO - No sort tailoring available for locale 'en'
-[2944] bbl.pm:676> INFO - Writing 'compile-thesis.bbl' with encoding 'UTF-8'
-[2994] bbl.pm:779> INFO - Output to compile-thesis.bbl
-[2996] Biber.pm:132> WARN - ISBN '978-1-317-80385-0 978-0-415-84038-5' in entry 'curdt-christiansenLanguageIdeologyEducation2015' is invalid - run biber with '--validate_datamodel' for details.
-[2996] Biber.pm:132> WARN - ISBN '978-90-272-0796-8 978-90-272-6047-5' in entry 'biberGrammarSpokenWritten2021a' is invalid - run biber with '--validate_datamodel' for details.
-[2997] Biber.pm:132> WARN - ISBN '978-90-272-2295-4 978-90-272-2296-1 978-90-272-9362-6' in entry 'biberUniversityLanguageCorpusbased2006' is invalid - run biber with '--validate_datamodel' for details.
-[2997] Biber.pm:134> INFO - WARNINGS: 3
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'compile-thesis.blg'
+[385] biber-MSWIN64:342> INFO - === 
+[528] Biber.pm:421> INFO - Reading 'compile-thesis.bcf'
+[976] Biber.pm:1002> INFO - Found 24 citekeys in bib section 0
+[1022] Biber.pm:4487> INFO - Processing section 0
+[1056] Biber.pm:4678> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[1287] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1494] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[2303] UCollate.pm:68> INFO - Overriding locale 'en' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2303] UCollate.pm:68> INFO - Overriding locale 'en' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2303] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en'
+[2303] Biber.pm:4313> INFO - No sort tailoring available for locale 'en'
+[2417] bbl.pm:676> INFO - Writing 'compile-thesis.bbl' with encoding 'UTF-8'
+[2467] bbl.pm:779> INFO - Output to compile-thesis.bbl
+[2469] Biber.pm:132> WARN - ISBN '978-1-317-80385-0 978-0-415-84038-5' in entry 'curdt-christiansenLanguageIdeologyEducation2015' is invalid - run biber with '--validate_datamodel' for details.
+[2469] Biber.pm:132> WARN - ISBN '978-90-272-0796-8 978-90-272-6047-5' in entry 'biberGrammarSpokenWritten2021a' is invalid - run biber with '--validate_datamodel' for details.
+[2469] Biber.pm:132> WARN - ISBN '978-90-272-2295-4 978-90-272-2296-1 978-90-272-9362-6' in entry 'biberUniversityLanguageCorpusbased2006' is invalid - run biber with '--validate_datamodel' for details.
+[2469] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 2, warning: 5 characters of junk seen at toplevel
+[2469] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 13, warning: 5 characters of junk seen at toplevel
+[2469] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 26, warning: 5 characters of junk seen at toplevel
+[2470] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 37, warning: 5 characters of junk seen at toplevel
+[2470] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 48, warning: 5 characters of junk seen at toplevel
+[2470] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 63, warning: 5 characters of junk seen at toplevel
+[2470] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 73, warning: 5 characters of junk seen at toplevel
+[2470] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 85, warning: 5 characters of junk seen at toplevel
+[2470] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 97, warning: 5 characters of junk seen at toplevel
+[2470] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 106, warning: 5 characters of junk seen at toplevel
+[2470] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 118, warning: 5 characters of junk seen at toplevel
+[2471] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 130, warning: 5 characters of junk seen at toplevel
+[2471] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 141, warning: 5 characters of junk seen at toplevel
+[2471] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 154, warning: 5 characters of junk seen at toplevel
+[2471] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 166, warning: 5 characters of junk seen at toplevel
+[2471] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 175, warning: 5 characters of junk seen at toplevel
+[2471] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 185, warning: 5 characters of junk seen at toplevel
+[2471] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 195, warning: 5 characters of junk seen at toplevel
+[2471] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 205, warning: 5 characters of junk seen at toplevel
+[2473] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 214, warning: 5 characters of junk seen at toplevel
+[2473] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 225, warning: 5 characters of junk seen at toplevel
+[2473] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 237, warning: 5 characters of junk seen at toplevel
+[2473] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 252, warning: 5 characters of junk seen at toplevel
+[2473] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 263, warning: 5 characters of junk seen at toplevel
+[2474] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 272, warning: 5 characters of junk seen at toplevel
+[2474] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 281, warning: 5 characters of junk seen at toplevel
+[2477] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 293, warning: 5 characters of junk seen at toplevel
+[2477] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 305, warning: 5 characters of junk seen at toplevel
+[2478] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 321, warning: 5 characters of junk seen at toplevel
+[2478] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 335, warning: 5 characters of junk seen at toplevel
+[2478] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 350, warning: 5 characters of junk seen at toplevel
+[2478] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 358, warning: 5 characters of junk seen at toplevel
+[2478] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 374, warning: 5 characters of junk seen at toplevel
+[2478] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 398, warning: 5 characters of junk seen at toplevel
+[2478] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\simon\AppData\Local\Temp\biber_tmp_7806\f4d088b3f9f145b5c3058da33afd57d4_29232.utf8, line 419, warning: 5 characters of junk seen at toplevel
+[2478] Biber.pm:134> INFO - WARNINGS: 38
