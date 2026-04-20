@@ -211,6 +211,35 @@
       \field{title}{Longman Grammar of Spoken and Written English}
       \field{year}{1999}
     \endentry
+    \entry{brown1978questions}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b813054095f6303db2d75a6ea9ffbbcb}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Penelope},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b813054095f6303db2d75a6ea9ffbbcb}
+      \strng{fullhash}{b813054095f6303db2d75a6ea9ffbbcb}
+      \strng{fullhashraw}{b813054095f6303db2d75a6ea9ffbbcb}
+      \strng{bibnamehash}{b813054095f6303db2d75a6ea9ffbbcb}
+      \strng{authorbibnamehash}{b813054095f6303db2d75a6ea9ffbbcb}
+      \strng{authornamehash}{b813054095f6303db2d75a6ea9ffbbcb}
+      \strng{authorfullhash}{b813054095f6303db2d75a6ea9ffbbcb}
+      \strng{authorfullhashraw}{b813054095f6303db2d75a6ea9ffbbcb}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Questions and politeness: Strategies in social interaction}
+      \field{year}{1978}
+    \endentry
     \entry{conti2016ugly}{online}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=727f5a8477efae618fb849387083e44e}{%
@@ -337,6 +366,45 @@
       \field{langid}{english}
       \field{title}{Artificial Intelligence in Education: Promises and Implications for Teaching and Learning}
       \field{year}{2019}
+    \endentry
+    \entry{huddlestonPullumCambridge2002}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d4a7987d3fffab21c9756f8ce95ab03e}{%
+           family={Huddleston},
+           familyi={H\bibinitperiod},
+           given={Rodney},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2925d6199ca3c6f0b208850cac579716}{%
+           family={Pullum},
+           familyi={P\bibinitperiod},
+           given={Geoffrey\bibnamedelima K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{fullhash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{fullhashraw}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{bibnamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authorbibnamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authornamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authorfullhash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authorfullhashraw}{58d8597746591ceb120f0343a4e9b21f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-521-43146-0}
+      \field{title}{The Cambridge Grammar of the English Language}
+      \field{year}{2002}
     \endentry
     \entry{kia2018directive}{thesis}{}{}
       \name{author}{1}{}{%
