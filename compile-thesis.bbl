@@ -187,7 +187,7 @@
       \verb 10.1075/scl.23
       \endverb
     \endentry
-    \entry{biber1999longman}{book}{}{}
+    \entry{biberGrammarSpokenWritten2021a}{book}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=f646ef9768ee4e31e9af07e57bf14842}{%
            family={Biber},
@@ -201,11 +201,11 @@
            given={Stig},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=9d3776cd0d2ffaabb590987e732e2346}{%
+        {{un=0,uniquepart=base,hash=4a89f27941acc0e76b1edbc68b965857}{%
            family={Leech},
            familyi={L\bibinitperiod},
-           given={Geoffrey},
-           giveni={G\bibinitperiod},
+           given={Geoffrey\bibnamedelima N.},
+           giveni={G\bibinitperiod\bibinitdelim N\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=909a178e50bbb620f0fac8a748183573}{%
            family={Conrad},
@@ -221,27 +221,38 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Edinburgh}%
+        {Amsterdam}%
       }
       \list{publisher}{1}{%
-        {Pearson Education Ltd}%
+        {John Benjamins Publishing Company}%
       }
       \strng{namehash}{b04d40d649dfea309d7c3ce81ae5f043}
-      \strng{fullhash}{293a8090acb13196b3d2204626d7099e}
-      \strng{fullhashraw}{293a8090acb13196b3d2204626d7099e}
-      \strng{bibnamehash}{293a8090acb13196b3d2204626d7099e}
-      \strng{authorbibnamehash}{293a8090acb13196b3d2204626d7099e}
+      \strng{fullhash}{e389f6fa4a161dffccb8b8d8813c2159}
+      \strng{fullhashraw}{e389f6fa4a161dffccb8b8d8813c2159}
+      \strng{bibnamehash}{e389f6fa4a161dffccb8b8d8813c2159}
+      \strng{authorbibnamehash}{e389f6fa4a161dffccb8b8d8813c2159}
       \strng{authornamehash}{b04d40d649dfea309d7c3ce81ae5f043}
-      \strng{authorfullhash}{293a8090acb13196b3d2204626d7099e}
-      \strng{authorfullhashraw}{293a8090acb13196b3d2204626d7099e}
+      \strng{authorfullhash}{e389f6fa4a161dffccb8b8d8813c2159}
+      \strng{authorfullhashraw}{e389f6fa4a161dffccb8b8d8813c2159}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Longman Grammar of Spoken and Written English}
-      \field{year}{1999}
+      \field{abstract}{The completely redesigned Grammar of Spoken and Written English is a comprehensive corpus-based reference grammar. GSWE describes the structural characteristics of grammatical constructions in English, as do other reference grammars. But GSWE is unique in that it gives equal attention to describing the patterns of language use for each grammatical feature, based on empirical analyses of grammatical patterns in a 40-million-word corpus of spoken and written registers. 		Grammar-in-use is characterized by three inter-related kinds of information: frequency of grammatical features in spoken and written registers, frequencies of the most common lexico-grammatical patterns, and analysis of the discourse factors influencing choices among related grammatical features. GSWE includes over 350 tables and figures highlighting the results of corpus-based investigations. Throughout the book, authentic examples illustrate all research findings. 		The empirical descriptions document the lexico-grammatical features that are especially common in face-to-face-conversation compared to those that are especially common in academic writing. Analyses of fiction and newspaper articles are included as further benchmarks of language use. GSWE contains over 6,000 authentic examples from these four registers, illustrating the range of lexico-grammatical features in real-world speech and writing. In addition, comparisons between British and American English reveal specific regional differences. 		Now completely redesigned and available in an electronic edition, the Grammar of Spoken and Written English remains a unique and indispensable reference work for researchers, language teachers, and students alike.}
+      \field{isbn}{978-90-272-0796-8 978-90-272-6047-5}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{Grammar of {{Spoken}} and {{Written English}}}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1075/z.232
+      \endverb
     \endentry
     \entry{brownpenelopeQuestionsPolitenessStrategies1978}{book}{}{}
       \name{author}{2}{}{%
