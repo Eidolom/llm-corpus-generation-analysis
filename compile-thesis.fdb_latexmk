@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber compile-thesis"] 1776691979.54862 "compile-thesis.bcf" "compile-thesis.bbl" "compile-thesis" 1776692127.17518 0
-  "bibliography.bib" 1776691947 17128 bb2a12e28f15ba267e16ff8f61105397 ""
-  "compile-thesis.bcf" 1776692126 111939 646cd384cdedc3932be2e16c11d8eb61 "pdflatex"
+["biber compile-thesis"] 1776715148.62463 "compile-thesis.bcf" "compile-thesis.bbl" "compile-thesis" 1776715272.96589 0
+  "bibliography.bib" 1776715112 17743 f5097f15da7c32431e6d78508659710c ""
+  "compile-thesis.bcf" 1776715271 112274 5e7314b8dbbfd4aa81a11cfed42a9418 "pdflatex"
   (generated)
   "compile-thesis.bbl"
   "compile-thesis.blg"
   (rewritten before read)
-["pdflatex"] 1776692101.02301 "c:/Users/simon/Downloads/prism-projects-2026-04-16/Copy of John_Simon_2175939_BA_Thesis_2026.pdf/compile-thesis.tex" "compile-thesis.pdf" "compile-thesis" 1776692127.17918 0
+["pdflatex"] 1776715248.94354 "c:/Users/simon/Downloads/prism-projects-2026-04-16/Copy of John_Simon_2175939_BA_Thesis_2026.pdf/compile-thesis.tex" "compile-thesis.pdf" "compile-thesis" 1776715272.96784 0
   "Files/irr_split_results.csv" 1776353506 158 6721c821751347717789bbc672a5907d ""
   "Images/logo_uni.png" 1776353505 16956 576d8ab1e7017dbb8e34bc60e5bd965a ""
   "Images/results_aggregate_chart.png" 1776353506 113564 e25d0570c09ccb677a856d31d5e704fe ""
@@ -19,7 +19,7 @@
   "Screenshots/Gemini3Proof3.png" 1776353507 176406 b835e539b6f31b9a4bb0dc5a22e954d2 ""
   "Screenshots/Gemini3Proof4.png" 1776353506 181417 993e5766f46bada4e2e4365c98cf866e ""
   "Screenshots/Gemini3Proof5.png" 1776353506 173149 978332dc0b0b45994b6c1ddd4de5344a ""
-  "c:/Users/simon/Downloads/prism-projects-2026-04-16/Copy of John_Simon_2175939_BA_Thesis_2026.pdf/compile-thesis.tex" 1776691947 50278 372fff32f5573053976842d9cf77792f ""
+  "c:/Users/simon/Downloads/prism-projects-2026-04-16/Copy of John_Simon_2175939_BA_Thesis_2026.pdf/compile-thesis.tex" 1776715244 51152 eeab877f1f38eaf32b056a156fb57e1a ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1776342647 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/noto/a_honops.enc" 1776346620 3182 601b20897fc52fd193faea6c880512f3 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/noto/a_jdknzu.enc" 1776346620 3465 9eff3a92a35ac24f5b39c509fee3ca60 ""
@@ -219,14 +219,14 @@
   "code/semantic_analyzer.py" 1776353506 5107 29957a71ead8ab51a0c6996fed02f263 ""
   "code/target_words.txt" 1776353506 48 896632142da84aa009ed705e69c1a0f7 ""
   "code/visualizer.py" 1776353506 4434 4443fceb6289bae9d63864903fad7366 ""
-  "compile-thesis.aux" 1776692126 24499 a4d6d3d95e914fc4dfb4e4ab61f24fad "pdflatex"
-  "compile-thesis.bbl" 1776691988 43630 8ca535238c43f3a36fed66682f51e6ce "biber compile-thesis"
-  "compile-thesis.lof" 1776692126 988 2273b10f23a1af0a88eeb5d0c50d8e14 "pdflatex"
-  "compile-thesis.lot" 1776692126 821 0f6660328ec9f9fd264259dc9e0e4daa "pdflatex"
-  "compile-thesis.out" 1776692126 17407 82e8d43514edce905d9484a522bb71a3 "pdflatex"
-  "compile-thesis.run.xml" 1776692126 2427 774ba22b228408e28c600981b5952b1a "pdflatex"
-  "compile-thesis.tex" 1776691947 50278 372fff32f5573053976842d9cf77792f ""
-  "compile-thesis.toc" 1776692126 8124 ebbf9a24e1d943de1655e1585bbbc805 "pdflatex"
+  "compile-thesis.aux" 1776715271 25098 84cefd15e85e973939b903a5b10fb053 "pdflatex"
+  "compile-thesis.bbl" 1776715157 45628 f60607decc234710fa8ebb7ea33ee657 "biber compile-thesis"
+  "compile-thesis.lof" 1776715271 988 f4e027a92acd12e4c66a72b9e2b1ea08 "pdflatex"
+  "compile-thesis.lot" 1776715271 821 6c71f238186ae42659cf550437626cbb "pdflatex"
+  "compile-thesis.out" 1776715271 17407 82e8d43514edce905d9484a522bb71a3 "pdflatex"
+  "compile-thesis.run.xml" 1776715271 2427 774ba22b228408e28c600981b5952b1a "pdflatex"
+  "compile-thesis.tex" 1776715244 51152 eeab877f1f38eaf32b056a156fb57e1a ""
+  "compile-thesis.toc" 1776715271 8124 fdcef3d75853b789ff11defe7e9734e5 "pdflatex"
   "setup/preamble.tex" 1776688913 3257 f488c3c761eb3e56880966632af5b362 ""
   (generated)
   "compile-thesis.aux"

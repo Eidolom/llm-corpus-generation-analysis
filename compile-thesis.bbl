@@ -174,7 +174,6 @@
       \field{abstract}{University students must cope with a bewildering array of registers, not only to learn academic content, but also to understand course expectations and requirements. While many previous studies have investigated academic writing, we know comparatively little about academic speech; and no linguistic study to date has investigated the range of academic and advising/management registers that students encounter. This book is a first step towards filling this gap. Based on analysis of the T2K-SWAL Corpus, the book describes university registers from several different perspectives, including: vocabulary patterns; the use of lexico-grammatical and syntactic features; the expression of stance; the use of extended collocations ('lexical bundles'); and a Multi-Dimensional analysis of the overall patterns of register variation. All linguistic patterns are interpreted in functional terms, resulting in an overall characterization of the typical kinds of language that students encounter in university registers: academic and non-academic; spoken and written.}
       \field{isbn}{978-90-272-2295-4 978-90-272-2296-1 978-90-272-9362-6}
       \field{langid}{english}
-      \field{month}{6}
       \field{series}{Studies in {{Corpus Linguistics}}}
       \field{title}{University {{Language}}: {{A}} Corpus-Based Study of Spoken and Written Registers}
       \field{urlday}{16}
@@ -243,7 +242,6 @@
       \field{abstract}{The completely redesigned Grammar of Spoken and Written English is a comprehensive corpus-based reference grammar. GSWE describes the structural characteristics of grammatical constructions in English, as do other reference grammars. But GSWE is unique in that it gives equal attention to describing the patterns of language use for each grammatical feature, based on empirical analyses of grammatical patterns in a 40-million-word corpus of spoken and written registers. 		Grammar-in-use is characterized by three inter-related kinds of information: frequency of grammatical features in spoken and written registers, frequencies of the most common lexico-grammatical patterns, and analysis of the discourse factors influencing choices among related grammatical features. GSWE includes over 350 tables and figures highlighting the results of corpus-based investigations. Throughout the book, authentic examples illustrate all research findings. 		The empirical descriptions document the lexico-grammatical features that are especially common in face-to-face-conversation compared to those that are especially common in academic writing. Analyses of fiction and newspaper articles are included as further benchmarks of language use. GSWE contains over 6,000 authentic examples from these four registers, illustrating the range of lexico-grammatical features in real-world speech and writing. In addition, comparisons between British and American English reveal specific regional differences. 		Now completely redesigned and available in an electronic edition, the Grammar of Spoken and Written English remains a unique and indispensable reference work for researchers, language teachers, and students alike.}
       \field{isbn}{978-90-272-0796-8 978-90-272-6047-5}
       \field{langid}{english}
-      \field{month}{11}
       \field{title}{Grammar of {{Spoken}} and {{Written English}}}
       \field{urlday}{26}
       \field{urlmonth}{12}
@@ -376,6 +374,45 @@
       \field{series}{Routledge {{Research}} in {{Language Education}}}
       \field{title}{Language, Ideology and Education: The Politics of Textbooks in Language Education}
       \field{year}{2015}
+    \endentry
+    \entry{hallidayMatthiessenIntroductionFunctional2014}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=02086519d39addfdf6fc98bacfee027c}{%
+           family={Halliday},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi A.\bibnamedelimi K.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61c40d27d4e8df0fe28459d109f67372}{%
+           family={Matthiessen},
+           familyi={M\bibinitperiod},
+           given={Christian\bibnamedelimb M.\bibnamedelimi I.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{ba6be358fe4be0a7e6294a96226e37d8}
+      \strng{fullhash}{ba6be358fe4be0a7e6294a96226e37d8}
+      \strng{fullhashraw}{ba6be358fe4be0a7e6294a96226e37d8}
+      \strng{bibnamehash}{ba6be358fe4be0a7e6294a96226e37d8}
+      \strng{authorbibnamehash}{ba6be358fe4be0a7e6294a96226e37d8}
+      \strng{authornamehash}{ba6be358fe4be0a7e6294a96226e37d8}
+      \strng{authorfullhash}{ba6be358fe4be0a7e6294a96226e37d8}
+      \strng{authorfullhashraw}{ba6be358fe4be0a7e6294a96226e37d8}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Halliday's Introduction to Functional Grammar}
+      \field{year}{2014}
     \endentry
     \entry{holmesArtificialIntelligenceEducation2019}{book}{}{}
       \name{author}{3}{}{%
@@ -646,56 +683,6 @@
       \verb gruy-9789027246806
       \endverb
     \endentry
-    \entry{quirkComprehensiveGrammar1985}{book}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=d8afd0c1425b76048f3d2f5ac5cfcc5d}{%
-           family={Quirk},
-           familyi={Q\bibinitperiod},
-           given={Randolph},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b9c3921ccea9989140c734fb47ee5223}{%
-           family={Greenbaum},
-           familyi={G\bibinitperiod},
-           given={Sidney},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9d3776cd0d2ffaabb590987e732e2346}{%
-           family={Leech},
-           familyi={L\bibinitperiod},
-           given={Geoffrey},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3bb23134679e5a4bae91b8854afbc977}{%
-           family={Svartvik},
-           familyi={S\bibinitperiod},
-           given={Jan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {London}%
-      }
-      \list{publisher}{1}{%
-        {Longman}%
-      }
-      \strng{namehash}{960a90e97879b165095d4f154b02d373}
-      \strng{fullhash}{d3889e92c7740f616b1c1e0a063b7232}
-      \strng{fullhashraw}{d3889e92c7740f616b1c1e0a063b7232}
-      \strng{bibnamehash}{d3889e92c7740f616b1c1e0a063b7232}
-      \strng{authorbibnamehash}{d3889e92c7740f616b1c1e0a063b7232}
-      \strng{authornamehash}{960a90e97879b165095d4f154b02d373}
-      \strng{authorfullhash}{d3889e92c7740f616b1c1e0a063b7232}
-      \strng{authorfullhashraw}{d3889e92c7740f616b1c1e0a063b7232}
-      \field{sortinit}{Q}
-      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{A Comprehensive Grammar of the English Language}
-      \field{year}{1985}
-    \endentry
     \entry{richards2006communicative}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c01b19cc3c63fe9809b3a5219ba721c3}{%
@@ -761,6 +748,53 @@
       \field{pages}{235\bibrangedash 242}
       \range{pages}{8}
     \endentry
+    \entry{schmale2004kommunikative}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3cec4873763f11abe4c39a283013bb65}{%
+           family={Schmale},
+           familyi={S\bibinitperiod},
+           given={Günter},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=431acf7779c3634827c22e8954956014}{%
+           family={Lüger},
+           familyi={L\bibinitperiod},
+           given={Heinz-Helmut},
+           giveni={H\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=37ed54f445e487d8813835c4a83d4033}{%
+           family={Rothenhäusler},
+           familyi={R\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{fullhash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{fullhashraw}{3cec4873763f11abe4c39a283013bb65}
+      \strng{bibnamehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{authorbibnamehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{authornamehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{authorfullhash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{authorfullhashraw}{3cec4873763f11abe4c39a283013bb65}
+      \strng{editorbibnamehash}{7833b038ba205d1e23630a597953dd03}
+      \strng{editornamehash}{7833b038ba205d1e23630a597953dd03}
+      \strng{editorfullhash}{7833b038ba205d1e23630a597953dd03}
+      \strng{editorfullhashraw}{7833b038ba205d1e23630a597953dd03}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Linguistik für die Fremdsprache Deutsch}
+      \field{series}{Beiträge zur Fremdsprachenvermittlung, Sonderheft 7}
+      \field{title}{Kommunikative Kompetenz durch Fremdsprachenunterricht? -- Zum Nutzen konversationsanalytischer Erkenntnisse und Verfahren für die Fremdsprachendidaktik}
+      \field{year}{2004}
+      \field{pages}{257\bibrangedash 281}
+      \range{pages}{25}
+    \endentry
     \entry{schmaleFormulaicExpressionsForeign2022}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3cec4873763f11abe4c39a283013bb65}{%
@@ -778,6 +812,7 @@
       \strng{authornamehash}{3cec4873763f11abe4c39a283013bb65}
       \strng{authorfullhash}{3cec4873763f11abe4c39a283013bb65}
       \strng{authorfullhashraw}{3cec4873763f11abe4c39a283013bb65}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -788,7 +823,6 @@
       \field{issn}{1615-3014}
       \field{journaltitle}{Linguistik Online}
       \field{langid}{english}
-      \field{month}{2}
       \field{number}{1}
       \field{title}{Formulaic {{Expressions}} for {{Foreign Language Learning}} and {{Teaching}}}
       \field{urlday}{6}
