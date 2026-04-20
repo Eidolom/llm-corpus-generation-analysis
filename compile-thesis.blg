@@ -1,18 +1,18 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [1] Config.pm:331> INFO - Logfile is 'compile-thesis.blg'
-[1100] biber-MSWIN64:342> INFO - === 
-[1482] Biber.pm:421> INFO - Reading 'compile-thesis.bcf'
-[2028] Biber.pm:1002> INFO - Found 20 citekeys in bib section 0
-[2077] Biber.pm:4487> INFO - Processing section 0
-[2135] Biber.pm:4678> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[2394] bibtex.pm:1713> INFO - LaTeX decoding ...
-[2717] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[3997] UCollate.pm:68> INFO - Overriding locale 'en' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3997] UCollate.pm:68> INFO - Overriding locale 'en' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3998] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en'
-[3998] Biber.pm:4313> INFO - No sort tailoring available for locale 'en'
-[4249] bbl.pm:676> INFO - Writing 'compile-thesis.bbl' with encoding 'UTF-8'
-[4302] bbl.pm:779> INFO - Output to compile-thesis.bbl
-[4302] Biber.pm:132> WARN - ISBN '978-1-317-80385-0 978-0-415-84038-5' in entry 'curdt-christiansenLanguageIdeologyEducation2015' is invalid - run biber with '--validate_datamodel' for details.
-[4304] Biber.pm:132> WARN - ISBN '978-90-272-2295-4 978-90-272-2296-1 978-90-272-9362-6' in entry 'biberUniversityLanguageCorpusbased2006' is invalid - run biber with '--validate_datamodel' for details.
-[4305] Biber.pm:134> INFO - WARNINGS: 2
+[313] biber-MSWIN64:342> INFO - === 
+[425] Biber.pm:421> INFO - Reading 'compile-thesis.bcf'
+[806] Biber.pm:1002> INFO - Found 22 citekeys in bib section 0
+[850] Biber.pm:4487> INFO - Processing section 0
+[885] Biber.pm:4678> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[1080] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1246] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[1771] UCollate.pm:68> INFO - Overriding locale 'en' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1771] UCollate.pm:68> INFO - Overriding locale 'en' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1771] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en'
+[1771] Biber.pm:4313> INFO - No sort tailoring available for locale 'en'
+[1844] bbl.pm:676> INFO - Writing 'compile-thesis.bbl' with encoding 'UTF-8'
+[1885] bbl.pm:779> INFO - Output to compile-thesis.bbl
+[1886] Biber.pm:132> WARN - ISBN '978-1-317-80385-0 978-0-415-84038-5' in entry 'curdt-christiansenLanguageIdeologyEducation2015' is invalid - run biber with '--validate_datamodel' for details.
+[1886] Biber.pm:132> WARN - ISBN '978-90-272-2295-4 978-90-272-2296-1 978-90-272-9362-6' in entry 'biberUniversityLanguageCorpusbased2006' is invalid - run biber with '--validate_datamodel' for details.
+[1886] Biber.pm:134> INFO - WARNINGS: 2

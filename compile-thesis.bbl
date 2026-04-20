@@ -19,6 +19,38 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{benati2018grammar}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7c68d4cb22d5964be58afab6bf213676}{%
+           family={Benati},
+           familyi={B\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{7c68d4cb22d5964be58afab6bf213676}
+      \strng{fullhash}{7c68d4cb22d5964be58afab6bf213676}
+      \strng{fullhashraw}{7c68d4cb22d5964be58afab6bf213676}
+      \strng{bibnamehash}{7c68d4cb22d5964be58afab6bf213676}
+      \strng{authorbibnamehash}{7c68d4cb22d5964be58afab6bf213676}
+      \strng{authornamehash}{7c68d4cb22d5964be58afab6bf213676}
+      \strng{authorfullhash}{7c68d4cb22d5964be58afab6bf213676}
+      \strng{authorfullhashraw}{7c68d4cb22d5964be58afab6bf213676}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The TESOL encyclopedia of English language teaching}
+      \field{title}{Grammar-translation method}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+    \endentry
     \entry{biber1988variation}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f646ef9768ee4e31e9af07e57bf14842}{%
@@ -641,6 +673,37 @@
       \field{labeltitlesource}{title}
       \field{title}{A Comprehensive Grammar of the English Language}
       \field{year}{1985}
+    \endentry
+    \entry{richards2006communicative}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c01b19cc3c63fe9809b3a5219ba721c3}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={Jack\bibnamedelima C},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge university press Cambridge}%
+      }
+      \strng{namehash}{c01b19cc3c63fe9809b3a5219ba721c3}
+      \strng{fullhash}{c01b19cc3c63fe9809b3a5219ba721c3}
+      \strng{fullhashraw}{c01b19cc3c63fe9809b3a5219ba721c3}
+      \strng{bibnamehash}{c01b19cc3c63fe9809b3a5219ba721c3}
+      \strng{authorbibnamehash}{c01b19cc3c63fe9809b3a5219ba721c3}
+      \strng{authornamehash}{c01b19cc3c63fe9809b3a5219ba721c3}
+      \strng{authorfullhash}{c01b19cc3c63fe9809b3a5219ba721c3}
+      \strng{authorfullhashraw}{c01b19cc3c63fe9809b3a5219ba721c3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{2}
+      \field{title}{Communicative language teaching today}
+      \field{volume}{25}
+      \field{year}{2006}
     \endentry
     \entry{schmaleFormulaicExpressionsForeign2022}{article}{}{}
       \name{author}{1}{}{%
