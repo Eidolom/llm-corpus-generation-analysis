@@ -243,34 +243,48 @@
       \field{title}{Longman Grammar of Spoken and Written English}
       \field{year}{1999}
     \endentry
-    \entry{brown1978questions}{misc}{}{}
-      \name{author}{1}{}{%
+    \entry{brownpenelopeQuestionsPolitenessStrategies1978}{book}{}{}
+      \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b813054095f6303db2d75a6ea9ffbbcb}{%
            family={Brown},
            familyi={B\bibinitperiod},
            given={Penelope},
            giveni={P\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8cabdf8db416e17d05ff9d4d9c41faf}{%
+           family={Levinson},
+           familyi={L\bibinitperiod},
+           given={Stephen\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Cambridge University Press}%
+        {Cambridge ; New York : Cambridge University Press}%
       }
-      \strng{namehash}{b813054095f6303db2d75a6ea9ffbbcb}
-      \strng{fullhash}{b813054095f6303db2d75a6ea9ffbbcb}
-      \strng{fullhashraw}{b813054095f6303db2d75a6ea9ffbbcb}
-      \strng{bibnamehash}{b813054095f6303db2d75a6ea9ffbbcb}
-      \strng{authorbibnamehash}{b813054095f6303db2d75a6ea9ffbbcb}
-      \strng{authornamehash}{b813054095f6303db2d75a6ea9ffbbcb}
-      \strng{authorfullhash}{b813054095f6303db2d75a6ea9ffbbcb}
-      \strng{authorfullhashraw}{b813054095f6303db2d75a6ea9ffbbcb}
+      \strng{namehash}{405e8873bda0445547ad344115b40e92}
+      \strng{fullhash}{405e8873bda0445547ad344115b40e92}
+      \strng{fullhashraw}{405e8873bda0445547ad344115b40e92}
+      \strng{bibnamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authorbibnamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authornamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authorfullhash}{405e8873bda0445547ad344115b40e92}
+      \strng{authorfullhashraw}{405e8873bda0445547ad344115b40e92}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Questions and politeness: Strategies in social interaction}
+      \field{abstract}{viii, 323 p. : 22 cm; Bibliography: p. 311-323}
+      \field{isbn}{978-0-521-21749-1}
+      \field{langid}{english}
+      \field{title}{Questions and Politeness : Strategies in Social Interaction}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
       \field{year}{1978}
+      \field{urldateera}{ce}
+      \keyw{Grammar Comparative and general -- Honorific}
     \endentry
     \entry{conti2016ugly}{online}{}{}
       \name{author}{2}{}{%
@@ -393,7 +407,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{"A must read for educators and all stakeholders interested in how the future of education will be impacted - and more than likely transformed - by AI ... provides a critical leans on both the potential benefits and risks of AI without hyping the technology}
+      \field{abstract}{A must-read for educators and stakeholders interested in how education may be impacted by AI. The book presents potential benefits and risks without hype.}
       \field{isbn}{978-1-7942-9370-0}
       \field{langid}{english}
       \field{title}{Artificial Intelligence in Education: Promises and Implications for Teaching and Learning}
@@ -500,9 +514,6 @@
       \field{isbn}{978-0-582-55381-1}
       \field{title}{The Input Hypothesis: Issues and Implications}
       \field{year}{1985}
-      \verb{file}
-      \verb C:\Users\simon\Zotero\storage\NCLQZ8DL\Krashen - 1985 - The input hypothesis issues and implications.pdf
-      \endverb
       \keyw{Language and languages,Second language acquisition,Study and teaching}
     \endentry
     \entry{leFoll2021a}{online}{}{}
@@ -705,6 +716,40 @@
       \field{volume}{25}
       \field{year}{2006}
     \endentry
+    \entry{savignon1987communicative}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a2e28264172e498f82f3709f28d19ddc}{%
+           family={Savignon},
+           familyi={S\bibinitperiod},
+           given={Sandra\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{a2e28264172e498f82f3709f28d19ddc}
+      \strng{fullhash}{a2e28264172e498f82f3709f28d19ddc}
+      \strng{fullhashraw}{a2e28264172e498f82f3709f28d19ddc}
+      \strng{bibnamehash}{a2e28264172e498f82f3709f28d19ddc}
+      \strng{authorbibnamehash}{a2e28264172e498f82f3709f28d19ddc}
+      \strng{authornamehash}{a2e28264172e498f82f3709f28d19ddc}
+      \strng{authorfullhash}{a2e28264172e498f82f3709f28d19ddc}
+      \strng{authorfullhashraw}{a2e28264172e498f82f3709f28d19ddc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Theory into practice}
+      \field{number}{4}
+      \field{title}{Communicative language teaching}
+      \field{volume}{26}
+      \field{year}{1987}
+      \field{pages}{235\bibrangedash 242}
+      \range{pages}{8}
+    \endentry
     \entry{schmaleFormulaicExpressionsForeign2022}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3cec4873763f11abe4c39a283013bb65}{%
@@ -745,9 +790,6 @@
       \range{pages}{20}
       \verb{doi}
       \verb 10.13092/lo.113.8328
-      \endverb
-      \verb{file}
-      \verb C:\Users\simon\Zotero\storage\YPMZJ574\Schmale - 2022 - Formulaic Expressions for Foreign Language Learning and Teaching.pdf
       \endverb
     \endentry
     \entry{sinclairCorpusConcordanceCollocation1991}{book}{}{}
@@ -905,9 +947,6 @@
       \range{pages}{29}
       \verb{doi}
       \verb 10.1207/s15516709cog1202_4
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\simon\\Zotero\\storage\\R38HG5IL\\Sweller - 1988 - Cognitive Load During Problem Solving Effects on Learning.pdf;C\:\\Users\\simon\\Zotero\\storage\\CP9WWRG6\\s15516709cog1202_4.html
       \endverb
     \endentry
   \enddatalist

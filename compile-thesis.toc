@@ -14,35 +14,35 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Sinclair's Dual Framework}{8}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}The Open-Choice Principle}{8}{subsubsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.3}The Idiom Principle}{9}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}De-lexicalisation in High-Frequency Verbs}{9}{subsubsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.5}The LLM Phraseology Paradox}{9}{subsubsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.3}Cognitive Complexity \& Pedagogical Input}{9}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Krashen's Input Hypothesis ($i+1$)}{9}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Sweller's Cognitive Load Theory (CLT)}{9}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}The Paradox of Simplification}{9}{subsubsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.4}Synthesis: Evaluating Synthetic Input}{9}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.4}De-lexicalisation in High-Frequency Verbs}{10}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}The LLM Phraseology Paradox}{10}{subsubsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.3}Cognitive Complexity \& Pedagogical Input}{10}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Krashen's Input Hypothesis ($i+1$)}{10}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Sweller's Cognitive Load Theory (CLT)}{10}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}The Paradox of Simplification}{10}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}Synthesis: Evaluating Synthetic Input}{10}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Methodology}{10}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Research Design \& Objectives}{10}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Study Design Overview}{10}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}Research Question \& Hypotheses}{10}{subsubsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.2}Corpus Compilation}{11}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Natural Reference Corpus (NRC)}{11}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Synthetic Control Corpus (SCC)}{11}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Pilot Study \& Prompt Refinement}{11}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Reproducibility Specifications}{11}{subsubsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.3}Data Processing Pipeline}{11}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}POS-Tagging \& Syntactic Disambiguation}{11}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Semantic Classification}{11}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Data Quality Assurance}{11}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Inter-Rater Reliability (IRR)}{11}{subsubsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.4}Statistical Analysis}{12}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Comparison Strategy}{12}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Inferential Testing \& Thresholds}{12}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Statistical Procedure \& Frequency Normalisation}{12}{subsubsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.5}Ethical Considerations \& Data Use}{12}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Results}{12}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Descriptive Overview of the Final Datasets}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Overall Corpus Comparison (Testing Hypothesis 1)}{12}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {3.2.2}Synthetic Control Corpus (SCC)}{12}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Pilot Study \& Prompt Refinement}{12}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Reproducibility Specifications}{12}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Data Processing Pipeline}{12}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}POS-Tagging \& Syntactic Disambiguation}{12}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Semantic Classification}{12}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Data Quality Assurance}{12}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Inter-Rater Reliability (IRR)}{12}{subsubsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.4}Statistical Analysis}{13}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Comparison Strategy}{13}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Inferential Testing \& Thresholds}{13}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Statistical Procedure \& Frequency Normalisation}{13}{subsubsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.5}Ethical Considerations \& Data Use}{13}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Results}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Descriptive Overview of the Final Datasets}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Overall Corpus Comparison (Testing Hypothesis 1)}{13}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Register Effects \& Prompt Sensitivity (Testing Hypothesis 2)}{13}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Lemma-Level Selectivity (Testing Hypothesis 3)}{13}{subsection.4.4}%
 \contentsline {section}{\numberline {5}Discussion}{14}{section.5}%
@@ -60,26 +60,26 @@
 \contentsline {subsection}{\numberline {6.3}Practical Implications}{14}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Final Reflection}{14}{subsection.6.4}%
 \contentsline {section}{References}{15}{subsection.6.4}%
-\contentsline {section}{Documentation of AI Tools Used}{17}{subsection.6.4}%
-\contentsline {section}{Plagiarism Statement}{18}{Item.5}%
-\contentsline {section}{\numberline {A}TEC Source Textbooks (B1/B2 Subset)}{19}{appendix.A}%
-\contentsline {section}{\numberline {B}SCC Pilot Study Visualisations}{20}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}Short Interpretation: \textit {run}}{21}{subsection.B.1}%
-\contentsline {subsection}{\numberline {B.2}Short Interpretation: \textit {take}}{21}{subsection.B.2}%
-\contentsline {section}{\numberline {C}Final Dataset Visualisations}{23}{appendix.C}%
-\contentsline {section}{\numberline {D}Python Code Documentation}{25}{appendix.D}%
-\contentsline {subsection}{\numberline {D.1}debug.py}{25}{subsection.D.1}%
-\contentsline {subsection}{\numberline {D.2}scalable\_context\_generator.py}{25}{subsection.D.2}%
-\contentsline {subsection}{\numberline {D.3}target\_words.txt}{29}{subsection.D.3}%
-\contentsline {subsection}{\numberline {D.4}sketch\_engine\_converter\_nltk.py}{29}{subsection.D.4}%
-\contentsline {subsection}{\numberline {D.5}pos\_taggerV2NLTK.py}{32}{subsection.D.5}%
-\contentsline {subsection}{\numberline {D.6}pos\_tagger\_nltk\_for\_csv.py}{33}{subsection.D.6}%
-\contentsline {subsection}{\numberline {D.7}semantic\_analyzer.py}{35}{subsection.D.7}%
-\contentsline {subsection}{\numberline {D.8}irr\_sheet\_generator.py}{39}{subsection.D.8}%
-\contentsline {subsection}{\numberline {D.9}compute\_split\_irr.py}{43}{subsection.D.9}%
-\contentsline {subsection}{\numberline {D.10}irr\_split\_results.csv}{48}{subsection.D.10}%
-\contentsline {subsection}{\numberline {D.11}visualizer.py}{48}{subsection.D.11}%
-\contentsline {section}{\numberline {E}Full AI Documentation}{52}{appendix.E}%
-\contentsline {subsection}{\numberline {E.1}Gemini 2.5 Flash: SCC Generation Prompts}{52}{subsection.E.1}%
-\contentsline {subsection}{\numberline {E.2}Gemini 2.5 Flash: Semantic Classification Prompts}{52}{subsection.E.2}%
-\contentsline {subsection}{\numberline {E.3}Gemini 3 Pro: Ideation Prompt}{53}{subsection.E.3}%
+\contentsline {section}{Documentation of AI Tools Used}{18}{subsection.6.4}%
+\contentsline {section}{Plagiarism Statement}{19}{Item.5}%
+\contentsline {section}{\numberline {A}TEC Source Textbooks (B1/B2 Subset)}{20}{appendix.A}%
+\contentsline {section}{\numberline {B}SCC Pilot Study Visualisations}{21}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Short Interpretation: \textit {run}}{22}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Short Interpretation: \textit {take}}{22}{subsection.B.2}%
+\contentsline {section}{\numberline {C}Final Dataset Visualisations}{24}{appendix.C}%
+\contentsline {section}{\numberline {D}Python Code Documentation}{26}{appendix.D}%
+\contentsline {subsection}{\numberline {D.1}debug.py}{26}{subsection.D.1}%
+\contentsline {subsection}{\numberline {D.2}scalable\_context\_generator.py}{26}{subsection.D.2}%
+\contentsline {subsection}{\numberline {D.3}target\_words.txt}{30}{subsection.D.3}%
+\contentsline {subsection}{\numberline {D.4}sketch\_engine\_converter\_nltk.py}{30}{subsection.D.4}%
+\contentsline {subsection}{\numberline {D.5}pos\_taggerV2NLTK.py}{33}{subsection.D.5}%
+\contentsline {subsection}{\numberline {D.6}pos\_tagger\_nltk\_for\_csv.py}{34}{subsection.D.6}%
+\contentsline {subsection}{\numberline {D.7}semantic\_analyzer.py}{36}{subsection.D.7}%
+\contentsline {subsection}{\numberline {D.8}irr\_sheet\_generator.py}{40}{subsection.D.8}%
+\contentsline {subsection}{\numberline {D.9}compute\_split\_irr.py}{44}{subsection.D.9}%
+\contentsline {subsection}{\numberline {D.10}irr\_split\_results.csv}{49}{subsection.D.10}%
+\contentsline {subsection}{\numberline {D.11}visualizer.py}{49}{subsection.D.11}%
+\contentsline {section}{\numberline {E}Full AI Documentation}{53}{appendix.E}%
+\contentsline {subsection}{\numberline {E.1}Gemini 2.5 Flash: SCC Generation Prompts}{53}{subsection.E.1}%
+\contentsline {subsection}{\numberline {E.2}Gemini 2.5 Flash: Semantic Classification Prompts}{53}{subsection.E.2}%
+\contentsline {subsection}{\numberline {E.3}Gemini 3 Pro: Ideation Prompt}{54}{subsection.E.3}%

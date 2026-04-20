@@ -1,0 +1,31 @@
+[0] Config.pm:328> INFO - This is Biber 2.21 running in TOOL mode
+[4] Config.pm:331> INFO - Logfile is 'c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib.blg'
+[277] biber-MSWIN64:342> INFO - === 
+[376] Biber.pm:4674> INFO - Looking for bibtex file 'c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib'
+[661] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1087] bibtex.pm:1519> INFO - Found BibTeX data source 'c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib'
+[3413] Biber.pm:1709> INFO - Datamodel validation starting
+[3458] Biber.pm:1759> INFO - Datamodel validation complete
+[3492] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3493] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3493] Biber.pm:4307> INFO - Sorting list 'tool/global//global/global/global' of type 'entry' with template 'tool' and locale 'en_US'
+[3496] Biber.pm:4313> INFO - No sort tailoring available for locale 'en_US'
+[3597] bibtex.pm:440> INFO - Writing 'c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography_bibertool.bib' with encoding 'UTF-8'
+[3600] bibtex.pm:481> INFO - Output to c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography_bibertool.bib
+[3603] Biber.pm:132> WARN - Datamodel: book entry 'sinclairCorpusConcordanceCollocation1991' (c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib): Field 'lccn' invalid in data model - ignoring
+[3609] Biber.pm:132> WARN - ISBN '978-90-272-2295-4 978-90-272-2296-1 978-90-272-9362-6' in entry 'biberUniversityLanguageCorpusbased2006' is invalid - run biber with '--validate_datamodel' for details.
+[3610] Biber.pm:132> WARN - ISBN '978-1-317-80385-0 978-0-415-84038-5' in entry 'curdt-christiansenLanguageIdeologyEducation2015' is invalid - run biber with '--validate_datamodel' for details.
+[3611] Biber.pm:132> WARN - Datamodel: book entry 'brownpenelopeQuestionsPolitenessStrategies1978' (c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib): Field 'collaborator' invalid in data model - ignoring
+[3612] Biber.pm:132> WARN - Datamodel: article entry 'mikhaylovArtificialIntelligencePublic2018' (c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib): Invalid ISSN in value of field 'issn'
+[3613] Biber.pm:132> WARN - Datamodel: online entry 'leFoll2021a' (c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib): Invalid field 'publisher' for entrytype 'online'
+[3629] Biber.pm:132> WARN - Datamodel: incollection entry 'firthSynopsisLinguisticTheory1957' (c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib): Missing mandatory field 'editor'
+[3635] Biber.pm:132> WARN - Datamodel: book entry 'curdt-christiansenLanguageIdeologyEducation2015' (c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib): Missing mandatory field 'author'
+[3640] Biber.pm:132> WARN - Datamodel: book entry 'curdt-christiansenLanguageIdeologyEducation2015' (c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib): Invalid ISBN in value of field 'isbn'
+[3641] Biber.pm:132> WARN - Datamodel: article entry 'biber1993using' (c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib): Invalid field 'location' for entrytype 'article'
+[3642] Biber.pm:132> WARN - Datamodel: article entry 'biber1993using' (c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib): Invalid field 'publisher' for entrytype 'article'
+[3643] Biber.pm:132> WARN - Datamodel: book entry 'biberUniversityLanguageCorpusbased2006' (c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib): Invalid ISBN in value of field 'isbn'
+[3643] Biber.pm:132> WARN - Datamodel: book entry 'brownpenelopeQuestionsPolitenessStrategies1978' (c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib): Missing mandatory field 'author'
+[3644] Biber.pm:132> WARN - Datamodel: article entry 'benati2018grammar' (c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib): Invalid field 'publisher' for entrytype 'article'
+[3646] Biber.pm:132> WARN - Datamodel: article entry 'schmale2022formulaic' (c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib): Invalid field 'publisher' for entrytype 'article'
+[3647] Biber.pm:132> WARN - Datamodel: article entry 'savignon1987communicative' (c:\Users\simon\Downloads\prism-projects-2026-04-16\Copy of John_Simon_2175939_BA_Thesis_2026.pdf\bibliography.bib): Invalid field 'publisher' for entrytype 'article'
+[3648] Biber.pm:134> INFO - WARNINGS: 16
