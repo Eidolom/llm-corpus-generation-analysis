@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.16)  17 APR 2026 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.16)  20 APR 2026 11:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1420,9 +1420,9 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout8 = `compile-thesis.lof'.
 
  [5] [6]
-Package hyperref Info: Option `pageanchor' set `true' on input line 108.
- [1] [2] [3] [4] [5] [6]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 241.
+Package hyperref Info: Option `pageanchor' set `true' on input line 109.
+ [1] [2] [3] [4] [5] [6] [7] [8]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 246.
  (c:/texlive/2026/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -1430,8 +1430,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [7] [8{c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-LaTeX Font Info:    Trying to load font information for TS1+NotoSerif-TLF on input line 268.
+ [9{c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+LaTeX Font Info:    Trying to load font information for TS1+NotoSerif-TLF on input line 273.
  (c:/texlive/2026/texmf-dist/tex/latex/noto/TS1NotoSerif-TLF.fd
 File: TS1NotoSerif-TLF.fd 2021/09/07 (autoinst) Font definitions for TS1/NotoSerif-TLF.
 )
@@ -1442,73 +1442,73 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package microtype Info: Character `textminus ' is missing
 (microtype)             in font `TS1/NotoSerif-TLF/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
- [9{c:/texlive/2026/texmf-dist/fonts/enc/dvips/noto/a_honops.enc}] [10] [11] [12] [13] [14{c:/texlive/2026/texmf-dist/fonts/enc/dvips/noto/a_jdknzu.enc}] [15] [16]
-<Images/signature.png, id=643, 826.08624pt x 327.2225pt>
+ [10{c:/texlive/2026/texmf-dist/fonts/enc/dvips/noto/a_honops.enc}] [11] [12] [13] [14] [15{c:/texlive/2026/texmf-dist/fonts/enc/dvips/noto/a_jdknzu.enc}] [16] [17]
+<Images/signature.png, id=653, 826.08624pt x 327.2225pt>
 File: Images/signature.png Graphic file (type png)
 <use Images/signature.png>
-Package pdftex.def Info: Images/signature.png  used on input line 576.
+Package pdftex.def Info: Images/signature.png  used on input line 581.
 (pdftex.def)             Requested size: 143.65968pt x 56.9055pt.
- [17 <./Images/signature.png>] [18]
-<Images/results_aggregate_chart.png, id=656, 462.528pt x 346.896pt>
+ [18 <./Images/signature.png>] [19]
+<Images/results_aggregate_chart.png, id=666, 462.528pt x 346.896pt>
 File: Images/results_aggregate_chart.png Graphic file (type png)
 <use Images/results_aggregate_chart.png>
-Package pdftex.def Info: Images/results_aggregate_chart.png  used on input line 608.
+Package pdftex.def Info: Images/results_aggregate_chart.png  used on input line 613.
 (pdftex.def)             Requested size: 426.79135pt x 320.11154pt.
-<Images/results_heatmap.png, id=657, 722.7pt x 578.16pt>
+<Images/results_heatmap.png, id=667, 722.7pt x 578.16pt>
 File: Images/results_heatmap.png Graphic file (type png)
 <use Images/results_heatmap.png>
-Package pdftex.def Info: Images/results_heatmap.png  used on input line 616.
+Package pdftex.def Info: Images/results_heatmap.png  used on input line 621.
 (pdftex.def)             Requested size: 426.79135pt x 341.43785pt.
- [19 <./Images/results_aggregate_chart.png>] [20 <./Images/results_heatmap.png>] [21]
-<Images/results_aggregate_register_proportions.png, id=674, 722.7pt x 433.62pt>
+ [20 <./Images/results_aggregate_chart.png>] [21 <./Images/results_heatmap.png>] [22]
+<Images/results_aggregate_register_proportions.png, id=684, 722.7pt x 433.62pt>
 File: Images/results_aggregate_register_proportions.png Graphic file (type png)
 <use Images/results_aggregate_register_proportions.png>
-Package pdftex.def Info: Images/results_aggregate_register_proportions.png  used on input line 638.
+Package pdftex.def Info: Images/results_aggregate_register_proportions.png  used on input line 643.
 (pdftex.def)             Requested size: 426.79135pt x 256.07838pt.
-<Images/results_idiomaticity_heatmaps.png, id=675, 1011.78pt x 722.7pt>
+<Images/results_idiomaticity_heatmaps.png, id=685, 1011.78pt x 722.7pt>
 File: Images/results_idiomaticity_heatmaps.png Graphic file (type png)
 <use Images/results_idiomaticity_heatmaps.png>
-Package pdftex.def Info: Images/results_idiomaticity_heatmaps.png  used on input line 647.
+Package pdftex.def Info: Images/results_idiomaticity_heatmaps.png  used on input line 652.
 (pdftex.def)             Requested size: 426.79135pt x 304.85522pt.
- [22
+ [23
 
- <./Images/results_aggregate_register_proportions.png> <./Images/results_idiomaticity_heatmaps.png>] [23] (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
+ <./Images/results_aggregate_register_proportions.png> <./Images/results_idiomaticity_heatmaps.png>] [24] (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 663.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 668.
  (./code/debug.py
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 3.
-) (./code/scalable_context_generator.py [24
+) (./code/scalable_context_generator.py [25
 
-] [25] [26] [27]) (./code/target_words.txt) (./code/nltk_sketch_engine_converter.py [28] [29] [30]) (./code/pos_taggerV2NLTK.py [31]) [32] (./code/pos_taggerNLTK_forCSV.py [33]) (./code/semantic_analyzer.py [34] [35] [36] [37]) (./code/irr_sheet_generator.py [38] [39] [40] [41]) (./code/compute_split_irr.py [42] [43] [44] [45] [46]) (./Files/irr_split_results.csv) (./code/visualizer.py [47] [48] [49]) [50] [51]
-<Screenshots/Gemini3Proof1.png, id=1918, 1380.65813pt x 672.26157pt>
+] [26] [27] [28]) (./code/target_words.txt) (./code/nltk_sketch_engine_converter.py [29] [30] [31]) (./code/pos_taggerV2NLTK.py [32]) [33] (./code/pos_taggerNLTK_forCSV.py [34]) (./code/semantic_analyzer.py [35] [36] [37] [38]) (./code/irr_sheet_generator.py [39] [40] [41] [42]) (./code/compute_split_irr.py [43] [44] [45] [46] [47]) (./Files/irr_split_results.csv) (./code/visualizer.py [48] [49] [50]) [51] [52]
+<Screenshots/Gemini3Proof1.png, id=1928, 1380.65813pt x 672.26157pt>
 File: Screenshots/Gemini3Proof1.png Graphic file (type png)
 <use Screenshots/Gemini3Proof1.png>
-Package pdftex.def Info: Screenshots/Gemini3Proof1.png  used on input line 762.
+Package pdftex.def Info: Screenshots/Gemini3Proof1.png  used on input line 767.
 (pdftex.def)             Requested size: 384.1096pt x 187.03178pt.
-<Screenshots/Gemini3Proof2.png, id=1919, 1385.175pt x 674.52pt>
+<Screenshots/Gemini3Proof2.png, id=1929, 1385.175pt x 674.52pt>
 File: Screenshots/Gemini3Proof2.png Graphic file (type png)
 <use Screenshots/Gemini3Proof2.png>
-Package pdftex.def Info: Screenshots/Gemini3Proof2.png  used on input line 768.
+Package pdftex.def Info: Screenshots/Gemini3Proof2.png  used on input line 773.
 (pdftex.def)             Requested size: 384.1096pt x 187.04257pt.
- [52 <./Screenshots/Gemini3Proof1.png>]
-<Screenshots/Gemini3Proof3.png, id=1937, 1391.1975pt x 679.78969pt>
+ [53 <./Screenshots/Gemini3Proof1.png>]
+<Screenshots/Gemini3Proof3.png, id=1947, 1391.1975pt x 679.78969pt>
 File: Screenshots/Gemini3Proof3.png Graphic file (type png)
 <use Screenshots/Gemini3Proof3.png>
-Package pdftex.def Info: Screenshots/Gemini3Proof3.png  used on input line 774.
+Package pdftex.def Info: Screenshots/Gemini3Proof3.png  used on input line 779.
 (pdftex.def)             Requested size: 384.1096pt x 187.68439pt.
-<Screenshots/Gemini3Proof4.png, id=1938, 1386.68062pt x 676.77844pt>
+<Screenshots/Gemini3Proof4.png, id=1948, 1386.68062pt x 676.77844pt>
 File: Screenshots/Gemini3Proof4.png Graphic file (type png)
 <use Screenshots/Gemini3Proof4.png>
-Package pdftex.def Info: Screenshots/Gemini3Proof4.png  used on input line 780.
+Package pdftex.def Info: Screenshots/Gemini3Proof4.png  used on input line 785.
 (pdftex.def)             Requested size: 384.1096pt x 187.4623pt.
-<Screenshots/Gemini3Proof5.png, id=1939, 1386.68062pt x 679.78969pt>
+<Screenshots/Gemini3Proof5.png, id=1949, 1386.68062pt x 679.78969pt>
 File: Screenshots/Gemini3Proof5.png Graphic file (type png)
 <use Screenshots/Gemini3Proof5.png>
-Package pdftex.def Info: Screenshots/Gemini3Proof5.png  used on input line 786.
+Package pdftex.def Info: Screenshots/Gemini3Proof5.png  used on input line 791.
 (pdftex.def)             Requested size: 384.1096pt x 188.29639pt.
- [53 <./Screenshots/Gemini3Proof2.png> <./Screenshots/Gemini3Proof3.png> <./Screenshots/Gemini3Proof4.png>] [54 <./Screenshots/Gemini3Proof5.png>] (./compile-thesis.aux)
+ [54 <./Screenshots/Gemini3Proof2.png> <./Screenshots/Gemini3Proof3.png> <./Screenshots/Gemini3Proof4.png>] [55 <./Screenshots/Gemini3Proof5.png>] (./compile-thesis.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -1520,18 +1520,18 @@ Package logreq Info: Writing requests to 'compile-thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31389 strings out of 467349
- 558340 string characters out of 5419862
- 1955149 words of memory out of 5000000
- 58374 multiletter control sequences out of 15000+600000
- 741351 words of font info for 356 fonts, out of 8000000 for 9000
+ 31410 strings out of 467349
+ 558971 string characters out of 5419862
+ 1955331 words of memory out of 5000000
+ 58386 multiletter control sequences out of 15000+600000
+ 741975 words of font info for 360 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,13n,120p,1954b,2420s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/google/noto/NotoSerif-Bold.pfb><c:/texlive/2026/texmf-dist/fonts/type1/google/noto/NotoSerif-BoldItalic.pfb><c:/texlive/2026/texmf-dist/fonts/type1/google/noto/NotoSerif-Italic.pfb><c:/texlive/2026/texmf-dist/fonts/type1/google/noto/NotoSerif-Regular.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on compile-thesis.pdf (61 pages, 1730392 bytes).
+Output written on compile-thesis.pdf (62 pages, 1733894 bytes).
 PDF statistics:
- 2278 PDF objects out of 2487 (max. 8388607)
- 2145 compressed objects within 22 object streams
- 1290 named destinations out of 1440 (max. 500000)
+ 2289 PDF objects out of 2487 (max. 8388607)
+ 2155 compressed objects within 22 object streams
+ 1293 named destinations out of 1440 (max. 500000)
  81112 words of extra memory for PDF output out of 89155 (max. 10000000)
 
