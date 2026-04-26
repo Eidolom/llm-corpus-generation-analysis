@@ -214,7 +214,7 @@ This distinction is the key motivator for the design of the present study. If on
 
 \subsubsection{De-lexicalisation in High-Frequency Verbs}
 
-A key concept related to the Idiom Principle is de-lexicalisation, which refers to the process where a verb loses its original, concrete meaning and becomes part of a fixed expression or idiom, which may bear little to no relation to its literal counterpart. Sinclair defines this process as a ``reduction of the distinctive contribution made by that word to the meaning'' \parencite[113]{sinclairCorpusConcordanceCollocation1991}. Because these verbs lose their independent meaning, they heavily rely on the context they are used in, indicating that ``normal text is largely delexicalised, and appears to be formed by exercise of the idiom principle'' \parencite[113]{sinclairCorpusConcordanceCollocation1991}. This is especially relevant for high-frequency, polysemous verbs. Because of their high dependence on context, they are very suitable for a direct comparison in the NRC and SCC.
+A key concept related to the Idiom Principle is de-lexicalisation, which refers to the process where a verb loses its original, concrete meaning and becomes part of a fixed expression or idiom, which may bear little to no relation to its literal counterpart. Sinclair defines this process as a ``reduction of the distinctive contribution made by that word to the meaning'' \parencite[113]{sinclairCorpusConcordanceCollocation1991}. Because these verbs lose their independent meaning, they heavily rely on the context they are used in, indicating that ``normal text is largely de-lexicalised, and appears to be formed by exercise of the idiom principle'' \parencite[113]{sinclairCorpusConcordanceCollocation1991}. This is especially relevant for high-frequency, polysemous verbs. Because of their high dependence on context, they are very suitable for a direct comparison in the NRC and SCC.
 
 While processing de-lexicalised chunks is crucial for developing idiomatic fluency, their lack of transparency can be a significant obstacle for learners. This is a burden that increases the cognitive load \parencite{swellerCognitiveLoadProblem1988a} of the input, which can be overwhelming when learning a new language.
 
@@ -224,17 +224,19 @@ While processing de-lexicalised chunks is crucial for developing idiomatic fluen
 
 Krashen's Input Hypothesis \parencite*{krashenInputHypothesisIssues1985} provides a pedagogical perspective on the quality of input. This hypothesis proposes that acquisition occurs when learners are exposed to input that is largely comprehensible at their current level of competence ($i$), while still containing some elements that are just beyond their current level ($+1$). This means that the input should be challenging, but not too overwhelming. A perfect sentence for a learner would therefore contain mostly familiar vocabulary and grammar, while also introducing new words or structures that the learner can understand through context. The implication for this study is simple: example sentences should not only be judged by correctness, but also whether they provide useful input that can be processed and acquired by learners. On the one hand, if the sentences are too complex (e.g., too many unfamiliar de-lexicalised chunks), they may not be comprehensible through context, which hinders acquisition. On the other hand, if the sentences are too simple (e.g., only known words and structures), they cannot provide the necessary challenge to push learners to acquire new features of the language. In this thesis, the B1/B2 level of the Common European Framework of Reference for Languages (CEFR) is used as a benchmark, where the transition from transparent, literal syntax to more complex, idiomatic patterns is the most relevant hurdle to overcome.
 
-Taking this hypothesis into account, there are two potential risks that emerge. First, if the textbook sentences are indeed over-sanitised and lack idiomaticity, they may remain at $i$ level, lacking exposure to the $+1$ level of natural phraseology and register variation. Second, if synthetic input introduces too many new concepts and de-lexicalised chunks without sufficient context, it may exceed the $+1$ threshold, making it incomprehensible and unusable for learners. Therefore, the practical goal of the AI-generated sentences should not be achieving maximal colloquiality, but rather finding a balance between naturalness and comprehensibility that can provide useful input for learners at the B1/B2 level.
+Taking this hypothesis into account, there are two potential risks that emerge. First, if the textbook sentences are indeed over-sanitised and lack idiomaticity, they may remain at $i$ level, lacking exposure to the $+1$ level of natural phraseology and register variation. As Krashen warns, ``over-simplification can delay acquisition by denying the acquirer $i+1$'' \parencite[24]{krashenInputHypothesisIssues1985}. Second, if synthetic input introduces too many new concepts and de-lexicalised chunks without sufficient context, it risks ``excess $i+n$, rules beyond the acquirer's $i+1$'' \parencite[24]{krashenInputHypothesisIssues1985}. This excess can be described as incomprehensible ``noise'', making the sentences unusable for learners. Therefore, the practical goal of the AI-generated sentences should not be achieving maximal colloquiality, but rather producing what Krashen describes as ``the best data [\ldots] which contains maximum richness but which remains comprehensible'' \parencite[27]{krashenInputHypothesisIssues1985}. By finding this balance between naturalness and comprehensibility, the AI-generated sentences may provide the optimal $i+1$ challenge for learners at B1/B2 level.
 
 \subsubsection{Sweller's Cognitive Load Theory (CLT)}
 
+Sweller's Cognitive Load Theory \parencite*{swellerCognitiveLoadProblem1988a} provides a different perspective on the quality of input. According to this theory, ``the system (or person) has a fixed cognitive capacity'' and ``both problem solving and learning require some of that capacity'' \parencite[275]{swellerCognitiveLoadProblem1988a}. Learning tasks demand cognitive resources, because ``human short-term memory is severely limited'' and being exposed to unnecessary complexity in learning tasks may ``contribute to an excessive cognitive load'' \parencite[265]{swellerCognitiveLoadProblem1988a}. These demands on cognitive resources can be classified as either intrinsic load (the inherent complexity of the content) or extraneous load (the way the content is presented). Because the working memory is so limited, even ``a small additional load could be critical'', meaning that ``any increase in resources required [\ldots] must inevitably decrease resources available for learning'' \parencite[275]{swellerCognitiveLoadProblem1988a}.
 
+This finding is especially relevant for pedagogical sentences, showing that the same sentence can be either supporting or hindering how learners process and acquire the language. Awkward phrasing, unnatural flow of information or poor lexical choices can all contribute to what Sweller describes as ``cognitive overload which leaves little capacity for other aspects of the tasks'' \parencite[276]{swellerCognitiveLoadProblem1988a}. Le Foll also acknowledges this and argues that the danger of this overload is exactly why ``it may make pedagogical sense to adapt authentic texts for specific proficiency levels'' \parencite[219]{leFoll2024}. However, phrases that are already familiar can in contrast also reduce the cognitive load through predictability, which may free up capacity for processing new information. In Sweller's framework, pre-constructed chunks and formulaic expressions are stored in the long-term memory as ``schemas'' that can be accessed as whole units without using up cognitive resources in the working memory. When applied to Sinclair's dual framework, these expressions function as such cognitive schemas. Rather than exhausting the working memory with the need to process each word individually (Open-Choice Principle), learners can access these chunks as whole units (Idiom Principle), without overloading their cognitive resources. Therefore, being exposed to idiomatic chunks is not only important for developing natural speech, but also efficient for freeing up working memory capacity to process new $+1$ level concepts. To determine if AI can replicate these pedagogically useful chunks, it is necessary to look into the linguistic architecture of LLMs.
 
 \subsection{The Linguistic Architecture of LLMs}
 
 \subsubsection{Next-Token Prediction \& Distributional Semantics}
 
-
+LLMs function 
 
 \subsubsection{Attention Mechanisms \& Contextual Sensitivity}
 
@@ -260,7 +262,7 @@ Table~\ref{tab:framework-summary} summarises how these theoretical perspectives 
 Register\footnotemark & Biber (1988) & Pronouns, deixis, contractions \\
 Phraseology & Sinclair (1991) & \texttt{LITERAL} vs. \texttt{IDIOMATIC} \\
 Pedagogy & Krashen (1985) & B1/B2 level appropriateness \\
-Processing\footnotemark[\value{footnote}] & Sweller (1988) & Cognitive-load \\
+Processing\footnotemark[\value{footnote}] & Sweller (1988) & Cognitive Load \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -541,7 +543,9 @@ NRC vs. NEUTRAL & 54.3 vs. 48.8 & 4.41 ($p = 0.036$) & 0.024 \\
 
 \subsection{Future Research}
 
+\subsubsection{Regulating Lexical Boundaries for Optimal $i+1$ Input}
 
+A highly promising avenue for future research involves computationally regulating the lexical boundaries of synthetic input to perfectly align with Krashen's i+1 hypothesis. While the present study relies on general CEFR B1/B2 prompting, future methodologies could employ strict systematic prompting or Retrieval-Augmented Generation (RAG) to restrict an LLM's vocabulary output exclusively to the lexical items introduced up to a specific chapter in a target textbook. By firmly anchoring the base vocabulary at the learner's exact current competence (i), the model could be tasked with generating authentic, register-appropriate sentences that introduce complexity solely through novel phraseological combinations and de-lexicalised chunks (+1). This pedagogical constraint would theoretically prevent the AI from overwhelming the learner's working memory with unknown open-choice vocabulary, isolating the cognitive load entirely to the acquisition of natural, context-dependent idiomaticity.
 
 \section{Conclusion}
 
@@ -584,6 +588,7 @@ NRC vs. NEUTRAL & 54.3 vs. 48.8 & 4.41 ($p = 0.036$) & 0.024 \\
 3 & Gemini 3 Pro & Ideation \& Structure & -- & See screenshots \\ \hline
 4 & Claude Sonnet 4.5 & Code \& Debugging & Appendix D & -- \\ \hline
 5 & Grammarly & Stylistic Proofreading & -- & -- \\ \hline
+6 & GitHub Copilot & Repository Privacy Audit & Appendix D & -- \\ \hline
 \end{tabular}%
 }
 \end{table}
@@ -595,6 +600,7 @@ NRC vs. NEUTRAL & 54.3 vs. 48.8 & 4.41 ($p = 0.036$) & 0.024 \\
     \item Gemini 3 Pro. Google. \textit{I am starting my Bachelor’s thesis in English Linguistics} (Full documentation in Appendix E). 20/11/2025, \url{https://gemini.google.com}.
     \item Claude Sonnet 4.5. Anthropic. \textit{Code \& Debugging}. 21/11/2025-25/03/2026, \url{https://claude.ai}.
     \item Grammarly. Grammarly. \textit{Post-drafting spelling and grammatical review.} 28/03/2026, \url{https://grammarly.com}.
+    \item GitHub Copilot. GitHub. \textit{Automated auditing of repository code to ensure data privacy and prevent API key/credential leakage.} 07/02/2026, \url{https://github.com/features/copilot}.
 \end{enumerate}
 
 % --- Plagiarism Statement ---
