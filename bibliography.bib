@@ -449,3 +449,60 @@ FOUND
   pages     = {257--281},
   year      = {2004}
 }
+
+FOUND
+@misc{zhao2025geometry,
+  title = {Geometry of {{Semantics}} in {{Next-Token Prediction}}: {{How Optimization Implicitly Organizes Linguistic Representations}}},
+  author = {Zhao, Yize and Thrampoulidis, Christos},
+  year = 2025,
+  month = oct,
+  number = {arXiv:2505.08348},
+  eprint = {2505.08348},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2505.08348},
+  urldate = {2026-04-26},
+  abstract = {We investigate how next-token prediction (NTP) optimization leads language models to extract and organize semantic structure from text. Our analysis, based on a tractable mathematical model and controlled synthetic data, reveals that NTP implicitly guides models to factor a centered support matrix encoding context-to-next-token co-occurrence patterns via singular value decomposition (SVD). While models never explicitly construct this matrix, learned word and context embeddings converge to its SVD factors, with singular vectors encoding latent semantic concepts through their sign patterns. We demonstrate that concepts corresponding to larger singular values are learned earlier during training, yielding a natural semantic hierarchy where broad categories emerge before fine-grained ones. This insight motivates orthant-based clustering, a method that combines concept signs to identify interpretable semantic categories. We validate our findings on synthetic datasets and pretrained language models, recovering diverse semantic structures such as grammatical categories, named entity types, and topical distinctions (medical, entertainment). Our work bridges classical distributional semantics and neural collapse geometry, characterizing how gradient-based optimization implicitly determines both the matrix representation and factorization method that encode semantic structure.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Computation and Language},
+}
+
+FOUND
+@article{harris1954distributional,
+  title={Distributional structure},
+  author={Harris, Zellig S},
+  journal={Word},
+  volume={10},
+  number={2-3},
+  pages={146--162},
+  year={1954},
+  publisher={Taylor \& Francis}
+}
+
+@misc{seoBidirectionalAttentionFlow2018,
+  title = {Bidirectional {{Attention Flow}} for {{Machine Comprehension}}},
+  author = {Seo, Minjoon and Kembhavi, Aniruddha and Farhadi, Ali and Hajishirzi, Hannaneh},
+  year = 2018,
+  month = jun,
+  number = {arXiv:1611.01603},
+  eprint = {1611.01603},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.1611.01603},
+  urldate = {2026-04-26},
+  abstract = {Machine comprehension (MC), answering a query about a given context paragraph, requires modeling complex interactions between the context and the query. Recently, attention mechanisms have been successfully extended to MC. Typically these methods use attention to focus on a small portion of the context and summarize it with a fixed-size vector, couple attentions temporally, and/or often form a uni-directional attention. In this paper we introduce the Bi-Directional Attention Flow (BIDAF) network, a multi-stage hierarchical process that represents the context at different levels of granularity and uses bidirectional attention flow mechanism to obtain a query-aware context representation without early summarization. Our experimental evaluations show that our model achieves the state-of-the-art results in Stanford Question Answering Dataset (SQuAD) and CNN/DailyMail cloze test.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language},
+}
+
+@article{vaswaniAttentionAllYou,
+  title = {Attention Is {{All}} You {{Need}}},
+  author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  year = 2017,
+  journal = {arXiv preprint arXiv:1706.03762},
+  doi = {10.48550/arXiv.1706.03762},
+  urldate = {2026-04-26},
+  abstract = {The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.0 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.},
+  langid = {english},
+}
