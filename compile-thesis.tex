@@ -95,6 +95,7 @@ NEUTRAL & Neutral Register Condition \\
 NLP & Natural Language Processing \\
 NLTK & Natural Language Toolkit \\
 NONE & Invalid Context \\
+NTP & Next-Token Prediction \\
 NRC & Natural Reference Corpus \\
 POS & Part-of-Speech \\
 RLHF & Reinforcement Learning with Human Feedback \\
@@ -234,12 +235,18 @@ This finding is especially relevant for pedagogical sentences, showing that the 
 
 \subsection{The Linguistic Architecture of LLMs}
 
-\subsubsection{Next-Token Prediction \& Distributional Semantics}
+\subsubsection{Next-Token Prediction (NTP) \& Distributional Semantics}
 
-LLMs function 
+At their core, LLMs function on a rather simple mechanism: the prediction of likely sequences of words based on context. This is known as Next-Token Prediction (NTP). Shanahan describes LLMs as ``generative mathematical models of the statistical distribution of tokens in the vast public corpus of human-generated text'' \parencite*[2]{shanahanTalkingLargeLanguage2022}. This means that LLMs are trained on large datasets of different texts, making it possible for them to learn statistical patterns of language use. By learning these patterns, LLMs can generate content that is statistically likely to occur within a given context. Therefore, when presented with a prompt, an LLM calculates ``what words are most likely to follow the sequence'' based on its patterns in the texts it has been trained on \parencite[2]{shanahanTalkingLargeLanguage2022}. Even though this NTP process is only based on mathematical probabilities, it can produce output that is surprisingly coherent, contextually relevant and bears semantic meaning \parencite{zhao2025geometry}. 
+
+In Natural Language Processing (NLP), profiles for words are created based on ``how often it appears next to another word'' \parencite[214]{holmesArtificialIntelligenceEducation2019}. In their study, Zhao et al. \parencite{zhao2025geometry} demonstrate that this aligns perfectly with the theory of distributional semantics \parencite{harris1954distributional}: by optimising the model for NTP, LLMs effectively learn ``context-to-next-token co-occurrence patterns'' \parencite[1]{zhao2025geometry}. Consequently, this means that ``words appearing in similar contexts have high similarity'' \parencite[Section 3.1]{zhao2025geometry}, which is what distributional semantics is all about.
+
 
 \subsubsection{Attention Mechanisms \& Contextual Sensitivity}
 
+The core component that allows LLMs to generate contextually relevant output is the attention mechanism, which relies on the transformer architecture of a model. For models like ChatGPT or Gemini, the concept of self-attention is crucial. Unlike earlier models that used to process the input sequentially, the transformer architecture using self-attention allows for parallel processing of the input, meaning that the relationships between all elements in a sequence can be assessed simultaneously \parencite{vaswaniAttentionAllYou}. This attention mechanism is what allows AI-powered chatbots to generate output that is contextually relevant to the input of the user. 
+
+This is not only relevant for machines, but also has implication for human interaction. It functions basically as a computational equivalent to Biber's Register Theory. Biber argues that human languages varies based on ``situational characteristics of the speaker and addressee, and the social role relationship'' \parencite[38]{biber1988variation}, which is exactly what the attention mechanism does: it takes into account the situational characteristics of the input (e.g., the prompt) and generates output that is relevant to those characteristics. Whereas register in human communication relies on the situational context, attention to register in LLMs relies on the input prompt of the user. For instance, if the prompt specifically asks for a workplace setting (the HIGH register condition), versus a casual conversation (the LOW register condition), the self-attention mechanism should weight in contextual tokens like `formal' or `casual' mathematically through ``judicious use of prompt prefixes'' \parencite[4]{shanahanTalkingLargeLanguage2022}. 
 
 
 \subsubsection{Reinforcement Learning from Human Feedback (RLHF) \& Prompt Engineering}

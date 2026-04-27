@@ -395,6 +395,38 @@
       \field{title}{Halliday's Introduction to Functional Grammar}
       \field{year}{2014}
     \endentry
+    \entry{harris1954distributional}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c93d2fea5cc5e59f6d92c0cfb5ba20a8}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Zellig\bibnamedelima S},
+           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{c93d2fea5cc5e59f6d92c0cfb5ba20a8}
+      \strng{fullhash}{c93d2fea5cc5e59f6d92c0cfb5ba20a8}
+      \strng{bibnamehash}{c93d2fea5cc5e59f6d92c0cfb5ba20a8}
+      \strng{authorbibnamehash}{c93d2fea5cc5e59f6d92c0cfb5ba20a8}
+      \strng{authornamehash}{c93d2fea5cc5e59f6d92c0cfb5ba20a8}
+      \strng{authorfullhash}{c93d2fea5cc5e59f6d92c0cfb5ba20a8}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Word}
+      \field{number}{2-3}
+      \field{title}{Distributional structure}
+      \field{volume}{10}
+      \field{year}{1954}
+      \field{pages}{146\bibrangedash 162}
+      \range{pages}{17}
+    \endentry
     \entry{holmesArtificialIntelligenceEducation2019}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=a90574ed2f941eaeae5fc37ec8e0f323}{%
@@ -795,6 +827,45 @@
       \verb 10.13092/lo.113.8328
       \endverb
     \endentry
+    \entry{shanahanTalkingLargeLanguage2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c9a18dc9378af37452e312a622cd2ed}{%
+           family={Shanahan},
+           familyi={S\bibinitperiod},
+           given={Murray},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c9a18dc9378af37452e312a622cd2ed}
+      \strng{fullhash}{9c9a18dc9378af37452e312a622cd2ed}
+      \strng{bibnamehash}{9c9a18dc9378af37452e312a622cd2ed}
+      \strng{authorbibnamehash}{9c9a18dc9378af37452e312a622cd2ed}
+      \strng{authornamehash}{9c9a18dc9378af37452e312a622cd2ed}
+      \strng{authorfullhash}{9c9a18dc9378af37452e312a622cd2ed}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{Talking about Large Language Models}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2212.03551
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2212.03551
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2212.03551
+      \endverb
+    \endentry
     \entry{sinclairCorpusConcordanceCollocation1991}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=61e74ef33941fa20944ffd6b562f985a}{%
@@ -943,6 +1014,132 @@
       \verb{doi}
       \verb 10.1207/s15516709cog1202_4
       \endverb
+    \endentry
+    \entry{vaswaniAttentionAllYou}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=540fcd72e1fa4bbed46604f4e6cff817}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={{Ł}ukasz},
+           giveni={Ł\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{bibnamehash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authorbibnamehash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{cb26e47f6b8133865271fc8483132297}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.0 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.}
+      \field{journaltitle}{arXiv preprint arXiv:1706.03762}
+      \field{langid}{english}
+      \field{title}{Attention Is {{All}} You {{Need}}}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1706.03762
+      \endverb
+    \endentry
+    \entry{zhao2025geometry}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1010b411ade3c22ec36bdd2c624c30e5}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yize},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5213b62f793f681aa941a7cad721dcc0}{%
+           family={Thrampoulidis},
+           familyi={T\bibinitperiod},
+           given={Christos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{ff3028cb2134e4cdc5746a0820e7bcf6}
+      \strng{fullhash}{ff3028cb2134e4cdc5746a0820e7bcf6}
+      \strng{bibnamehash}{ff3028cb2134e4cdc5746a0820e7bcf6}
+      \strng{authorbibnamehash}{ff3028cb2134e4cdc5746a0820e7bcf6}
+      \strng{authornamehash}{ff3028cb2134e4cdc5746a0820e7bcf6}
+      \strng{authorfullhash}{ff3028cb2134e4cdc5746a0820e7bcf6}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We investigate how next-token prediction (NTP) optimization leads language models to extract and organize semantic structure from text. Our analysis, based on a tractable mathematical model and controlled synthetic data, reveals that NTP implicitly guides models to factor a centered support matrix encoding context-to-next-token co-occurrence patterns via singular value decomposition (SVD). While models never explicitly construct this matrix, learned word and context embeddings converge to its SVD factors, with singular vectors encoding latent semantic concepts through their sign patterns. We demonstrate that concepts corresponding to larger singular values are learned earlier during training, yielding a natural semantic hierarchy where broad categories emerge before fine-grained ones. This insight motivates orthant-based clustering, a method that combines concept signs to identify interpretable semantic categories. We validate our findings on synthetic datasets and pretrained language models, recovering diverse semantic structures such as grammatical categories, named entity types, and topical distinctions (medical, entertainment). Our work bridges classical distributional semantics and neural collapse geometry, characterizing how gradient-based optimization implicitly determines both the matrix representation and factorization method that encode semantic structure.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{arXiv:2505.08348}
+      \field{title}{Geometry of {{Semantics}} in {{Next-Token Prediction}}: {{How Optimization Implicitly Organizes Linguistic Representations}}}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2505.08348
+      \endverb
+      \verb{eprint}
+      \verb 2505.08348
+      \endverb
+      \keyw{Computer Science - Computation and Language}
     \endentry
   \enddatalist
 \endrefsection
