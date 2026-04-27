@@ -2435,6 +2435,8 @@
     <bcf:citekey order="68" intorder="1">bergmannWhatReinforcementLearning2023</bcf:citekey>
     <bcf:citekey order="69" intorder="1">bergmannWhatReinforcementLearning2023</bcf:citekey>
     <bcf:citekey order="70" intorder="1">shanahanTalkingLargeLanguage2022</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">ouyangTrainingLanguageModels2022</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">amodeiConcreteProblemsAI2016</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
