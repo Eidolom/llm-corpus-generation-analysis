@@ -3,6 +3,7 @@
 
 \begin{document}
 \hypersetup{pageanchor=false}
+\pagenumbering{roman}
 
 % --- Title Page ---
 \newgeometry{left=3cm,right=3cm,top=2cm,bottom=2cm}
@@ -40,7 +41,6 @@
 
 % --- Front Matter ---
 \newpage
-\thispagestyle{empty}
 
 % --- Abstract ---
 \begin{abstract}
@@ -52,17 +52,14 @@
 
 % --- Table of Contents ---
 \tableofcontents
-\thispagestyle{empty}
 \newpage
 
 % --- List of Tables ---
 \listoftables
-\thispagestyle{empty}
 \vspace{3em}
 
 % --- List of Figures ---
 \listoffigures
-\thispagestyle{empty}
 \newpage
 
 % --- List of Abbreviations ---
@@ -124,8 +121,7 @@ QA & Quality Assurance \\
 \newpage
 
 \hypersetup{pageanchor=true}
-
-\setcounter{page}{1}
+\pagenumbering{arabic}
 
 % --- Main Content ---
 \section{Introduction}
@@ -290,6 +286,7 @@ Register\footnotemark & Biber (1988) & Pronouns, deixis, contractions \\
 Phraseology & Sinclair (1991) & \texttt{LITERAL} vs. \texttt{IDIOMATIC} \\
 Pedagogy & Krashen (1985) & B1/B2 level appropriateness \\
 Processing\footnotemark[\value{footnote}] & Sweller (1988) & Cognitive Load \\
+Architecture & Vaswani et al. (2017) & Self-Attention \& Prompt Engineering \\
 \bottomrule
 \end{tabular}
 \end{table}
