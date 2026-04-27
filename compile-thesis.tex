@@ -98,9 +98,24 @@ NONE & Invalid Context \\
 NTP & Next-Token Prediction \\
 NRC & Natural Reference Corpus \\
 POS & Part-of-Speech \\
+PPO & Proximal Policy Optimization \\
 RLHF & Reinforcement Learning with Human Feedback \\
 SCC & Synthetic Control Corpus \\
 TEC & Textbook English Corpus \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\newpage
+\section*{List of Abbreviations}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Abbreviation} & \textbf{Meaning} \\
+\midrule
+\phantom{IDIOMATIC} & \phantom{Common European Framework of Reference for Languages} \\[-\normalbaselineskip]
 QA & Quality Assurance \\
 \bottomrule
 \end{tabular}
@@ -157,7 +172,7 @@ This difference is important for the present thesis. If AI-generated content is 
 
 Textbook English has a distinct instructional register that systematically differs from non-pedagogical registers \parencite{leFoll2021b}. Le Foll's studies in EFL textbooks prove that textbook English dialogues ``primarily function as reinforcers of the vocabulary students are expected to learn, rather than as models of realistic spontaneous spoken interactions'' \parencite[108]{leFoll2021b}. This distinction is even further analysed in her multi-dimensional study of textbook English as a pedagogical variety \parencite[379--467]{leFoll2024}.
 
-\subsubsection{Biber's Multi-Dimensional Analysis (MDA)}
+\subsubsection{Biber's Multi-Dimensional Analysis}
 
 The central theoretical basis for this chapter is Biber's \parencite*{biber1988variation} multidimensional account of variation. Biber's core argument is that linguistic features do not occur randomly. Instead, they occur in patterns that fulfil communicative functions. By doing factor analysis on large corpora, Biber identified different dimensions of variation that can be interpreted functionally across spoken and written contexts.
 
@@ -227,15 +242,15 @@ Krashen's Input Hypothesis \parencite*{krashenInputHypothesisIssues1985} provide
 
 Taking this hypothesis into account, there are two potential risks that emerge. First, if the textbook sentences are indeed over-sanitised and lack idiomaticity, they may remain at $i$ level, lacking exposure to the $+1$ level of natural phraseology and register variation. As Krashen warns, ``over-simplification can delay acquisition by denying the acquirer $i+1$'' \parencite[24]{krashenInputHypothesisIssues1985}. Second, if synthetic input introduces too many new concepts and de-lexicalised chunks without sufficient context, it risks ``excess $i+n$, rules beyond the acquirer's $i+1$'' \parencite[24]{krashenInputHypothesisIssues1985}. This excess can be described as incomprehensible ``noise'', making the sentences unusable for learners. Therefore, the practical goal of the AI-generated sentences should not be achieving maximal colloquiality, but rather producing what Krashen describes as ``the best data [\ldots] which contains maximum richness but which remains comprehensible'' \parencite[27]{krashenInputHypothesisIssues1985}. By finding this balance between naturalness and comprehensibility, the AI-generated sentences may provide the optimal $i+1$ challenge for learners at B1/B2 level.
 
-\subsubsection{Sweller's Cognitive Load Theory (CLT)}
+\subsubsection{Sweller's Cognitive Load Theory}
 
 Sweller's Cognitive Load Theory \parencite*{swellerCognitiveLoadProblem1988a} provides a different perspective on the quality of input. According to this theory, ``the system (or person) has a fixed cognitive capacity'' and ``both problem solving and learning require some of that capacity'' \parencite[275]{swellerCognitiveLoadProblem1988a}. Learning tasks demand cognitive resources, because ``human short-term memory is severely limited'' and being exposed to unnecessary complexity in learning tasks may ``contribute to an excessive cognitive load'' \parencite[265]{swellerCognitiveLoadProblem1988a}. These demands on cognitive resources can be classified as either intrinsic load (the inherent complexity of the content) or extraneous load (the way the content is presented). Because the working memory is so limited, even ``a small additional load could be critical'', meaning that ``any increase in resources required [\ldots] must inevitably decrease resources available for learning'' \parencite[275]{swellerCognitiveLoadProblem1988a}.
 
 This finding is especially relevant for pedagogical sentences, showing that the same sentence can be either supporting or hindering how learners process and acquire the language. Awkward phrasing, unnatural flow of information or poor lexical choices can all contribute to what Sweller describes as ``cognitive overload which leaves little capacity for other aspects of the tasks'' \parencite[276]{swellerCognitiveLoadProblem1988a}. Le Foll also acknowledges this and argues that the danger of this overload is exactly why ``it may make pedagogical sense to adapt authentic texts for specific proficiency levels'' \parencite[219]{leFoll2024}. However, phrases that are already familiar can in contrast also reduce the cognitive load through predictability, which may free up capacity for processing new information. In Sweller's framework, pre-constructed chunks and formulaic expressions are stored in the long-term memory as ``schemas'' that can be accessed as whole units without using up cognitive resources in the working memory. When applied to Sinclair's dual framework, these expressions function as such cognitive schemas. Rather than exhausting the working memory with the need to process each word individually (Open-Choice Principle), learners can access these chunks as whole units (Idiom Principle), without overloading their cognitive resources. Therefore, being exposed to idiomatic chunks is not only important for developing natural speech, but also efficient for freeing up working memory capacity to process new $+1$ level concepts. To determine if AI can replicate these pedagogically useful chunks, it is necessary to look into the linguistic architecture of LLMs.
 
-\subsection{The Linguistic Architecture of LLMs}
+\subsection{The Linguistic Architecture of Large Language Models}
 
-\subsubsection{Next-Token Prediction (NTP) \& Distributional Semantics}
+\subsubsection{Next-Token Prediction \& Distributional Semantics}
 
 At their core, LLMs function on a rather simple mechanism: the prediction of likely sequences of words based on context. This is known as Next-Token Prediction (NTP). Shanahan describes LLMs as ``generative mathematical models of the statistical distribution of tokens in the vast public corpus of human-generated text'' \parencite*[2]{shanahanTalkingLargeLanguage2022}. This means that LLMs are trained on large datasets of different texts, making it possible for them to learn statistical patterns of language use. By learning these patterns, LLMs can generate content that is statistically likely to occur within a given context. Therefore, when presented with a prompt, an LLM calculates ``what words are most likely to follow the sequence'' based on its patterns in the texts it has been trained on \parencite[2]{shanahanTalkingLargeLanguage2022}. Even though this NTP process is only based on mathematical probabilities, it can produce output that is surprisingly coherent, contextually relevant and bears semantic meaning \parencite{zhao2025geometry}. 
 
@@ -246,10 +261,14 @@ In Natural Language Processing (NLP), profiles for words are created based on ``
 
 The core component that allows LLMs to generate contextually relevant output is the attention mechanism, which relies on the transformer architecture of a model. For models like ChatGPT or Gemini, the concept of self-attention is crucial. Unlike earlier models that used to process the input sequentially, the transformer architecture using self-attention allows for parallel processing of the input, meaning that the relationships between all elements in a sequence can be assessed simultaneously \parencite{vaswaniAttentionAllYou}. This attention mechanism is what allows AI-powered chatbots to generate output that is contextually relevant to the input of the user. 
 
-This is not only relevant for machines, but also has implication for human interaction. It functions basically as a computational equivalent to Biber's Register Theory. Biber argues that human languages varies based on ``situational characteristics of the speaker and addressee, and the social role relationship'' \parencite[38]{biber1988variation}, which is exactly what the attention mechanism does: it takes into account the situational characteristics of the input (e.g., the prompt) and generates output that is relevant to those characteristics. Whereas register in human communication relies on the situational context, attention to register in LLMs relies on the input prompt of the user. For instance, if the prompt specifically asks for a workplace setting (the HIGH register condition), versus a casual conversation (the LOW register condition), the self-attention mechanism should weight in contextual tokens like `formal' or `casual' mathematically through ``judicious use of prompt prefixes'' \parencite[4]{shanahanTalkingLargeLanguage2022}. 
+This is not only relevant for machines, but also has implication for human interaction. It functions basically as a computational equivalent to Biber's Register Theory. Biber argues that human language varies based on ``situational characteristics of the speaker and addressee, and the social role relationship'' \parencite[38]{biber1988variation}, which is exactly what the attention mechanism does: it takes into account the situational characteristics of the input (e.g., the prompt) and generates output that is relevant to those characteristics. Whereas register in human communication relies on the situational context, attention to register in LLMs relies on the input prompt of the user. For instance, if the prompt specifically asks for a workplace setting (the HIGH register condition), versus a casual conversation (the LOW register condition), the self-attention mechanism should weigh contextual tokens like `formal' or `casual' mathematically through ``judicious use of prompt prefixes'' \parencite[4]{shanahanTalkingLargeLanguage2022}. This mathematical weighting forces the model to rethink its choices of vocabulary and syntax. The texts LLMs are trained on are naturally ``related by their exploitations of those [contextual] functions'' \parencite[36]{biber1988variation}, which allows the model to generate output that is sensitive to specific registers asked for in a prompt. Consequently, the model should adapt the phraseological patterns  such as de-lexicalised chunks to match the communicative context the prompt is asking for. This means that the prompt itself plays a crucial role in the functionality of the model, as it guides the attention mechanism and therefore the output of the model.
 
 
-\subsubsection{Reinforcement Learning from Human Feedback (RLHF) \& Prompt Engineering}
+\subsubsection{Reinforcement Learning from Human Feedback \& Prompt Engineering}
+
+Even though raw models have complex statistical architectures that allow them to generate impressive output, they are rarely deployed without further fine-tuning. Because raw models are ``simply using patterns learned from [their] training training data to predict the next word(s)'', they ``have little ability to understand user intent'' and are merely ``appending text'' to a prompt \parencite{bergmannWhatReinforcementLearning2023}. This is where Reinforcement Learning from Human Feedback (RLHF) comes into play. RLHF is a machine learning technique that ``translate[s] human preference into a numerical reward signal'' \parencite{bergmannWhatReinforcementLearning2023}. By using systems like the Proximal Policy Optimization (PPO) algorithm, the model is continuously updated to ``optimi[s]e a policy to yield maximum reward'' \parencite{bergmannWhatReinforcementLearning2023} based on this human feedback. Shanahan notes that this fine-tuning process is crucial to ``mould a model's responses to better reflect user norms'' \parencite[10]{shanahanTalkingLargeLanguage2022}. Ultimately, RLHF is what allows the model to go from raw statistical token prediction to a more user-friendly and helpful AI assistant.
+
+However, this process, even though it is essential for the model's capability to understand the user's intent, brings a potential pedagogical paradox with it. Research into RLHF has shown that 
 
 
 \subsection{Synthesis: Evaluating Synthetic Input}
@@ -307,7 +326,7 @@ This overarching question is operationalised through three testable hypotheses:
 
 
 
-\subsubsection{Natural Reference Corpus (NRC)}
+\subsubsection{Natural Reference Corpus}
 
 
 
@@ -337,7 +356,7 @@ This overarching question is operationalised through three testable hypotheses:
 
 
 
-\subsubsection{Synthetic Control Corpus (SCC)}
+\subsubsection{Synthetic Control Corpus}
 
 
 
@@ -353,7 +372,7 @@ This overarching question is operationalised through three testable hypotheses:
 
 
 
-\subsubsection{POS-Tagging \& Syntactic Disambiguation}
+\subsubsection{Part-of-Speech-Tagging \& Syntactic Disambiguation}
 
 
 
@@ -365,7 +384,7 @@ This overarching question is operationalised through three testable hypotheses:
 
 
 
-\subsubsection{Inter-Rater Reliability (IRR)}
+\subsubsection{Inter-Rater Reliability Assessment}
 
 
 
@@ -418,7 +437,7 @@ The full agreement distribution is shown in Table~\ref{tab:confusion_matrix}.
 
 
 
-\subsubsection{Sociolinguistic Bias in LLM-Generated Content}
+\subsubsection{Sociolinguistic Bias in AI-Generated Content}
 
 
 
@@ -536,7 +555,7 @@ NRC vs. NEUTRAL & 54.3 vs. 48.8 & 4.41 ($p = 0.036$) & 0.024 \\
 
 
 
-\subsection{The V-Shaped Pattern: Register Sensitivity in LLMs}
+\subsection{The V-Shaped Pattern: Register Sensitivity in Large Language Models}
 
 
 
