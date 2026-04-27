@@ -49,6 +49,37 @@
       \field{pages}{1\bibrangedash 5}
       \range{pages}{5}
     \endentry
+    \entry{bergmannWhatReinforcementLearning2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=145cb942e2c6e0e141b825eb8cebbdb1}{%
+           family={Bergmann},
+           familyi={B\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{145cb942e2c6e0e141b825eb8cebbdb1}
+      \strng{fullhash}{145cb942e2c6e0e141b825eb8cebbdb1}
+      \strng{bibnamehash}{145cb942e2c6e0e141b825eb8cebbdb1}
+      \strng{authorbibnamehash}{145cb942e2c6e0e141b825eb8cebbdb1}
+      \strng{authornamehash}{145cb942e2c6e0e141b825eb8cebbdb1}
+      \strng{authorfullhash}{145cb942e2c6e0e141b825eb8cebbdb1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Reinforcement learning from human feedback (RLHF) is a machine learning technique in which a ``reward model'' is trained by human feedback to optimize an AI agent}
+      \field{howpublished}{https://www.ibm.com/think/topics/rlhf}
+      \field{langid}{english}
+      \field{title}{What {{Is Reinforcement Learning From Human Feedback}} ({{RLHF}})? |{} {{IBM}}}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+    \endentry
     \entry{biber1988variation}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f646ef9768ee4e31e9af07e57bf14842}{%
