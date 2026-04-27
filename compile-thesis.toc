@@ -22,7 +22,7 @@
 \contentsline {subsubsection}{\numberline {2.4.1}Next-Token Prediction \& Distributional Semantics}{12}{subsubsection.2.4.1}%
 \contentsline {subsubsection}{\numberline {2.4.2}Attention Mechanisms \& Contextual Sensitivity}{13}{subsubsection.2.4.2}%
 \contentsline {subsubsection}{\numberline {2.4.3}Reinforcement Learning from Human Feedback \& Prompt Engineering}{14}{subsubsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.5}Synthesis: Evaluating Synthetic Input}{14}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.5}Synthesis: Evaluating Synthetic Input}{15}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Methodology}{15}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Research Design \& Objectives}{15}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Study Design Overview}{15}{subsubsection.3.1.1}%
@@ -30,27 +30,27 @@
 \contentsline {subsection}{\numberline {3.2}Corpus Compilation}{16}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Lemma Selection}{16}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Natural Reference Corpus}{16}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Synthetic Control Corpus}{16}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Pilot Study \& Prompt Refinement}{16}{subsubsection.3.2.4}%
-\contentsline {subsubsection}{\numberline {3.2.5}Reproducibility Specifications}{16}{subsubsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.3}Data Processing Pipeline}{16}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Part-of-Speech-Tagging \& Syntactic Disambiguation}{16}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Semantic Classification}{16}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Data Quality Assurance}{16}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Inter-Rater Reliability Assessment}{16}{subsubsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.4}Statistical Analysis}{17}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Comparison Strategy}{17}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Inferential Testing \& Thresholds}{17}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Statistical Procedure \& Frequency Normalisation}{17}{subsubsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.5}Ethical Considerations \& Data Use}{17}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Copyright \& Data Distribution}{17}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}API Privacy \& Data Security}{17}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}Sociolinguistic Bias in AI-Generated Content}{17}{subsubsection.3.5.3}%
-\contentsline {section}{\numberline {4}Results}{17}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Descriptive Overview of the Final Datasets}{17}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {3.2.3}Synthetic Control Corpus}{17}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Pilot Study \& Prompt Refinement}{17}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Reproducibility Specifications}{17}{subsubsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.3}Data Processing Pipeline}{17}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Part-of-Speech-Tagging \& Syntactic Disambiguation}{17}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Semantic Classification}{17}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Data Quality Assurance}{17}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Inter-Rater Reliability Assessment}{17}{subsubsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.4}Statistical Analysis}{18}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Comparison Strategy}{18}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Inferential Testing \& Thresholds}{18}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Statistical Procedure \& Frequency Normalisation}{18}{subsubsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.5}Ethical Considerations \& Data Use}{18}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Copyright \& Data Distribution}{18}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}API Privacy \& Data Security}{18}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Sociolinguistic Bias in AI-Generated Content}{18}{subsubsection.3.5.3}%
+\contentsline {section}{\numberline {4}Results}{18}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Descriptive Overview of the Final Datasets}{18}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Overall Corpus Comparison (Testing Hypothesis 1)}{18}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Register Effects \& Prompt Sensitivity (Testing Hypothesis 2)}{18}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Lemma-Level Selectivity (Testing Hypothesis 3)}{18}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.4}Lemma-Level Selectivity (Testing Hypothesis 3)}{19}{subsection.4.4}%
 \contentsline {section}{\numberline {5}Discussion}{19}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Summary of Key Findings}{19}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Interpreting the Hypotheses}{19}{subsection.5.2}%
