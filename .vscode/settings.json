@@ -10,6 +10,7 @@
         "Biber's",
         "Brato",
         "CEFR",
+        "chktex",
         "colloquiality",
         "criticised",
         "Englische",
@@ -35,5 +36,6 @@
         "subcorpora",
         "Sweller",
         "Wildbachweg"
-    ]
+    ],
+    "latex-workshop.linting.chktex.convertOutput.column.enabled": false
 }

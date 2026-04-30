@@ -1,3 +1,48 @@
+% chktex-file 1
+% chktex-file 2
+% chktex-file 3
+% chktex-file 4    
+% chktex-file 5
+% chktex-file 6
+% chktex-file 7
+% chktex-file 8
+% chktex-file 9
+% chktex-file 10
+% chktex-file 11
+% chktex-file 12
+% chktex-file 13
+% chktex-file 14
+% chktex-file 15
+% chktex-file 16
+% chktex-file 17
+% chktex-file 18
+% chktex-file 19
+% chktex-file 20
+% chktex-file 21
+% chktex-file 22
+% chktex-file 23
+% chktex-file 24
+% chktex-file 25
+% chktex-file 26
+% chktex-file 27
+% chktex-file 28
+% chktex-file 29
+% chktex-file 30
+% chktex-file 31
+% chktex-file 32
+% chktex-file 33
+% chktex-file 34
+% chktex-file 35
+% chktex-file 36
+% chktex-file 37
+% chktex-file 38
+% chktex-file 39
+% chktex-file 40
+% chktex-file 41
+% chktex-file 42
+% chktex-file 43
+% chktex-file 44
+
 \documentclass[11pt,a4paper]{article}
 \input{setup/preamble}
 
@@ -294,8 +339,7 @@ Architecture & Vaswani et al. (2017) & Self-Attention \& Prompt Engineering \\
 
 This synthesis of perspectives directly motivates the design choices of the methodology in \nameref{sec:methodology}, where this theoretical framework is used as basis for the empirical analysis of this study.
 
-\section{Methodology}\label{sec:methodology}
-\label{Methodology}
+\section{Methodology}\label{sec:methodology}\label{Methodology}
 
 This section explains how the study was carried out: the research design, the corpus compilation process, the data processing pipeline, the statistical analysis and ethical considerations. To make the workflow transparent and reproducible, the methodology is described step-by-step, with detailed specifications and requirements for each step of the way. All corresponding datasets, extraction scripts and analytical code are provided in Appendix \ref{app:python}. The overall workflow is visualised in Figure~\ref{fig:methodology-workflow}.
 
@@ -443,17 +487,39 @@ The NRC was drawn from the English Textbook Corpus (TEC) compiled by Le Foll \pa
 
 \subsubsection{Synthetic Control Corpus}\label{subsubsec:scc}
 
-\blindtext
+
 
 \subsubsection{Pilot Study \& Prompt Refinement}\label{subsubsec:pilot-study}
 
 Before executing the full data generation process for the SCC, a pilot study was conducted. This pilot study was designed to identify potential issues with the prompt engineering, instruction ambiguity and failure rates of the model's API. This process required several changes to the original prompt design to ensure the LLM could reliably produce outputs that met the specific requirements of the study. 
 
-To test the API's reliability, first, a small debug script (\ref{app:debug}) was used to verify successful API calls and to check for any potential issues with rate limits. After confirming that the API was functioning correctly, a naive, zero-shot prompt was drafted and tested:
+To test the API's reliability, first, a small debug script (Appendix \ref{app:debug}) was used to verify successful API calls and to check for any potential issues with rate limits. After confirming that the API was functioning correctly, a naive, zero-shot prompt was drafted and tested:
 
-\begin{quote}
+\begin{quote}\label{naive-prompt}
     \textit{``Write a B2-level English sentence using the verb `take' in an idiomatic context''.}
 \end{quote}
+
+However, the outputs revealed that the prompt failed to produce the desired results. The model frequently included conversational fillers, such as ``Sure!'' or ``Here's an example:'', which broke the automated data extraction process. Furthermore, the sentences were mostly structurally similar, revealing that the model was reward hacking by overproducing the same patterns of output. Additionally, the model often failed to meet the CEFR level requirement, occasionally hallucinating and producing sentences that were either too simple (A1/A2) or too complex (C1/C2).
+
+To tackle these structural issues, the prompt was turned into a programmatic template to enforce a specific output structure. While demanding a strict matrix of register, mood and context, the prompt asked for an output in the form of a JSON object with keys for each required element. This structured demand ended up producing cleaner output that could be easily parsed and extracted for the analysis. To mitigate the reward hacking issue, the prompt was further refined to include specific instructions to avoid repetition:
+
+\begin{quote}\label{refined-prompt}
+    SYSTEM PROMPT: \\
+    \textit{``You are a linguistic expert specialising in pragmatics and corpus generation. Your task is to generate distinct, high-quality sentences for a target word based on strict register constraints. The sentences must be appropriate for a CEFR B1/B2 learner.''}
+    \\
+    PROMPT TEMPLATE: \\
+    \textit{``Target Word: `\texttt{\{word\}}'\\
+    Batch ID: \texttt{\{batch\_num\}} (Ensure these sentences are unique from generic examples)\\
+    \\
+    Generate a JSON array containing exactly \texttt{\{n\}} sentences:\\
+    1. \texttt{\{n\}} sentences: Register HIGH (Formal), Mood Question. Context: Workplace/Professional.\\
+    2. \texttt{\{n\}} sentences: Register LOW (Casual), Mood Statement. Context: Friends/Personal/Slang.\\
+    3. \texttt{\{n\}} sentences: Register NEUTRAL (Direct), Mood Imperative. Context: Instructions/Navigation/Rules.\\
+    \\
+    Vary the sentence structure and vocabulary usage. Output JSON keys: `register', `mood', `sentence'.''}
+\end{quote}
+
+After implementing this refined prompt, a second pilot run was conducted. This run was executed across multiple target lemmas to verify that the new prompt successfully resolved the issues identified in the first pilot. The results showed a significant improvement in quality and diversity of the generated sentences, CEFR level compliance and the absence of conversational fillers. The sentences generated in the second pilot run were then used to test the data extraction and processing pipeline. The preliminary results from this test run, as well as distributions of the target verb lemmas and visualisations of their behaviour across the different registers and moods, are documented for transparency in Appendix \ref{sec:pilot-visualizations}. The Appendix also includes short interpretations of the pilot results.
 
 \subsection{Data Processing Pipeline}\label{subsec:data-pipeline}
 
