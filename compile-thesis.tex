@@ -296,7 +296,7 @@ This synthesis of perspectives directly motivates the design choices of the meth
 \section{Methodology}\label{sec:methodology}
 \label{Methodology}
 
-This section explains how the study was carried out: the research design, the corpus compilation process, the data processing pipeline, the statistical analysis and ethical considerations. To make the workflow transparent and reproducible, the methodology is described step-by-step, with detailed specifications and requirements for each step of the way. All corresponding datasets, extraction scripts, and analytical code are provided in Appendix \ref{app:python}. The overall workflow is visualised in Figure~\ref{fig:methodology-workflow}.
+This section explains how the study was carried out: the research design, the corpus compilation process, the data processing pipeline, the statistical analysis and ethical considerations. To make the workflow transparent and reproducible, the methodology is described step-by-step, with detailed specifications and requirements for each step of the way. All corresponding datasets, extraction scripts and analytical code are provided in Appendix \ref{app:python}. The overall workflow is visualised in Figure~\ref{fig:methodology-workflow}.
 
 \begin{figure}[H]
 \centering
@@ -354,7 +354,6 @@ This section explains how the study was carried out: the research design, the co
 \draw[arrow] (etl) -- (semantic);
 \draw[arrow] (semantic) -- (irr);
 
-\draw[arrow] (semantic.south) -- ++(0,-0.5) -| (stats.north);
 \draw[arrow] (irr) -- ++(0,-1.5) -| (stats.north);
 \draw[arrow] (stats) -- (results);
 
@@ -379,11 +378,11 @@ The core research question asks: \textit{To what extent can Large Language Model
 This question is tested through three verifiable hypotheses:
 
 \begin{itemize}
-\item \textbf{H1 (Pedagogical Simplification):} The NRC will show a higher proportion of literal uses than the SCC overall, reflecting pedagogical preference for Open-Choice transparency over Idiom-Principle patterning.
+\item \textbf{H1 (Pedagogical Simplification):\label{H1}} The NRC will show a higher proportion of literal uses than the SCC overall, reflecting pedagogical preference for Open-Choice transparency over Idiom-Principle patterning.
 
-\item \textbf{H2 (Corpus-Informed Pedagogy):} The NRC will pattern most closely with SCC-NEUTRAL, indicating that textbook English functions as a distinct instructional register rather than approximating formal or casual native discourse.
+\item \textbf{H2 (Corpus-Informed Pedagogy):\label{H2}} The NRC will pattern most closely with SCC-NEUTRAL, indicating that textbook English functions as a distinct instructional register rather than approximating formal or casual native discourse.
 
-\item \textbf{H3 (Controlled Idiomaticity):} The NRC will show selective idiomaticity (non-uniform idiomatic behaviour across verb types) rather than uniformly high or uniformly low idiomaticity, reflecting strategic rather than blanket phraseological simplification.
+\item \textbf{H3 (Controlled Idiomaticity):\label{H3}} The NRC will show selective idiomaticity (non-uniform idiomatic behaviour across verb types) rather than uniformly high or uniformly low idiomaticity, reflecting strategic rather than blanket phraseological simplification.
 \end{itemize}
 
 \subsection{Corpus Compilation}\label{subsec:corpus-compilation}
