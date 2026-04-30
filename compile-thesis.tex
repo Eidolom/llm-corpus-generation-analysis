@@ -115,6 +115,7 @@ TEC & Textbook English Corpus \\
 \midrule
 \phantom{IDIOMATIC} & \phantom{Common European Framework of Reference for Languages} \\[-\normalbaselineskip]
 QA & Quality Assurance \\
+XML & eXtensible Markup Language \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -397,9 +398,20 @@ To ensure consistency, the selected lemmas were compiled and stored in a \texttt
 
 \subsubsection{Natural Reference Corpus}\label{subsubsec:nrc}
 
+The NRC was drawn from the English Textbook Corpus (TEC) compiled by Le Foll \parencite*{leFoll2021a}. This corpus is derived from a selection of EFL textbooks commonly used in European classrooms, covering the levels from A1 up to B2. The specific textbooks that were used are documented in Appendix \ref{sec:tec-textbooks}. Subsequently, TEC refers to the original source corpus, while NRC refers to the specific subcorpus that was extracted for the present study. This subcorpus was extracted from the TEC through a process with multiple stages of filtering and annotation:
 
+\begin{enumerate}
+    \item \textbf{CEFR-Level Filtering:} The TEC was first filtered to include only sentences from the B1 and B2 levels, which are the most relevant for the target learner group. This was done through the metadata tagging in Sketch Engine, which allows for filtering based on CEFR level.
+    \item \textbf{Lemma-Filtering:} The B1/B2 subcorpus was further thinned out to include only sentences containing at least one of the target verb lemmas. This was done through the \texttt{create subcorpus} feature in Sketch Engine, which allows for the creation of subcorpora based on specific search criteria.
+    \item \textbf{Sketch Engine Export:} The resulting subcorpus was exported from Sketch Engine in eXtensible Markup Language (XML) format, which preserves the original sentence structure and metadata.
+    \item \textbf{Conversion to JSON/CSV:} The XML files were then converted to JavaScript Object Notation (JSON) and Comma-Separated Values (CSV) formats for easier processing in Python, which is the main programming language used for the data processing pipeline.
+    \item \textbf{NLTK-Tagging \& -Filtering:} The sentences were processed using the Natural Language Toolkit (NLTK) package in Python to perform part-of-speech (POS) tagging. This method was used to verify that the target verbs were indeed used as verbs in the sentences, rather than as nouns or other parts of speech. Other incidences of the target lemmas that were not tagged as verbs were filtered out at this stage. This step was necessary to ensure that the analysis focuses on the verb usage of the target lemmas, since other parts of speech may not be of phraseological nature and thus irrelevant for the research question.  The full script for this process is provided in Appendix \ref{app:sketch-converter}
+    \item \textbf{Manual Validation:} A random sample of sentences was manually checked to ensure that the POS-tagging and filtering were accurate. Any errors found in this sample were used to refine the tagging and filtering process before applying it to the entire dataset. The distribution of the target verb lemmas in the NRC after POS filtering is shown in Table~\ref{tab:nrc-lemma-distribution}.
+\end{enumerate}
 
-\begin{table}[H]
+\vspace{1em}
+
+\begin{table}[htbp]
 \centering
 \caption[NRC Lemma Distribution]{Distribution of target verb lemmas in the NRC dataset after POS filtering} %
 \label{tab:nrc-lemma-distribution}
@@ -421,9 +433,13 @@ To ensure consistency, the selected lemmas were compiled and stored in a \texttt
 \textbf{Total} & \textbf{5{,}501} & \textbf{100.00} \\
 \bottomrule
 \end{tabular}
+
+\vspace{1em}
+
+\begin{minipage}{0.85\textwidth} % Constrains the note width so it wraps nicely under the table
+\small \textit{Note:} After POS filtering, the NRC yielded ($N = 5{,}501$). However, this table reports pre-semantic-classification counts. Following semantic classification, 18 unresolved items were excluded, yielding the final analysis sample of $N = 5{,}483$ reported in Chapter \ref{sec:results}.
+\end{minipage}
 \end{table}
-
-
 
 \subsubsection{Synthetic Control Corpus}\label{subsubsec:scc}
 
@@ -431,7 +447,13 @@ To ensure consistency, the selected lemmas were compiled and stored in a \texttt
 
 \subsubsection{Pilot Study \& Prompt Refinement}\label{subsubsec:pilot-study}
 
+Before executing the full data generation process for the SCC, a pilot study was conducted. This pilot study was designed to identify potential issues with the prompt engineering, instruction ambiguity and failure rates of the model's API. This process required several changes to the original prompt design to ensure the LLM could reliably produce outputs that met the specific requirements of the study. 
 
+To test the API's reliability, first, a small debug script (\ref{app:debug}) was used to verify successful API calls and to check for any potential issues with rate limits. After confirming that the API was functioning correctly, a naive, zero-shot prompt was drafted and tested:
+
+\begin{quote}
+    \textit{``Write a B2-level English sentence using the verb `take' in an idiomatic context''.}
+\end{quote}
 
 \subsection{Data Processing Pipeline}\label{subsec:data-pipeline}
 
@@ -786,7 +808,7 @@ These figures provide visual representations of the final semantic classificatio
 \clearpage
 \section{Python Code Documentation} \label{app:python}
 
-\noindent The following scripts document the computational pipeline. To ensure exact reproducibility, it must be noted that \texttt{pos\_taggerV2NLTK.py} (Section D.5) was exclusively applied to filter the AI-generated Synthetic Control Corpus (SCC), while \texttt{pos\_tagger\_nltk\_for\_csv.py} (Section D.6) was engineered specifically to parse the human-authored Natural Reference Corpus (NRC). The code uses simplified file paths for readability. The actual repository implementation uses organised directories (\texttt{outputs/}, \texttt{data/}, \texttt{src/}) and environment variables for API keys. See the GitHub repository for the actual code, dataset and version history.
+\noindent The following scripts document the computational pipeline. To ensure exact reproducibility, it must be noted that \texttt{pos\_taggerV2NLTK.py} (Section \ref{app:pos-tagger-v2}) was exclusively applied to filter the AI-generated Synthetic Control Corpus (SCC), while \texttt{pos\_tagger\_nltk\_for\_csv.py} (Section \ref{app:pos-tagger-csv}) was engineered specifically to parse the human-authored Natural Reference Corpus (NRC). The code uses simplified file paths for readability. The actual repository implementation uses organised directories (\texttt{outputs/}, \texttt{data/}, \texttt{src/}) and environment variables for API keys. See the GitHub repository for the actual code, dataset and version history.
 
 
 \texttt{https://github.com/Eidolom/llm-corpus-generation-analysis}
@@ -795,14 +817,14 @@ These figures provide visual representations of the final semantic classificatio
 \subsection{target\_words.txt} \label{app:target-words}
 \lstinputlisting[language={}]{code/target_words.txt}
 
+\subsection{sketch\_engine\_converter\_nltk.py}\label{app:sketch-converter}
+\lstinputlisting[language=Python]{code/nltk_sketch_engine_converter.py}
+
 \subsection{debug.py}\label{app:debug}
 \lstinputlisting[language=Python]{code/debug.py}
 
 \subsection{scalable\_context\_generator.py}\label{app:context-gen}
 \lstinputlisting[language=Python]{code/scalable_context_generator.py}
-
-\subsection{sketch\_engine\_converter\_nltk.py}\label{app:sketch-converter}
-\lstinputlisting[language=Python]{code/nltk_sketch_engine_converter.py}
 
 \subsection{pos\_taggerV2NLTK.py}\label{app:pos-tagger-v2}
 \lstinputlisting[language=Python]{code/pos_taggerV2NLTK.py}
