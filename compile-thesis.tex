@@ -400,9 +400,9 @@ To ensure consistency, the selected lemmas were compiled and stored in a \texttt
 
 
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
-\caption[NRC Lemma Distribution]{Distribution of target verb lemmas in the NRC dataset after POS filtering ($N=5{,}501$). This table reports pre-semantic-classification counts. Following semantic classification, 18 unresolved items were excluded, yielding the final analysis sample of $N=5{,}483$ reported in \nameref{sec:results}.}%
+\caption[NRC Lemma Distribution]{Distribution of target verb lemmas in the NRC dataset after POS filtering} %
 \label{tab:nrc-lemma-distribution}
 \begin{tabular}{lrr}
 \toprule
@@ -676,12 +676,12 @@ A highly promising avenue for future research involves computationally regulatin
 \begin{tabular}{|l|l|l|l|l|}
 \hline
 & \textbf{AI Tool} & \textbf{Application} & \textbf{Used in section(s)} & \textbf{Comments} \\ \hline
-1 & Gemini 2.5 Flash & Corpus Generation (SCC) & 3.2.2 & Via Python API \\ \hline
-2 & Gemini 2.5 Flash & Semantic Classification & \\nameref{subsubsec:irr-assessment} & LLM-as-a-judge \\\\ \hline
-3 & Gemini 3 Pro & Ideation \& Structure & -- & See screenshots \\ \hline
-4 & Claude Sonnet 4.5 & Code \& Debugging & Appendix \ref{sec:full-ai-docs} & -- \\ \hline
+1 & Gemini 2.5 Flash & Corpus Generation (SCC) & \nameref{subsubsec:scc} & Via Python API \\ \hline
+2 & Gemini 2.5 Flash & Semantic Classification & \nameref{subsubsec:irr-assessment} & LLM-as-a-judge \\ \hline
+3 & Gemini 3 Pro & Ideation \& Structure & -- & Figures~\ref{fig:gemini3-proof1}--\ref{fig:gemini3-proof5} \\ \hline
+4 & Claude Sonnet 4.5 & Code \& Debugging & Appendix~\ref{sec:full-ai-docs} & -- \\ \hline
 5 & Grammarly & Stylistic Proofreading & -- & -- \\ \hline
-6 & GitHub Copilot & Repository Privacy Audit & Appendix \ref{sec:full-ai-docs} & -- \\ \hline
+6 & GitHub Copilot & Repository Privacy Audit & Appendix~\ref{sec:full-ai-docs} & -- \\ \hline
 \end{tabular}%
 }
 \end{table}
