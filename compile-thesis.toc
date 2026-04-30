@@ -35,58 +35,58 @@
 \contentsline {subsection}{\numberline {3.3}Data Processing Pipeline}{21}{subsection.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.1}Part-of-Speech-Tagging \& Syntactic Disambiguation}{21}{subsubsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2}Semantic Classification}{21}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Data Quality Assurance}{21}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Inter-Rater Reliability Assessment}{21}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.3}Data Quality Assurance}{22}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Inter-Rater Reliability Assessment}{22}{subsubsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.4}Statistical Analysis}{22}{subsection.3.4}%
 \contentsline {subsubsection}{\numberline {3.4.1}Comparison Strategy}{22}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Inferential Testing \& Thresholds}{22}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Statistical Procedure \& Frequency Normalisation}{22}{subsubsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.5}Ethical Considerations \& Data Use}{22}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Copyright \& Data Distribution}{22}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}API Privacy \& Data Security}{22}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}Sociolinguistic Bias in AI-Generated Content}{22}{subsubsection.3.5.3}%
-\contentsline {section}{\numberline {4}Results}{22}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Descriptive Overview of the Final Datasets}{22}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Overall Corpus Comparison (Testing Hypothesis 1)}{22}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Register Effects \& Prompt Sensitivity (Testing Hypothesis 2)}{22}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Lemma-Level Selectivity (Testing Hypothesis 3)}{22}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Discussion}{23}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Summary of Key Findings}{23}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Interpreting the Hypotheses}{23}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Interpreting H1: The Pedagogical Simplification Hypothesis}{23}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}Interpreting H2: Textbooks as Instructional Register}{23}{subsubsection.5.2.2}%
-\contentsline {subsubsection}{\numberline {5.2.3}Interpreting H3: Lemma-Level Selectivity}{23}{subsubsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.3}The V-Shaped Pattern: Register Sensitivity in Large Language Models}{23}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Methodological Reflections}{23}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Limitations}{23}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Future Research}{23}{subsection.5.6}%
-\contentsline {subsubsection}{\numberline {5.6.1}Regulating Lexical Boundaries for Optimal $i+1$ Input}{23}{subsubsection.5.6.1}%
-\contentsline {section}{\numberline {6}Conclusion}{24}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Research Summary}{24}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Theoretical Contributions}{24}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Practical Implications}{24}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Final Reflection}{24}{subsection.6.4}%
-\contentsline {section}{References}{25}{subsection.6.4}%
-\contentsline {section}{Documentation of AI Tools Used}{28}{subsection.6.4}%
-\contentsline {section}{Plagiarism Statement}{29}{Item.12}%
-\contentsline {section}{\numberline {A}TEC Source Textbooks (B1/B2 Subset)}{30}{appendix.A}%
-\contentsline {section}{\numberline {B}SCC Pilot Study Visualisations}{31}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}Short Interpretation: \textit {run}}{32}{subsection.B.1}%
-\contentsline {subsection}{\numberline {B.2}Short Interpretation: \textit {take}}{32}{subsection.B.2}%
-\contentsline {section}{\numberline {C}Final Dataset Visualisations}{34}{appendix.C}%
-\contentsline {section}{\numberline {D}Python Code Documentation}{36}{appendix.D}%
-\contentsline {subsection}{\numberline {D.1}target\_words.txt}{36}{subsection.D.1}%
-\contentsline {subsection}{\numberline {D.2}sketch\_engine\_converter\_nltk.py}{36}{subsection.D.2}%
-\contentsline {subsection}{\numberline {D.3}debug.py}{39}{subsection.D.3}%
-\contentsline {subsection}{\numberline {D.4}scalable\_context\_generator.py}{39}{subsection.D.4}%
-\contentsline {subsection}{\numberline {D.5}pos\_taggerV2NLTK.py}{43}{subsection.D.5}%
-\contentsline {subsection}{\numberline {D.6}pos\_tagger\_nltk\_for\_csv.py}{45}{subsection.D.6}%
-\contentsline {subsection}{\numberline {D.7}semantic\_analyzer.py}{46}{subsection.D.7}%
-\contentsline {subsection}{\numberline {D.8}irr\_sheet\_generator.py}{50}{subsection.D.8}%
-\contentsline {subsection}{\numberline {D.9}compute\_split\_irr.py}{54}{subsection.D.9}%
-\contentsline {subsection}{\numberline {D.10}irr\_split\_results.csv}{59}{subsection.D.10}%
-\contentsline {subsection}{\numberline {D.11}visualizer.py}{59}{subsection.D.11}%
-\contentsline {section}{\numberline {E}Full AI Documentation}{63}{appendix.E}%
-\contentsline {subsection}{\numberline {E.1}Gemini 2.5 Flash: SCC Generation Prompts}{63}{subsection.E.1}%
-\contentsline {subsection}{\numberline {E.2}Gemini 2.5 Flash: Semantic Classification Prompts}{63}{subsection.E.2}%
-\contentsline {subsection}{\numberline {E.3}Gemini 3 Pro: Ideation Prompt}{64}{subsection.E.3}%
+\contentsline {subsubsection}{\numberline {3.4.2}Inferential Testing \& Thresholds}{23}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Statistical Procedure \& Frequency Normalisation}{23}{subsubsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.5}Ethical Considerations \& Data Use}{23}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Copyright \& Data Distribution}{23}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}API Privacy \& Data Security}{24}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Sociolinguistic Bias in AI-Generated Content}{24}{subsubsection.3.5.3}%
+\contentsline {section}{\numberline {4}Results}{24}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Descriptive Overview of the Final Datasets}{25}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Overall Corpus Comparison (Testing Hypothesis 1)}{25}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Register Effects \& Prompt Sensitivity (Testing Hypothesis 2)}{26}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Lemma-Level Selectivity (Testing Hypothesis 3)}{26}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Discussion}{27}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Summary of Key Findings}{27}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Interpreting the Hypotheses}{27}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Interpreting H1: The Pedagogical Simplification Hypothesis}{27}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Interpreting H2: Textbooks as Instructional Register}{28}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Interpreting H3: Lemma-Level Selectivity}{28}{subsubsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.3}The V-Shaped Pattern: Register Sensitivity in Large Language Models}{28}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Methodological Reflections}{29}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Limitations}{29}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Future Research}{29}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}Regulating Lexical Boundaries for Optimal $i+1$ Input}{29}{subsubsection.5.6.1}%
+\contentsline {section}{\numberline {6}Conclusion}{30}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Research Summary}{30}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Theoretical Contributions}{30}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Practical Implications}{30}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Final Reflection}{31}{subsection.6.4}%
+\contentsline {section}{References}{32}{subsection.6.4}%
+\contentsline {section}{Documentation of AI Tools Used}{35}{subsection.6.4}%
+\contentsline {section}{Plagiarism Statement}{36}{Item.12}%
+\contentsline {section}{\numberline {A}TEC Source Textbooks (B1/B2 Subset)}{37}{appendix.A}%
+\contentsline {section}{\numberline {B}SCC Pilot Study Visualisations}{38}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Short Interpretation: \textit {run}}{39}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Short Interpretation: \textit {take}}{39}{subsection.B.2}%
+\contentsline {section}{\numberline {C}Final Dataset Visualisations}{41}{appendix.C}%
+\contentsline {section}{\numberline {D}Python Code Documentation}{43}{appendix.D}%
+\contentsline {subsection}{\numberline {D.1}target\_words.txt}{43}{subsection.D.1}%
+\contentsline {subsection}{\numberline {D.2}sketch\_engine\_converter\_nltk.py}{43}{subsection.D.2}%
+\contentsline {subsection}{\numberline {D.3}debug.py}{46}{subsection.D.3}%
+\contentsline {subsection}{\numberline {D.4}scalable\_context\_generator.py}{46}{subsection.D.4}%
+\contentsline {subsection}{\numberline {D.5}pos\_taggerV2NLTK.py}{50}{subsection.D.5}%
+\contentsline {subsection}{\numberline {D.6}pos\_tagger\_nltk\_for\_csv.py}{52}{subsection.D.6}%
+\contentsline {subsection}{\numberline {D.7}semantic\_analyzer.py}{53}{subsection.D.7}%
+\contentsline {subsection}{\numberline {D.8}irr\_sheet\_generator.py}{57}{subsection.D.8}%
+\contentsline {subsection}{\numberline {D.9}compute\_split\_irr.py}{61}{subsection.D.9}%
+\contentsline {subsection}{\numberline {D.10}irr\_split\_results.csv}{66}{subsection.D.10}%
+\contentsline {subsection}{\numberline {D.11}visualizer.py}{66}{subsection.D.11}%
+\contentsline {section}{\numberline {E}Full AI Documentation}{70}{appendix.E}%
+\contentsline {subsection}{\numberline {E.1}Gemini 2.5 Flash: SCC Generation Prompts}{70}{subsection.E.1}%
+\contentsline {subsection}{\numberline {E.2}Gemini 2.5 Flash: Semantic Classification Prompts}{70}{subsection.E.2}%
+\contentsline {subsection}{\numberline {E.3}Gemini 3 Pro: Ideation Prompt}{71}{subsection.E.3}%
