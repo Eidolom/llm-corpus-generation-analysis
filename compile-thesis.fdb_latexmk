@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber compile-thesis"] 1777565251.02549 "compile-thesis.bcf" "compile-thesis.bbl" "compile-thesis" 1777566794.41265 0
+["biber compile-thesis"] 1777565251.02549 "compile-thesis.bcf" "compile-thesis.bbl" "compile-thesis" 1777569124.98109 0
   "bibliography.bib" 1777302886.97664 27020 d969f5ef0500efd011cdb1fdf6f85c46 ""
-  "compile-thesis.bcf" 1777566794.215 114343 f556a9a7ef87c7f6629f42397e9f1d7a "pdflatex"
+  "compile-thesis.bcf" 1777569124.76243 114343 f556a9a7ef87c7f6629f42397e9f1d7a "pdflatex"
   (generated)
   "compile-thesis.bbl"
   "compile-thesis.blg"
   (rewritten before read)
-["pdflatex"] 1777566786.93128 "/home/simon/Documents/thesis-local/compile-thesis.tex" "compile-thesis.pdf" "compile-thesis" 1777566794.41302 0
+["pdflatex"] 1777569117.41479 "/home/simon/Documents/thesis-local/compile-thesis.tex" "compile-thesis.pdf" "compile-thesis" 1777569124.9816 0
   "/etc/texmf/web2c/texmf.cnf" 1777106269.6804 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/simon/Documents/thesis-local/compile-thesis.tex" 1777566778.57099 86868 bd5b52cf6fc21234354779f54bf68d96 ""
+  "/home/simon/Documents/thesis-local/compile-thesis.tex" 1777569108.99802 88142 52bbf339ea2d6e4f8c4949abceab2d9f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/noto/a_honops.enc" 1630962597 3182 601b20897fc52fd193faea6c880512f3 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/noto/a_jdknzu.enc" 1630962597 3465 9eff3a92a35ac24f5b39c509fee3ca60 ""
@@ -290,14 +290,14 @@
   "code/semantic_analyzer.py" 1777039569.88712 4958 29957a71ead8ab51a0c6996fed02f263 ""
   "code/target_words.txt" 1777039569.88712 48 896632142da84aa009ed705e69c1a0f7 ""
   "code/visualizer.py" 1777039569.88712 4328 4443fceb6289bae9d63864903fad7366 ""
-  "compile-thesis.aux" 1777566794.196 40469 bd51c586ac428f63117a0c3efa5823d2 "pdflatex"
+  "compile-thesis.aux" 1777569124.73943 40469 fb21c2bdc42e6b43bfc254eafacda109 "pdflatex"
   "compile-thesis.bbl" 1777565252.35455 63673 589de10da1cde505c6e64872c104cfa7 "biber compile-thesis"
-  "compile-thesis.lof" 1777566794.21666 1089 09d11411763bfc0055babd6aa2f2b017 "pdflatex"
-  "compile-thesis.lot" 1777566794.21666 821 cf391a82ef2373aeeabaaab7fd739c29 "pdflatex"
-  "compile-thesis.out" 1777566794.21 19603 7e6a6aa4e7015e9c137ff51fd40c971c "pdflatex"
-  "compile-thesis.run.xml" 1777566794.21666 2427 774ba22b228408e28c600981b5952b1a "pdflatex"
-  "compile-thesis.tex" 1777566778.57099 86868 bd5b52cf6fc21234354779f54bf68d96 ""
-  "compile-thesis.toc" 1777566794.21666 9006 5048b3df8be9e333da4a41c4badd08ee "pdflatex"
+  "compile-thesis.lof" 1777569124.76612 1089 09d11411763bfc0055babd6aa2f2b017 "pdflatex"
+  "compile-thesis.lot" 1777569124.76612 821 81344504352bcb62aa90ba6ea5777993 "pdflatex"
+  "compile-thesis.out" 1777569124.75543 19603 7e6a6aa4e7015e9c137ff51fd40c971c "pdflatex"
+  "compile-thesis.run.xml" 1777569124.76612 2427 774ba22b228408e28c600981b5952b1a "pdflatex"
+  "compile-thesis.tex" 1777569108.99802 88142 52bbf339ea2d6e4f8c4949abceab2d9f ""
+  "compile-thesis.toc" 1777569124.76612 9006 dc28e89de5b5f903a93e25758b6d8a5d "pdflatex"
   "setup/preamble.tex" 1777562240.24295 3301 aaddb43d5c9e797efccba697d11ba832 ""
   (generated)
   "compile-thesis.aux"
