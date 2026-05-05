@@ -344,6 +344,49 @@
       \verb 10.1075/z.232
       \endverb
     \endentry
+    \entry{birdKleinLoperNLP2009}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a6ad72a87713a430f7335c5656da28f1}{%
+           family={Bird},
+           familyi={B\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95e002ca584c2d8d701c96f08c6d589f}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Ewan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2814798d9a65d66800fc6e2ec5ad7483}{%
+           family={Loper},
+           familyi={L\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Sebastopol, CA}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media}%
+      }
+      \strng{namehash}{2312f0d2c204493e5707317fa8ed8afb}
+      \strng{fullhash}{f0999d1f539a44b08b01482038a721f8}
+      \strng{bibnamehash}{f0999d1f539a44b08b01482038a721f8}
+      \strng{authorbibnamehash}{f0999d1f539a44b08b01482038a721f8}
+      \strng{authornamehash}{2312f0d2c204493e5707317fa8ed8afb}
+      \strng{authorfullhash}{f0999d1f539a44b08b01482038a721f8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780596516499}
+      \field{title}{Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit}
+      \field{year}{2009}
+    \endentry
     \entry{brownpenelopeQuestionsPolitenessStrategies1978}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b813054095f6303db2d75a6ea9ffbbcb}{%
@@ -783,6 +826,48 @@
       \field{year}{2024}
       \verb{doi}
       \verb gruy-9789027246806
+      \endverb
+    \endentry
+    \entry{loperBirdNLTK2002}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2814798d9a65d66800fc6e2ec5ad7483}{%
+           family={Loper},
+           familyi={L\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6ad72a87713a430f7335c5656da28f1}{%
+           family={Bird},
+           familyi={B\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Philadelphia, Pennsylvania, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{fullhash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{bibnamehash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{authorbibnamehash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{authornamehash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{authorfullhash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the ACL-02 Workshop on Effective Tools and Methodologies for Teaching Natural Language Processing and Computational Linguistics}
+      \field{title}{NLTK: The Natural Language Toolkit}
+      \field{year}{2002}
+      \field{pages}{63\bibrangedash 70}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.3115/1118108.1118117
       \endverb
     \endentry
     \entry{ouyangTrainingLanguageModels2022}{misc}{}
@@ -1399,6 +1484,109 @@
       \verb 2505.08348
       \endverb
       \keyw{Computer Science - Computation and Language}
+    \endentry
+    \entry{zhengJudgingLLMas2023}{misc}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=0beb8f75088bfac1e81ca3840d0e89f0}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Lianmin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5030c6327cf9a55d5a372b89093395a}{%
+           family={Chiang},
+           familyi={C\bibinitperiod},
+           given={Wei-Lin},
+           giveni={W\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b99fbe22103d2d6f803495267ee1cac9}{%
+           family={Sheng},
+           familyi={S\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d922f0e30f0817f9514b3360b791d760}{%
+           family={Zhuang},
+           familyi={Z\bibinitperiod},
+           given={Siyuan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b10808456d34160e841fd9eac30a4ce}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Zhanghao},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=329b3ab9fbc7cbf15e931d5f693d0e81}{%
+           family={Zhuang},
+           familyi={Z\bibinitperiod},
+           given={Yonghao},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14378cef37bf00d8a8fcc705a62d573e}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Zi},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a57e6ad48b4f46462aa4a0aa5a0f704e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhuohan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d9e6cedc08528d9cc2c770f5726e8bc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Dacheng},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b80203b0ba1299db35073382e835b485}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Eric\bibnamedelima P.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c6d18e2d167e1a3dc88c0166bbc3471}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80175f489665023b28dbb4cf1775c0ef}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Joseph\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51d9ef26181e2e8a9dc546b401e0bb26}{%
+           family={Stoica},
+           familyi={S\bibinitperiod},
+           given={Ion},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{293dcbfb5b9446f7f90cf8d346a542fe}
+      \strng{fullhash}{5d79fd4ebbbfd5b26e4a0e35e41dae2f}
+      \strng{bibnamehash}{5d79fd4ebbbfd5b26e4a0e35e41dae2f}
+      \strng{authorbibnamehash}{5d79fd4ebbbfd5b26e4a0e35e41dae2f}
+      \strng{authornamehash}{293dcbfb5b9446f7f90cf8d346a542fe}
+      \strng{authorfullhash}{5d79fd4ebbbfd5b26e4a0e35e41dae2f}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Judging {LLM}-as-a-Judge with {MT}-Bench and Chatbot Arena}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2306.05685
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
