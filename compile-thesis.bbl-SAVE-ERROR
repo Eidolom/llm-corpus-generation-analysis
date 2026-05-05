@@ -344,6 +344,49 @@
       \verb 10.1075/z.232
       \endverb
     \endentry
+    \entry{birdKleinLoperNLP2009}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a6ad72a87713a430f7335c5656da28f1}{%
+           family={Bird},
+           familyi={B\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95e002ca584c2d8d701c96f08c6d589f}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Ewan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2814798d9a65d66800fc6e2ec5ad7483}{%
+           family={Loper},
+           familyi={L\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Sebastopol, CA}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media}%
+      }
+      \strng{namehash}{2312f0d2c204493e5707317fa8ed8afb}
+      \strng{fullhash}{f0999d1f539a44b08b01482038a721f8}
+      \strng{bibnamehash}{f0999d1f539a44b08b01482038a721f8}
+      \strng{authorbibnamehash}{f0999d1f539a44b08b01482038a721f8}
+      \strng{authornamehash}{2312f0d2c204493e5707317fa8ed8afb}
+      \strng{authorfullhash}{f0999d1f539a44b08b01482038a721f8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780596516499}
+      \field{title}{Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit}
+      \field{year}{2009}
+    \endentry
     \entry{brownpenelopeQuestionsPolitenessStrategies1978}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b813054095f6303db2d75a6ea9ffbbcb}{%
@@ -783,6 +826,48 @@
       \field{year}{2024}
       \verb{doi}
       \verb gruy-9789027246806
+      \endverb
+    \endentry
+    \entry{loperBirdNLTK2002}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2814798d9a65d66800fc6e2ec5ad7483}{%
+           family={Loper},
+           familyi={L\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6ad72a87713a430f7335c5656da28f1}{%
+           family={Bird},
+           familyi={B\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Philadelphia, Pennsylvania, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{fullhash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{bibnamehash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{authorbibnamehash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{authornamehash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{authorfullhash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the ACL-02 Workshop on Effective Tools and Methodologies for Teaching Natural Language Processing and Computational Linguistics}
+      \field{title}{NLTK: The Natural Language Toolkit}
+      \field{year}{2002}
+      \field{pages}{63\bibrangedash 70}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.3115/1118108.1118117
       \endverb
     \endentry
     \entry{ouyangTrainingLanguageModels2022}{misc}{}

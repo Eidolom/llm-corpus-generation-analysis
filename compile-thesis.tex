@@ -130,6 +130,7 @@ HIGH & High Register Condition \\
 IDIOMATIC & Idiomatic Usage Label \\
 IRR & Inter-Rater Reliability \\
 JSON & JavaScript Object Notation \\
+KWIC & Key Words in Context \\
 LLM & Large Language Model \\
 LITERAL & Literal Usage Label \\
 LOW & Low Register Condition \\
@@ -144,7 +145,6 @@ POS & Part-of-Speech \\
 PPO & Proximal Policy Optimization \\
 RLHF & Reinforcement Learning with Human Feedback \\
 SCC & Synthetic Control Corpus \\
-TEC & Textbook English Corpus \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -159,6 +159,7 @@ TEC & Textbook English Corpus \\
 \textbf{Abbreviation} & \textbf{Meaning} \\
 \midrule
 \phantom{IDIOMATIC} & \phantom{Common European Framework of Reference for Languages} \\[-\normalbaselineskip]
+TEC & Textbook English Corpus \\
 QA & Quality Assurance \\
 XML & eXtensible Markup Language \\
 \bottomrule
@@ -525,15 +526,27 @@ After implementing this refined prompt, a second pilot run was conducted. This r
 
 \subsection{Data Processing Pipeline}\label{subsec:data-pipeline}
 
-\blindtext
+After the compilation of the NRC and SCC datasets, both datasets were processed through a staged annotation pipeline to prepare them for the final analysis. This pipeline consists of several steps, including part-of-speech (POS) tagging, syntactic disambiguation, semantic classification, data quality assurance (QA) and inter-rater reliability (IRR) assessment. 
 
 \subsubsection{Part-of-Speech-Tagging \& Syntactic Disambiguation}\label{subsubsec:pos-tagging}
 
-\blindtext
+Because the English language relies heavily on zero-derivation, many words can function as different parts of speech depending on the context. For example, the word \textsc{take} can function as a verb in the sentence ``I take the book'', but it can also be used as a noun in forms like ``I have a different take on this book''. If uses of the target lemmas that are not tagged as verbs were included in the analysis, the LLM judge would be forced into making choices based on the syntactic context rather than the semantic context, potentially contaminating the dataset with an unrealistically high number of \texttt{LITERAL} or invalid contexts. 
+
+To prevent this issue, the Natural Language Toolkit (NLTK) \parencite{birdKleinLoperNLP2009,loperBirdNLTK2002} package in Python was used to perform POS-tagging on both the NRC and SCC. This process uses Natural Language Processing (NLP) techniques to classify each word in the sentences according to its part of speech. The NLTK's POS-tagger was trained on the Penn Treebank corpus, which is a widely used annotated corpus of English, meaning that it has a high level of accuracy and can thus be reliably used for this task. It is also a free-to-use library, which makes it accessible and reproducible for other researchers. 
+
+The verb filtering was done using two custom Python scripts tailored to each corpus's data format. For the SCC, the \texttt{pos\_taggerV2NLTK.py} (see Appendix \ref{app:pos-tagger-v2}) script processed the data from JSON format, filtering the sentences and extracting only those containing the target verbs. For the NRC, the \texttt{pos\_taggerNLTK\_forCSV.py} (see Appendix \ref{app:pos-tagger-csv}) script performed the same verb filtering operation but processed CSV input directly, ensuring methodological consistency, the only difference being the different data source formats.
+
+In detail, the scripts work as follows: first, the \texttt{word\_tokenize} module is used to split each sentence into individual words. Then, the \texttt{pos\_tag} function assigns a part-of-speech tag to each word. A sentence is only retained if it contains at least one token tagged as a verb (e.g., VB, VBD, VBG, VBN, VBP, VBZ) whose lemmatised form matches the target lemma. Next, the script checks the verb tokens with the \texttt{WordNetLemmatizer}, which reduces inflected forms to their base form. These steps ensure that only sentences where the target lemmas are used as verbs are included in the final datasets. 
+
+This POS filter proved its worth, as it successfully filtered out 660 sentences from the NRC (10.7\%) leaving a clean dataset yielding $N=5{,}501$ sentences. In the SCC, 233 sentences (15.9\%) were filtered out, leaving $N=1{,}237$ sentences for the next step: semantic classification. 
 
 \subsubsection{Semantic Classification}\label{subsubsec:semantic-classification}
 
-\blindtext
+The semantic classification was carried out through an LLM-as-a-judge approach \parencite{zhengJudgingLLMas2023}. Instead of creating more text, here, the LLM was used to evaluate the existing sentences and classify them as either \texttt{LITERAL} or \texttt{IDIOMATIC} based on their semantic context.
+
+Existing studies tend to use Key Words in Context (KWIC) of the sentences to make the classification task easier for human annotators, but this approach only uses a small part of a sentence (context window), which may not contain enough information to make an accurate classification. Idiomaticity and de-lexicalisation processes often rely on the broader context or long-distance syntactic dependencies of a sentence (e.g., preceding subordinate clauses like in ``Given the evidence, the \textit{position} that the defence attorney ultimately chose to \textit{take} was unsurprising.'') making a classification based on a context window of just a few words unreliable. 
+
+The LLM-as-a-judge approach allows for the classification across the entire sentence, no matter how long or complex it is. This makes it not only easier for the annotator, but also more accurate, as it can take all relevant information of the sentence into account before deciding on the classification. The full prompt used for the classification is provided in Appendix \ref{subsec:ai-semantic-prompts}. It forced the LLM to make a strict, binary choice between \texttt{LITERAL} and \texttt{IDIOMATIC} for each sentence based on the semantic context, returning the classification in a structured JSON array that can easily be parsed for the next steps of the analysis.
 
 \subsubsection{Data Quality Assurance}\label{subsubsec:quality-assurance}
 
