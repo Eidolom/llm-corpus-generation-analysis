@@ -2444,6 +2444,9 @@
     <bcf:citekey order="77" intorder="1">birdKleinLoperNLP2009</bcf:citekey>
     <bcf:citekey order="77" intorder="2">loperBirdNLTK2002</bcf:citekey>
     <bcf:citekey order="78" intorder="1">zhengJudgingLLMas2023</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">cohenCoefficientAgreementNominal1960</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">landisMeasurementObserverAgreement1977</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">landisMeasurementObserverAgreement1977</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
