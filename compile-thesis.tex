@@ -548,21 +548,22 @@ Existing studies tend to use Key Words in Context (KWIC) of the sentences to mak
 
 The LLM-as-a-judge approach allows for the classification across the entire sentence, no matter how long or complex it is. This makes it not only easier for the annotator, but also more accurate, as it can take all relevant information of the sentence into account before deciding on the classification. The full prompt used for the classification is provided in Appendix \ref{subsec:ai-semantic-prompts}. It forced the LLM to make a strict, binary choice between \texttt{LITERAL} and \texttt{IDIOMATIC} for each sentence based on the semantic context, returning the classification in a structured JSON array that can easily be parsed for the next steps of the analysis.
 
-\subsubsection{Data Quality Assurance}\label{subsubsec:quality-assurance}
-
-\blindtext
+Following this classification, quality assurance (QA) procedures were implemented to review any items with unresolved classifications (e.g., due to ambiguity or lack of context) or failed responses were manually reviewed and excluded from the final dataset. In this process, 18 sentences were excluded from the NRC and 12 sentences from the SCC, resulting in a final sample of $N=5{,}483$ for the NRC and $N=1{,}237$ for the SCC for the final analysis.
 
 \subsubsection{Inter-Rater Reliability Assessment}\label{subsubsec:irr-assessment}
 
-\blindtext
+Because the semantic classification was done entirely through an LLM-as-a-judge approach, it was necessary to validate the model's accuracy against human intuition to ensure the reliability of the classifications. To establish this validity, an inter-rater reliability (IRR) assessment was conducted before proceeding with the statistical analysis. A random sample of 100 sentences from the NRC and 100 sentences from the SCC across the HIGH, NEUTRAL and LOW register conditions were selected for this assessment. These 200 sentences were then manually reviewed and annotated by the researcher using the same binary classification system (\texttt{LITERAL} vs. \texttt{IDIOMATIC}) based on the semantic context of each sentence, without any access to the LLM's classifications to prevent bias.
 
-The full agreement distribution is shown in Table~\ref{tab:confusion_matrix}.
+To make this step reproducible, a dedicated Python script (see Appendix \ref{app:irr-gen}) was created to randomly select the sentences and store them in a structured file for the human assessment. The script enforces a random seed, selects a random set of $100+100$ items, randomises their order and assigns them unique IDs to ensure that the annotator cannot guess which sentences belong to which original corpus or register condition. It then writes two separate CSV files: a blinded annotation sheet for the human annotator and a key-file with the LLM classifications for the same sentences for comparison.
 
+During the manual annotation process, a subset of the sample was found to consist of pedagogical meta-text (e.g., isolated vocabulary lists, direct translations to another language or grammar instructions without context) from the NRC that could not be classified as either \texttt{LITERAL} or \texttt{IDIOMATIC}. Because the semantic classification explicitly requires whole sentences to differentiate between Open-Choice and Idiom-Principle patterns, 14 of these items were marked as \texttt{NONE} (invalid) and thus excluded from the IRR analysis. This left a final sample of $N=186$ sentences for the IRR assessment. The full agreement distribution is shown in Table~\ref{tab:confusion_matrix}.
 
 \vspace{1em}
-\begin{table}[htbp]
+\begin{table}[H]
     \centering
     \renewcommand{\arraystretch}{1.5}
+    \caption[IRR Confusion Matrix]{Confusion Matrix of Semantic Classifications for the IRR sample}
+    \label{tab:confusion_matrix}
     \begin{tabular}{c|l|c|c|c|}
         \multicolumn{2}{c}{} & \multicolumn{2}{c}{\textbf{AI Model (Gemini)}} & \multicolumn{1}{c}{} \\
         \cline{3-5}
@@ -576,8 +577,28 @@ The full agreement distribution is shown in Table~\ref{tab:confusion_matrix}.
         \cline{3-5}
     \end{tabular}
     \vspace{0.5em}
-    \caption[IRR Confusion Matrix]{Confusion Matrix of Semantic Classifications for the IRR sample ($N=186$). The diagonal cells represent raw agreement (81.2\%), while the off-diagonal cells represent disagreements penalized by the Cohen's Kappa calculation ($\kappa=0.62$).}
-    \label{tab:confusion_matrix}
+\end{table}
+\vspace{1em}
+
+The human annotated labels were compared against the Gemini classifications using Cohen's Kappa ( $\kappa$ ) \parencite*{cohenCoefficientAgreementNominal1960}, which is a statistical measure of inter-rater agreement that also accounts for agreement occurring by chance. This is necessary because in classification tasks like this the literal and idiomatic categories have high semantic nuance. Therefore, there is a possibility that some agreement could be by chance. Following the interpretive benchmarks established by Landis and Koch \parencite*{landisMeasurementObserverAgreement1977}, the overall agreement was 81.2\% and achieved a Kappa score of $\kappa=0.62$. This exceeds the threshold for ``substantial agreement'' \parencite{landisMeasurementObserverAgreement1977}, which suggests that the classifications made by the AI model are generally consistent and reliable when compared to human intuition. Minor disagreements were mostly due to some ambiguous cases where the sentence could be interpreted as both literal and idiomatic, depending on the reader's perspective (e.g., the sentence ``After waiting for hours, we decided to \textit{make} a move'' can be interpreted literally as making a physical move or moving a piece on a chessboard, but it can also be interpreted idiomatically as in taking romantic initiative or making a decision). In cases like this, because broader context is not available, both classifications could be valid, which may explain some of the disagreements. 
+
+The IRR was also disaggregated by source corpus to check for any potential differences in agreement between the NRC and SCC. The results showed that there was more agreement in the SCC (85.9\%, $\kappa=0.64$ $\to$ substantial agreement) than in the NRC (77.0\%, $\kappa=0.53$ $\to$ moderate agreement), which may be because of self-model preferences, as the same model for both generation and classification has been used (Gemini 2.5 Flash). The implications for this are addressed in the study's methodological limitations in Chapter \ref{subsec:limitations}. The disaggregated agreement distribution is shown in Table~\ref{tab:inter_rater_reliability}.
+
+\vspace{1em}
+\begin{table}[H]
+\centering
+\caption{Disaggregated Inter-Rater Reliability by Source Corpus}
+\label{tab:inter_rater_reliability}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Corpus} & \textbf{n} & \textbf{Agreement (\%)} & \textbf{Cohen's $\kappa$} \\
+\midrule
+NRC & 87 & 77.0 & 0.53 \\
+SCC & 99 & 85.9 & 0.64 \\
+\midrule
+\textbf{Combined} & \textbf{186} & \textbf{81.2} & \textbf{0.62} \\
+\bottomrule
+\end{tabular}
 \end{table}
 \vspace{1em}
 

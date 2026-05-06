@@ -428,6 +428,44 @@
       \field{urldateera}{ce}
       \keyw{Grammar Comparative and general -- Honorific}
     \endentry
+    \entry{cohenCoefficientAgreementNominal1960}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eaad07ee1c6ef93a9308150f12c3c2eb}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{fullhash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{bibnamehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{authorbibnamehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{authornamehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{authorfullhash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0013-1644, 1552-3888}
+      \field{journaltitle}{Educational and Psychological Measurement}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{A {{Coefficient}} of {{Agreement}} for {{Nominal Scales}}}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{20}
+      \field{year}{1960}
+      \field{urldateera}{ce}
+      \field{pages}{37\bibrangedash 46}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1177/001316446002000104
+      \endverb
+    \endentry
     \entry{conti2016ugly}{online}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=727f5a8477efae618fb849387083e44e}{%
@@ -714,6 +752,44 @@
       \field{title}{The Input Hypothesis: Issues and Implications}
       \field{year}{1985}
       \keyw{Language and languages,Second language acquisition,Study and teaching}
+    \endentry
+    \entry{landisMeasurementObserverAgreement1977}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=59695a217d43474f928c324ecc5986c9}{%
+           family={Landis},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi Richard},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ed357a47b9bcbaeb653b5fe83f93b72}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Gary\bibnamedelima G.},
+           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ec0317971db8d434d9068056e7d1604f}
+      \strng{fullhash}{ec0317971db8d434d9068056e7d1604f}
+      \strng{bibnamehash}{ec0317971db8d434d9068056e7d1604f}
+      \strng{authorbibnamehash}{ec0317971db8d434d9068056e7d1604f}
+      \strng{authornamehash}{ec0317971db8d434d9068056e7d1604f}
+      \strng{authorfullhash}{ec0317971db8d434d9068056e7d1604f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrics}
+      \field{number}{1}
+      \field{title}{The Measurement of Observer Agreement for Categorical Data}
+      \field{volume}{33}
+      \field{year}{1977}
+      \field{pages}{159\bibrangedash 174}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.2307/2529310
+      \endverb
     \endentry
     \entry{leFoll2021a}{online}{}
       \name{author}{1}{}{%
