@@ -439,7 +439,7 @@ Chapter 2 established that high-frequency, polysemous verbs are particularly rel
 
 As Le Foll \parencite*{leFoll2024} highlights, these verbs present a significant challenge for learners due to their de-lexicalised nature and high frequency in both literal and idiomatic contexts. In her analysis of EFL exercises designed for learning new vocabulary, she specifically isolated the lemmas \textsc{make} and \textsc{take} as examples of verbs carrying this burden: ``[\ldots] all the instances of the lemmas \textsc{make} and \textsc{take} were automatically retrieved from the vocabulary exercise subcorpora and the results were manually sorted for meaning and collocational patterns. High-frequency verbs are found to feature prominently in the context of restricted collocations in all the textbooks'' \parencite[46]{leFoll2024}. Extending upon this selection, the present study includes eight additional high-frequency, polysemous verbs that are commonly used in both literal and idiomatic contexts. These core English verbs are typically among the first verbs that learners encounter in their language learning journey (A1/A2). As Huddleston and Pullum observe, such ``common verbs like \textit{bring, come, give, go, have, let, make, put, take}, etc., are found in large numbers of [\ldots] idioms, often with a considerable range of meanings'' \parencite*[284]{huddlestonPullumCambridge2002}. Tracking how this isolated set of verbs behaves across \texttt{LITERAL} and \texttt{IDIOMATIC} contexts in the NRC and SCC provides a direct metric for evaluating the phraseological capabilities of the model as well as the degree of simplification in the textbooks.
 
-To ensure consistency, the selected lemmas were compiled and stored in a \texttt{lemmas.txt} file. This file served as an immutable reference for the following data processing steps. The full list of lemmas is documented in Appendix \ref{app:target-words}.
+To ensure consistency, the selected lemmas were compiled and stored in a \texttt{lemmas.txt} file. This file served as an immutable reference for the following data processing steps. The full list of lemmas is documented in Appendix D1.
 
 \subsubsection{Natural Reference Corpus}\label{subsubsec:nrc}
 
@@ -450,7 +450,7 @@ The NRC was drawn from the English Textbook Corpus (TEC) compiled by Le Foll \pa
     \item \textbf{Lemma-Filtering:} The B1/B2 subcorpus was further thinned out to include only sentences containing at least one of the target verb lemmas. This was done through the \texttt{create subcorpus} feature in Sketch Engine, which allows for the creation of subcorpora based on specific search criteria.
     \item \textbf{Sketch Engine Export:} The resulting subcorpus was exported from Sketch Engine in eXtensible Markup Language (XML) format, which preserves the original sentence structure and metadata.
     \item \textbf{Conversion to JSON/CSV:} The XML files were then converted to JavaScript Object Notation (JSON) and Comma-Separated Values (CSV) formats for easier processing in Python, which is the main programming language used for the data processing pipeline.
-    \item \textbf{NLTK-Tagging \& -Filtering:} The sentences were processed using the Natural Language Toolkit (NLTK) package in Python to perform part-of-speech (POS) tagging. This method was used to verify that the target verbs were indeed used as verbs in the sentences, rather than as nouns or other parts of speech. Other incidences of the target lemmas that were not tagged as verbs were filtered out at this stage. This step was necessary to ensure that the analysis focuses on the verb usage of the target lemmas, since other parts of speech may not be of phraseological nature and thus irrelevant for the research question.  The full script for this process is provided in Appendix \ref{app:sketch-converter}
+    \item \textbf{NLTK-Tagging \& -Filtering:} The sentences were processed using the Natural Language Toolkit (NLTK) package in Python to perform part-of-speech (POS) tagging. This method was used to verify that the target verbs were indeed used as verbs in the sentences, rather than as nouns or other parts of speech. Other incidences of the target lemmas that were not tagged as verbs were filtered out at this stage. This step was necessary to ensure that the analysis focuses on the verb usage of the target lemmas, since other parts of speech may not be of phraseological nature and thus irrelevant for the research question.  The full script for this process is provided in Appendix D2
     \item \textbf{Manual Validation:} A random sample of sentences was manually checked to ensure that the POS-tagging and filtering were accurate. Any errors found in this sample were used to refine the tagging and filtering process before applying it to the entire dataset. The distribution of the target verb lemmas in the NRC after POS filtering is shown in Table~\ref{tab:nrc-lemma-distribution}.
 \end{enumerate}
 
@@ -496,7 +496,7 @@ To maintain methodological consistency with the NRC, this dataset was also subje
 
 Before executing the full data generation process for the SCC, a pilot study was conducted. This pilot study was designed to identify potential issues with the prompt engineering, instruction ambiguity and failure rates of the model's API. This process required several changes to the original prompt design to ensure the LLM could reliably produce outputs that met the specific requirements of the study. 
 
-To test the API's reliability, first, a small debug script (Appendix \ref{app:debug}) was used to verify successful API calls and to check for any potential issues with rate limits. After confirming that the API was functioning correctly, a naive, zero-shot prompt was drafted and tested:
+To test the API's reliability, first, a small debug script (Appendix D3) was used to verify successful API calls and to check for any potential issues with rate limits. After confirming that the API was functioning correctly, a naive, zero-shot prompt was drafted and tested:
 
 \begin{quote}\label{naive-prompt}
     \textit{``Write a B2-level English sentence using the verb `take' in an idiomatic context''.}
@@ -534,7 +534,7 @@ Because the English language relies heavily on zero-derivation, many words can f
 
 To prevent this issue, the Natural Language Toolkit (NLTK) \parencite{birdKleinLoperNLP2009,loperBirdNLTK2002} package in Python was used to perform POS-tagging on both the NRC and SCC. This process uses Natural Language Processing (NLP) techniques to classify each word in the sentences according to its part of speech. The NLTK's POS-tagger was trained on the Penn Treebank corpus, which is a widely used annotated corpus of English, meaning that it has a high level of accuracy and can thus be reliably used for this task. It is also a free-to-use library, which makes it accessible and reproducible for other researchers. 
 
-The verb filtering was done using two custom Python scripts tailored to each corpus's data format. For the SCC, the \texttt{pos\_taggerV2NLTK.py} (see Appendix \ref{app:pos-tagger-v2}) script processed the data from JSON format, filtering the sentences and extracting only those containing the target verbs. For the NRC, the \texttt{pos\_taggerNLTK\_forCSV.py} (see Appendix \ref{app:pos-tagger-csv}) script performed the same verb filtering operation but processed CSV input directly, ensuring methodological consistency, the only difference being the different data source formats.
+The verb filtering was done using two custom Python scripts tailored to each corpus's data format. For the SCC, the \texttt{pos\_taggerV2NLTK.py} (see Appendix D5) script processed the data from JSON format, filtering the sentences and extracting only those containing the target verbs. For the NRC, the \texttt{pos\_taggerNLTK\_forCSV.py} (see Appendix D6) script performed the same verb filtering operation but processed CSV input directly, ensuring methodological consistency, the only difference being the different data source formats.
 
 In detail, the scripts work as follows: first, the \texttt{word\_tokenize} module is used to split each sentence into individual words. Then, the \texttt{pos\_tag} function assigns a part-of-speech tag to each word. A sentence is only retained if it contains at least one token tagged as a verb (e.g., VB, VBD, VBG, VBN, VBP, VBZ) whose lemmatised form matches the target lemma. Next, the script checks the verb tokens with the \texttt{WordNetLemmatizer}, which reduces inflected forms to their base form. These steps ensure that only sentences where the target lemmas are used as verbs are included in the final datasets. 
 
@@ -554,7 +554,7 @@ Following this classification, quality assurance (QA) procedures were implemente
 
 Because the semantic classification was done entirely through an LLM-as-a-judge approach, it was necessary to validate the model's accuracy against human intuition to ensure the reliability of the classifications. To establish this validity, an inter-rater reliability (IRR) assessment was conducted before proceeding with the statistical analysis. A random sample of 100 sentences from the NRC and 100 sentences from the SCC across the HIGH, NEUTRAL and LOW register conditions were selected for this assessment. These 200 sentences were then manually reviewed and annotated by the researcher using the same binary classification system (\texttt{LITERAL} vs. \texttt{IDIOMATIC}) based on the semantic context of each sentence, without any access to the LLM's classifications to prevent bias.
 
-To make this step reproducible, a dedicated Python script (see Appendix \ref{app:irr-gen}) was created to randomly select the sentences and store them in a structured file for the human assessment. The script enforces a random seed, selects a random set of $100+100$ items, randomises their order and assigns them unique IDs to ensure that the annotator cannot guess which sentences belong to which original corpus or register condition. It then writes two separate CSV files: a blinded annotation sheet for the human annotator and a key-file with the LLM classifications for the same sentences for comparison.
+To make this step reproducible, dedicated Python scripts were used to select the sentences, produce the blinded annotation sheet and compute the split IRR results. These scripts are included in the project repository (see \texttt{src/utils/irr\_sheet\_generator.py} and \texttt{src/utils/compute\_split\_irr.py}) and are also listed in Appendix D (D8--D9). The generator enforces a fixed random seed, selects the $100+100$ items, randomises their order and assigns unique IDs so that annotators cannot infer the original corpus or register condition. It writes two CSV files: a blinded annotation sheet for the human annotator and a hidden key file with the LLM classifications for comparison.
 
 During the manual annotation process, a subset of the sample was found to consist of pedagogical meta-text (e.g., isolated vocabulary lists, direct translations to another language or grammar instructions without context) from the NRC that could not be classified as either \texttt{LITERAL} or \texttt{IDIOMATIC}. Because the semantic classification explicitly requires whole sentences to differentiate between Open-Choice and Idiom-Principle patterns, 14 of these items were marked as \texttt{NONE} (invalid) and thus excluded from the IRR analysis. This left a final sample of $N=186$ sentences for the IRR assessment. The full agreement distribution is shown in Table~\ref{tab:confusion_matrix}.
 
@@ -604,31 +604,19 @@ SCC & 99 & 85.9 & 0.64 \\
 
 \subsection{Statistical Analysis}\label{subsec:statistical-analysis}
 
-\subsubsection{Comparison Strategy}\label{subsubsec:comparison-strategy}
+To test whether textbook usage aligns with one of the prompted registers, the NRC was compared against each of the three SCC register conditions (HIGH, LOW, NEUTRAL) separately. Additionally, the three SCC register conditions were compared against each other to check the effectiveness of the prompt engineering when generating registers. 
 
-\blindtext
+The comparison was based on the chi-squared test of independence ($\chi^2$), which is a common metric for testing the correlation between two categorical variables. The significance threshold was set at a standard level of $\alpha = 0.05$. Specifically Agresti's \parencite*{agrestiCategoricalData2012} contingency table approach was used to compare the distribution of \texttt{LITERAL} and \texttt{IDIOMATIC} classifications across the different corpora and register conditions. Additionally, Cramér's $V$ \parencite*{cramer1946mathematical} was used to standardise effect sizes across comparisons with different sample sizes. This allows for direct comparison of the strength of associations across different test pairs. The chi-squared tests were performed using the \texttt{scipy.stats} package in Python, which is convenient since the data is already in a format that can be easily processed with this library. The Cramér's $V$ was calculated using the formula $V = \sqrt{\frac{\chi^2}{n(k-1)}}$, where $\chi^2$ is the chi-squared statistic, $n$ is the total number of observations and $k$ is the number of categories in the variable with the fewest categories (in this case, 2 for \texttt{LITERAL} and \texttt{IDIOMATIC}).
 
-\subsubsection{Inferential Testing \& Thresholds}\label{subsubsec:inferential-testing}
+To account for multiple comparisons (six pairwise tests total: NRC vs. HIGH, NRC vs. LOW, NRC vs. NEUTRAL, plus HIGH vs. LOW, HIGH vs. NEUTRAL, and LOW vs. NEUTRAL), a Bonferroni correction \parencite{dunn1961multiple} was applied, setting the adjusted significance threshold to $\alpha = 0.0083$ (i.e., $\alpha/6$). This conservative correction protects against Type I errors (false positives) that may accumulate across multiple tests. Under this corrected threshold, a comparison is considered statistically significant only if $p < 0.0083$.
 
-\blindtext
-
-\subsubsection{Statistical Procedure \& Frequency Normalisation}\label{subsubsec:statistical-procedure}
-
-\blindtext
+Finally, to account for the size imbalance between the NRC ($N=5{,}483$) and SCC ($N=1{,}237$) datasets, the treatment of frequency was carefully considered. For the inferential testing, the raw counts of \texttt{LITERAL} and \texttt{IDIOMATIC} classifications were used in the chi-squared tests. This is mathematically necessary for the test to function correctly, as it relies on the observed frequencies in each category. However, for all descriptive reports, normalised frequencies (percentages) were used to allow for more transparent comparisons across the corpora and register conditions. 
 
 \subsection{Ethical Considerations \& Data Use}\label{subsec:ethical-considerations}
 
-\subsubsection{Copyright \& Data Distribution}\label{subsubsec:copyright}
+Working with large language models and copyrighted content inevitably raises some ethical questions. The NRC is derived from the English Textbook Corpus (TEC) compiled by Le Foll \parencite*{leFoll2021a}, which consists of publicly available EFL textbooks. These textbooks are commercial and cannot legally be shared due to their copyright restrictions. To maintain methodological transparency, the specific textbooks used in the TEC are documented in Appendix \ref{sec:tec-textbooks}, as well as the exact filtering scripts (Appendix D6 and D5) used are provided instead of the raw corpus itself. This allows for reproducibility of the data processing steps without violating copyright laws.
 
-\blindtext
-
-\subsubsection{API Privacy \& Data Security}\label{subsubsec:api-privacy}
-
-\blindtext
-
-\subsubsection{Sociolinguistic Bias in AI-Generated Content}\label{subsubsec:sociolinguistic-bias}
-
-\blindtext
+To ensure data privacy and ethical use of the LLM, all AI tasks that involved the analysis of the NRC sentences were performed using Gemini's API, which, in contrast to the standard web interface, does not store the input data or the generated outputs. Outputs from the API are strictly isolated to the user and are not used for training or improving the model. 
 
 \section{Results}\label{sec:results}
 
@@ -758,7 +746,7 @@ NRC vs. NEUTRAL & 54.3 vs. 48.8 & 4.41 ($p = 0.036$) & 0.024 \\
 
 \subsection{Future Research}\label{subsec:future-research}
 
-\subsubsection{Regulating Lexical Boundaries for Optimal $i+1$ Input}\label{subsubsec:lexical-boundaries}
+\subsubsection{Regulating Lexical Boundaries for Optimal i+1 Input}\label{subsubsec:lexical-boundaries}
 
 A highly promising avenue for future research involves computationally regulating the lexical boundaries of synthetic input to perfectly align with Krashen's i+1 hypothesis. While the present study relies on general CEFR B1/B2 prompting, future methodologies could employ strict systematic prompting or Retrieval-Augmented Generation (RAG) to restrict an LLM's vocabulary output exclusively to the lexical items introduced up to a specific chapter in a target textbook. By firmly anchoring the base vocabulary at the learner's exact current competence (i), the model could be tasked with generating authentic, register-appropriate sentences that introduce complexity solely through novel phraseological combinations and de-lexicalised chunks (+1). This pedagogical constraint would theoretically prevent the AI from overwhelming the learner's working memory with unknown open-choice vocabulary, isolating the cognitive load entirely to the acquisition of natural, context-dependent idiomaticity.
 
@@ -802,18 +790,18 @@ A highly promising avenue for future research involves computationally regulatin
 1 & Gemini 2.5 Flash & Corpus Generation (SCC) & \nameref{subsubsec:scc} & Via Python API \\ \hline
 2 & Gemini 2.5 Flash & Semantic Classification & \nameref{subsubsec:irr-assessment} & LLM-as-a-judge \\ \hline
 3 & Gemini 3 Pro & Ideation \& Structure & -- & Figures~\ref{fig:gemini3-proof1}--\ref{fig:gemini3-proof5} \\ \hline
-4 & Claude Sonnet 4.5 & Code \& Debugging & Appendix~\ref{sec:full-ai-docs} & -- \\ \hline
+4 & Claude Sonnet 4.5 & Code \& Debugging & Appendix~\ref{app:python} & -- \\ \hline
 5 & Grammarly & Stylistic Proofreading & -- & -- \\ \hline
-6 & GitHub Copilot & Repository Privacy Audit & Appendix~\ref{sec:full-ai-docs} & -- \\ \hline
+6 & GitHub Copilot & Repository Privacy Audit & Appendix~\ref{app:python} & -- \\ \hline
 \end{tabular}%
 }
 \end{table}
 
 \subsection*{AI tools used}
 \begin{enumerate}
-    \item Gemini 2.5 Flash. Google. \textit{Generate 100 sentences for the verb [lemma]} (Full prompt in Appendix \ref{app:python}). 25/02/2026, \url{https://aistudio.google.com}.
-    \item Gemini 2.5 Flash. Google. \textit{Classify the following sentence as LITERAL or IDIOMATIC} (Full prompt in Appendix \ref{app:python}). 28/02/2026, \url{https://aistudio.google.com}.
-    \item Gemini 3 Pro. Google. \textit{I am starting my Bachelor's thesis in English Linguistics} (Full documentation in Appendix \ref{sec:full-ai-docs}). 20/11/2025, \url{https://gemini.google.com}.
+    \item Gemini 2.5 Flash. Google. \textit{Generate 100 sentences for the verb [lemma]} (Full prompt in Appendix \ref{subsec:ai-scc-prompts}). 25/02/2026, \url{https://aistudio.google.com}.
+    \item Gemini 2.5 Flash. Google. \textit{Classify the following sentence as LITERAL or IDIOMATIC} (Full prompt in Appendix \ref{subsec:ai-semantic-prompts}). 28/02/2026, \url{https://aistudio.google.com}.
+    \item Gemini 3 Pro. Google. \textit{I am starting my Bachelor's thesis in English Linguistics} (Full documentation in Appendix \ref{subsec:ai-ideation-prompt} and \ref{subsec:screenshots}). 20/11/2025, \url{https://gemini.google.com}.
     \item Claude Sonnet 4.5. Anthropic. \textit{Code \& Debugging}. 21/11/2025-25/03/2026, \url{https://claude.ai}.
     \item Grammarly. Grammarly. \textit{Post-drafting spelling and grammatical review.} 28/03/2026, \url{https://grammarly.com}.
     \item GitHub Copilot. GitHub. \textit{Automated auditing of repository code to ensure data privacy and prevent API key/credential leakage.} 07/02/2026, \url{https://github.com/features/copilot}.
@@ -910,45 +898,136 @@ These figures provide visual representations of the final semantic classificatio
 \clearpage
 \section{Python Code Documentation} \label{app:python}
 
-\noindent The following scripts document the computational pipeline. To ensure exact reproducibility, it must be noted that \texttt{pos\_taggerV2NLTK.py} (Section \ref{app:pos-tagger-v2}) was exclusively applied to filter the AI-generated Synthetic Control Corpus (SCC), while \texttt{pos\_tagger\_nltk\_for\_csv.py} (Section \ref{app:pos-tagger-csv}) was engineered specifically to parse the human-authored Natural Reference Corpus (NRC). The code uses simplified file paths for readability. The actual repository implementation uses organised directories (\texttt{outputs/}, \texttt{data/}, \texttt{src/}) and environment variables for API keys. See the GitHub repository for the actual code, dataset and version history.
+\subsection*{Digital Reference Appendix}
 
+The complete computational pipeline used in this study is publicly available in the GitHub repository:
 
-\texttt{https://github.com/Eidolom/llm-corpus-generation-analysis}
+\begin{center}
+\textbf{\url{https://github.com/Eidolom/llm-corpus-generation-analysis}}
+\end{center}
 
+\noindent This digital repository contains all source code, datasets, processing scripts, and version history required for full reproducibility. The project uses the following directory structure:
 
-\subsection{target\_words.txt} \label{app:target-words}
-\lstinputlisting[language={}]{code/target_words.txt}
+\vspace{0.5em}
 
-\subsection{sketch\_engine\_converter\_nltk.py}\label{app:sketch-converter}
-\lstinputlisting[language=Python]{code/nltk_sketch_engine_converter.py}
+\begin{center}
+\begin{minipage}{0.8\textwidth}
+\small
+\begin{verbatim}
+project/
+|-- data/
+|   |-- README.md
+|   `-- target_words.txt                                # D1
+|-- docs/
+|   `-- DATA_ACCESS.md
+|-- outputs/
+|   |-- README.md
+|   |-- intermediate_sentences.synthetic_backup.json
+|   |-- results_aggregate_chart.png
+|   |-- results_aggregate_register_proportions.csv
+|   |-- results_aggregate_register_proportions.png
+|   |-- results_heatmap.png
+|   |-- results_idiomaticity_heatmaps.png
+|   |-- results_idiomaticity_matrix.csv
+|   `-- thesis_pragmatic_data_filtered_synthetic.csv
+|-- src/
+|   |-- README.md
+|   |-- analyzers/
+|   |   |-- pos_tagger.py
+|   |   |-- pos_taggerNLTK_forCSV.py                    # D6
+|   |   |-- pos_taggerV2NLTK.py                         # D5
+|   |   |-- scalable_pos_tagger.py
+|   |   |-- semantic_analyzer.py                        # D7
+|   |   |-- semantic_analyzer_V2.py
+|   |   |-- visualizer.py                               # D11
+|   |   |-- visualizer_aggregate_register_proportions.py
+|   |   `-- visualizer_idiomaticity_heatmap.py
+\end{verbatim}
+\end{minipage}
+\vspace*{\fill}
+\captionof{figure}{Directory structure (continued on page 48).}\label{fig:repo-layout-part1}
+\end{center}
 
-\subsection{debug.py}\label{app:debug}
-\lstinputlisting[language=Python]{code/debug.py}
+\begin{center}
+\begin{minipage}{0.8\textwidth}
+\small
+\begin{verbatim}
+|   |-- generators/
+|   |   |-- scalable_context_generator.py               # D4
+|   |   |-- scalable_context_generator_big_data.py
+|   |   `-- simple_data_collector.py
+|   `-- utils/
+|       |-- api_config.py
+|       |-- debug.py                                    # D3
+|       |-- prepare_irr_annotation_sheet.py
+|       |-- irr_sheet_generator.py                      # D8
+|       |-- compute_split_irr.py                        # D9
+|       |-- README_IRR.md
+|       `-- sketch_engine_converter_nltk.py             # D2
+|-- .gitattributes
+|-- .gitignore
+|-- LICENSE
+|-- README.md
+|-- SETUP.md
+`-- requirements.txt
+\end{verbatim}
+\end{minipage}
+\captionof{figure}{Directory structure (continued from page 47).}\label{fig:repo-layout-part2}
+\end{center}
 
-\subsection{scalable\_context\_generator.py}\label{app:context-gen}
-\lstinputlisting[language=Python]{code/scalable_context_generator.py}
+\subsubsection*{Code Component Index (D1--D11)}
+% The D identifiers are written directly in the list for readability.
+\begin{itemize}
+\item \textbf{D1}: \texttt{target\_words.txt}
+\item \textbf{D2}: \texttt{nltk\_sketch\_engine\_converter.py}
+\item \textbf{D3}: \texttt{debug.py}
+\item \textbf{D4}: \texttt{scalable\_context\_generator.py}
+\item \textbf{D5}: \texttt{pos\_taggerV2NLTK.py}
+\item \textbf{D6}: \texttt{pos\_taggerNLTK\_forCSV.py}
+\item \textbf{D7}: \texttt{semantic\_analyzer.py}
+\item \textbf{D8}: \texttt{src/utils/irr\_sheet\_generator.py}
+\item \textbf{D9}: \texttt{src/utils/compute\_split\_irr.py}
+\item \textbf{D11}: \texttt{visualizer.py}
+\end{itemize}
 
-\subsection{pos\_taggerV2NLTK.py}\label{app:pos-tagger-v2}
-\lstinputlisting[language=Python]{code/pos_taggerV2NLTK.py}
+\subsubsection*{Ignored Local Artifacts}
 
-\subsection{pos\_tagger\_nltk\_for\_csv.py}\label{app:pos-tagger-csv}
-\lstinputlisting[language=Python]{code/pos_taggerNLTK_forCSV.py}
+Some files are intentionally not tracked in the public repository because they are local-only configuration or derived working data.
 
-\subsection{semantic\_analyzer.py}\label{app:semantic-analyzer}
-\lstinputlisting[language=Python]{code/semantic_analyzer.py}
+\begin{itemize}
+\item \textbf{D10}: \texttt{irr\_split\_results.csv} -- local analysis output; not committed to avoid publishing transient working results.
+\item \texttt{irr\_annotation\_sheet.csv} and \texttt{irr\_master\_key.csv} -- IRR working files derived from copyrighted textbook material and therefore not redistributed.
+\end{itemize}
 
-\subsection{irr\_sheet\_generator.py}\label{app:irr-gen}
-\lstinputlisting[language=Python]{code/irr_sheet_generator.py}
+\subsubsection*{Implementation Notes}
 
-\subsection{compute\_split\_irr.py}\label{app:compute-irr}
-\lstinputlisting[language=python]{code/compute_split_irr.py}
+The codebase uses simplified file paths in comments for readability. The production implementation uses organised directories (\texttt{outputs/}, \texttt{data/}, \texttt{src/}) and environment variables for API keys (not hardcoded). All scripts are documented with docstrings and comments, and the repository includes a \texttt{README.md} with setup instructions, usage guidelines, and data access information. The code is modularised into analysers, generators and utilities for clarity and maintainability.
 
-\subsection{irr\_split\_results.csv}\label{app:irr-results}
-\lstinputlisting[language={}]{Files/irr_split_results.csv}
+\subsubsection*{Core Logic Example: POS Filtering (pos\_taggerV2NLTK.py)}
 
-\subsection{visualizer.py}\label{app:visualizer}
-\lstinputlisting[language=Python]{code/visualizer.py}
+The following snippet illustrates the core verb-filtering logic used in the pipeline:
 
+\begin{lstlisting}[language=Python, caption={Core POS filtering logic}, label=lst:pos-core]
+from nltk import word_tokenize, pos_tag
+from nltk.corpus import wordnet
+from nltk.stem import WordNetLemmatizer
+
+lemmatizer = WordNetLemmatizer()
+verb_tags = {'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ'}
+
+def filter_by_target_verb(sentence, target_lemma):
+    tokens = word_tokenize(sentence.lower())
+    pos_tags = pos_tag(tokens)
+    
+    for token, tag in pos_tags:
+        if tag in verb_tags:
+            lemma = lemmatizer.lemmatize(token, wordnet.VERB)
+            if lemma == target_lemma:
+                return True  # Sentence retained
+    return False  # Sentence filtered out
+\end{lstlisting}
+
+\noindent For complete implementations, parameter configurations, API integration details, and full dataset processing pipelines, please refer to the GitHub repository.
 
 \newpage
 \section{Full AI Documentation}\label{sec:full-ai-docs}
@@ -1013,40 +1092,50 @@ register distinction for the AI side to test whether it can mimic pedagogical
 styles. Can you help me brainstorm a formal academic structure for this?
 \end{lstlisting}
 
-\subsubsection*{Screenshots}\label{subsec:ai-screenshots}
+\subsection{Screenshots}\label{subsec:screenshots}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Screenshots/Gemini3Proof1.png}
-    \caption[Gemini 3 Screenshot 1]{Gemini 3 ideation chat screenshot 1}
-    \label{fig:gemini3-proof1}
-\end{figure}
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth,clip,trim=13.0cm 0.8cm 13.0cm 0.8cm]{Screenshots/Gemini3Proof1.png}
+        \caption{}
+        \label{fig:gemini3-proof1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth,clip,trim=13.0cm 0.8cm 13.0cm 0.8cm]{Screenshots/Gemini3Proof2.png}
+        \caption{}
+        \label{fig:gemini3-proof2}
+    \end{subfigure}
+    
+    \vspace{0.5em}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Screenshots/Gemini3Proof2.png}
-    \caption[Gemini 3 Screenshot 2]{Gemini 3 ideation chat screenshot 2}
-    \label{fig:gemini3-proof2}
-\end{figure}
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth,clip,trim=13.0cm 0.8cm 13.0cm 0.8cm]{Screenshots/Gemini3Proof3.png}
+        \caption{}
+        \label{fig:gemini3-proof3}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth,clip,trim=13.0cm 0.8cm 13.0cm 0.8cm]{Screenshots/Gemini3Proof4.png}
+        \caption{}
+        \label{fig:gemini3-proof4}
+    \end{subfigure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Screenshots/Gemini3Proof3.png}
-    \caption[Gemini 3 Screenshot 3]{Gemini 3 ideation chat screenshot 3}
-    \label{fig:gemini3-proof3}
-\end{figure}
+    \vspace{0.5em}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Screenshots/Gemini3Proof4.png}
-    \caption[Gemini 3 Screenshot 4]{Gemini 3 ideation chat screenshot 4}
-    \label{fig:gemini3-proof4}
-\end{figure}
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth,clip,trim=13.0cm 0.8cm 13.0cm 0.8cm]{Screenshots/Gemini3Proof5.png}
+        \caption{}
+        \label{fig:gemini3-proof5}
+    \end{subfigure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Screenshots/Gemini3Proof5.png}
-    \caption[Gemini 3 Screenshot 5]{Gemini 3 ideation chat screenshot 5}
-    \label{fig:gemini3-proof5}
+    \caption[Gemini 3 Ideation Evidence Plate II]{Gemini 3 Pro screenshots documenting the broad ideation process.}
+    \label{fig:gemini3-proof-plate-2}
 \end{figure}
 
 \end{document}

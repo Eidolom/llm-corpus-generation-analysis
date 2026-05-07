@@ -1,0 +1,87 @@
+Documentation of AI tools used
+Table 9: Table documenting AI tools used
+AI Tool
+
+Application
+
+Used in section(s)
+
+Comments
+
+1
+
+Gemini 2.5 Flash
+
+Corpus Generation (SCC)
+
+Synthetic Control Corpus
+
+Via Python API
+
+2
+
+Gemini 2.5 Flash
+
+Semantic Classification
+
+Inter-Rater Reliability Assessment
+
+LLM-as-a-judge
+
+3
+
+Gemini 3 Pro
+
+Ideation & Structure
+
+–
+
+Figures 8a–8e
+
+4
+
+Claude Sonnet 4.5
+
+Code & Debugging
+
+Appendix E
+
+–
+
+5
+
+Grammarly
+
+Stylistic Proofreading
+
+–
+
+–
+
+6
+
+GitHub Copilot
+
+Repository Privacy Audit
+
+Appendix E
+
+–
+
+AI tools used
+1. Gemini 2.5 Flash. Google. Generate 100 sentences for the verb [lemma] (Full
+prompt in Appendix D). 25/02/2026, https://aistudio.google.com.
+2. Gemini 2.5 Flash. Google. Classify the following sentence as LITERAL or IDIOMATIC (Full prompt in Appendix D). 28/02/2026, https://aistudio.google.com.
+3. Gemini 3 Pro. Google. I am starting my Bachelor’s thesis in English Linguistics
+(Full documentation in Appendix E). 20/11/2025, https://gemini.google.com.
+4. Claude Sonnet 4.5. Anthropic. Code & Debugging. 21/11/2025-25/03/2026, https:
+//claude.ai.
+5. Grammarly. Grammarly. Post-drafting spelling and grammatical review.
+28/03/2026, https://grammarly.com.
+6. GitHub Copilot. GitHub. Automated auditing of repository code to ensure data
+privacy and prevent API key/credential leakage. 07/02/2026, https://github.com/
+features/copilot.
+
+39
+
+

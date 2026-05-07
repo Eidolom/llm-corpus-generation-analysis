@@ -2447,6 +2447,10 @@
     <bcf:citekey order="79" intorder="1">cohenCoefficientAgreementNominal1960</bcf:citekey>
     <bcf:citekey order="80" intorder="1">landisMeasurementObserverAgreement1977</bcf:citekey>
     <bcf:citekey order="81" intorder="1">landisMeasurementObserverAgreement1977</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">agrestiCategoricalData2012</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">cramer1946mathematical</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">dunn1961multiple</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">leFoll2021a</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

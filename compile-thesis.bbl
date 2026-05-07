@@ -19,6 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{agrestiCategoricalData2012}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=15bf0ecf9d6116f7eafc37298364beca}{%
+           family={Agresti},
+           familyi={A\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{15bf0ecf9d6116f7eafc37298364beca}
+      \strng{fullhash}{15bf0ecf9d6116f7eafc37298364beca}
+      \strng{bibnamehash}{15bf0ecf9d6116f7eafc37298364beca}
+      \strng{authorbibnamehash}{15bf0ecf9d6116f7eafc37298364beca}
+      \strng{authornamehash}{15bf0ecf9d6116f7eafc37298364beca}
+      \strng{authorfullhash}{15bf0ecf9d6116f7eafc37298364beca}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Categorical Data Analysis}
+      \field{year}{2012}
+    \endentry
     \entry{amodeiConcreteProblemsAI2016}{misc}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=1e6adbf36ab730cd5fdadb838b4d2667}{%
@@ -503,6 +531,36 @@
       \verb https://gianfrancoconti.com/2016/11/26/the-ugly-truth-about-school-based-modern-language-teaching/
       \endverb
     \endentry
+    \entry{cramer1946mathematical}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8815262f8ce833f8804c25a5afc1996b}{%
+           family={Cramér},
+           familyi={C\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{8815262f8ce833f8804c25a5afc1996b}
+      \strng{fullhash}{8815262f8ce833f8804c25a5afc1996b}
+      \strng{bibnamehash}{8815262f8ce833f8804c25a5afc1996b}
+      \strng{authorbibnamehash}{8815262f8ce833f8804c25a5afc1996b}
+      \strng{authornamehash}{8815262f8ce833f8804c25a5afc1996b}
+      \strng{authorfullhash}{8815262f8ce833f8804c25a5afc1996b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mathematical Methods of Statistics}
+      \field{year}{1946}
+    \endentry
     \entry{curdt-christiansenLanguageIdeologyEducation2015}{book}{}
       \name{editor}{2}{}{%
         {{un=0,uniquepart=base,hash=faa856d9af86d6b7bd0bb8da73208c41}{%
@@ -541,6 +599,38 @@
       \field{series}{Routledge {{Research}} in {{Language Education}}}
       \field{title}{Language, Ideology and Education: The Politics of Textbooks in Language Education}
       \field{year}{2015}
+    \endentry
+    \entry{dunn1961multiple}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0b0af97d4f9c67ace0f8c55bd08f9072}{%
+           family={Dunn},
+           familyi={D\bibinitperiod},
+           given={Olive\bibnamedelima Jean},
+           giveni={O\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{fullhash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{bibnamehash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{authorbibnamehash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{authornamehash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{authorfullhash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{number}{293}
+      \field{title}{Multiple comparisons among means}
+      \field{volume}{56}
+      \field{year}{1961}
+      \field{pages}{52\bibrangedash 64}
+      \range{pages}{13}
     \endentry
     \entry{hallidayMatthiessenIntroductionFunctional2014}{book}{}
       \name{author}{2}{}{%
