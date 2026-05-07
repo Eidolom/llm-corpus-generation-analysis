@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.25)  6 MAY 2026 10:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.25)  7 MAY 2026 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -654,9 +654,15 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count335
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count336
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count337
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count336
+\c@float@type=\count338
 \float@exts=\toks51
 \float@box=\box70
 \@float@everytoks=\toks52
@@ -668,12 +674,12 @@ File: expex.tex 5/25/2017 v5.1b ExPex linguistics example formatter (JF)
 \ep@dima=\dimen305
 \ep@dimb=\dimen306
 \ep@dimc=\dimen307
-\ep@cnta=\count337
-\epc@b=\count338
-\excnt=\count339
+\ep@cnta=\count339
+\epc@b=\count340
+\excnt=\count341
 \numbox=\box72
 \epd@numright=\dimen308
-\pexcnt=\count340
+\pexcnt=\count342
 \epd@labelleft=\dimen309
 \epd@labelright=\dimen310
 \epd@textleft=\dimen311
@@ -686,18 +692,18 @@ File: expex.tex 5/25/2017 v5.1b ExPex linguistics example formatter (JF)
 \glstrutbox=\box74
 \ep@cascadeindent=\dimen314
 \ep@hangindentamount=\dimen315
-\ep@cascadecount=\count341
+\ep@cascadecount=\count343
 \gltoks@a=\toks54
 \gltoks@b=\toks55
 \glw@maxht=\dimen316
 \glw@maxdp=\dimen317
-\@itemtype=\count342
+\@itemtype=\count344
 \gl@maxdplast=\dimen318
 \gltoks@sofar=\toks56
 \gltoks@every=\toks57
 \gltoks@next=\toks58
 \debug@glword=\box75
-\@glaparsestate=\count343
+\@glaparsestate=\count345
 \glwcascade@pshapeindent=\dimen319
 \glwcascade@pshapelinewd=\dimen320
 \ssleftwd=\dimen321
@@ -707,8 +713,8 @@ Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
  (/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 ) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count344
-\xs_countb=\count345
+\xs_counta=\count346
+\xs_countb=\count347
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
@@ -718,77 +724,77 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count346
-\c@Blindtext=\count347
-\c@blind@countparstart=\count348
-\blind@countxx=\count349
-\blindtext@numBlindtext=\count350
-\blind@countyy=\count351
-\c@blindlist=\count352
-\c@blindlistlevel=\count353
-\c@blindlist@level=\count354
-\blind@listitem=\count355
-\c@blind@listcount=\count356
-\c@blind@levelcount=\count357
-\blind@mathformula=\count358
-\blind@Mathformula=\count359
-\c@blind@randomcount=\count360
-\c@blind@randommax=\count361
-\c@blind@pangramcount=\count362
-\c@blind@pangrammax=\count363
+\c@blindtext=\count348
+\c@Blindtext=\count349
+\c@blind@countparstart=\count350
+\blind@countxx=\count351
+\blindtext@numBlindtext=\count352
+\blind@countyy=\count353
+\c@blindlist=\count354
+\c@blindlistlevel=\count355
+\c@blindlist@level=\count356
+\blind@listitem=\count357
+\c@blind@listcount=\count358
+\c@blind@levelcount=\count359
+\blind@mathformula=\count360
+\blind@Mathformula=\count361
+\c@blind@randomcount=\count362
+\c@blind@randommax=\count363
+\c@blind@pangramcount=\count364
+\c@blind@pangrammax=\count365
 ) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count364
+\lrq@indent=\count366
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count365
-\c@listtotal=\count366
-\c@listcount=\count367
-\c@liststart=\count368
-\c@liststop=\count369
-\c@citecount=\count370
-\c@citetotal=\count371
-\c@multicitecount=\count372
-\c@multicitetotal=\count373
-\c@instcount=\count374
-\c@maxnames=\count375
-\c@minnames=\count376
-\c@maxitems=\count377
-\c@minitems=\count378
-\c@citecounter=\count379
-\c@maxcitecounter=\count380
-\c@savedcitecounter=\count381
-\c@uniquelist=\count382
-\c@uniquename=\count383
-\c@refsection=\count384
-\c@refsegment=\count385
-\c@maxextratitle=\count386
-\c@maxextratitleyear=\count387
-\c@maxextraname=\count388
-\c@maxextradate=\count389
-\c@maxextraalpha=\count390
-\c@abbrvpenalty=\count391
-\c@highnamepenalty=\count392
-\c@lownamepenalty=\count393
-\c@maxparens=\count394
-\c@parenlevel=\count395
-\blx@tempcnta=\count396
-\blx@tempcntb=\count397
-\blx@tempcntc=\count398
-\c@blx@maxsection=\count399
-\blx@maxsegment@0=\count400
-\blx@notetype=\count401
-\blx@parenlevel@text=\count402
-\blx@parenlevel@foot=\count403
-\blx@sectionciteorder@0=\count404
-\blx@sectionciteorderinternal@0=\count405
-\blx@entrysetcounter=\count406
-\blx@biblioinstance=\count407
+\c@tabx@nest=\count367
+\c@listtotal=\count368
+\c@listcount=\count369
+\c@liststart=\count370
+\c@liststop=\count371
+\c@citecount=\count372
+\c@citetotal=\count373
+\c@multicitecount=\count374
+\c@multicitetotal=\count375
+\c@instcount=\count376
+\c@maxnames=\count377
+\c@minnames=\count378
+\c@maxitems=\count379
+\c@minitems=\count380
+\c@citecounter=\count381
+\c@maxcitecounter=\count382
+\c@savedcitecounter=\count383
+\c@uniquelist=\count384
+\c@uniquename=\count385
+\c@refsection=\count386
+\c@refsegment=\count387
+\c@maxextratitle=\count388
+\c@maxextratitleyear=\count389
+\c@maxextraname=\count390
+\c@maxextradate=\count391
+\c@maxextraalpha=\count392
+\c@abbrvpenalty=\count393
+\c@highnamepenalty=\count394
+\c@lownamepenalty=\count395
+\c@maxparens=\count396
+\c@parenlevel=\count397
+\blx@tempcnta=\count398
+\blx@tempcntb=\count399
+\blx@tempcntc=\count400
+\c@blx@maxsection=\count401
+\blx@maxsegment@0=\count402
+\blx@notetype=\count403
+\blx@parenlevel@text=\count404
+\blx@parenlevel@foot=\count405
+\blx@sectionciteorder@0=\count406
+\blx@sectionciteorderinternal@0=\count407
+\blx@entrysetcounter=\count408
+\blx@biblioinstance=\count409
 \labelnumberwidth=\skip98
 \labelalphawidth=\skip99
 \biblabelsep=\skip100
@@ -800,9 +806,9 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read5
 \blx@bcfout=\write5
 \blx@langwohyphens=\language90
-\c@mincomprange=\count408
-\c@maxcomprange=\count409
-\c@mincompwidth=\count410
+\c@mincomprange=\count410
+\c@maxcomprange=\count411
+\c@mincompwidth=\count412
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -812,74 +818,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count411
-\c@savedafterword=\count412
-\c@annotator=\count413
-\c@savedannotator=\count414
-\c@author=\count415
-\c@savedauthor=\count416
-\c@bookauthor=\count417
-\c@savedbookauthor=\count418
-\c@commentator=\count419
-\c@savedcommentator=\count420
-\c@editor=\count421
-\c@savededitor=\count422
-\c@editora=\count423
-\c@savededitora=\count424
-\c@editorb=\count425
-\c@savededitorb=\count426
-\c@editorc=\count427
-\c@savededitorc=\count428
-\c@foreword=\count429
-\c@savedforeword=\count430
-\c@holder=\count431
-\c@savedholder=\count432
-\c@introduction=\count433
-\c@savedintroduction=\count434
-\c@namea=\count435
-\c@savednamea=\count436
-\c@nameb=\count437
-\c@savednameb=\count438
-\c@namec=\count439
-\c@savednamec=\count440
-\c@translator=\count441
-\c@savedtranslator=\count442
-\c@shortauthor=\count443
-\c@savedshortauthor=\count444
-\c@shorteditor=\count445
-\c@savedshorteditor=\count446
-\c@labelname=\count447
-\c@savedlabelname=\count448
-\c@institution=\count449
-\c@savedinstitution=\count450
-\c@lista=\count451
-\c@savedlista=\count452
-\c@listb=\count453
-\c@savedlistb=\count454
-\c@listc=\count455
-\c@savedlistc=\count456
-\c@listd=\count457
-\c@savedlistd=\count458
-\c@liste=\count459
-\c@savedliste=\count460
-\c@listf=\count461
-\c@savedlistf=\count462
-\c@location=\count463
-\c@savedlocation=\count464
-\c@organization=\count465
-\c@savedorganization=\count466
-\c@origlocation=\count467
-\c@savedoriglocation=\count468
-\c@origpublisher=\count469
-\c@savedorigpublisher=\count470
-\c@publisher=\count471
-\c@savedpublisher=\count472
-\c@language=\count473
-\c@savedlanguage=\count474
-\c@origlanguage=\count475
-\c@savedoriglanguage=\count476
-\c@pageref=\count477
-\c@savedpageref=\count478
+\c@afterword=\count413
+\c@savedafterword=\count414
+\c@annotator=\count415
+\c@savedannotator=\count416
+\c@author=\count417
+\c@savedauthor=\count418
+\c@bookauthor=\count419
+\c@savedbookauthor=\count420
+\c@commentator=\count421
+\c@savedcommentator=\count422
+\c@editor=\count423
+\c@savededitor=\count424
+\c@editora=\count425
+\c@savededitora=\count426
+\c@editorb=\count427
+\c@savededitorb=\count428
+\c@editorc=\count429
+\c@savededitorc=\count430
+\c@foreword=\count431
+\c@savedforeword=\count432
+\c@holder=\count433
+\c@savedholder=\count434
+\c@introduction=\count435
+\c@savedintroduction=\count436
+\c@namea=\count437
+\c@savednamea=\count438
+\c@nameb=\count439
+\c@savednameb=\count440
+\c@namec=\count441
+\c@savednamec=\count442
+\c@translator=\count443
+\c@savedtranslator=\count444
+\c@shortauthor=\count445
+\c@savedshortauthor=\count446
+\c@shorteditor=\count447
+\c@savedshorteditor=\count448
+\c@labelname=\count449
+\c@savedlabelname=\count450
+\c@institution=\count451
+\c@savedinstitution=\count452
+\c@lista=\count453
+\c@savedlista=\count454
+\c@listb=\count455
+\c@savedlistb=\count456
+\c@listc=\count457
+\c@savedlistc=\count458
+\c@listd=\count459
+\c@savedlistd=\count460
+\c@liste=\count461
+\c@savedliste=\count462
+\c@listf=\count463
+\c@savedlistf=\count464
+\c@location=\count465
+\c@savedlocation=\count466
+\c@organization=\count467
+\c@savedorganization=\count468
+\c@origlocation=\count469
+\c@savedoriglocation=\count470
+\c@origpublisher=\count471
+\c@savedorigpublisher=\count472
+\c@publisher=\count473
+\c@savedpublisher=\count474
+\c@language=\count475
+\c@savedlanguage=\count476
+\c@origlanguage=\count477
+\c@savedoriglanguage=\count478
+\c@pageref=\count479
+\c@savedpageref=\count480
 \shorthandwidth=\skip106
 \shortjournalwidth=\skip107
 \shortserieswidth=\skip108
@@ -903,19 +909,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count479
-\c@textcitetotal=\count480
-\c@textcitemaxnames=\count481
-\c@biburlbigbreakpenalty=\count482
-\c@biburlbreakpenalty=\count483
-\c@biburlnumpenalty=\count484
-\c@biburlucpenalty=\count485
-\c@biburllcpenalty=\count486
+\c@textcitecount=\count481
+\c@textcitetotal=\count482
+\c@textcitemaxnames=\count483
+\c@biburlbigbreakpenalty=\count484
+\c@biburlbreakpenalty=\count485
+\c@biburlnumpenalty=\count486
+\c@biburlucpenalty=\count487
+\c@biburllcpenalty=\count488
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count487
+\c@smartand=\count489
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear-comp'...
 Package biblatex Info: ... file 'authoryear-comp.bbx' found.
@@ -929,8 +935,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count488
-\c@bbx:relatedtotal=\count489
+\c@bbx:relatedcount=\count490
+\c@bbx:relatedtotal=\count491
 )))
 Package biblatex Info: Trying to load citation style 'authoryear-comp'...
 Package biblatex Info: ... file 'authoryear-comp.cbx' found.
@@ -960,7 +966,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2024-01-22 L3 programming layer (loader) 
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count490
+\l__color_backend_stack_int=\count492
 \l__pdf_internal_box=\box76
 ))
 Package biblatex Info: ... and expl3
@@ -1032,8 +1038,8 @@ LaTeX Font Info:    ... okay on input line 49.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count491
-\c@mv@boldtabular=\count492
+\c@mv@tabular=\count493
+\c@mv@boldtabular=\count494
 LaTeX Info: Redefining \microtypecontext on input line 49.
 Package microtype Info: Applying patch `item' on input line 49.
 Package microtype Info: Applying patch `toc' on input line 49.
@@ -1056,16 +1062,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count493
+\scratchcounter=\count495
 \scratchdimen=\dimen323
 \scratchbox=\box77
-\nofMPsegments=\count494
-\nofMParguments=\count495
+\nofMPsegments=\count496
+\nofMParguments=\count497
 \everyMPshowfont=\toks60
-\MPscratchCnt=\count496
+\MPscratchCnt=\count498
 \MPscratchDim=\dimen324
-\MPnumerator=\count497
-\makeMPintoPDFobject=\count498
+\MPnumerator=\count499
+\makeMPintoPDFobject=\count500
 \everyMPtoPDFconversion=\toks61
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1073,7 +1079,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count499
+\c@lstlisting=\count501
 Package hyperref Info: Link coloring OFF on input line 49.
  (./compile-thesis.out) (./compile-thesis.out)
 \@outlinefile=\write6
@@ -1130,7 +1136,7 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 50.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Images/logo_uni.png, id=390, 1003.75pt x 461.725pt>
+<Images/logo_uni.png, id=326, 1003.75pt x 461.725pt>
 File: Images/logo_uni.png Graphic file (type png)
 <use Images/logo_uni.png>
 Package pdftex.def Info: Images/logo_uni.png  used on input line 60.
@@ -1202,105 +1208,164 @@ Underfull \hbox (badness 10000) in paragraph at lines 510--523
 
  []
 
-[21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
+[21] [22] [23]
+Overfull \hbox (6.85268pt too wide) in paragraph at lines 557--558
+\T1/pcr/m/n/10.95 src/utils/irr_sheet_generator.py \T1/NotoSerif-TLF/m/n/10.95 (-20) and \T1/pcr/m/n/10.95 src/utils/compute_split_irr.py\T1/NotoSerif-TLF/m/n/10.95 (-20) )
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 761.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 761.
-
-[33] [34] [35] [36] [37] [38] [39] [40]
-<Images/signature.png, id=941, 826.08624pt x 327.2225pt>
+[24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39]
+<Images/signature.png, id=861, 826.08624pt x 327.2225pt>
 File: Images/signature.png Graphic file (type png)
 <use Images/signature.png>
-Package pdftex.def Info: Images/signature.png  used on input line 832.
+Package pdftex.def Info: Images/signature.png  used on input line 820.
 (pdftex.def)             Requested size: 143.65968pt x 56.9055pt.
- [41 <./Images/signature.png>] [42]
-<Images/results_aggregate_chart.png, id=955, 462.528pt x 346.896pt>
+ [40 <./Images/signature.png>] [41]
+<Images/results_aggregate_chart.png, id=875, 462.528pt x 346.896pt>
 File: Images/results_aggregate_chart.png Graphic file (type png)
 <use Images/results_aggregate_chart.png>
-Package pdftex.def Info: Images/results_aggregate_chart.png  used on input line 864.
+Package pdftex.def Info: Images/results_aggregate_chart.png  used on input line 852.
 (pdftex.def)             Requested size: 426.79135pt x 320.11154pt.
-<Images/results_heatmap.png, id=956, 722.7pt x 578.16pt>
+<Images/results_heatmap.png, id=876, 722.7pt x 578.16pt>
 File: Images/results_heatmap.png Graphic file (type png)
 <use Images/results_heatmap.png>
-Package pdftex.def Info: Images/results_heatmap.png  used on input line 872.
+Package pdftex.def Info: Images/results_heatmap.png  used on input line 860.
 (pdftex.def)             Requested size: 426.79135pt x 341.43785pt.
- [43 <./Images/results_aggregate_chart.png>] [44 <./Images/results_heatmap.png>] [45]
-<Images/results_aggregate_register_proportions.png, id=974, 722.7pt x 433.62pt>
+ [42 <./Images/results_aggregate_chart.png>] [43 <./Images/results_heatmap.png>] [44]
+<Images/results_aggregate_register_proportions.png, id=894, 722.7pt x 433.62pt>
 File: Images/results_aggregate_register_proportions.png Graphic file (type png)
 <use Images/results_aggregate_register_proportions.png>
-Package pdftex.def Info: Images/results_aggregate_register_proportions.png  used on input line 894.
+Package pdftex.def Info: Images/results_aggregate_register_proportions.png  used on input line 882.
 (pdftex.def)             Requested size: 426.79135pt x 256.07838pt.
-<Images/results_idiomaticity_heatmaps.png, id=975, 1011.78pt x 722.7pt>
+<Images/results_idiomaticity_heatmaps.png, id=895, 1011.78pt x 722.7pt>
 File: Images/results_idiomaticity_heatmaps.png Graphic file (type png)
 <use Images/results_idiomaticity_heatmaps.png>
-Package pdftex.def Info: Images/results_idiomaticity_heatmaps.png  used on input line 903.
+Package pdftex.def Info: Images/results_idiomaticity_heatmaps.png  used on input line 891.
 (pdftex.def)             Requested size: 426.79135pt x 304.85522pt.
- [46
+ [45
 
- <./Images/results_aggregate_register_proportions.png> <./Images/results_idiomaticity_heatmaps.png>] [47]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 920.
- (./code/target_words.txt) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+ <./Images/results_aggregate_register_proportions.png> <./Images/results_idiomaticity_heatmaps.png>] [46]
+Overfull \hbox (18.56563pt too wide) in paragraph at lines 945--945
+[]\T1/pcr/m/n/10 |   `-- target_words.txt                                # D1[] 
+ []
+
+
+Overfull \hbox (18.56563pt too wide) in paragraph at lines 945--945
+[]\T1/pcr/m/n/10 |   |   |-- pos_taggerNLTK_forCSV.py                    # D6[] 
+ []
+
+
+Overfull \hbox (18.56563pt too wide) in paragraph at lines 945--945
+[]\T1/pcr/m/n/10 |   |   |-- pos_taggerV2NLTK.py                         # D5[] 
+ []
+
+
+Overfull \hbox (18.56563pt too wide) in paragraph at lines 945--945
+[]\T1/pcr/m/n/10 |   |   |-- semantic_analyzer.py                        # D7[] 
+ []
+
+
+Overfull \hbox (24.56563pt too wide) in paragraph at lines 945--945
+[]\T1/pcr/m/n/10 |   |   |-- visualizer.py                               # D11[] 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 948.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (18.56563pt too wide) in paragraph at lines 973--973
+[]\T1/pcr/m/n/10 |   |   |-- scalable_context_generator.py               # D4[] 
+ []
+
+
+Overfull \hbox (18.56563pt too wide) in paragraph at lines 973--973
+[]\T1/pcr/m/n/10 |       |-- debug.py                                    # D3[] 
+ []
+
+
+Overfull \hbox (18.56563pt too wide) in paragraph at lines 973--973
+[]\T1/pcr/m/n/10 |       |-- irr_sheet_generator.py                      # D8[] 
+ []
+
+
+Overfull \hbox (18.56563pt too wide) in paragraph at lines 973--973
+[]\T1/pcr/m/n/10 |       |-- compute_split_irr.py                        # D9[] 
+ []
+
+
+Overfull \hbox (18.56563pt too wide) in paragraph at lines 973--973
+[]\T1/pcr/m/n/10 |       `-- sketch_engine_converter_nltk.py             # D2[] 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 975.
+See the caption package documentation for explanation.
+
+[47
+
+] [48]
+Overfull \hbox (4.51808pt too wide) in paragraph at lines 1008--1009
+\T1/NotoSerif-TLF/m/n/10.95 (-20) The fol-low-ing snip-pet il-lus-trates the core verb-filtering logic used in the pipeline: 
+ []
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (./code/nltk_sketch_engine_converter.py
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1010.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 8.
- [48
-
-] [49] [50]) (./code/debug.py) (./code/scalable_context_generator.py [51] [52] [53] [54]) (./code/pos_taggerV2NLTK.py [55]) [56] (./code/pos_taggerNLTK_forCSV.py [57]) (./code/semantic_analyzer.py [58] [59] [60] [61]) (./code/irr_sheet_generator.py [62] [63] [64] [65]) (./code/compute_split_irr.py [66] [67] [68] [69] [70]) (./Files/irr_split_results.csv) (./code/visualizer.py [71] [72] [73]) [74] [75]
-<Screenshots/Gemini3Proof1.png, id=2219, 1380.65813pt x 672.26157pt>
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 1026.
+ [49] [50]
+<Screenshots/Gemini3Proof1.png, id=970, 1380.65813pt x 672.26157pt>
 File: Screenshots/Gemini3Proof1.png Graphic file (type png)
 <use Screenshots/Gemini3Proof1.png>
-Package pdftex.def Info: Screenshots/Gemini3Proof1.png  used on input line 1019.
-(pdftex.def)             Requested size: 384.1096pt x 187.03178pt.
-<Screenshots/Gemini3Proof2.png, id=2220, 1385.175pt x 674.52pt>
+Package pdftex.def Info: Screenshots/Gemini3Proof1.png  used on input line 1100.
+(pdftex.def)             Requested size: 204.85802pt x 200.33041pt.
+<Screenshots/Gemini3Proof2.png, id=972, 1385.175pt x 674.52pt>
 File: Screenshots/Gemini3Proof2.png Graphic file (type png)
 <use Screenshots/Gemini3Proof2.png>
-Package pdftex.def Info: Screenshots/Gemini3Proof2.png  used on input line 1026.
-(pdftex.def)             Requested size: 384.1096pt x 187.04257pt.
- [76 <./Screenshots/Gemini3Proof1.png>]
-<Screenshots/Gemini3Proof3.png, id=2238, 1391.1975pt x 679.78969pt>
+Package pdftex.def Info: Screenshots/Gemini3Proof2.png  used on input line 1107.
+(pdftex.def)             Requested size: 204.85802pt x 199.65105pt.
+<Screenshots/Gemini3Proof3.png, id=974, 1391.1975pt x 679.78969pt>
 File: Screenshots/Gemini3Proof3.png Graphic file (type png)
 <use Screenshots/Gemini3Proof3.png>
-Package pdftex.def Info: Screenshots/Gemini3Proof3.png  used on input line 1033.
-(pdftex.def)             Requested size: 384.1096pt x 187.68439pt.
-<Screenshots/Gemini3Proof4.png, id=2239, 1386.68062pt x 676.77844pt>
+Package pdftex.def Info: Screenshots/Gemini3Proof3.png  used on input line 1116.
+(pdftex.def)             Requested size: 204.85802pt x 199.45584pt.
+<Screenshots/Gemini3Proof4.png, id=976, 1386.68062pt x 676.77844pt>
 File: Screenshots/Gemini3Proof4.png Graphic file (type png)
 <use Screenshots/Gemini3Proof4.png>
-Package pdftex.def Info: Screenshots/Gemini3Proof4.png  used on input line 1040.
-(pdftex.def)             Requested size: 384.1096pt x 187.4623pt.
-<Screenshots/Gemini3Proof5.png, id=2240, 1386.68062pt x 679.78969pt>
+Package pdftex.def Info: Screenshots/Gemini3Proof4.png  used on input line 1123.
+(pdftex.def)             Requested size: 204.85802pt x 199.89594pt.
+<Screenshots/Gemini3Proof5.png, id=978, 1386.68062pt x 679.78969pt>
 File: Screenshots/Gemini3Proof5.png Graphic file (type png)
 <use Screenshots/Gemini3Proof5.png>
-Package pdftex.def Info: Screenshots/Gemini3Proof5.png  used on input line 1047.
-(pdftex.def)             Requested size: 384.1096pt x 188.29639pt.
- [77 <./Screenshots/Gemini3Proof2.png> <./Screenshots/Gemini3Proof3.png> <./Screenshots/Gemini3Proof4.png>] [78 <./Screenshots/Gemini3Proof5.png>] (./compile-thesis.aux)
+Package pdftex.def Info: Screenshots/Gemini3Proof5.png  used on input line 1132.
+(pdftex.def)             Requested size: 204.85802pt x 200.84949pt.
+ [51] [52 <./Screenshots/Gemini3Proof1.png> <./Screenshots/Gemini3Proof2.png> <./Screenshots/Gemini3Proof3.png> <./Screenshots/Gemini3Proof4.png> <./Screenshots/Gemini3Proof5.png>] (./compile-thesis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `compile-thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2648F9E33793DA68B2DD6CD67A449206;19419.
+(rerunfilecheck)             Checksum: 2EF7318B8FF6E2280FE09839106EEA36;16236.
 Package logreq Info: Writing requests to 'compile-thesis.run.xml'.
 \openout1 = `compile-thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41992 strings out of 474222
- 795879 string characters out of 5748733
- 2503975 words of memory out of 5000000
- 61826 multiletter control sequences out of 15000+600000
+ 40605 strings out of 474222
+ 775400 string characters out of 5748733
+ 2180975 words of memory out of 5000000
+ 61572 multiletter control sequences out of 15000+600000
  677204 words of font info for 390 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,13n,120p,1890b,2457s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSerif-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSerif-BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSerif-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSerif-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on compile-thesis.pdf (86 pages, 1811326 bytes).
+ 107i,13n,120p,1890b,2377s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSerif-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSerif-BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSerif-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSerif-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on compile-thesis.pdf (60 pages, 1761109 bytes).
 PDF statistics:
- 2596 PDF objects out of 2984 (max. 8388607)
- 2418 compressed objects within 25 object streams
- 1345 named destinations out of 1440 (max. 500000)
- 81780 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 1143 PDF objects out of 1200 (max. 8388607)
+ 993 compressed objects within 10 object streams
+ 247 named destinations out of 1000 (max. 500000)
+ 81682 words of extra memory for PDF output out of 89155 (max. 10000000)
 
