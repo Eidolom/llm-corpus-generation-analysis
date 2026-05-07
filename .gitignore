@@ -1,69 +1,64 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.egg-info/
-dist/
-build/
+# Keep only the minimal project tree required by the thesis; ignore everything else
+/*
+# Keep git control files
+!/.gitignore
+!/.gitattributes
 
-# Virtual environments
-.venv/
-venv/
-env/
-ENV/
+# Project metadata and docs
+!/LICENSE
+!/README.md
+!/SETUP.md
+!/requirements.txt
 
-# Caches and test artifacts
-.pytest_cache/
-.mypy_cache/
-.pytype/
-.pyre/
-.coverage
-htmlcov/
-.cache/
+# Data (whitelist specific files)
+!/data/
+!/data/README.md
+!/data/target_words.txt
 
-# Notebooks
-.ipynb_checkpoints/
+# Docs
+!/docs/
+!/docs/DATA_ACCESS.md
 
-# Editors
-.vscode/
+# Outputs (whitelist specific files)
+!/outputs/
+!/outputs/README.md
+!/outputs/intermediate_sentences.synthetic_backup.json
+!/outputs/results_aggregate_chart.png
+!/outputs/results_aggregate_register_proportions.csv
+!/outputs/results_aggregate_register_proportions.png
+!/outputs/results_heatmap.png
+!/outputs/results_idiomaticity_heatmaps.png
+!/outputs/results_idiomaticity_matrix.csv
+!/outputs/thesis_pragmatic_data_filtered_synthetic.csv
 
-# OS files
-.DS_Store
-Thumbs.db
+# Source code tree (whitelist files referenced in the thesis)
+!/src/
+!/src/README.md
+!/src/analyzers/
+!/src/analyzers/pos_tagger.py
+!/src/analyzers/pos_taggerNLTK_forCSV.py
+!/src/analyzers/pos_taggerV2NLTK.py
+!/src/analyzers/scalable_pos_tagger.py
+!/src/analyzers/semantic_analyzer.py
+!/src/analyzers/semantic_analyzer_V2.py
+!/src/analyzers/visualizer.py
+!/src/analyzers/visualizer_aggregate_register_proportions.py
+!/src/analyzers/visualizer_idiomaticity_heatmap.py
+!/src/generators/
+!/src/generators/scalable_context_generator.py
+!/src/generators/scalable_context_generator_big_data.py
+!/src/generators/simple_data_collector.py
+!/src/utils/
+!/src/utils/api_config.py
+!/src/utils/debug.py
+!/src/utils/prepare_irr_annotation_sheet.py
+!/src/utils/irr_sheet_generator.py
+!/src/utils/compute_split_irr.py
+!/src/utils/README_IRR.md
+!/src/utils/sketch_engine_converter_nltk.py
 
-# Secrets
-.env
-.env.*
+# Allow the GitHub actions or workflows folder if present
+!/.github/
+!/.github/**
 
-# Logs
-*.log
-
-# Private documents
-Research Proposal*.pdf
-research proposal*.pdf
-
-# Private TEC corpus (do not publish)
-concordance_*textbook_english_corpus*.csv
-textbook_sentences.json
-data/textbook_sentences.json
-data/semantic_analysis_results.json
-data/semantic_analysis_summary.csv
-
-# Any textbook concordance exports placed in data/
-data/concordance_*.csv
-
-# Textbook-derived processing artifacts (do not publish)
-outputs/intermediate_sentences_textbook.json
-outputs/pos_tagging_results.json
-outputs/thesis_semantic_data_final.csv
-outputs/thesis_semantic_data_final_textbook.csv
-outputs/thesis_semantic_data_*.csv
-outputs/thesis_textbook_data_filtered.csv
-outputs/*textbook*.csv
-
-# IRR annotation assets (local-only)
-outputs/irr_annotation_sheet.csv
-outputs/irr_*.csv
-
-# Safety: local working inputs can include textbook data
-outputs/intermediate_sentences.json
+# End of allow-list
