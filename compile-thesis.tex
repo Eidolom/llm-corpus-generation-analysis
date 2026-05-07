@@ -534,7 +534,7 @@ Because the English language relies heavily on zero-derivation, many words can f
 
 To prevent this issue, the Natural Language Toolkit (NLTK) \parencite{birdKleinLoperNLP2009,loperBirdNLTK2002} package in Python was used to perform POS-tagging on both the NRC and SCC. This process uses Natural Language Processing (NLP) techniques to classify each word in the sentences according to its part of speech. The NLTK's POS-tagger was trained on the Penn Treebank corpus, which is a widely used annotated corpus of English, meaning that it has a high level of accuracy and can thus be reliably used for this task. It is also a free-to-use library, which makes it accessible and reproducible for other researchers. 
 
-The verb filtering was done using two custom Python scripts tailored to each corpus's data format. For the SCC, the \texttt{pos\_taggerV2NLTK.py} (see Appendix D5) script processed the data from JSON format, filtering the sentences and extracting only those containing the target verbs. For the NRC, the \texttt{pos\_taggerNLTK\_forCSV.py} (see Appendix D6) script performed the same verb filtering operation but processed CSV input directly, ensuring methodological consistency, the only difference being the different data source formats.
+The verb filtering was done using two custom Python scripts tailored to each corpus's data format (see Appendices \ref{script:context-generator} and \ref{script:pos-tagger-v2}). For the SCC, the \texttt{pos\_taggerV2NLTK.py} script processed the data from JSON format, filtering the sentences and extracting only those containing the target verbs. For the NRC, the \texttt{pos\_taggerNLTK\_forCSV.py} script performed the same verb filtering operation but processed CSV input directly, ensuring methodological consistency; the only difference was the source file format.
 
 In detail, the scripts work as follows: first, the \texttt{word\_tokenize} module is used to split each sentence into individual words. Then, the \texttt{pos\_tag} function assigns a part-of-speech tag to each word. A sentence is only retained if it contains at least one token tagged as a verb (e.g., VB, VBD, VBG, VBN, VBP, VBZ) whose lemmatised form matches the target lemma. Next, the script checks the verb tokens with the \texttt{WordNetLemmatizer}, which reduces inflected forms to their base form. These steps ensure that only sentences where the target lemmas are used as verbs are included in the final datasets. 
 
@@ -614,7 +614,7 @@ Finally, to account for the size imbalance between the NRC ($N=5{,}483$) and SCC
 
 \subsection{Ethical Considerations \& Data Use}\label{subsec:ethical-considerations}
 
-Working with large language models and copyrighted content inevitably raises some ethical questions. The NRC is derived from the English Textbook Corpus (TEC) compiled by Le Foll \parencite*{leFoll2021a}, which consists of publicly available EFL textbooks. These textbooks are commercial and cannot legally be shared due to their copyright restrictions. To maintain methodological transparency, the specific textbooks used in the TEC are documented in Appendix \ref{sec:tec-textbooks}, as well as the exact filtering scripts (Appendix D6 and D5) used are provided instead of the raw corpus itself. This allows for reproducibility of the data processing steps without violating copyright laws.
+Working with large language models and copyrighted content inevitably raises some ethical questions. The NRC is derived from the English Textbook Corpus (TEC) compiled by Le Foll \parencite*{leFoll2021a}, which consists of publicly available EFL textbooks. These textbooks are commercial and cannot legally be shared due to their copyright restrictions. To maintain methodological transparency, the specific textbooks used in the TEC are documented in Appendix \ref{sec:tec-textbooks}, as well as the exact filtering scripts (Appendix \ref{script:pos-tagger-nltk-for-csv} and \ref{script:pos-tagger-v2}) used are provided instead of the raw corpus itself. This allows for reproducibility of the data processing steps without violating copyright laws.
 
 To ensure data privacy and ethical use of the LLM, all AI tasks that involved the analysis of the NRC sentences were performed using Gemini's API, which, in contrast to the standard web interface, does not store the input data or the generated outputs. Outputs from the API are strictly isolated to the user and are not used for training or improving the model. 
 
@@ -978,16 +978,16 @@ project/
 \subsubsection*{Code Component Index (D1--D11)}
 % The D identifiers are written directly in the list for readability.
 \begin{itemize}
-\item \textbf{D1}: \texttt{target\_words.txt}
-\item \textbf{D2}: \texttt{nltk\_sketch\_engine\_converter.py}
-\item \textbf{D3}: \texttt{debug.py}
-\item \textbf{D4}: \texttt{scalable\_context\_generator.py}
-\item \textbf{D5}: \texttt{pos\_taggerV2NLTK.py}
-\item \textbf{D6}: \texttt{pos\_taggerNLTK\_forCSV.py}
-\item \textbf{D7}: \texttt{semantic\_analyzer.py}
-\item \textbf{D8}: \texttt{src/utils/irr\_sheet\_generator.py}
-\item \textbf{D9}: \texttt{src/utils/compute\_split\_irr.py}
-\item \textbf{D11}: \texttt{visualizer.py}
+\item \textbf{D1}: \texttt{target\_words.txt}\label{script:target-words}
+\item \textbf{D2}: \texttt{nltk\_sketch\_engine\_converter.py}\label{script:sketch-engine-converter}
+\item \textbf{D3}: \texttt{debug.py}\label{script:debug}
+\item \textbf{D4}: \texttt{scalable\_context\_generator.py}\label{script:context-generator}
+\item \textbf{D5}: \texttt{pos\_taggerV2NLTK.py}\label{script:pos-tagger-v2}
+\item \textbf{D6}: \texttt{pos\_taggerNLTK\_forCSV.py}\label{script:pos-tagger-nltk-for-csv}
+\item \textbf{D7}: \texttt{semantic\_analyzer.py}\label{script:semantic-analyzer}
+\item \textbf{D8}: \texttt{src/utils/irr\_sheet\_generator.py}\label{script:irr-sheet-generator}
+\item \textbf{D9}: \texttt{src/utils/compute\_split\_irr.py}\label{script:compute-split-irr}
+\item \textbf{D11}: \texttt{visualizer.py}\label{script:visualizer}
 \end{itemize}
 
 \subsubsection*{Ignored Local Artifacts}
@@ -995,7 +995,7 @@ project/
 Some files are intentionally not tracked in the public repository because they are local-only configuration or derived working data.
 
 \begin{itemize}
-\item \textbf{D10}: \texttt{irr\_split\_results.csv} -- local analysis output; not committed to avoid publishing transient working results.
+\item \textbf{D10}: \texttt{irr\_split\_results.csv} -- local analysis output; not committed to avoid publishing transient working results.\label{script:irr-split-results}
 \item \texttt{irr\_annotation\_sheet.csv} and \texttt{irr\_master\_key.csv} -- IRR working files derived from copyrighted textbook material and therefore not redistributed.
 \end{itemize}
 
