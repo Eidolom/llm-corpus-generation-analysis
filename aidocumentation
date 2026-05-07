@@ -1,0 +1,19 @@
+%\section{Documentation of AI Tools Used}
+%\textit{[Insert Screenshots of AI Prompts/Output here]}
+
+%\section{Documentation of AI Tools Used}
+%In accordance with the guidelines, Table \ref{tab:ai-tools} documents the usage of Generative AI tools in the preparation of this proposal.
+
+%\begin{table}[h]
+    %\caption{Table documenting AI tools used}
+    %\label{tab:ai-tools}
+    %\centering
+    %\small
+    %\begin{tabularx}{\textwidth}{|l|l|X|l|X|}
+    %\hline
+    %\textbf{\#} & \textbf{AI Tool} & \textbf{Application} & \textbf{Section} & \textbf{Comments} \\
+    %\hline
+    %1 & Gemini Flash 2.5 & Brainstorming research questions & 1 & Selected topic from generated list \\
+    %\hline
+    %\end{tabularx}
+%\end{table}

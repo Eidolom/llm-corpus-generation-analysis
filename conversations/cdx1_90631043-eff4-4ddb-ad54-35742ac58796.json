@@ -1,0 +1,6 @@
+{
+  "status": "unsupported",
+  "conversation_id": "cdx1_90631043-eff4-4ddb-ad54-35742ac58796",
+  "reason": "Codex runtime conversations without a stored snapshot are not exportable in project export.",
+  "linked_rows": 1
+}

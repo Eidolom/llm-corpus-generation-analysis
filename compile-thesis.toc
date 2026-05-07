@@ -1,0 +1,75 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Background \& Motivation}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Research Gap \& Study Rationale}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Research Question \& Design Overview}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Scope \& Structure of the Thesis}{3}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Theoretical Framework}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Register Theory: The Anatomy of ``Casualness''}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}The Concept of Register}{4}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Biber's Multi-Dimensional Analysis}{4}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Linguistic Markers of Involvement}{5}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Grammatical Mood \& Register}{6}{subsubsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.2}Phraseology \& Idiomaticity}{8}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Sinclair's Dual Framework}{8}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}The Open-Choice Principle}{8}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}The Idiom Principle}{9}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}De-lexicalisation in High-Frequency Verbs}{10}{subsubsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.3}Pedagogical Input \& Cognitive Complexity }{10}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Krashen's Input Hypothesis ($i+1$)}{10}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Sweller's Cognitive Load Theory}{11}{subsubsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.4}The Linguistic Architecture of Large Language Models}{12}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Next-Token Prediction \& Distributional Semantics}{12}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Attention Mechanisms \& Contextual Sensitivity}{13}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Reinforcement Learning from Human Feedback \& Prompt Engineering}{14}{subsubsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.5}Synthesis: Evaluating Synthetic Input}{15}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Methodology}{16}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Research Design \& Objectives}{17}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Study Design Overview}{17}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Research Question \& Hypotheses}{17}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Corpus Compilation}{18}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Lemma Selection}{18}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Natural Reference Corpus}{19}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Synthetic Control Corpus}{20}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Pilot Study \& Prompt Refinement}{21}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Data Processing Pipeline}{22}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Part-of-Speech-Tagging \& Syntactic Disambiguation}{22}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Semantic Classification}{23}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Inter-Rater Reliability Assessment}{24}{subsubsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.4}Statistical Analysis}{26}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Ethical Considerations \& Data Use}{27}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Results}{28}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Descriptive Overview of the Final Datasets}{28}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Overall Corpus Comparison (Testing Hypothesis 1)}{28}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Register Effects \& Prompt Sensitivity (Testing Hypothesis 2)}{29}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Lemma-Level Selectivity (Testing Hypothesis 3)}{30}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Discussion}{31}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Summary of Key Findings}{31}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Interpreting the Hypotheses}{31}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Interpreting H1: The Pedagogical Simplification Hypothesis}{31}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Interpreting H2: Textbooks as Instructional Register}{31}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Interpreting H3: Lemma-Level Selectivity}{32}{subsubsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.3}The V-Shaped Pattern: Register Sensitivity in Large Language Models}{32}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Methodological Reflections}{32}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Limitations}{32}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Future Research}{33}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}Regulating Lexical Boundaries for Optimal i+1 Input}{33}{subsubsection.5.6.1}%
+\contentsline {section}{\numberline {6}Conclusion}{33}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Research Summary}{33}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Theoretical Contributions}{34}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Practical Implications}{34}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Final Reflection}{34}{subsection.6.4}%
+\contentsline {section}{References}{35}{subsection.6.4}%
+\contentsline {section}{Documentation of AI Tools Used}{39}{subsection.6.4}%
+\contentsline {section}{Plagiarism Statement}{40}{Item.12}%
+\contentsline {section}{\numberline {A}TEC Source Textbooks (B1/B2 Subset)}{41}{appendix.A}%
+\contentsline {section}{\numberline {B}SCC Pilot Study Visualisations}{42}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Short Interpretation: \textit {run}}{43}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Short Interpretation: \textit {take}}{43}{subsection.B.2}%
+\contentsline {section}{\numberline {C}Final Dataset Visualisations}{45}{appendix.C}%
+\contentsline {section}{\numberline {D}Python Code Documentation}{47}{appendix.D}%
+\contentsline {section}{\numberline {E}Full AI Documentation}{50}{appendix.E}%
+\contentsline {subsection}{\numberline {E.1}Gemini 2.5 Flash: SCC Generation Prompts}{50}{subsection.E.1}%
+\contentsline {subsection}{\numberline {E.2}Gemini 2.5 Flash: Semantic Classification Prompts}{50}{subsection.E.2}%
+\contentsline {subsection}{\numberline {E.3}Gemini 3 Pro: Ideation Prompt}{51}{subsection.E.3}%
+\contentsline {subsection}{\numberline {E.4}Screenshots}{52}{subsection.E.4}%

@@ -1,0 +1,5 @@
+Rc files read:
+  /home/sandbox/.latexmkrc
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+Latexmk: Nothing to do for 'compile-thesis.tex'.
+Latexmk: All targets (compile-thesis.pdf) are up-to-date
