@@ -1,25 +1,19 @@
-# Keep only the minimal project tree required by the thesis; ignore everything else
+# Allowlist: keep only these tracked files in the repository
 /*
-# Keep git control files
 !/.gitignore
 !/.gitattributes
-
-# Project metadata and docs
 !/LICENSE
 !/README.md
 !/SETUP.md
 !/requirements.txt
 
-# Data (whitelist specific files)
 !/data/
 !/data/README.md
 !/data/target_words.txt
 
-# Docs
 !/docs/
 !/docs/DATA_ACCESS.md
 
-# Outputs (whitelist specific files)
 !/outputs/
 !/outputs/README.md
 !/outputs/intermediate_sentences.synthetic_backup.json
@@ -31,7 +25,6 @@
 !/outputs/results_idiomaticity_matrix.csv
 !/outputs/thesis_pragmatic_data_filtered_synthetic.csv
 
-# Source code tree (whitelist files referenced in the thesis)
 !/src/
 !/src/README.md
 !/src/analyzers/
@@ -57,8 +50,29 @@
 !/src/utils/README_IRR.md
 !/src/utils/sketch_engine_converter_nltk.py
 
-# Allow the GitHub actions or workflows folder if present
 !/.github/
 !/.github/**
 
-# End of allow-list
+# Local working files (not committed, but kept locally)
+/compile-thesis.*
+/setup/.latexmkrc
+/bibliography.bib*
+/code/
+/conversations/
+/Files/
+/Images/
+/Screenshots/
+/aidocumentation
+/build_diagnostics*
+/compile_full.txt
+/main.tex
+/page*.txt
+/pdflatex*.fls
+/tmp_preview/
+/uploads/
+/.recovery_build_artifacts/
+/.vscode/
+/.venv*/
+.env
+.env.*
+*.log
