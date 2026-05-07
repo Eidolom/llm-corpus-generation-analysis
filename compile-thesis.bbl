@@ -1,0 +1,1760 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{agrestiCategoricalData2012}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=15bf0ecf9d6116f7eafc37298364beca}{%
+           family={Agresti},
+           familyi={A\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{15bf0ecf9d6116f7eafc37298364beca}
+      \strng{fullhash}{15bf0ecf9d6116f7eafc37298364beca}
+      \strng{bibnamehash}{15bf0ecf9d6116f7eafc37298364beca}
+      \strng{authorbibnamehash}{15bf0ecf9d6116f7eafc37298364beca}
+      \strng{authornamehash}{15bf0ecf9d6116f7eafc37298364beca}
+      \strng{authorfullhash}{15bf0ecf9d6116f7eafc37298364beca}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Categorical Data Analysis}
+      \field{year}{2012}
+    \endentry
+    \entry{amodeiConcreteProblemsAI2016}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=1e6adbf36ab730cd5fdadb838b4d2667}{%
+           family={Amodei},
+           familyi={A\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78be47e08348476a254b1217fd9041ca}{%
+           family={Olah},
+           familyi={O\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe7a7e80c1857d185d3ab01f15fe584d}{%
+           family={Steinhardt},
+           familyi={S\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cffdbdf7d0beb981d8bb8ea28506a4b2}{%
+           family={Christiano},
+           familyi={C\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e09bd2a25d237ebdaed560a07c0451e}{%
+           family={Schulman},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d85cd4c13dd153a8d9335b7e315761c4}{%
+           family={Mané},
+           familyi={M\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{b54650cfd3849013bfc13a4308a2812d}
+      \strng{fullhash}{1ee66c386115982831954d392d44f9ab}
+      \strng{bibnamehash}{1ee66c386115982831954d392d44f9ab}
+      \strng{authorbibnamehash}{1ee66c386115982831954d392d44f9ab}
+      \strng{authornamehash}{b54650cfd3849013bfc13a4308a2812d}
+      \strng{authorfullhash}{1ee66c386115982831954d392d44f9ab}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Rapid progress in machine learning and artificial intelligence (AI) has brought increasing attention to the potential impacts of AI technologies on society. In this paper we discuss one such potential impact: the problem of accidents in machine learning systems, defined as unintended and harmful behavior that may emerge from poor design of real-world AI systems. We present a list of five practical research problems related to accident risk, categorized according to whether the problem originates from having the wrong objective function (``avoiding side effects'' and ``avoiding reward hacking''), an objective function that is too expensive to evaluate frequently (``scalable supervision''), or undesirable behavior during the learning process (``safe exploration'' and ``distributional shift''). We review previous work in these areas as well as suggesting research directions with a focus on relevance to cutting-edge AI systems. Finally, we consider the high-level question of how to think most productively about the safety of forward-looking applications of AI.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
+      \field{number}{arXiv:1606.06565}
+      \field{title}{Concrete {{Problems}} in {{AI Safety}}}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1606.06565
+      \endverb
+      \verb{eprint}
+      \verb 1606.06565
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Machine Learning}
+    \endentry
+    \entry{benati2018grammar}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7c68d4cb22d5964be58afab6bf213676}{%
+           family={Benati},
+           familyi={B\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{7c68d4cb22d5964be58afab6bf213676}
+      \strng{fullhash}{7c68d4cb22d5964be58afab6bf213676}
+      \strng{bibnamehash}{7c68d4cb22d5964be58afab6bf213676}
+      \strng{authorbibnamehash}{7c68d4cb22d5964be58afab6bf213676}
+      \strng{authornamehash}{7c68d4cb22d5964be58afab6bf213676}
+      \strng{authorfullhash}{7c68d4cb22d5964be58afab6bf213676}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The TESOL encyclopedia of English language teaching}
+      \field{title}{Grammar-translation method}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+    \endentry
+    \entry{bergmannWhatReinforcementLearning2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=145cb942e2c6e0e141b825eb8cebbdb1}{%
+           family={Bergmann},
+           familyi={B\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{145cb942e2c6e0e141b825eb8cebbdb1}
+      \strng{fullhash}{145cb942e2c6e0e141b825eb8cebbdb1}
+      \strng{bibnamehash}{145cb942e2c6e0e141b825eb8cebbdb1}
+      \strng{authorbibnamehash}{145cb942e2c6e0e141b825eb8cebbdb1}
+      \strng{authornamehash}{145cb942e2c6e0e141b825eb8cebbdb1}
+      \strng{authorfullhash}{145cb942e2c6e0e141b825eb8cebbdb1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Reinforcement learning from human feedback (RLHF) is a machine learning technique in which a ``reward model'' is trained by human feedback to optimize an AI agent}
+      \field{howpublished}{https://www.ibm.com/think/topics/rlhf}
+      \field{langid}{english}
+      \field{title}{What {{Is Reinforcement Learning From Human Feedback}} ({{RLHF}})? |{} {{IBM}}}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{biber1988variation}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f646ef9768ee4e31e9af07e57bf14842}{%
+           family={Biber},
+           familyi={B\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{fullhash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{bibnamehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{authorbibnamehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{authornamehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{authorfullhash}{f646ef9768ee4e31e9af07e57bf14842}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{978-0-521-36543-7}
+      \field{title}{Variation across Speech and Writing}
+      \field{year}{1988}
+      \verb{doi}
+      \verb 10.1017/CBO9780511621024
+      \endverb
+    \endentry
+    \entry{biber1993using}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f646ef9768ee4e31e9af07e57bf14842}{%
+           family={Biber},
+           familyi={B\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f5cb368011303fe22ab5c7141448c62d}{%
+           family={Hirschberg},
+           familyi={H\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{fullhash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{bibnamehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{authorbibnamehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{authornamehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{authorfullhash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{editorbibnamehash}{f5cb368011303fe22ab5c7141448c62d}
+      \strng{editornamehash}{f5cb368011303fe22ab5c7141448c62d}
+      \strng{editorfullhash}{f5cb368011303fe22ab5c7141448c62d}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Linguistics}
+      \field{number}{2}
+      \field{title}{Using Register-Diversified Corpora for General Language Studies}
+      \field{volume}{19}
+      \field{year}{1993}
+      \field{pages}{219\bibrangedash 241}
+      \range{pages}{23}
+      \verb{urlraw}
+      \verb https://aclanthology.org/J93-2001/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/J93-2001/
+      \endverb
+    \endentry
+    \entry{biberUniversityLanguageCorpusbased2006}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f646ef9768ee4e31e9af07e57bf14842}{%
+           family={Biber},
+           familyi={B\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {John Benjamins Publishing Company}%
+      }
+      \strng{namehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{fullhash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{bibnamehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{authorbibnamehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{authornamehash}{f646ef9768ee4e31e9af07e57bf14842}
+      \strng{authorfullhash}{f646ef9768ee4e31e9af07e57bf14842}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{University students must cope with a bewildering array of registers, not only to learn academic content, but also to understand course expectations and requirements. While many previous studies have investigated academic writing, we know comparatively little about academic speech; and no linguistic study to date has investigated the range of academic and advising/management registers that students encounter. This book is a first step towards filling this gap. Based on analysis of the T2K-SWAL Corpus, the book describes university registers from several different perspectives, including: vocabulary patterns; the use of lexico-grammatical and syntactic features; the expression of stance; the use of extended collocations ('lexical bundles'); and a Multi-Dimensional analysis of the overall patterns of register variation. All linguistic patterns are interpreted in functional terms, resulting in an overall characterization of the typical kinds of language that students encounter in university registers: academic and non-academic; spoken and written.}
+      \field{isbn}{978-90-272-2295-4 978-90-272-2296-1 978-90-272-9362-6}
+      \field{langid}{english}
+      \field{series}{Studies in {{Corpus Linguistics}}}
+      \field{title}{University {{Language}}: {{A}} Corpus-Based Study of Spoken and Written Registers}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{23}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1075/scl.23
+      \endverb
+    \endentry
+    \entry{biberGrammarSpokenWritten2021a}{book}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=f646ef9768ee4e31e9af07e57bf14842}{%
+           family={Biber},
+           familyi={B\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0f29f1c630c1ac9fe4b726b856eceb8}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={Stig},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a89f27941acc0e76b1edbc68b965857}{%
+           family={Leech},
+           familyi={L\bibinitperiod},
+           given={Geoffrey\bibnamedelima N.},
+           giveni={G\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=909a178e50bbb620f0fac8a748183573}{%
+           family={Conrad},
+           familyi={C\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98cb6ca60a18312729fbff5620c3c54a}{%
+           family={Finegan},
+           familyi={F\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {John Benjamins Publishing Company}%
+      }
+      \strng{namehash}{b04d40d649dfea309d7c3ce81ae5f043}
+      \strng{fullhash}{e389f6fa4a161dffccb8b8d8813c2159}
+      \strng{bibnamehash}{e389f6fa4a161dffccb8b8d8813c2159}
+      \strng{authorbibnamehash}{e389f6fa4a161dffccb8b8d8813c2159}
+      \strng{authornamehash}{b04d40d649dfea309d7c3ce81ae5f043}
+      \strng{authorfullhash}{e389f6fa4a161dffccb8b8d8813c2159}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The completely redesigned Grammar of Spoken and Written English is a comprehensive corpus-based reference grammar. GSWE describes the structural characteristics of grammatical constructions in English, as do other reference grammars. But GSWE is unique in that it gives equal attention to describing the patterns of language use for each grammatical feature, based on empirical analyses of grammatical patterns in a 40-million-word corpus of spoken and written registers. 		Grammar-in-use is characterized by three inter-related kinds of information: frequency of grammatical features in spoken and written registers, frequencies of the most common lexico-grammatical patterns, and analysis of the discourse factors influencing choices among related grammatical features. GSWE includes over 350 tables and figures highlighting the results of corpus-based investigations. Throughout the book, authentic examples illustrate all research findings. 		The empirical descriptions document the lexico-grammatical features that are especially common in face-to-face-conversation compared to those that are especially common in academic writing. Analyses of fiction and newspaper articles are included as further benchmarks of language use. GSWE contains over 6,000 authentic examples from these four registers, illustrating the range of lexico-grammatical features in real-world speech and writing. In addition, comparisons between British and American English reveal specific regional differences. 		Now completely redesigned and available in an electronic edition, the Grammar of Spoken and Written English remains a unique and indispensable reference work for researchers, language teachers, and students alike.}
+      \field{isbn}{978-90-272-0796-8 978-90-272-6047-5}
+      \field{langid}{english}
+      \field{title}{Grammar of {{Spoken}} and {{Written English}}}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1075/z.232
+      \endverb
+    \endentry
+    \entry{birdKleinLoperNLP2009}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a6ad72a87713a430f7335c5656da28f1}{%
+           family={Bird},
+           familyi={B\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95e002ca584c2d8d701c96f08c6d589f}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Ewan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2814798d9a65d66800fc6e2ec5ad7483}{%
+           family={Loper},
+           familyi={L\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Sebastopol, CA}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media}%
+      }
+      \strng{namehash}{2312f0d2c204493e5707317fa8ed8afb}
+      \strng{fullhash}{f0999d1f539a44b08b01482038a721f8}
+      \strng{bibnamehash}{f0999d1f539a44b08b01482038a721f8}
+      \strng{authorbibnamehash}{f0999d1f539a44b08b01482038a721f8}
+      \strng{authornamehash}{2312f0d2c204493e5707317fa8ed8afb}
+      \strng{authorfullhash}{f0999d1f539a44b08b01482038a721f8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780596516499}
+      \field{title}{Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit}
+      \field{year}{2009}
+    \endentry
+    \entry{brownpenelopeQuestionsPolitenessStrategies1978}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b813054095f6303db2d75a6ea9ffbbcb}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Penelope},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8cabdf8db416e17d05ff9d4d9c41faf}{%
+           family={Levinson},
+           familyi={L\bibinitperiod},
+           given={Stephen\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge ; New York : Cambridge University Press}%
+      }
+      \strng{namehash}{405e8873bda0445547ad344115b40e92}
+      \strng{fullhash}{405e8873bda0445547ad344115b40e92}
+      \strng{bibnamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authorbibnamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authornamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authorfullhash}{405e8873bda0445547ad344115b40e92}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{viii, 323 p. : 22 cm; Bibliography: p. 311-323}
+      \field{isbn}{978-0-521-21749-1}
+      \field{langid}{english}
+      \field{title}{Questions and Politeness : Strategies in Social Interaction}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{1978}
+      \field{urldateera}{ce}
+      \keyw{Grammar Comparative and general -- Honorific}
+    \endentry
+    \entry{cohenCoefficientAgreementNominal1960}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eaad07ee1c6ef93a9308150f12c3c2eb}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{fullhash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{bibnamehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{authorbibnamehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{authornamehash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \strng{authorfullhash}{eaad07ee1c6ef93a9308150f12c3c2eb}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0013-1644, 1552-3888}
+      \field{journaltitle}{Educational and Psychological Measurement}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{A {{Coefficient}} of {{Agreement}} for {{Nominal Scales}}}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{20}
+      \field{year}{1960}
+      \field{urldateera}{ce}
+      \field{pages}{37\bibrangedash 46}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1177/001316446002000104
+      \endverb
+    \endentry
+    \entry{conti2016ugly}{online}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=727f5a8477efae618fb849387083e44e}{%
+           family={Conti},
+           familyi={C\bibinitperiod},
+           given={Gianfranco},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46e7f86b11ade65e293413c9b9884dcf}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9109a183c7a679f2738e8468a53c6353}
+      \strng{fullhash}{9109a183c7a679f2738e8468a53c6353}
+      \strng{bibnamehash}{9109a183c7a679f2738e8468a53c6353}
+      \strng{authorbibnamehash}{9109a183c7a679f2738e8468a53c6353}
+      \strng{authornamehash}{9109a183c7a679f2738e8468a53c6353}
+      \strng{authorfullhash}{9109a183c7a679f2738e8468a53c6353}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Critiques unnatural textbook approaches vs. natural language acquisition}
+      \field{title}{The ugly truth about school-based Modern Language teaching}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://gianfrancoconti.com/2016/11/26/the-ugly-truth-about-school-based-modern-language-teaching/
+      \endverb
+      \verb{url}
+      \verb https://gianfrancoconti.com/2016/11/26/the-ugly-truth-about-school-based-modern-language-teaching/
+      \endverb
+    \endentry
+    \entry{cramer1946mathematical}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8815262f8ce833f8804c25a5afc1996b}{%
+           family={Cramér},
+           familyi={C\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{8815262f8ce833f8804c25a5afc1996b}
+      \strng{fullhash}{8815262f8ce833f8804c25a5afc1996b}
+      \strng{bibnamehash}{8815262f8ce833f8804c25a5afc1996b}
+      \strng{authorbibnamehash}{8815262f8ce833f8804c25a5afc1996b}
+      \strng{authornamehash}{8815262f8ce833f8804c25a5afc1996b}
+      \strng{authorfullhash}{8815262f8ce833f8804c25a5afc1996b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mathematical Methods of Statistics}
+      \field{year}{1946}
+    \endentry
+    \entry{curdt-christiansenLanguageIdeologyEducation2015}{book}{}
+      \name{editor}{2}{}{%
+        {{un=0,uniquepart=base,hash=faa856d9af86d6b7bd0bb8da73208c41}{%
+           family={{Curdt-Christiansen}},
+           familyi={C\bibinitperiod},
+           given={Xiao\bibnamedelima Lan},
+           giveni={X\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aff942eb537818d948e83a961d164734}{%
+           family={Weninger},
+           familyi={W\bibinitperiod},
+           given={Csilla},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hoboken}%
+      }
+      \list{publisher}{1}{%
+        {Taylor and Francis}%
+      }
+      \strng{namehash}{8a90735cfa9fb9bddcaeef708ef43326}
+      \strng{fullhash}{8a90735cfa9fb9bddcaeef708ef43326}
+      \strng{bibnamehash}{8a90735cfa9fb9bddcaeef708ef43326}
+      \strng{editorbibnamehash}{8a90735cfa9fb9bddcaeef708ef43326}
+      \strng{editornamehash}{8a90735cfa9fb9bddcaeef708ef43326}
+      \strng{editorfullhash}{8a90735cfa9fb9bddcaeef708ef43326}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-317-80385-0 978-0-415-84038-5}
+      \field{langid}{english}
+      \field{series}{Routledge {{Research}} in {{Language Education}}}
+      \field{title}{Language, Ideology and Education: The Politics of Textbooks in Language Education}
+      \field{year}{2015}
+    \endentry
+    \entry{dunn1961multiple}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0b0af97d4f9c67ace0f8c55bd08f9072}{%
+           family={Dunn},
+           familyi={D\bibinitperiod},
+           given={Olive\bibnamedelima Jean},
+           giveni={O\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{fullhash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{bibnamehash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{authorbibnamehash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{authornamehash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{authorfullhash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{number}{293}
+      \field{title}{Multiple comparisons among means}
+      \field{volume}{56}
+      \field{year}{1961}
+      \field{pages}{52\bibrangedash 64}
+      \range{pages}{13}
+    \endentry
+    \entry{hallidayMatthiessenIntroductionFunctional2014}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=02086519d39addfdf6fc98bacfee027c}{%
+           family={Halliday},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi A.\bibnamedelimi K.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61c40d27d4e8df0fe28459d109f67372}{%
+           family={Matthiessen},
+           familyi={M\bibinitperiod},
+           given={Christian\bibnamedelimb M.\bibnamedelimi I.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{ba6be358fe4be0a7e6294a96226e37d8}
+      \strng{fullhash}{ba6be358fe4be0a7e6294a96226e37d8}
+      \strng{bibnamehash}{ba6be358fe4be0a7e6294a96226e37d8}
+      \strng{authorbibnamehash}{ba6be358fe4be0a7e6294a96226e37d8}
+      \strng{authornamehash}{ba6be358fe4be0a7e6294a96226e37d8}
+      \strng{authorfullhash}{ba6be358fe4be0a7e6294a96226e37d8}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Halliday's Introduction to Functional Grammar}
+      \field{year}{2014}
+    \endentry
+    \entry{harris1954distributional}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c93d2fea5cc5e59f6d92c0cfb5ba20a8}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Zellig\bibnamedelima S},
+           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{c93d2fea5cc5e59f6d92c0cfb5ba20a8}
+      \strng{fullhash}{c93d2fea5cc5e59f6d92c0cfb5ba20a8}
+      \strng{bibnamehash}{c93d2fea5cc5e59f6d92c0cfb5ba20a8}
+      \strng{authorbibnamehash}{c93d2fea5cc5e59f6d92c0cfb5ba20a8}
+      \strng{authornamehash}{c93d2fea5cc5e59f6d92c0cfb5ba20a8}
+      \strng{authorfullhash}{c93d2fea5cc5e59f6d92c0cfb5ba20a8}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Word}
+      \field{number}{2-3}
+      \field{title}{Distributional structure}
+      \field{volume}{10}
+      \field{year}{1954}
+      \field{pages}{146\bibrangedash 162}
+      \range{pages}{17}
+    \endentry
+    \entry{holmesArtificialIntelligenceEducation2019}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a90574ed2f941eaeae5fc37ec8e0f323}{%
+           family={Holmes},
+           familyi={H\bibinitperiod},
+           given={Wayne},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4200b86af725b8cc0e6ba65cb41d165}{%
+           family={Bialik},
+           familyi={B\bibinitperiod},
+           given={Maya},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a71b2dcbf3dca54a5761e6c88833f30a}{%
+           family={Fadel},
+           familyi={F\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {Center for Curriculum Redesign}%
+      }
+      \strng{namehash}{714d108c4176b80dd774c8c19370c5d3}
+      \strng{fullhash}{add8e907181f68cafe009f13ac9ae277}
+      \strng{bibnamehash}{add8e907181f68cafe009f13ac9ae277}
+      \strng{authorbibnamehash}{add8e907181f68cafe009f13ac9ae277}
+      \strng{authornamehash}{714d108c4176b80dd774c8c19370c5d3}
+      \strng{authorfullhash}{add8e907181f68cafe009f13ac9ae277}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A must-read for educators and stakeholders interested in how education may be impacted by AI. The book presents potential benefits and risks without hype.}
+      \field{isbn}{978-1-7942-9370-0}
+      \field{langid}{english}
+      \field{title}{Artificial Intelligence in Education: Promises and Implications for Teaching and Learning}
+      \field{year}{2019}
+    \endentry
+    \entry{huddlestonPullumCambridge2002}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d4a7987d3fffab21c9756f8ce95ab03e}{%
+           family={Huddleston},
+           familyi={H\bibinitperiod},
+           given={Rodney},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2925d6199ca3c6f0b208850cac579716}{%
+           family={Pullum},
+           familyi={P\bibinitperiod},
+           given={Geoffrey\bibnamedelima K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{fullhash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{bibnamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authorbibnamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authornamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authorfullhash}{58d8597746591ceb120f0343a4e9b21f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-521-43146-0}
+      \field{title}{The Cambridge Grammar of the English Language}
+      \field{year}{2002}
+    \endentry
+    \entry{kia2018directive}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b183d303a21d1b3f02fd597f999783bf}{%
+           family={Kia},
+           familyi={K\bibinitperiod},
+           given={Elnaz},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Northern Arizona University}%
+      }
+      \strng{namehash}{b183d303a21d1b3f02fd597f999783bf}
+      \strng{fullhash}{b183d303a21d1b3f02fd597f999783bf}
+      \strng{bibnamehash}{b183d303a21d1b3f02fd597f999783bf}
+      \strng{authorbibnamehash}{b183d303a21d1b3f02fd597f999783bf}
+      \strng{authornamehash}{b183d303a21d1b3f02fd597f999783bf}
+      \strng{authorfullhash}{b183d303a21d1b3f02fd597f999783bf}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Directive use in university classroom discourse: Variation across disciplines, academic levels, and interactivity}
+      \field{type}{phdthesis}
+      \field{year}{2018}
+    \endentry
+    \entry{krashenInputHypothesisIssues1985}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8c7d8e92e8726fb99a6b186ccc98cad1}{%
+           family={Krashen},
+           familyi={K\bibinitperiod},
+           given={Stephen\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London; New York}%
+      }
+      \list{publisher}{1}{%
+        {Longman}%
+      }
+      \strng{namehash}{8c7d8e92e8726fb99a6b186ccc98cad1}
+      \strng{fullhash}{8c7d8e92e8726fb99a6b186ccc98cad1}
+      \strng{bibnamehash}{8c7d8e92e8726fb99a6b186ccc98cad1}
+      \strng{authorbibnamehash}{8c7d8e92e8726fb99a6b186ccc98cad1}
+      \strng{authornamehash}{8c7d8e92e8726fb99a6b186ccc98cad1}
+      \strng{authorfullhash}{8c7d8e92e8726fb99a6b186ccc98cad1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-582-55381-1}
+      \field{title}{The Input Hypothesis: Issues and Implications}
+      \field{year}{1985}
+      \keyw{Language and languages,Second language acquisition,Study and teaching}
+    \endentry
+    \entry{landisMeasurementObserverAgreement1977}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=59695a217d43474f928c324ecc5986c9}{%
+           family={Landis},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi Richard},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ed357a47b9bcbaeb653b5fe83f93b72}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Gary\bibnamedelima G.},
+           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ec0317971db8d434d9068056e7d1604f}
+      \strng{fullhash}{ec0317971db8d434d9068056e7d1604f}
+      \strng{bibnamehash}{ec0317971db8d434d9068056e7d1604f}
+      \strng{authorbibnamehash}{ec0317971db8d434d9068056e7d1604f}
+      \strng{authornamehash}{ec0317971db8d434d9068056e7d1604f}
+      \strng{authorfullhash}{ec0317971db8d434d9068056e7d1604f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrics}
+      \field{number}{1}
+      \field{title}{The Measurement of Observer Agreement for Categorical Data}
+      \field{volume}{33}
+      \field{year}{1977}
+      \field{pages}{159\bibrangedash 174}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.2307/2529310
+      \endverb
+    \endentry
+    \entry{leFoll2021a}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3bcc504dbdb0c00ac3d5d85a6fb17351}{%
+           family={Le\bibnamedelima Foll},
+           familyi={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Elen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{fullhash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{bibnamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorbibnamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authornamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorfullhash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{Textbook English: A Multi-Dimensional Approach, v. 1.1}
+      \field{title}{Bibliographic Metadata of the Textbook English Corpus (TEC)}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.5281/zenodo.4922819
+      \endverb
+    \endentry
+    \entry{leFoll2021b}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3bcc504dbdb0c00ac3d5d85a6fb17351}{%
+           family={Le\bibnamedelima Foll},
+           familyi={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Elen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{fullhash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{bibnamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorbibnamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authornamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorfullhash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Register Studies}
+      \field{number}{2}
+      \field{title}{Register variation in school EFL textbooks}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{3}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{207\bibrangedash 246}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1075/rs.20009.lef
+      \endverb
+    \endentry
+    \entry{leFoll2024}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3bcc504dbdb0c00ac3d5d85a6fb17351}{%
+           family={Le\bibnamedelima Foll},
+           familyi={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Elen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam Philadelphia}%
+      }
+      \list{publisher}{1}{%
+        {John Benjamins Publishing Company}%
+      }
+      \strng{namehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{fullhash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{bibnamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorbibnamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authornamehash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \strng{authorfullhash}{3bcc504dbdb0c00ac3d5d85a6fb17351}
+      \field{extraname}{3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-90-272-4680-6}
+      \field{langid}{english}
+      \field{number}{volume 116}
+      \field{series}{Studies in Corpus Linguistics ({{SCL}})}
+      \field{title}{Textbook {{English}}: A Multi-Dimensional Approach}
+      \field{year}{2024}
+      \verb{doi}
+      \verb gruy-9789027246806
+      \endverb
+    \endentry
+    \entry{loperBirdNLTK2002}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2814798d9a65d66800fc6e2ec5ad7483}{%
+           family={Loper},
+           familyi={L\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6ad72a87713a430f7335c5656da28f1}{%
+           family={Bird},
+           familyi={B\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Philadelphia, Pennsylvania, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{fullhash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{bibnamehash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{authorbibnamehash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{authornamehash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \strng{authorfullhash}{b5c89152c3d8a2802a61fc6be8829b14}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the ACL-02 Workshop on Effective Tools and Methodologies for Teaching Natural Language Processing and Computational Linguistics}
+      \field{title}{NLTK: The Natural Language Toolkit}
+      \field{year}{2002}
+      \field{pages}{63\bibrangedash 70}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.3115/1118108.1118117
+      \endverb
+    \endentry
+    \entry{ouyangTrainingLanguageModels2022}{misc}{}
+      \name{author}{20}{}{%
+        {{un=0,uniquepart=base,hash=6e3708cf33f22d79419d7e79124060a8}{%
+           family={Ouyang},
+           familyi={O\bibinitperiod},
+           given={Long},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=154c21dba0a601ad2f9ec03612c6d5e0}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=214803c09eda269a0ed928d7e5a93461}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7cf026a14a6ceae41b01945420f7d80}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={Diogo},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=903519c9a374fdda1e6f9e0acb86e8e5}{%
+           family={Wainwright},
+           familyi={W\bibinitperiod},
+           given={Carroll\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2321e04943bcadb0275819652b980521}{%
+           family={Mishkin},
+           familyi={M\bibinitperiod},
+           given={Pamela},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6396eaa69e1c798e2c8c503e9ce9067b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chong},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abe4801e322e893b23785fd6d0800b5c}{%
+           family={Agarwal},
+           familyi={A\bibinitperiod},
+           given={Sandhini},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57e47da21cfc9e3fa6c754e47b5adcab}{%
+           family={Slama},
+           familyi={S\bibinitperiod},
+           given={Katarina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=143fa59d90387ae4a6aa650dcf1c7ceb}{%
+           family={Ray},
+           familyi={R\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e09bd2a25d237ebdaed560a07c0451e}{%
+           family={Schulman},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e4edc142b0564cbbb1cf93a401e4434}{%
+           family={Hilton},
+           familyi={H\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2782098fc110938b6feb76048e568328}{%
+           family={Kelton},
+           familyi={K\bibinitperiod},
+           given={Fraser},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca6c3bdfd65467cd39e6dc08a0410e65}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f5d4524691b522e78f555d453d9b786}{%
+           family={Simens},
+           familyi={S\bibinitperiod},
+           given={Maddie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e84eff933be9f4887bf369cf181bf12}{%
+           family={Askell},
+           familyi={A\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=462853f8544f0acfb7014fe747f84922}{%
+           family={Welinder},
+           familyi={W\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cffdbdf7d0beb981d8bb8ea28506a4b2}{%
+           family={Christiano},
+           familyi={C\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc754f0620be1073909db48780f1da4d}{%
+           family={Leike},
+           familyi={L\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7be01fa6277ef22b804ff6cc54c87b72}{%
+           family={Lowe},
+           familyi={L\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{13d52a5bcb04f48fa855da0c9fb052de}
+      \strng{fullhash}{40e1e6e796363b42a70a459ed32121d9}
+      \strng{bibnamehash}{40e1e6e796363b42a70a459ed32121d9}
+      \strng{authorbibnamehash}{40e1e6e796363b42a70a459ed32121d9}
+      \strng{authornamehash}{13d52a5bcb04f48fa855da0c9fb052de}
+      \strng{authorfullhash}{40e1e6e796363b42a70a459ed32121d9}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that are untruthful, toxic, or simply not helpful to the user. In other words, these models are not aligned with their users. In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback. Starting with a set of labeler-written prompts and prompts submitted through the OpenAI API, we collect a dataset of labeler demonstrations of the desired model behavior, which we use to fine-tune GPT-3 using supervised learning. We then collect a dataset of rankings of model outputs, which we use to further fine-tune this supervised model using reinforcement learning from human feedback. We call the resulting models InstructGPT. In human evaluations on our prompt distribution, outputs from the 1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3, despite having 100x fewer parameters. Moreover, InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP datasets. Even though InstructGPT still makes simple mistakes, our results show that fine-tuning with human feedback is a promising direction for aligning language models with human intent.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
+      \field{number}{arXiv:2203.02155}
+      \field{title}{Training Language Models to Follow Instructions with Human Feedback}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2203.02155
+      \endverb
+      \verb{eprint}
+      \verb 2203.02155
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
+    \endentry
+    \entry{richards2006communicative}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c01b19cc3c63fe9809b3a5219ba721c3}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={Jack\bibnamedelima C},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge university press Cambridge}%
+      }
+      \strng{namehash}{c01b19cc3c63fe9809b3a5219ba721c3}
+      \strng{fullhash}{c01b19cc3c63fe9809b3a5219ba721c3}
+      \strng{bibnamehash}{c01b19cc3c63fe9809b3a5219ba721c3}
+      \strng{authorbibnamehash}{c01b19cc3c63fe9809b3a5219ba721c3}
+      \strng{authornamehash}{c01b19cc3c63fe9809b3a5219ba721c3}
+      \strng{authorfullhash}{c01b19cc3c63fe9809b3a5219ba721c3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{2}
+      \field{title}{Communicative language teaching today}
+      \field{volume}{25}
+      \field{year}{2006}
+    \endentry
+    \entry{savignon1987communicative}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a2e28264172e498f82f3709f28d19ddc}{%
+           family={Savignon},
+           familyi={S\bibinitperiod},
+           given={Sandra\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{a2e28264172e498f82f3709f28d19ddc}
+      \strng{fullhash}{a2e28264172e498f82f3709f28d19ddc}
+      \strng{bibnamehash}{a2e28264172e498f82f3709f28d19ddc}
+      \strng{authorbibnamehash}{a2e28264172e498f82f3709f28d19ddc}
+      \strng{authornamehash}{a2e28264172e498f82f3709f28d19ddc}
+      \strng{authorfullhash}{a2e28264172e498f82f3709f28d19ddc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Theory into practice}
+      \field{number}{4}
+      \field{title}{Communicative language teaching}
+      \field{volume}{26}
+      \field{year}{1987}
+      \field{pages}{235\bibrangedash 242}
+      \range{pages}{8}
+    \endentry
+    \entry{schmale2004kommunikative}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3cec4873763f11abe4c39a283013bb65}{%
+           family={Schmale},
+           familyi={S\bibinitperiod},
+           given={Günter},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=431acf7779c3634827c22e8954956014}{%
+           family={Lüger},
+           familyi={L\bibinitperiod},
+           given={Heinz-Helmut},
+           giveni={H\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=37ed54f445e487d8813835c4a83d4033}{%
+           family={Rothenhäusler},
+           familyi={R\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{fullhash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{bibnamehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{authorbibnamehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{authornamehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{authorfullhash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{editorbibnamehash}{7833b038ba205d1e23630a597953dd03}
+      \strng{editornamehash}{7833b038ba205d1e23630a597953dd03}
+      \strng{editorfullhash}{7833b038ba205d1e23630a597953dd03}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Linguistik für die Fremdsprache Deutsch}
+      \field{series}{Beiträge zur Fremdsprachenvermittlung, Sonderheft 7}
+      \field{title}{Kommunikative Kompetenz durch Fremdsprachenunterricht? -- Zum Nutzen konversationsanalytischer Erkenntnisse und Verfahren für die Fremdsprachendidaktik}
+      \field{year}{2004}
+      \field{pages}{257\bibrangedash 281}
+      \range{pages}{25}
+    \endentry
+    \entry{schmaleFormulaicExpressionsForeign2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3cec4873763f11abe4c39a283013bb65}{%
+           family={Schmale},
+           familyi={S\bibinitperiod},
+           given={Günter},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{fullhash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{bibnamehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{authorbibnamehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{authornamehash}{3cec4873763f11abe4c39a283013bb65}
+      \strng{authorfullhash}{3cec4873763f11abe4c39a283013bb65}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Foreign language teaching experts unanimously insist on the necessity of acquiring formulaic expressions in order to communicate successfully in the target language. However, many of the treatises in favour of phraseme use, including semantically non-compositional idiomatic expressions, by foreign language learners seem to be marked by an insufficient depth of reflection as to applied linguistic, methodological, and phraseodidactic1 criteria. The present contribution therefore aims at a differentiated treatment of prefabricated communicative constructions, starting out from an extended definition and classification and by discussing the pros and cons of phraseme acquisition. These considerations will lead to the delimitation of formulaic language fundamental for an operative foreign language competence (routine formulae, collocations and ``constructions'') as opposed to those types of phrasemes which are not essential or even inappropriate for non-native speakers.}
+      \field{issn}{1615-3014}
+      \field{journaltitle}{Linguistik Online}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Formulaic {{Expressions}} for {{Foreign Language Learning}} and {{Teaching}}}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{113}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{91\bibrangedash 110}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.13092/lo.113.8328
+      \endverb
+    \endentry
+    \entry{shanahanTalkingLargeLanguage2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c9a18dc9378af37452e312a622cd2ed}{%
+           family={Shanahan},
+           familyi={S\bibinitperiod},
+           given={Murray},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c9a18dc9378af37452e312a622cd2ed}
+      \strng{fullhash}{9c9a18dc9378af37452e312a622cd2ed}
+      \strng{bibnamehash}{9c9a18dc9378af37452e312a622cd2ed}
+      \strng{authorbibnamehash}{9c9a18dc9378af37452e312a622cd2ed}
+      \strng{authornamehash}{9c9a18dc9378af37452e312a622cd2ed}
+      \strng{authorfullhash}{9c9a18dc9378af37452e312a622cd2ed}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{Talking about Large Language Models}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2212.03551
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2212.03551
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2212.03551
+      \endverb
+    \endentry
+    \entry{sinclairCorpusConcordanceCollocation1991}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=61e74ef33941fa20944ffd6b562f985a}{%
+           family={Sinclair},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima McHardy},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford university press}%
+      }
+      \strng{namehash}{61e74ef33941fa20944ffd6b562f985a}
+      \strng{fullhash}{61e74ef33941fa20944ffd6b562f985a}
+      \strng{bibnamehash}{61e74ef33941fa20944ffd6b562f985a}
+      \strng{authorbibnamehash}{61e74ef33941fa20944ffd6b562f985a}
+      \strng{authornamehash}{61e74ef33941fa20944ffd6b562f985a}
+      \strng{authorfullhash}{61e74ef33941fa20944ffd6b562f985a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-19-437144-5}
+      \field{langid}{english}
+      \field{series}{Describing {{English}} Language}
+      \field{title}{Corpus, {{Concordance}}, {{Collocation}}}
+      \field{year}{1991}
+    \endentry
+    \entry{spiroCognitiveFlexibility1992}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=af3fe9b9e7f7066959c787db86b5c474}{%
+           family={Spiro},
+           familyi={S\bibinitperiod},
+           given={Rand},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cca1b751fea9bf48f5f66601e9ca09a}{%
+           family={Feltovich},
+           familyi={F\bibinitperiod},
+           given={Paul\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84be9f2360fc1bb8b190f846fa6b0922}{%
+           family={Jacobson},
+           familyi={J\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6043be18c67b05d26092f508fc6c02a8}{%
+           family={Coulson},
+           familyi={C\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4278cf6be3be195185190aa62399124f}
+      \strng{fullhash}{e52be2d70bf1c4b259d2620603988aa3}
+      \strng{bibnamehash}{e52be2d70bf1c4b259d2620603988aa3}
+      \strng{authorbibnamehash}{e52be2d70bf1c4b259d2620603988aa3}
+      \strng{authornamehash}{4278cf6be3be195185190aa62399124f}
+      \strng{authorfullhash}{e52be2d70bf1c4b259d2620603988aa3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Constructivism and the technology of instruction: A conversation}
+      \field{title}{Cognitive Flexibility, Constructivism, and Hypertext: Random Access Instruction for Advanced Knowledge Acquisition in Ill-Structured Domains}
+      \field{volume}{35}
+      \field{year}{1992}
+      \field{pages}{57\bibrangedash 75}
+      \range{pages}{19}
+    \endentry
+    \entry{stoeckelNGSL2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=82b3d73a16a71fd8df0f2cec71af9fcb}{%
+           family={Stoeckel},
+           familyi={S\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{82b3d73a16a71fd8df0f2cec71af9fcb}
+      \strng{fullhash}{82b3d73a16a71fd8df0f2cec71af9fcb}
+      \strng{bibnamehash}{82b3d73a16a71fd8df0f2cec71af9fcb}
+      \strng{authorbibnamehash}{82b3d73a16a71fd8df0f2cec71af9fcb}
+      \strng{authornamehash}{82b3d73a16a71fd8df0f2cec71af9fcb}
+      \strng{authorfullhash}{82b3d73a16a71fd8df0f2cec71af9fcb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vocabulary Learning and Instruction}
+      \field{number}{1}
+      \field{title}{An Examination of the New General Service List}
+      \field{volume}{8}
+      \field{year}{2019}
+      \field{pages}{53\bibrangedash 61}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.7820/vli.v08.1.stoeckel
+      \endverb
+    \endentry
+    \entry{swellerCognitiveLoadProblem1988a}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9612a12907a8ce45293ceed61ce5e09b}{%
+           family={Sweller},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{fullhash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{bibnamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorbibnamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authornamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorfullhash}{9612a12907a8ce45293ceed61ce5e09b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1551-6709}
+      \field{journaltitle}{Cognitive Science}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{title}{Cognitive {{Load During Problem Solving}}: {{Effects}} on {{Learning}}}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \field{pages}{257\bibrangedash 285}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1207/s15516709cog1202_4
+      \endverb
+    \endentry
+    \entry{vaswaniAttentionAllYou}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=540fcd72e1fa4bbed46604f4e6cff817}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={{Ł}ukasz},
+           giveni={Ł\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{bibnamehash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authorbibnamehash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{cb26e47f6b8133865271fc8483132297}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.0 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.}
+      \field{journaltitle}{arXiv preprint arXiv:1706.03762}
+      \field{langid}{english}
+      \field{title}{Attention Is {{All}} You {{Need}}}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1706.03762
+      \endverb
+    \endentry
+    \entry{zhao2025geometry}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1010b411ade3c22ec36bdd2c624c30e5}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yize},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5213b62f793f681aa941a7cad721dcc0}{%
+           family={Thrampoulidis},
+           familyi={T\bibinitperiod},
+           given={Christos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{ff3028cb2134e4cdc5746a0820e7bcf6}
+      \strng{fullhash}{ff3028cb2134e4cdc5746a0820e7bcf6}
+      \strng{bibnamehash}{ff3028cb2134e4cdc5746a0820e7bcf6}
+      \strng{authorbibnamehash}{ff3028cb2134e4cdc5746a0820e7bcf6}
+      \strng{authornamehash}{ff3028cb2134e4cdc5746a0820e7bcf6}
+      \strng{authorfullhash}{ff3028cb2134e4cdc5746a0820e7bcf6}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We investigate how next-token prediction (NTP) optimization leads language models to extract and organize semantic structure from text. Our analysis, based on a tractable mathematical model and controlled synthetic data, reveals that NTP implicitly guides models to factor a centered support matrix encoding context-to-next-token co-occurrence patterns via singular value decomposition (SVD). While models never explicitly construct this matrix, learned word and context embeddings converge to its SVD factors, with singular vectors encoding latent semantic concepts through their sign patterns. We demonstrate that concepts corresponding to larger singular values are learned earlier during training, yielding a natural semantic hierarchy where broad categories emerge before fine-grained ones. This insight motivates orthant-based clustering, a method that combines concept signs to identify interpretable semantic categories. We validate our findings on synthetic datasets and pretrained language models, recovering diverse semantic structures such as grammatical categories, named entity types, and topical distinctions (medical, entertainment). Our work bridges classical distributional semantics and neural collapse geometry, characterizing how gradient-based optimization implicitly determines both the matrix representation and factorization method that encode semantic structure.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{arXiv:2505.08348}
+      \field{title}{Geometry of {{Semantics}} in {{Next-Token Prediction}}: {{How Optimization Implicitly Organizes Linguistic Representations}}}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2505.08348
+      \endverb
+      \verb{eprint}
+      \verb 2505.08348
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
+    \entry{zhengJudgingLLMas2023}{misc}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=0beb8f75088bfac1e81ca3840d0e89f0}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Lianmin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5030c6327cf9a55d5a372b89093395a}{%
+           family={Chiang},
+           familyi={C\bibinitperiod},
+           given={Wei-Lin},
+           giveni={W\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b99fbe22103d2d6f803495267ee1cac9}{%
+           family={Sheng},
+           familyi={S\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d922f0e30f0817f9514b3360b791d760}{%
+           family={Zhuang},
+           familyi={Z\bibinitperiod},
+           given={Siyuan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b10808456d34160e841fd9eac30a4ce}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Zhanghao},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=329b3ab9fbc7cbf15e931d5f693d0e81}{%
+           family={Zhuang},
+           familyi={Z\bibinitperiod},
+           given={Yonghao},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14378cef37bf00d8a8fcc705a62d573e}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Zi},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a57e6ad48b4f46462aa4a0aa5a0f704e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhuohan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d9e6cedc08528d9cc2c770f5726e8bc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Dacheng},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b80203b0ba1299db35073382e835b485}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Eric\bibnamedelima P.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c6d18e2d167e1a3dc88c0166bbc3471}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80175f489665023b28dbb4cf1775c0ef}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Joseph\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51d9ef26181e2e8a9dc546b401e0bb26}{%
+           family={Stoica},
+           familyi={S\bibinitperiod},
+           given={Ion},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{293dcbfb5b9446f7f90cf8d346a542fe}
+      \strng{fullhash}{5d79fd4ebbbfd5b26e4a0e35e41dae2f}
+      \strng{bibnamehash}{5d79fd4ebbbfd5b26e4a0e35e41dae2f}
+      \strng{authorbibnamehash}{5d79fd4ebbbfd5b26e4a0e35e41dae2f}
+      \strng{authornamehash}{293dcbfb5b9446f7f90cf8d346a542fe}
+      \strng{authorfullhash}{5d79fd4ebbbfd5b26e4a0e35e41dae2f}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Judging {LLM}-as-a-Judge with {MT}-Bench and Chatbot Arena}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2306.05685
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

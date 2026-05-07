@@ -1,0 +1,112 @@
+% Preamble moved from main.tex
+
+\usepackage{tocloft}
+\usepackage{silence}
+\WarningFilter{tocloft}{\@starttoc has already been redefined}
+\WarningFilter{latex}{First Aid for listings.sty no longer applied!}
+
+% --- 1. Page Layout (Guidelines 4.2) ---
+\usepackage[left=2cm,right=4cm,top=2cm,bottom=2cm]{geometry}
+% --- FIX: Page Number Centering ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clear default header/footer
+\renewcommand{\headrulewidth}{0pt} % Remove the header line
+
+% Calculate the offset: (Right Margin - Left Margin) / 2
+% (4cm - 2cm) / 2 = 1cm
+% We shift the page number 1cm to the Right to hit the true center.
+\fancyfoot[C]{\hspace{1cm}\thepage}
+
+% --- 2. Spacing and Paragraphs ---
+\usepackage{setspace}
+\setstretch{1.5}
+\usepackage[parfill]{parskip}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+
+% --- 3. Typography & Fonts ---
+\usepackage{noto}
+\usepackage{courier}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\setlength{\emergencystretch}{2em}
+\hbadness=2000
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows.meta, backgrounds, shadows}
+\urlstyle{same}
+
+% --- 4. Table of Contents Formatting ---
+\renewcommand{\cfttoctitlefont}{\normalfont\fontsize{14}{17}\bfseries}
+\renewcommand{\cftaftertoctitle}{}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftdotsep}{1}
+\setlength{\cftbeforesecskip}{6pt}
+
+% --- 5. Headings (Guidelines 4.2) ---
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\fontsize{14}{17}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+
+% --- 6. Tables and Graphics ---
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\captionsetup{font={small}}
+
+% --- 7. Linguistics Packages ---
+\usepackage{expex}
+\usepackage[nohyperlinks]{acronym}
+\usepackage{blindtext}
+
+% --- 8. Blockquotes ---
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\small\singlespacing}
+\AtBeginEnvironment{quotation}{\small\singlespacing}
+
+% --- 8.5. Code Listings (Appendix) ---
+\lstset{%
+  basicstyle=\ttfamily\footnotesize,
+  breaklines=true,
+  breakatwhitespace=false,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  frame=single,
+  framerule=0.2pt,
+  rulecolor=\color{black!30}
+}
+
+% --- 9. Bibliography Setup (Guidelines 5) ---
+\usepackage[
+    backend=biber,
+    style=authoryear-comp,
+    sortlocale=en,
+    maxcitenames=2,
+    maxbibnames=99,
+    dashed=false,
+    uniquelist=false
+]{biblatex}
+
+\DeclareNameAlias{sortname}{family-given/given-family}
+\DeclareNameAlias{author}{family-given/given-family}
+\renewcommand{\postnotedelim}{\addcolon\addspace}
+\DeclareFieldFormat{postnote}{#1}
+\DeclareFieldFormat[book]{series}{\mkbibparens{#1}}
+\renewbibmacro{in:}{\ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+\setlength{\bibitemsep}{6pt}
+\setlength{\bibhang}{0pt}
+\renewcommand*{\bibfont}{\normalfont} % Change to normal font instead of singlespacing
+\addbibresource{bibliography.bib}
