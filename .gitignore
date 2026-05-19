@@ -67,3 +67,11 @@ outputs/irr_*.csv
 
 # Safety: local working inputs can include textbook data
 outputs/intermediate_sentences.json
+
+# Local-only folders and compiled thesis
+Files/
+compile-thesis.pdf
+
+# Specific generated outputs that should not be tracked
+outputs/intermediate_sentences.synthetic_backup.json
+outputs/thesis_pragmatic_data_filtered_synthetic.csv

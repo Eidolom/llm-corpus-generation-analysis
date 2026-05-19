@@ -1,4 +1,0 @@
-group,n_valid,n_excluded,raw_agreement,kappa
-ALL (aggregate),186,14,0.8118,0.6158
-NRC (Textbook),87,13,0.7701,0.532
-SCC (AI-generated),99,1,0.8485,0.6379
