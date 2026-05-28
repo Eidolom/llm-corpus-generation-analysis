@@ -75,4 +75,46 @@
 /.venv*/
 .env
 .env.*
+!/.env.example
+
+# Logs
 *.log
+
+# Private documents
+Research Proposal*.pdf
+research proposal*.pdf
+
+# Private TEC corpus (do not publish)
+concordance_*textbook_english_corpus*.csv
+textbook_sentences.json
+data/textbook_sentences.json
+data/semantic_analysis_results.json
+data/semantic_analysis_summary.csv
+
+# Any textbook concordance exports placed in data/
+data/concordance_*.csv
+
+# Textbook-derived processing artifacts (do not publish)
+outputs/intermediate_sentences_textbook.json
+outputs/pos_tagging_results.json
+outputs/thesis_semantic_data_final.csv
+outputs/thesis_semantic_data_final_textbook.csv
+outputs/thesis_semantic_data_*.csv
+outputs/thesis_textbook_data_filtered.csv
+outputs/*textbook*.csv
+
+# IRR annotation assets (local-only)
+outputs/irr_annotation_sheet.csv
+outputs/irr_*.csv
+
+# Safety: local working inputs can include textbook data
+outputs/intermediate_sentences.json
+
+# Local-only Files assets, but keep the generator script tracked
+Files/*
+!Files/prepare_irr_annotation_sheet.py
+compile-thesis.pdf
+
+# Specific generated outputs (keep AI corpus tracked)
+# outputs/intermediate_sentences.synthetic_backup.json
+# outputs/thesis_pragmatic_data_filtered_synthetic.csv

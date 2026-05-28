@@ -50,7 +50,7 @@ def parse_args():
     parser.add_argument(
         "--output",
         default=str(DEFAULT_OUTPUT_FILENAME),
-        help="Output CSV file path (default: outputs/thesis_semantic_data_final_2.csv)",
+        help="Output CSV file path inside outputs/ (default: outputs/thesis_semantic_data_final_2.csv)",
     )
     parser.add_argument(
         "--chunk-size",
@@ -61,10 +61,22 @@ def parse_args():
     return parser.parse_args()
 
 
-def resolve_path(path_value):
+def resolve_input_path(path_value):
     path_obj = Path(path_value)
     if not path_obj.is_absolute():
-        return project_root / path_obj
+        path_obj = project_root / path_obj
+    return path_obj.resolve()
+
+
+def resolve_output_path(path_value):
+    path_obj = Path(path_value)
+    if not path_obj.is_absolute():
+        path_obj = project_root / path_obj
+    path_obj = path_obj.resolve()
+
+    safe_dir = (project_root / "outputs").resolve()
+    if not str(path_obj).startswith(str(safe_dir)):
+        raise PermissionError(f"Security Error: Output path must be within {safe_dir}")
     return path_obj
 
 def load_sentences(filename):
@@ -165,8 +177,8 @@ def get_tags_for_chunk(word, chunk_sentences, retry_count=0):
 
 def main():
     args = parse_args()
-    input_filename = resolve_path(args.input)
-    output_filename = resolve_path(args.output)
+    input_filename = resolve_input_path(args.input)
+    output_filename = resolve_output_path(args.output)
     chunk_size = args.chunk_size
 
     if chunk_size < 1:
