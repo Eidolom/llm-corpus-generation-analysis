@@ -34,6 +34,7 @@ Thumbs.db
 # Secrets
 .env
 .env.*
+!/.env.example
 
 # Logs
 *.log
@@ -68,8 +69,9 @@ outputs/irr_*.csv
 # Safety: local working inputs can include textbook data
 outputs/intermediate_sentences.json
 
-# Local-only folders and compiled thesis
-Files/
+# Local-only Files assets, but keep the generator script tracked
+Files/*
+!Files/prepare_irr_annotation_sheet.py
 compile-thesis.pdf
 
 # Specific generated outputs (keep AI corpus tracked)
